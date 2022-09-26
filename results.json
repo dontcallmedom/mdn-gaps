@@ -2617,24 +2617,6 @@
       }
     }
   },
-  "wasm-js-api": {
-    "title": "WebAssembly JavaScript Interface: Exception Handling",
-    "url": "https://webassembly.github.io/exception-handling/js-api/",
-    "idl": {
-      "bcd": {
-        "WebAssembly": true
-      }
-    }
-  },
-  "wasm-web-api": {
-    "title": "WebAssembly Web API",
-    "url": "https://www.w3.org/TR/wasm-web-api-2/",
-    "idl": {
-      "bcd": {
-        "WebAssembly": true
-      }
-    }
-  },
   "web-animations-2": {
     "idl": {
       "bcd": {
