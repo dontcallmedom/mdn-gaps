@@ -2622,12 +2622,7 @@
     "url": "https://webassembly.github.io/exception-handling/js-api/",
     "idl": {
       "bcd": {
-        "WebAssembly": true,
-        "Module": true,
-        "Instance": true,
-        "Memory": true,
-        "Table": true,
-        "Global": true
+        "WebAssembly": true
       }
     }
   },
