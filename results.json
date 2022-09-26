@@ -1,0 +1,3570 @@
+{
+  "CSP": {
+    "title": "Content Security Policy Level 3",
+    "url": "https://www.w3.org/TR/CSP3/",
+    "idl": {
+      "mdn": {
+        "CSPViolationReportBody": [
+          "toJSON()"
+        ]
+      }
+    }
+  },
+  "EXT_clip_cull_distance": {
+    "title": "WebGL EXT_clip_cull_distance Extension Draft Specification",
+    "url": "https://registry.khronos.org/webgl/extensions/EXT_clip_cull_distance/",
+    "idl": {
+      "bcd": {
+        "EXT_clip_cull_distance": true
+      }
+    }
+  },
+  "EXT_disjoint_timer_query": {
+    "title": "WebGL EXT_disjoint_timer_query Extension Specification",
+    "url": "https://registry.khronos.org/webgl/extensions/EXT_disjoint_timer_query/",
+    "idl": {
+      "mdn": {
+        "WebGLTimerQueryEXT": true
+      }
+    }
+  },
+  "EXT_disjoint_timer_query_webgl2": {
+    "title": "WebGL EXT_disjoint_timer_query_webgl2 Extension Specification",
+    "url": "https://registry.khronos.org/webgl/extensions/EXT_disjoint_timer_query_webgl2/",
+    "idl": {
+      "mdn": {
+        "EXT_disjoint_timer_query_webgl2": true
+      }
+    }
+  },
+  "FedCM": {
+    "title": "Federated Credential Management API",
+    "url": "https://fedidcg.github.io/FedCM/",
+    "idl": {
+      "bcd": {
+        "IdentityCredential": true
+      }
+    }
+  },
+  "OES_draw_buffers_indexed": {
+    "title": "WebGL OES_draw_buffers_indexed Extension Specification",
+    "url": "https://registry.khronos.org/webgl/extensions/OES_draw_buffers_indexed/",
+    "idl": {
+      "mdn": {
+        "OES_draw_buffers_indexed": true
+      }
+    }
+  },
+  "SVG": {
+    "title": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)",
+    "url": "https://www.w3.org/TR/SVG11/",
+    "idl": {
+      "mdn": {
+        "SVGElement": [
+          "className",
+          "ownerSVGElement",
+          "viewportElement"
+        ],
+        "SVGGraphicsElement": [
+          "transform",
+          "getCTM()",
+          "getScreenCTM()",
+          "requiredExtensions",
+          "systemLanguage"
+        ],
+        "SVGNumber": [
+          "value"
+        ],
+        "SVGLength": [
+          "unitType",
+          "value",
+          "valueInSpecifiedUnits",
+          "valueAsString",
+          "newValueSpecifiedUnits()",
+          "convertToSpecifiedUnits()"
+        ],
+        "SVGAngle": [
+          "unitType",
+          "value",
+          "valueInSpecifiedUnits",
+          "valueAsString",
+          "newValueSpecifiedUnits()",
+          "convertToSpecifiedUnits()"
+        ],
+        "SVGNumberList": [
+          "length",
+          "numberOfItems",
+          "clear()",
+          "initialize()",
+          "getItem()",
+          "insertItemBefore()",
+          "replaceItem()",
+          "removeItem()",
+          "appendItem()"
+        ],
+        "SVGLengthList": [
+          "length",
+          "numberOfItems",
+          "clear()",
+          "initialize()",
+          "getItem()",
+          "insertItemBefore()",
+          "replaceItem()",
+          "removeItem()",
+          "appendItem()"
+        ],
+        "SVGStringList": [
+          "length",
+          "numberOfItems",
+          "clear()",
+          "initialize()",
+          "getItem()",
+          "insertItemBefore()",
+          "replaceItem()",
+          "removeItem()",
+          "appendItem()"
+        ],
+        "SVGAnimatedBoolean": [
+          "baseVal",
+          "animVal"
+        ],
+        "SVGAnimatedEnumeration": [
+          "baseVal",
+          "animVal"
+        ],
+        "SVGAnimatedInteger": [
+          "baseVal",
+          "animVal"
+        ],
+        "SVGAnimatedNumber": [
+          "baseVal",
+          "animVal"
+        ],
+        "SVGAnimatedLength": [
+          "baseVal",
+          "animVal"
+        ],
+        "SVGAnimatedAngle": [
+          "baseVal",
+          "animVal"
+        ],
+        "SVGAnimatedRect": [
+          "baseVal",
+          "animVal"
+        ],
+        "SVGAnimatedNumberList": [
+          "baseVal",
+          "animVal"
+        ],
+        "SVGAnimatedLengthList": [
+          "baseVal",
+          "animVal"
+        ],
+        "Document": [
+          "rootElement"
+        ],
+        "SVGSVGElement": [
+          "x",
+          "y",
+          "width",
+          "height",
+          "currentScale",
+          "currentTranslate",
+          "getIntersectionList()",
+          "getEnclosureList()",
+          "checkIntersection()",
+          "checkEnclosure()",
+          "deselectAll()",
+          "createSVGNumber()",
+          "createSVGLength()",
+          "createSVGAngle()",
+          "createSVGPoint()",
+          "createSVGMatrix()",
+          "createSVGRect()",
+          "createSVGTransform()",
+          "createSVGTransformFromMatrix()",
+          "getElementById()",
+          "suspendRedraw()",
+          "unsuspendRedraw()",
+          "unsuspendRedrawAll()",
+          "forceRedraw()",
+          "viewBox",
+          "preserveAspectRatio"
+        ],
+        "SVGSymbolElement": [
+          "viewBox",
+          "preserveAspectRatio"
+        ],
+        "SVGUseElement": [
+          "x",
+          "y",
+          "width",
+          "height",
+          "href"
+        ],
+        "SVGTransform": [
+          "type",
+          "matrix",
+          "angle",
+          "setMatrix()",
+          "setTranslate()",
+          "setScale()",
+          "setRotate()",
+          "setSkewX()",
+          "setSkewY()"
+        ],
+        "SVGTransformList": [
+          "length",
+          "numberOfItems",
+          "clear()",
+          "initialize()",
+          "getItem()",
+          "insertItemBefore()",
+          "replaceItem()",
+          "removeItem()",
+          "appendItem()",
+          "createSVGTransformFromMatrix()",
+          "consolidate()"
+        ],
+        "SVGAnimatedTransformList": [
+          "baseVal",
+          "animVal"
+        ],
+        "SVGPreserveAspectRatio": [
+          "align",
+          "meetOrSlice"
+        ],
+        "SVGAnimatedPreserveAspectRatio": [
+          "baseVal",
+          "animVal"
+        ],
+        "SVGRectElement": [
+          "x",
+          "y",
+          "width",
+          "height",
+          "rx",
+          "ry"
+        ],
+        "SVGEllipseElement": [
+          "cx",
+          "cy",
+          "rx",
+          "ry"
+        ],
+        "SVGLineElement": [
+          "x1",
+          "y1",
+          "x2",
+          "y2"
+        ],
+        "SVGPolylineElement": [
+          "points",
+          "animatedPoints"
+        ],
+        "SVGPolygonElement": [
+          "points",
+          "animatedPoints"
+        ],
+        "SVGTextContentElement": [
+          "textLength",
+          "lengthAdjust",
+          "getNumberOfChars()",
+          "getComputedTextLength()",
+          "getSubStringLength()",
+          "getStartPositionOfChar()",
+          "getEndPositionOfChar()",
+          "getExtentOfChar()",
+          "getRotationOfChar()",
+          "getCharNumAtPosition()",
+          "selectSubString()"
+        ],
+        "SVGTextPositioningElement": [
+          "x",
+          "y",
+          "dx",
+          "dy",
+          "rotate"
+        ],
+        "SVGTextPathElement": [
+          "startOffset",
+          "method",
+          "spacing",
+          "href"
+        ],
+        "SVGForeignObjectElement": [
+          "x",
+          "y",
+          "width",
+          "height"
+        ],
+        "SVGMarkerElement": [
+          "orient"
+        ],
+        "SVGGradientElement": [
+          "gradientUnits",
+          "gradientTransform",
+          "spreadMethod",
+          "href"
+        ],
+        "SVGLinearGradientElement": [
+          "x1",
+          "y1",
+          "x2",
+          "y2"
+        ],
+        "SVGRadialGradientElement": [
+          "cx",
+          "cy",
+          "r",
+          "fx",
+          "fy",
+          "fr"
+        ],
+        "SVGStopElement": [
+          "offset"
+        ],
+        "SVGPatternElement": [
+          "patternUnits",
+          "patternContentUnits",
+          "patternTransform",
+          "x",
+          "y",
+          "width",
+          "height",
+          "viewBox",
+          "preserveAspectRatio",
+          "href"
+        ],
+        "SVGScriptElement": [
+          "type",
+          "crossOrigin",
+          "href"
+        ],
+        "SVGAElement": [
+          "download",
+          "ping",
+          "rel",
+          "relList",
+          "hreflang",
+          "type",
+          "text",
+          "referrerPolicy",
+          "href"
+        ],
+        "SVGViewElement": [
+          "viewBox",
+          "preserveAspectRatio"
+        ],
+        "SVGFilterElement": [
+          "href"
+        ],
+        "SVGFEImageElement": [
+          "href"
+        ],
+        "SVGAnimationElement": [
+          "requiredExtensions",
+          "systemLanguage"
+        ],
+        "SVGMPathElement": [
+          "href"
+        ]
+      },
+      "bcd": {
+        "SVGElement": [
+          "correspondingElement",
+          "correspondingUseElement"
+        ],
+        "SVGUseElement": [
+          "instanceRoot",
+          "animatedInstanceRoot"
+        ],
+        "SVGUseElementShadowRoot": true,
+        "ShadowAnimation": true,
+        "SVGAElement": [
+          "origin",
+          "protocol",
+          "username",
+          "password",
+          "host",
+          "hostname",
+          "port",
+          "pathname",
+          "search",
+          "hash"
+        ]
+      }
+    },
+    "css.properties": {
+      "bcd": {
+        "cx": true,
+        "cy": true,
+        "r": true,
+        "rx": true,
+        "ry": true,
+        "x": true,
+        "y": true,
+        "vector-effect": true,
+        "d": true,
+        "shape-subtract": true,
+        "text-anchor": true,
+        "fill": true,
+        "stroke": true,
+        "marker-start": true,
+        "marker-mid": true,
+        "marker-end": true,
+        "marker": true,
+        "color-interpolation": true,
+        "shape-rendering": true,
+        "stop-color": true,
+        "stop-opacity": true
+      }
+    }
+  },
+  "html": {
+    "title": "HTML Standard",
+    "url": "https://html.spec.whatwg.org/multipage/",
+    "idl": {
+      "mdn": {
+        "SVGElement": [
+          "nonce",
+          "autofocus",
+          "tabIndex",
+          "focus()",
+          "blur()"
+        ],
+        "HTMLElement": [
+          "autocapitalize",
+          "autofocus"
+        ],
+        "HTMLLinkElement": [
+          "href",
+          "media",
+          "integrity",
+          "hreflang",
+          "type",
+          "imageSrcset",
+          "imageSizes",
+          "disabled",
+          "charset",
+          "rev",
+          "target"
+        ],
+        "HTMLMetaElement": [
+          "name",
+          "httpEquiv",
+          "content",
+          "media",
+          "scheme"
+        ],
+        "HTMLLIElement": [
+          "value",
+          "type"
+        ],
+        "HTMLAnchorElement": [
+          "ping"
+        ],
+        "HTMLSourceElement": [
+          "width",
+          "height"
+        ],
+        "HTMLIFrameElement": [
+          "sandbox",
+          "allow",
+          "allowFullscreen",
+          "loading",
+          "getSVGDocument()"
+        ],
+        "HTMLEmbedElement": [
+          "src",
+          "type",
+          "width",
+          "height",
+          "getSVGDocument()",
+          "align",
+          "name"
+        ],
+        "HTMLVideoElement": [
+          "playsInline"
+        ],
+        "HTMLMediaElement": [
+          "getStartDate()"
+        ],
+        "HTMLAreaElement": [
+          "ping"
+        ],
+        "HTMLFormElement": [
+          "rel",
+          "relList"
+        ],
+        "HTMLInputElement": [
+          "accept",
+          "alt",
+          "defaultChecked",
+          "checked",
+          "dirName",
+          "disabled",
+          "form",
+          "max",
+          "maxLength",
+          "min",
+          "minLength",
+          "name",
+          "readOnly",
+          "size",
+          "src",
+          "step",
+          "type",
+          "defaultValue",
+          "value",
+          "valueAsDate",
+          "valueAsNumber",
+          "selectionStart",
+          "selectionEnd",
+          "align",
+          "useMap"
+        ],
+        "HTMLButtonElement": [
+          "checkValidity()",
+          "setCustomValidity()"
+        ],
+        "HTMLTextAreaElement": [
+          "cols",
+          "dirName",
+          "disabled",
+          "form",
+          "maxLength",
+          "minLength",
+          "name",
+          "placeholder",
+          "readOnly",
+          "required",
+          "rows",
+          "wrap",
+          "type",
+          "defaultValue",
+          "value",
+          "willValidate",
+          "validity",
+          "validationMessage",
+          "checkValidity()",
+          "setCustomValidity()",
+          "select()",
+          "selectionStart",
+          "selectionEnd",
+          "selectionDirection",
+          "setRangeText()",
+          "setSelectionRange()"
+        ],
+        "HTMLFieldSetElement": [
+          "checkValidity()",
+          "setCustomValidity()"
+        ],
+        "HTMLLegendElement": [
+          "form",
+          "align"
+        ],
+        "ValidityState": [
+          "valueMissing",
+          "customError",
+          "valid"
+        ],
+        "HTMLScriptElement": [
+          "src",
+          "type",
+          "noModule",
+          "async",
+          "defer",
+          "crossOrigin",
+          "text",
+          "integrity",
+          "charset",
+          "event",
+          "htmlFor"
+        ],
+        "ImageData": [
+          "colorSpace"
+        ],
+        "Path2D": [
+          "closePath()",
+          "moveTo()",
+          "lineTo()",
+          "quadraticCurveTo()",
+          "bezierCurveTo()",
+          "arcTo()",
+          "rect()",
+          "roundRect()",
+          "arc()",
+          "ellipse()"
+        ],
+        "ImageBitmapRenderingContext": [
+          "canvas"
+        ],
+        "OffscreenCanvasRenderingContext2D": true,
+        "Window": [
+          "originAgentCluster",
+          "captureEvents()"
+        ],
+        "BeforeUnloadEvent": [
+          "returnValue"
+        ],
+        "Navigator": [
+          "unregisterProtocolHandler()"
+        ],
+        "Plugin": [
+          "length"
+        ],
+        "DedicatedWorkerGlobalScope": [
+          "requestAnimationFrame()",
+          "cancelAnimationFrame()"
+        ],
+        "WorkletGlobalScope": true,
+        "HTMLMarqueeElement": [
+          "behavior",
+          "bgColor",
+          "direction",
+          "height",
+          "hspace",
+          "loop",
+          "scrollAmount",
+          "scrollDelay",
+          "trueSpeed",
+          "vspace",
+          "width",
+          "start()",
+          "stop()"
+        ],
+        "HTMLFrameSetElement": [
+          "cols",
+          "rows"
+        ],
+        "HTMLDirectoryElement": true,
+        "HTMLHRElement": [
+          "align",
+          "color",
+          "noShade",
+          "size",
+          "width"
+        ],
+        "MathMLElement": [
+          "dataset",
+          "tabIndex",
+          "focus()",
+          "blur()"
+        ]
+      },
+      "bcd": {
+        "PaintRenderingContext2D": [
+          "reset()",
+          "isContextLost()",
+          "createConicGradient()",
+          "closePath()",
+          "moveTo()",
+          "lineTo()",
+          "quadraticCurveTo()",
+          "bezierCurveTo()",
+          "arcTo()",
+          "rect()",
+          "roundRect()",
+          "arc()",
+          "ellipse()"
+        ],
+        "HTMLLinkElement": [
+          "blocking"
+        ],
+        "HTMLStyleElement": [
+          "blocking"
+        ],
+        "HTMLScriptElement": [
+          "blocking"
+        ],
+        "OffscreenCanvasRenderingContext2D": [
+          "commit()",
+          "reset()",
+          "isContextLost()",
+          "createConicGradient()",
+          "letterSpacing",
+          "fontKerning",
+          "fontStretch",
+          "fontVariantCaps",
+          "textRendering",
+          "wordSpacing",
+          "roundRect()"
+        ],
+        "UserActivation": true,
+        "Navigator": [
+          "userActivation"
+        ],
+        "Window": [
+          "clientInformation"
+        ],
+        "WorkerGlobalScope": [
+          "onerror"
+        ],
+        "WorkerNavigator": [
+          "taintEnabled()",
+          "oscpu"
+        ],
+        "MathMLElement": [
+          "nonce",
+          "autofocus"
+        ]
+      }
+    }
+  },
+  "WEBGL_blend_equation_advanced_coherent": {
+    "title": "WebGL WEBGL_blend_equation_advanced_coherent Extension Draft Specification",
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_blend_equation_advanced_coherent/",
+    "idl": {
+      "bcd": {
+        "WEBGL_blend_equation_advanced_coherent": true
+      }
+    }
+  },
+  "WEBGL_draw_instanced_base_vertex_base_instance": {
+    "title": "WebGL WEBGL_draw_instanced_base_vertex_base_instance Extension Draft Specification",
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_draw_instanced_base_vertex_base_instance/",
+    "idl": {
+      "bcd": {
+        "WEBGL_draw_instanced_base_vertex_base_instance": true
+      }
+    }
+  },
+  "WEBGL_multi_draw_instanced_base_vertex_base_instance": {
+    "title": "WebGL WEBGL_multi_draw_instanced_base_vertex_base_instance Extension Draft Specification",
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw_instanced_base_vertex_base_instance/",
+    "idl": {
+      "bcd": {
+        "WEBGL_multi_draw_instanced_base_vertex_base_instance": true
+      }
+    }
+  },
+  "anchors": {
+    "title": "WebXR Anchors Module",
+    "url": "https://immersive-web.github.io/anchors/",
+    "idl": {
+      "bcd": {
+        "XRAnchor": [
+          "requestPersistentHandle()"
+        ],
+        "XRSession": [
+          "restorePersistentAnchor()",
+          "deletePersistentAnchor()"
+        ]
+      }
+    }
+  },
+  "attribution-reporting-api": {
+    "title": "Attribution Reporting",
+    "url": "https://wicg.github.io/attribution-reporting-api/",
+    "idl": {
+      "bcd": {
+        "HTMLAnchorElement": [
+          "attributionSrc"
+        ],
+        "HTMLImageElement": [
+          "attributionSrc"
+        ],
+        "HTMLScriptElement": [
+          "attributionSrc"
+        ]
+      }
+    }
+  },
+  "autoplay-detection": {
+    "title": "Autoplay Policy Detection",
+    "url": "https://www.w3.org/TR/autoplay-detection/",
+    "idl": {
+      "bcd": {
+        "Navigator": [
+          "getAutoplayPolicy()"
+        ]
+      }
+    }
+  },
+  "badging": {
+    "title": "Badging API",
+    "url": "https://w3c.github.io/badging/",
+    "idl": {
+      "bcd": {
+        "Navigator": [
+          "setClientBadge()",
+          "clearClientBadge()"
+        ],
+        "WorkerNavigator": [
+          "setAppBadge()",
+          "clearAppBadge()"
+        ]
+      }
+    }
+  },
+  "capture-handle-identity": {
+    "title": "Capture Handle - Bootstrapping Collaboration when Screensharing",
+    "url": "https://www.w3.org/TR/capture-handle-identity/",
+    "idl": {
+      "mdn": {
+        "MediaDevices": [
+          "setCaptureHandleConfig()"
+        ],
+        "MediaStreamTrack": [
+          "getCaptureHandle()"
+        ]
+      }
+    }
+  },
+  "close-watcher": {
+    "title": "Close Watcher API",
+    "url": "https://wicg.github.io/close-watcher/",
+    "idl": {
+      "bcd": {
+        "CloseWatcher": true
+      }
+    }
+  },
+  "compute-pressure": {
+    "title": "Compute Pressure Level 1",
+    "url": "https://wicg.github.io/compute-pressure/",
+    "idl": {
+      "bcd": {
+        "PressureObserver": true
+      }
+    }
+  },
+  "contact-api": {
+    "title": "Contact Picker API",
+    "url": "https://w3c.github.io/contact-api/spec/",
+    "idl": {
+      "mdn": {
+        "ContactAddress": true
+      }
+    }
+  },
+  "cookie-store": {
+    "title": "Cookie Store API",
+    "url": "https://wicg.github.io/cookie-store/",
+    "idl": {
+      "mdn": {
+        "ServiceWorkerRegistration": [
+          "cookies"
+        ],
+        "Window": [
+          "cookieStore"
+        ],
+        "ServiceWorkerGlobalScope": [
+          "cookieStore"
+        ]
+      }
+    }
+  },
+  "crash-reporting": {
+    "title": "Crash Reporting",
+    "url": "https://wicg.github.io/crash-reporting/",
+    "idl": {
+      "mdn": {
+        "CrashReportBody": [
+          "toJSON()"
+        ]
+      }
+    }
+  },
+  "credential-management": {
+    "title": "Credential Management Level 1",
+    "url": "https://www.w3.org/TR/credential-management-1/",
+    "idl": {
+      "bcd": {
+        "Credential": [
+          "isConditionalMediationAvailable()"
+        ]
+      }
+    }
+  },
+  "csp-next": {
+    "title": "Scripting Policy",
+    "url": "https://wicg.github.io/csp-next/scripting-policy.html",
+    "idl": {
+      "bcd": {
+        "ScriptingPolicyReportBody": true
+      }
+    }
+  },
+  "css-animation-worklet": {
+    "title": "CSS Animation Worklet API",
+    "url": "https://www.w3.org/TR/css-animation-worklet-1/",
+    "idl": {
+      "bcd": {
+        "CSS": [
+          "animationWorklet"
+        ],
+        "AnimationWorkletGlobalScope": true,
+        "WorkletAnimationEffect": true,
+        "WorkletAnimation": true,
+        "WorkletGroupEffect": true
+      }
+    }
+  },
+  "css-cascade": {
+    "title": "CSS Cascading and Inheritance Level 3",
+    "url": "https://www.w3.org/TR/css-cascade-3/",
+    "idl": {
+      "mdn": {
+        "CSSImportRule": [
+          "layerName"
+        ],
+        "CSSLayerBlockRule": true,
+        "CSSLayerStatementRule": true
+      }
+    }
+  },
+  "css-contain-3": {
+    "idl": {
+      "bcd": {
+        "CSSContainerRule": [
+          "containerName",
+          "containerQuery"
+        ]
+      }
+    }
+  },
+  "css-contain": {
+    "title": "CSS Containment Module Level 2",
+    "url": "https://www.w3.org/TR/css-contain-2/",
+    "idl": {
+      "bcd": {
+        "ContentVisibilityAutoStateChangedEvent": true
+      }
+    }
+  },
+  "css-device-adapt": {
+    "title": "CSS Device Adaptation Module Level 1",
+    "url": "https://www.w3.org/TR/css-device-adapt-1/",
+    "idl": {
+      "bcd": {
+        "CSSViewportRule": true
+      }
+    }
+  },
+  "css-font-loading": {
+    "title": "CSS Font Loading Module Level 3",
+    "url": "https://www.w3.org/TR/css-font-loading-3/",
+    "idl": {
+      "bcd": {
+        "FontFaceFeatures": true,
+        "FontFaceVariationAxis": true,
+        "FontFaceVariations": true,
+        "FontFacePalette": true,
+        "FontFacePalettes": true,
+        "FontFace": [
+          "features",
+          "variations",
+          "palettes"
+        ]
+      }
+    }
+  },
+  "css-fonts": {
+    "title": "CSS Fonts Module Level 4",
+    "url": "https://www.w3.org/TR/css-fonts-4/",
+    "idl": {
+      "mdn": {
+        "CSSFontFeatureValuesRule": true,
+        "CSSFontPaletteValuesRule": true
+      },
+      "bcd": {
+        "CSSFontFeatureValuesRule": [
+          "annotation",
+          "ornaments",
+          "stylistic",
+          "swash",
+          "characterVariant",
+          "styleset"
+        ],
+        "CSSFontFeatureValuesMap": true
+      }
+    },
+    "css.properties": {
+      "mdn": {
+        "font-synthesis-weight": true,
+        "font-synthesis-style": true,
+        "font-synthesis-small-caps": true
+      },
+      "bcd": {
+        "font-variant-emoji": true
+      }
+    }
+  },
+  "css-highlight-api": {
+    "title": "CSS Custom Highlight API Module Level 1",
+    "url": "https://www.w3.org/TR/css-highlight-api-1/",
+    "idl": {
+      "bcd": {
+        "Highlight": true,
+        "CSS": [
+          "highlights"
+        ],
+        "HighlightRegistry": true
+      }
+    }
+  },
+  "css-images-4": {
+    "idl": {
+      "bcd": {
+        "CSS": [
+          "elementSources"
+        ]
+      }
+    },
+    "css.properties": {
+      "bcd": {
+        "object-view-box": true,
+        "image-resolution": true
+      }
+    }
+  },
+  "css-layout-api": {
+    "title": "CSS Layout API Level 1",
+    "url": "https://www.w3.org/TR/css-layout-api-1/",
+    "idl": {
+      "bcd": {
+        "CSS": [
+          "layoutWorklet"
+        ],
+        "LayoutWorkletGlobalScope": true,
+        "LayoutChild": true,
+        "LayoutFragment": true,
+        "IntrinsicSizes": true,
+        "LayoutConstraints": true,
+        "ChildBreakToken": true,
+        "BreakToken": true,
+        "LayoutEdges": true,
+        "FragmentResult": true
+      }
+    }
+  },
+  "css-masking": {
+    "title": "CSS Masking Module Level 1",
+    "url": "https://www.w3.org/TR/css-masking-1/",
+    "idl": {
+      "mdn": {
+        "SVGClipPathElement": [
+          "clipPathUnits",
+          "transform"
+        ],
+        "SVGMaskElement": [
+          "maskUnits",
+          "maskContentUnits",
+          "x",
+          "y",
+          "width",
+          "height"
+        ]
+      }
+    },
+    "css.properties": {
+      "bcd": {
+        "clip-rule": true,
+        "mask-border-mode": true
+      }
+    }
+  },
+  "css-nav": {
+    "title": "CSS Spatial Navigation Level 1",
+    "url": "https://www.w3.org/TR/css-nav-1/",
+    "idl": {
+      "bcd": {
+        "Window": [
+          "navigate()"
+        ],
+        "Element": [
+          "getSpatialNavigationContainer()",
+          "focusableAreas()",
+          "spatialNavigationSearch()"
+        ],
+        "NavigationEvent": true
+      }
+    },
+    "css.properties": {
+      "bcd": {
+        "spatial-navigation-contain": true,
+        "spatial-navigation-action": true,
+        "spatial-navigation-function": true
+      }
+    }
+  },
+  "css-nesting": {
+    "title": "CSS Nesting Module",
+    "url": "https://www.w3.org/TR/css-nesting-1/",
+    "idl": {
+      "bcd": {
+        "CSSStyleRule": [
+          "cssRules",
+          "insertRule()",
+          "deleteRule()"
+        ],
+        "CSSNestingRule": true
+      }
+    },
+    "css.atrules": {
+      "bcd": {
+        "@nest": true
+      }
+    }
+  },
+  "css-parser-api": {
+    "title": "CSS Parser API",
+    "url": "https://wicg.github.io/css-parser-api/",
+    "idl": {
+      "bcd": {
+        "CSS": [
+          "parseStylesheet()",
+          "parseRuleList()",
+          "parseRule()",
+          "parseDeclarationList()",
+          "parseDeclaration()",
+          "parseValue()",
+          "parseValueList()",
+          "parseCommaValueList()"
+        ],
+        "CSSParserRule": true,
+        "CSSParserAtRule": true,
+        "CSSParserQualifiedRule": true,
+        "CSSParserDeclaration": true,
+        "CSSParserValue": true,
+        "CSSParserBlock": true,
+        "CSSParserFunction": true
+      }
+    }
+  },
+  "css-pseudo": {
+    "title": "CSS Pseudo-Elements Module Level 4",
+    "url": "https://www.w3.org/TR/css-pseudo-4/",
+    "idl": {
+      "bcd": {
+        "CSSPseudoElement": [
+          "parent",
+          "pseudo()"
+        ],
+        "Element": [
+          "pseudo()"
+        ]
+      }
+    }
+  },
+  "css-regions": {
+    "title": "CSS Regions Module Level 1",
+    "url": "https://www.w3.org/TR/css-regions-1/",
+    "idl": {
+      "bcd": {
+        "Document": [
+          "namedFlows"
+        ],
+        "NamedFlowMap": true,
+        "NamedFlow": true,
+        "Element": [
+          "regionOverset",
+          "getRegionFlowRanges()"
+        ]
+      }
+    },
+    "css.properties": {
+      "bcd": {
+        "flow-into": true,
+        "flow-from": true,
+        "region-fragment": true
+      }
+    }
+  },
+  "css-shared-element-transitions": {
+    "title": "CSS Shared Element Transitions Module Level 1",
+    "url": "https://drafts.csswg.org/css-shared-element-transitions-1/",
+    "idl": {
+      "bcd": {
+        "Document": [
+          "createTransition()"
+        ],
+        "DOMTransition": true
+      }
+    },
+    "css.properties": {
+      "bcd": {
+        "page-transition-tag": true
+      }
+    }
+  },
+  "css-typed-om": {
+    "title": "CSS Typed OM Level 2",
+    "url": "https://drafts.css-houdini.org/css-typed-om-2/",
+    "idl": {
+      "mdn": {
+        "CSSMathClamp": true
+      },
+      "bcd": {
+        "CSS": [
+          "svw()",
+          "svh()",
+          "svi()",
+          "svb()",
+          "svmin()",
+          "svmax()",
+          "lvw()",
+          "lvh()",
+          "lvi()",
+          "lvb()",
+          "lvmin()",
+          "lvmax()",
+          "dvw()",
+          "dvh()",
+          "dvi()",
+          "dvb()",
+          "dvmin()",
+          "dvmax()",
+          "cqw()",
+          "cqh()",
+          "cqi()",
+          "cqb()",
+          "cqmin()",
+          "cqmax()"
+        ],
+        "CSSColorValue": true,
+        "CSSRGB": true,
+        "CSSHSL": true,
+        "CSSHWB": true,
+        "CSSLab": true,
+        "CSSLCH": true,
+        "CSSOKLab": true,
+        "CSSOKLCH": true,
+        "CSSColor": true
+      }
+    }
+  },
+  "cssom-view": {
+    "title": "CSSOM View Module",
+    "url": "https://www.w3.org/TR/cssom-view-1/",
+    "idl": {
+      "mdn": {
+        "CaretPosition": [
+          "offsetNode",
+          "offset",
+          "getClientRect()"
+        ],
+        "Text": [
+          "getBoxQuads()"
+        ],
+        "Element": [
+          "getBoxQuads()"
+        ],
+        "Document": [
+          "getBoxQuads()"
+        ]
+      },
+      "bcd": {
+        "Element": [
+          "checkVisibility()",
+          "convertQuadFromNode()",
+          "convertRectFromNode()",
+          "convertPointFromNode()"
+        ],
+        "Text": [
+          "convertQuadFromNode()",
+          "convertRectFromNode()",
+          "convertPointFromNode()"
+        ],
+        "CSSPseudoElement": [
+          "getBoxQuads()",
+          "convertQuadFromNode()",
+          "convertRectFromNode()",
+          "convertPointFromNode()"
+        ],
+        "Document": [
+          "convertQuadFromNode()",
+          "convertRectFromNode()",
+          "convertPointFromNode()"
+        ]
+      }
+    }
+  },
+  "cssom": {
+    "title": "CSS Object Model (CSSOM)",
+    "url": "https://www.w3.org/TR/cssom-1/",
+    "idl": {
+      "bcd": {
+        "CSSMarginRule": true
+      },
+      "mdn": {
+        "SVGElement": [
+          "style"
+        ],
+        "MathMLElement": [
+          "style"
+        ]
+      }
+    }
+  },
+  "custom-state-pseudo-class": {
+    "title": "Custom State Pseudo Class",
+    "url": "https://wicg.github.io/custom-state-pseudo-class/",
+    "idl": {
+      "mdn": {
+        "ElementInternals": [
+          "states"
+        ],
+        "CustomStateSet": true
+      }
+    }
+  },
+  "datacue": {
+    "title": "DataCue API",
+    "url": "https://wicg.github.io/datacue/",
+    "idl": {
+      "mdn": {
+        "DataCue": true
+      }
+    }
+  },
+  "device-memory": {
+    "title": "Device Memory",
+    "url": "https://www.w3.org/TR/device-memory-1/",
+    "idl": {
+      "mdn": {
+        "WorkerNavigator": [
+          "deviceMemory"
+        ]
+      }
+    }
+  },
+  "device-posture": {
+    "title": "Device Posture API",
+    "url": "https://www.w3.org/TR/device-posture/",
+    "idl": {
+      "bcd": {
+        "Navigator": [
+          "devicePosture"
+        ],
+        "DevicePosture": true
+      }
+    }
+  },
+  "digital-goods": {
+    "title": "Digital Goods API",
+    "url": "https://wicg.github.io/digital-goods/",
+    "idl": {
+      "bcd": {
+        "Window": [
+          "getDigitalGoodsService()"
+        ],
+        "DigitalGoodsService": true
+      }
+    }
+  },
+  "dom": {
+    "title": "DOM Standard",
+    "url": "https://dom.spec.whatwg.org/",
+    "idl": {
+      "bcd": {
+        "EventListener": true,
+        "Document": [
+          "charset",
+          "inputEncoding"
+        ],
+        "Element": [
+          "webkitMatchesSelector()"
+        ],
+        "NodeFilter": true,
+        "XPathNSResolver": true
+      },
+      "mdn": {
+        "DocumentFragment": [
+          "getElementById()"
+        ],
+        "ShadowRoot": [
+          "slotAssignment"
+        ]
+      }
+    }
+  },
+  "edit-context": {
+    "title": "EditContext API",
+    "url": "https://www.w3.org/TR/edit-context/",
+    "idl": {
+      "bcd": {
+        "Element": [
+          "editContext"
+        ],
+        "EditContext": true,
+        "TextUpdateEvent": true,
+        "TextFormat": true,
+        "TextFormatUpdateEvent": true,
+        "CharacterBoundsUpdateEvent": true
+      }
+    }
+  },
+  "element-timing": {
+    "title": "Element Timing API",
+    "url": "https://wicg.github.io/element-timing/",
+    "idl": {
+      "mdn": {
+        "Element": [
+          "elementTiming"
+        ]
+      }
+    }
+  },
+  "event-timing": {
+    "title": "Event Timing API",
+    "url": "https://www.w3.org/TR/event-timing/",
+    "idl": {
+      "mdn": {
+        "PerformanceEventTiming": [
+          "interactionId",
+          "toJSON()"
+        ],
+        "EventCounts": true,
+        "Performance": [
+          "eventCounts"
+        ]
+      },
+      "bcd": {
+        "InteractionCounts": true,
+        "Performance": [
+          "interactionCounts"
+        ]
+      }
+    }
+  },
+  "fetch": {
+    "title": "Fetch Standard",
+    "url": "https://fetch.spec.whatwg.org/",
+    "idl": {
+      "bcd": {
+        "Request": [
+          "isReloadNavigation"
+        ]
+      },
+      "mdn": {
+        "Request": [
+          "isHistoryNavigation"
+        ]
+      }
+    }
+  },
+  "filter-effects": {
+    "title": "Filter Effects Module Level 2",
+    "url": "https://drafts.fxtf.org/filter-effects-2/",
+    "idl": {
+      "mdn": {
+        "SVGFilterElement": [
+          "filterUnits",
+          "primitiveUnits",
+          "x",
+          "y",
+          "width",
+          "height"
+        ],
+        "SVGFEBlendElement": [
+          "in1",
+          "in2",
+          "mode",
+          "x",
+          "y",
+          "width",
+          "height",
+          "result"
+        ],
+        "SVGFEColorMatrixElement": [
+          "x",
+          "y",
+          "width",
+          "height",
+          "result"
+        ],
+        "SVGFEComponentTransferElement": [
+          "in1",
+          "x",
+          "y",
+          "width",
+          "height",
+          "result"
+        ],
+        "SVGComponentTransferFunctionElement": [
+          "type",
+          "tableValues",
+          "slope",
+          "intercept",
+          "amplitude",
+          "exponent",
+          "offset"
+        ],
+        "SVGFECompositeElement": [
+          "in1",
+          "in2",
+          "operator",
+          "k1",
+          "k2",
+          "k3",
+          "k4",
+          "x",
+          "y",
+          "width",
+          "height",
+          "result"
+        ],
+        "SVGFEConvolveMatrixElement": [
+          "in1",
+          "orderX",
+          "orderY",
+          "kernelMatrix",
+          "divisor",
+          "bias",
+          "targetX",
+          "targetY",
+          "edgeMode",
+          "kernelUnitLengthX",
+          "kernelUnitLengthY",
+          "preserveAlpha",
+          "x",
+          "y",
+          "width",
+          "height",
+          "result"
+        ],
+        "SVGFEDiffuseLightingElement": [
+          "in1",
+          "surfaceScale",
+          "diffuseConstant",
+          "kernelUnitLengthX",
+          "kernelUnitLengthY",
+          "x",
+          "y",
+          "width",
+          "height",
+          "result"
+        ],
+        "SVGFEDistantLightElement": [
+          "azimuth",
+          "elevation"
+        ],
+        "SVGFEPointLightElement": [
+          "x",
+          "y",
+          "z"
+        ],
+        "SVGFESpotLightElement": [
+          "x",
+          "y",
+          "z",
+          "pointsAtX",
+          "pointsAtY",
+          "pointsAtZ",
+          "specularExponent",
+          "limitingConeAngle"
+        ],
+        "SVGFEDisplacementMapElement": [
+          "in1",
+          "in2",
+          "scale",
+          "xChannelSelector",
+          "yChannelSelector",
+          "x",
+          "y",
+          "width",
+          "height",
+          "result"
+        ],
+        "SVGFEDropShadowElement": [
+          "in1",
+          "dx",
+          "dy",
+          "stdDeviationX",
+          "stdDeviationY",
+          "setStdDeviation()",
+          "x",
+          "y",
+          "width",
+          "height",
+          "result"
+        ],
+        "SVGFEFloodElement": [
+          "x",
+          "y",
+          "width",
+          "height",
+          "result"
+        ],
+        "SVGFEGaussianBlurElement": [
+          "in1",
+          "stdDeviationX",
+          "stdDeviationY",
+          "edgeMode",
+          "setStdDeviation()",
+          "x",
+          "y",
+          "width",
+          "height",
+          "result"
+        ],
+        "SVGFEImageElement": [
+          "preserveAspectRatio",
+          "x",
+          "y",
+          "width",
+          "height",
+          "result"
+        ],
+        "SVGFEMergeElement": [
+          "x",
+          "y",
+          "width",
+          "height",
+          "result"
+        ],
+        "SVGFEMergeNodeElement": [
+          "in1"
+        ],
+        "SVGFEMorphologyElement": [
+          "in1",
+          "operator",
+          "radiusX",
+          "radiusY",
+          "x",
+          "y",
+          "width",
+          "height",
+          "result"
+        ],
+        "SVGFEOffsetElement": [
+          "in1",
+          "dx",
+          "dy",
+          "x",
+          "y",
+          "width",
+          "height",
+          "result"
+        ],
+        "SVGFESpecularLightingElement": [
+          "in1",
+          "surfaceScale",
+          "specularConstant",
+          "specularExponent",
+          "kernelUnitLengthX",
+          "kernelUnitLengthY",
+          "x",
+          "y",
+          "width",
+          "height",
+          "result"
+        ],
+        "SVGFETileElement": [
+          "in1",
+          "x",
+          "y",
+          "width",
+          "height",
+          "result"
+        ],
+        "SVGFETurbulenceElement": [
+          "baseFrequencyX",
+          "baseFrequencyY",
+          "numOctaves",
+          "seed",
+          "stitchTiles",
+          "type",
+          "x",
+          "y",
+          "width",
+          "height",
+          "result"
+        ]
+      },
+      "bcd": {
+        "SVGFEImageElement": [
+          "crossOrigin"
+        ]
+      }
+    },
+    "css.properties": {
+      "bcd": {
+        "flood-color": true,
+        "flood-opacity": true,
+        "color-interpolation-filters": true,
+        "lighting-color": true
+      }
+    }
+  },
+  "font-metrics-api": {
+    "title": "Font Metrics API Level 1",
+    "url": "https://drafts.css-houdini.org/font-metrics-api-1/",
+    "idl": {
+      "bcd": {
+        "Document": [
+          "measureElement()",
+          "measureText()"
+        ],
+        "FontMetrics": true,
+        "Baseline": true,
+        "Font": true
+      }
+    }
+  },
+  "fs": {
+    "title": "File System Standard",
+    "url": "https://fs.spec.whatwg.org/",
+    "idl": {
+      "mdn": {
+        "StorageManager": [
+          "getDirectory()"
+        ]
+      }
+    }
+  },
+  "gamepad-extensions": {
+    "title": "Gamepad Extensions",
+    "url": "https://w3c.github.io/gamepad/extensions.html",
+    "idl": {
+      "bcd": {
+        "GamepadTouch": true,
+        "Gamepad": [
+          "touchEvents"
+        ]
+      }
+    }
+  },
+  "geolocation-sensor": {
+    "title": "Geolocation Sensor",
+    "url": "https://www.w3.org/TR/geolocation-sensor/",
+    "idl": {
+      "bcd": {
+        "GeolocationSensor": true
+      }
+    }
+  },
+  "geometry": {
+    "title": "Geometry Interfaces Module Level 1",
+    "url": "https://www.w3.org/TR/geometry-1/",
+    "idl": {
+      "mdn": {
+        "DOMRectReadOnly": [
+          "toJSON()"
+        ],
+        "DOMRect": [
+          "fromRect()",
+          "x",
+          "y",
+          "width",
+          "height"
+        ],
+        "DOMRectList": true,
+        "DOMQuad": [
+          "fromRect()",
+          "fromQuad()",
+          "toJSON()"
+        ],
+        "DOMMatrixReadOnly": [
+          "fromMatrix()",
+          "fromFloat32Array()",
+          "fromFloat64Array()",
+          "toJSON()"
+        ],
+        "DOMMatrix": [
+          "fromMatrix()",
+          "fromFloat32Array()",
+          "fromFloat64Array()",
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "m11",
+          "m12",
+          "m13",
+          "m14",
+          "m21",
+          "m22",
+          "m23",
+          "m24",
+          "m31",
+          "m32",
+          "m33",
+          "m34",
+          "m41",
+          "m42",
+          "m43",
+          "m44",
+          "multiplySelf()",
+          "preMultiplySelf()",
+          "translateSelf()",
+          "rotateSelf()",
+          "rotateFromVectorSelf()",
+          "rotateAxisAngleSelf()",
+          "skewXSelf()",
+          "skewYSelf()",
+          "invertSelf()",
+          "setMatrixValue()"
+        ]
+      }
+    }
+  },
+  "get-installed-related-apps": {
+    "title": "Get Installed Related Apps API",
+    "url": "https://wicg.github.io/get-installed-related-apps/spec/",
+    "idl": {
+      "mdn": {
+        "Navigator": [
+          "getInstalledRelatedApps()"
+        ]
+      }
+    }
+  },
+  "html-media-capture": {
+    "title": "HTML Media Capture",
+    "url": "https://www.w3.org/TR/html-media-capture/",
+    "idl": {
+      "mdn": {
+        "HTMLInputElement": [
+          "capture"
+        ]
+      }
+    }
+  },
+  "virtual-keyboard": {
+    "title": "VirtualKeyboard API",
+    "url": "https://www.w3.org/TR/virtual-keyboard/",
+    "idl": {
+      "bcd": {
+        "HTMLElement": [
+          "virtualKeyboardPolicy"
+        ]
+      },
+      "mdn": {
+        "Navigator": [
+          "virtualKeyboard"
+        ],
+        "VirtualKeyboard": true
+      }
+    }
+  },
+  "wai-aria": {
+    "title": "Accessible Rich Internet Applications (WAI-ARIA)",
+    "url": "https://www.w3.org/TR/wai-aria-1.2/",
+    "idl": {
+      "mdn": {
+        "ElementInternals": [
+          "role",
+          "ariaInvalid"
+        ],
+        "Element": [
+          "role",
+          "ariaInvalid"
+        ]
+      },
+      "bcd": {
+        "ElementInternals": [
+          "ariaActiveDescendantElement",
+          "ariaControlsElements",
+          "ariaDescribedByElements",
+          "ariaDetailsElements",
+          "ariaErrorMessageElement",
+          "ariaFlowToElements",
+          "ariaLabelledByElements",
+          "ariaOwnsElements"
+        ],
+        "Element": [
+          "ariaActiveDescendantElement",
+          "ariaControlsElements",
+          "ariaDescribedByElements",
+          "ariaDetailsElements",
+          "ariaErrorMessageElement",
+          "ariaFlowToElements",
+          "ariaLabelledByElements",
+          "ariaOwnsElements"
+        ]
+      }
+    }
+  },
+  "trusted-types": {
+    "title": "Trusted Types",
+    "url": "https://w3c.github.io/webappsec-trusted-types/dist/spec/",
+    "idl": {
+      "bcd": {
+        "Window": [
+          "trustedTypes"
+        ],
+        "WorkerGlobalScope": [
+          "trustedTypes"
+        ],
+        "TrustedHTML": [
+          "fromLiteral()"
+        ],
+        "TrustedScript": [
+          "fromLiteral()"
+        ],
+        "TrustedScriptURL": [
+          "fromLiteral()"
+        ]
+      }
+    }
+  },
+  "ink-enhancement": {
+    "title": "Ink API",
+    "url": "https://wicg.github.io/ink-enhancement/",
+    "idl": {
+      "mdn": {
+        "Ink": true,
+        "Navigator": [
+          "ink"
+        ]
+      },
+      "bcd": {
+        "InkPresenter": true
+      }
+    }
+  },
+  "input-device-capabilities": {
+    "title": "Input Device Capabilities",
+    "url": "https://wicg.github.io/input-device-capabilities/",
+    "idl": {
+      "bcd": {
+        "InputDeviceCapabilities": [
+          "pointerMovementScrolls"
+        ]
+      }
+    }
+  },
+  "is-input-pending": {
+    "title": "isInputPending",
+    "url": "https://wicg.github.io/is-input-pending/",
+    "idl": {
+      "mdn": {
+        "Scheduling": true,
+        "Navigator": [
+          "scheduling"
+        ]
+      }
+    }
+  },
+  "js-self-profiling": {
+    "title": "JS Self-Profiling API",
+    "url": "https://wicg.github.io/js-self-profiling/",
+    "idl": {
+      "mdn": {
+        "Profiler": true
+      }
+    }
+  },
+  "layout-instability": {
+    "title": "Layout Instability",
+    "url": "https://wicg.github.io/layout-instability/",
+    "idl": {
+      "mdn": {
+        "LayoutShift": [
+          "toJSON()"
+        ]
+      }
+    }
+  },
+  "local-font-access": {
+    "title": "Local Font Access API",
+    "url": "https://wicg.github.io/local-font-access/",
+    "idl": {
+      "mdn": {
+        "Window": [
+          "queryLocalFonts()"
+        ],
+        "FontData": true
+      }
+    }
+  },
+  "longtasks": {
+    "title": "Long Tasks API 1",
+    "url": "https://www.w3.org/TR/longtasks-1/",
+    "idl": {
+      "mdn": {
+        "PerformanceLongTaskTiming": [
+          "toJSON()"
+        ],
+        "TaskAttributionTiming": [
+          "toJSON()"
+        ]
+      }
+    }
+  },
+  "magnetometer": {
+    "title": "Magnetometer",
+    "url": "https://www.w3.org/TR/magnetometer/",
+    "idl": {
+      "bcd": {
+        "UncalibratedMagnetometer": true
+      }
+    }
+  },
+  "manifest-incubations": {
+    "title": "Manifest Incubations",
+    "url": "https://wicg.github.io/manifest-incubations/",
+    "idl": {
+      "mdn": {
+        "LaunchParams": true,
+        "Window": [
+          "launchQueue"
+        ],
+        "LaunchQueue": true
+      },
+      "bcd": {
+        "LaunchParams": [
+          "targetURL"
+        ]
+      }
+    }
+  },
+  "media-capabilities": {
+    "title": "Media Capabilities",
+    "url": "https://www.w3.org/TR/media-capabilities/",
+    "idl": {
+      "mdn": {
+        "WorkerNavigator": [
+          "mediaCapabilities"
+        ]
+      }
+    }
+  },
+  "media-source": {
+    "title": "Media Source Extensions™",
+    "url": "https://www.w3.org/TR/media-source-2/",
+    "idl": {
+      "bcd": {
+        "MediaSource": [
+          "handle",
+          "canConstructInDedicatedWorker"
+        ],
+        "MediaSourceHandle": true
+      }
+    }
+  },
+  "mediacapture-handle-actions": {
+    "title": "The Capture-Handle Actions Mechanism",
+    "url": "https://w3c.github.io/mediacapture-handle/actions/",
+    "idl": {
+      "bcd": {
+        "MediaDevices": [
+          "setSupportedCaptureActions()"
+        ],
+        "CaptureActionEvent": true,
+        "MediaStreamTrack": [
+          "getSupportedCaptureActions()",
+          "sendCaptureAction()"
+        ]
+      }
+    }
+  },
+  "mediacapture-region": {
+    "title": "Region Capture",
+    "url": "https://www.w3.org/TR/mediacapture-region/",
+    "idl": {
+      "mdn": {
+        "CropTarget": true,
+        "BrowserCaptureMediaStreamTrack": true
+      }
+    }
+  },
+  "mediacapture-streams": {
+    "title": "Media Capture and Streams",
+    "url": "https://www.w3.org/TR/mediacapture-streams/",
+    "idl": {
+      "mdn": {
+        "MediaDeviceInfo": [
+          "toJSON()"
+        ]
+      }
+    }
+  },
+  "mediacapture-transform": {
+    "title": "MediaStreamTrack Insertable Media Processing using Streams",
+    "url": "https://www.w3.org/TR/mediacapture-transform/",
+    "idl": {
+      "bcd": {
+        "VideoTrackGenerator": true
+      }
+    }
+  },
+  "mediacapture-viewport": {
+    "title": "Viewport Capture",
+    "url": "https://www.w3.org/TR/mediacapture-viewport/",
+    "idl": {
+      "bcd": {
+        "MediaDevices": [
+          "getViewportMedia()"
+        ]
+      }
+    }
+  },
+  "mediasession": {
+    "title": "Media Session Standard",
+    "url": "https://www.w3.org/TR/mediasession/",
+    "idl": {
+      "mdn": {
+        "MediaSession": [
+          "setMicrophoneActive()",
+          "setCameraActive()"
+        ]
+      }
+    }
+  },
+  "mediastream-recording": {
+    "title": "MediaStream Recording",
+    "url": "https://www.w3.org/TR/mediastream-recording/",
+    "idl": {
+      "mdn": {
+        "MediaRecorder": [
+          "audioBitrateMode"
+        ]
+      }
+    }
+  },
+  "model-element": {
+    "title": "The <model> element",
+    "url": "https://immersive-web.github.io/model-element/",
+    "idl": {
+      "bcd": {
+        "HTMLModelElement": true
+      }
+    }
+  },
+  "navigation-api": {
+    "title": "Navigation API",
+    "url": "https://wicg.github.io/navigation-api/",
+    "idl": {
+      "mdn": {
+        "Window": [
+          "navigation"
+        ],
+        "Navigation": true,
+        "NavigationCurrentEntryChangeEvent": true,
+        "NavigationTransition": true,
+        "NavigateEvent": true,
+        "NavigationDestination": true,
+        "NavigationHistoryEntry": true
+      },
+      "bcd": {
+        "NavigateEvent": [
+          "canIntercept"
+        ]
+      }
+    }
+  },
+  "navigation-timing": {
+    "title": "Navigation Timing Level 2",
+    "url": "https://www.w3.org/TR/navigation-timing-2/",
+    "idl": {
+      "mdn": {
+        "PerformanceTiming": [
+          "toJSON()"
+        ]
+      }
+    }
+  },
+  "orientation-event": {
+    "title": "DeviceOrientation Event Specification",
+    "url": "https://www.w3.org/TR/orientation-event/",
+    "idl": {
+      "mdn": {
+        "DeviceOrientationEvent": [
+          "requestPermission()"
+        ],
+        "DeviceMotionEvent": [
+          "requestPermission()"
+        ]
+      }
+    }
+  },
+  "page-lifecycle": {
+    "title": "Page Lifecycle",
+    "url": "https://wicg.github.io/page-lifecycle/",
+    "idl": {
+      "mdn": {
+        "Document": [
+          "wasDiscarded"
+        ]
+      },
+      "bcd": {
+        "Client": [
+          "lifecycleState"
+        ]
+      }
+    }
+  },
+  "payment-handler": {
+    "title": "Payment Handler API",
+    "url": "https://www.w3.org/TR/payment-handler/",
+    "idl": {
+      "mdn": {
+        "PaymentRequestEvent": [
+          "changePaymentMethod()"
+        ]
+      }
+    }
+  },
+  "payment-request": {
+    "title": "Payment Request API 1.1",
+    "url": "https://www.w3.org/TR/payment-request-1.1/",
+    "idl": {
+      "mdn": {
+        "PaymentResponse": [
+          "toJSON()"
+        ]
+      }
+    }
+  },
+  "performance-measure-memory": {
+    "title": "Measure Memory API",
+    "url": "https://wicg.github.io/performance-measure-memory/",
+    "idl": {
+      "mdn": {
+        "Performance": [
+          "measureUserAgentSpecificMemory()"
+        ]
+      }
+    }
+  },
+  "permissions-policy": {
+    "title": "Permissions Policy",
+    "url": "https://www.w3.org/TR/permissions-policy-1/",
+    "idl": {
+      "bcd": {
+        "PermissionsPolicy": true,
+        "Document": [
+          "permissionsPolicy"
+        ],
+        "HTMLIFrameElement": [
+          "permissionsPolicy"
+        ]
+      }
+    }
+  },
+  "pointerevents": {
+    "title": "Pointer Events",
+    "url": "https://www.w3.org/TR/pointerevents3/",
+    "idl": {
+      "mdn": {
+        "PointerEvent": [
+          "altitudeAngle",
+          "azimuthAngle",
+          "getPredictedEvents()"
+        ]
+      }
+    }
+  },
+  "portals": {
+    "title": "Portals",
+    "url": "https://wicg.github.io/portals/",
+    "idl": {
+      "bcd": {
+        "HTMLPortalElement": [
+          "src",
+          "referrerPolicy",
+          "activate()",
+          "postMessage()"
+        ],
+        "Window": [
+          "portalHost"
+        ],
+        "PortalHost": true,
+        "PortalActivateEvent": true
+      }
+    }
+  },
+  "prerendering-revamped": {
+    "title": "Prerendering Revamped",
+    "url": "https://wicg.github.io/nav-speculation/prerendering.html",
+    "idl": {
+      "bcd": {
+        "Document": [
+          "prerendering"
+        ],
+        "PerformanceNavigationTiming": [
+          "activationStart"
+        ]
+      }
+    }
+  },
+  "priority-hints": {
+    "title": "Priority Hints",
+    "url": "https://wicg.github.io/priority-hints/",
+    "idl": {
+      "mdn": {
+        "Request": [
+          "priority"
+        ],
+        "HTMLScriptElement": [
+          "fetchPriority"
+        ]
+      }
+    }
+  },
+  "private-click-measurement": {
+    "title": "Private Click Measurement",
+    "url": "https://privacycg.github.io/private-click-measurement/",
+    "idl": {
+      "mdn": {
+        "HTMLAnchorElement": [
+          "attributionSourceId"
+        ]
+      }
+    }
+  },
+  "proximity": {
+    "title": "Proximity Sensor",
+    "url": "https://www.w3.org/TR/proximity/",
+    "idl": {
+      "bcd": {
+        "ProximitySensor": true
+      }
+    }
+  },
+  "raw-camera-access": {
+    "title": "WebXR Raw Camera Access Module",
+    "url": "https://immersive-web.github.io/raw-camera-access/",
+    "idl": {
+      "bcd": {
+        "XRView": [
+          "camera"
+        ],
+        "XRCamera": true,
+        "XRWebGLBinding": [
+          "getCameraImage()"
+        ]
+      }
+    }
+  },
+  "remote-playback": {
+    "title": "Remote Playback API",
+    "url": "https://www.w3.org/TR/remote-playback/",
+    "idl": {
+      "mdn": {
+        "HTMLMediaElement": [
+          "remote"
+        ]
+      }
+    }
+  },
+  "reporting": {
+    "title": "Reporting API",
+    "url": "https://www.w3.org/TR/reporting-1/",
+    "idl": {
+      "mdn": {
+        "ReportBody": [
+          "toJSON()"
+        ],
+        "Report": [
+          "toJSON()"
+        ]
+      }
+    }
+  },
+  "resize-observer": {
+    "title": "Resize Observer",
+    "url": "https://www.w3.org/TR/resize-observer-1/",
+    "idl": {
+      "mdn": {
+        "ResizeObserverEntry": [
+          "devicePixelContentBoxSize"
+        ]
+      }
+    }
+  },
+  "resource-timing": {
+    "title": "Resource Timing Level 2",
+    "url": "https://www.w3.org/TR/resource-timing-2/",
+    "idl": {
+      "bcd": {
+        "PerformanceResourceTiming": [
+          "renderBlockingStatus"
+        ]
+      }
+    }
+  },
+  "sanitizer-api": {
+    "title": "HTML Sanitizer API",
+    "url": "https://wicg.github.io/sanitizer-api/",
+    "idl": {
+      "bcd": {
+        "Sanitizer": [
+          "getDefaultConfiguration()"
+        ]
+      }
+    }
+  },
+  "scroll-animations": {
+    "title": "Scroll-linked Animations",
+    "url": "https://drafts.csswg.org/scroll-animations-1/",
+    "idl": {
+      "bcd": {
+        "ScrollTimeline": true,
+        "ViewTimeline": true,
+        "AnimationTimeline": [
+          "getCurrentTime()"
+        ]
+      }
+    },
+    "css.properties": {
+      "bcd": {
+        "scroll-timeline-name": true,
+        "scroll-timeline-axis": true,
+        "scroll-timeline": true,
+        "view-timeline-name": true,
+        "view-timeline-axis": true,
+        "view-timeline-inset": true,
+        "view-timeline": true,
+        "animation-range": true,
+        "animation-delay-start": true,
+        "animation-delay-end": true
+      }
+    }
+  },
+  "scroll-to-text-fragment": {
+    "title": "Text Fragments",
+    "url": "https://wicg.github.io/scroll-to-text-fragment/",
+    "idl": {
+      "mdn": {
+        "FragmentDirective": true,
+        "Document": [
+          "fragmentDirective"
+        ]
+      }
+    }
+  },
+  "service-workers": {
+    "title": "Service Workers",
+    "url": "https://www.w3.org/TR/service-workers/",
+    "idl": {
+      "mdn": {
+        "ServiceWorker": [
+          "postMessage()"
+        ],
+        "ServiceWorkerGlobalScope": [
+          "serviceWorker"
+        ],
+        "FetchEvent": [
+          "handled"
+        ]
+      },
+      "bcd": {
+        "WindowClient": [
+          "ancestorOrigins"
+        ]
+      }
+    }
+  },
+  "shape-detection-api": {
+    "title": "Accelerated Shape Detection in Images",
+    "url": "https://wicg.github.io/shape-detection-api/",
+    "idl": {
+      "bcd": {
+        "FaceDetector": true
+      }
+    }
+  },
+  "speech-api": {
+    "title": "Web Speech API",
+    "url": "https://wicg.github.io/speech-api/",
+    "idl": {
+      "mdn": {
+        "SpeechSynthesisEvent": [
+          "charLength"
+        ]
+      }
+    }
+  },
+  "streams": {
+    "title": "Streams Standard",
+    "url": "https://streams.spec.whatwg.org/",
+    "idl": {
+      "mdn": {
+        "WritableStream": [
+          "close()"
+        ],
+        "ByteLengthQueuingStrategy": [
+          "highWaterMark"
+        ],
+        "CountQueuingStrategy": [
+          "highWaterMark"
+        ]
+      },
+      "bcd": {
+        "SFrameTransform": true
+      }
+    }
+  },
+  "svg-animations": {
+    "title": "SVG Animations Level 2",
+    "url": "https://svgwg.org/specs/animations/",
+    "idl": {
+      "mdn": {
+        "TimeEvent": true,
+        "SVGAnimationElement": [
+          "getStartTime()",
+          "getCurrentTime()",
+          "getSimpleDuration()",
+          "beginElement()",
+          "beginElementAt()",
+          "endElement()",
+          "endElementAt()"
+        ],
+        "SVGSVGElement": [
+          "pauseAnimations()",
+          "unpauseAnimations()",
+          "animationsPaused()",
+          "getCurrentTime()",
+          "setCurrentTime()"
+        ]
+      },
+      "bcd": {
+        "SVGDiscardElement": true
+      }
+    }
+  },
+  "testutils": {
+    "title": "Test Utils Standard",
+    "url": "https://testutils.spec.whatwg.org/",
+    "idl": {
+      "bcd": {
+        "TestUtils": true
+      }
+    }
+  },
+  "text-detection-api": {
+    "title": "Accelerated Text Detection in Images",
+    "url": "https://wicg.github.io/shape-detection-api/text.html",
+    "idl": {
+      "bcd": {
+        "TextDetector": true
+      }
+    }
+  },
+  "touch-events": {
+    "title": "Touch Events",
+    "url": "https://www.w3.org/TR/touch-events/",
+    "idl": {
+      "mdn": {
+        "Touch": [
+          "altitudeAngle",
+          "azimuthAngle",
+          "touchType"
+        ]
+      },
+      "bcd": {
+        "TouchEvent": [
+          "getModifierState()"
+        ]
+      }
+    }
+  },
+  "ua-client-hints": {
+    "title": "User-Agent Client Hints",
+    "url": "https://wicg.github.io/ua-client-hints/",
+    "idl": {
+      "mdn": {
+        "NavigatorUAData": true,
+        "Navigator": [
+          "userAgentData"
+        ],
+        "WorkerNavigator": [
+          "userAgentData"
+        ]
+      }
+    }
+  },
+  "uievents": {
+    "title": "UI Events",
+    "url": "https://www.w3.org/TR/uievents/",
+    "idl": {
+      "mdn": {
+        "KeyboardEvent": [
+          "initKeyboardEvent()"
+        ],
+        "MutationEvent": [
+          "relatedNode",
+          "prevValue",
+          "newValue",
+          "attrName",
+          "attrChange",
+          "initMutationEvent()"
+        ]
+      }
+    }
+  },
+  "user-timing": {
+    "title": "User Timing",
+    "url": "https://www.w3.org/TR/user-timing/",
+    "idl": {
+      "mdn": {
+        "PerformanceMark": [
+          "detail"
+        ],
+        "PerformanceMeasure": [
+          "detail"
+        ]
+      }
+    }
+  },
+  "video-rvfc": {
+    "title": "HTMLVideoElement.requestVideoFrameCallback()",
+    "url": "https://wicg.github.io/video-rvfc/",
+    "idl": {
+      "mdn": {
+        "HTMLVideoElement": [
+          "requestVideoFrameCallback()",
+          "cancelVideoFrameCallback()"
+        ]
+      }
+    }
+  },
+  "wasm-js-api": {
+    "title": "WebAssembly JavaScript Interface: Exception Handling",
+    "url": "https://webassembly.github.io/exception-handling/js-api/",
+    "idl": {
+      "bcd": {
+        "WebAssembly": true,
+        "Module": true,
+        "Instance": true,
+        "Memory": true,
+        "Table": true,
+        "Global": true
+      }
+    }
+  },
+  "wasm-web-api": {
+    "title": "WebAssembly Web API",
+    "url": "https://www.w3.org/TR/wasm-web-api-2/",
+    "idl": {
+      "bcd": {
+        "WebAssembly": true
+      }
+    }
+  },
+  "web-animations-2": {
+    "idl": {
+      "bcd": {
+        "AnimationTimeline": [
+          "duration",
+          "play()"
+        ],
+        "AnimationEffect": [
+          "parent",
+          "previousSibling",
+          "nextSibling",
+          "before()",
+          "after()",
+          "replace()",
+          "remove()"
+        ],
+        "GroupEffect": true,
+        "AnimationNodeList": true,
+        "SequenceEffect": true
+      }
+    }
+  },
+  "web-bluetooth": {
+    "title": "Web Bluetooth",
+    "url": "https://webbluetoothcg.github.io/web-bluetooth/",
+    "idl": {
+      "bcd": {
+        "BluetoothPermissionResult": true,
+        "ValueEvent": true,
+        "BluetoothDevice": [
+          "forget()",
+          "watchAdvertisements()",
+          "watchingAdvertisements"
+        ],
+        "BluetoothManufacturerDataMap": true,
+        "BluetoothServiceDataMap": true,
+        "BluetoothAdvertisingEvent": true,
+        "BluetoothRemoteGATTService": [
+          "getIncludedService()",
+          "getIncludedServices()"
+        ]
+      },
+      "mdn": {
+        "Navigator": [
+          "bluetooth"
+        ]
+      }
+    }
+  },
+  "web-locks": {
+    "title": "Web Locks API",
+    "url": "https://w3c.github.io/web-locks/",
+    "idl": {
+      "mdn": {
+        "WorkerNavigator": [
+          "locks"
+        ]
+      }
+    }
+  },
+  "web-nfc": {
+    "title": "Web NFC API",
+    "url": "https://w3c.github.io/web-nfc/",
+    "idl": {
+      "bcd": {
+        "NDEFReader": [
+          "makeReadOnly()"
+        ]
+      }
+    }
+  },
+  "webaudio": {
+    "title": "Web Audio API",
+    "url": "https://www.w3.org/TR/webaudio/",
+    "idl": {
+      "bcd": {
+        "AudioContext": [
+          "renderCapacity"
+        ],
+        "AudioRenderCapacity": true,
+        "AudioRenderCapacityEvent": true,
+        "AudioWorklet": [
+          "port"
+        ],
+        "AudioWorkletGlobalScope": [
+          "port"
+        ]
+      },
+      "mdn": {
+        "AudioProcessingEvent": [
+          "playbackTime",
+          "inputBuffer",
+          "outputBuffer"
+        ]
+      }
+    }
+  },
+  "webauthn": {
+    "title": "Web Authentication: An API for accessing Public Key Credentials - Level 3",
+    "url": "https://www.w3.org/TR/webauthn-3/",
+    "idl": {
+      "mdn": {
+        "PublicKeyCredential": [
+          "authenticatorAttachment"
+        ],
+        "AuthenticatorAttestationResponse": [
+          "getAuthenticatorData()",
+          "getPublicKey()",
+          "getPublicKeyAlgorithm()"
+        ]
+      },
+      "bcd": {
+        "PublicKeyCredential": [
+          "isConditionalMediationAvailable()",
+          "toJSON()",
+          "parseCreationOptionsFromJSON()",
+          "parseRequestOptionsFromJSON()"
+        ]
+      }
+    }
+  },
+  "webcodecs": {
+    "title": "WebCodecs",
+    "url": "https://www.w3.org/TR/webcodecs/",
+    "idl": {
+      "mdn": {
+        "AudioDecoder": [
+          "isConfigSupported()"
+        ],
+        "VideoDecoder": [
+          "isConfigSupported()"
+        ],
+        "AudioEncoder": [
+          "isConfigSupported()"
+        ],
+        "VideoEncoder": [
+          "flush()",
+          "isConfigSupported()"
+        ],
+        "VideoFrame": [
+          "copyTo()"
+        ],
+        "ImageDecoder": [
+          "type",
+          "decode()",
+          "isTypeSupported()"
+        ]
+      }
+    }
+  },
+  "webgpu": {
+    "title": "WebGPU",
+    "url": "https://www.w3.org/TR/webgpu/",
+    "idl": {
+      "bcd": {
+        "GPUSupportedLimits": true,
+        "GPUSupportedFeatures": true,
+        "GPUAdapterInfo": true,
+        "Navigator": [
+          "gpu"
+        ],
+        "WorkerNavigator": [
+          "gpu"
+        ],
+        "GPU": true,
+        "GPUAdapter": true,
+        "GPUDevice": true,
+        "GPUBuffer": true,
+        "GPUBufferUsage": true,
+        "GPUMapMode": true,
+        "GPUTexture": true,
+        "GPUTextureUsage": true,
+        "GPUTextureView": true,
+        "GPUExternalTexture": true,
+        "GPUSampler": true,
+        "GPUBindGroupLayout": true,
+        "GPUShaderStage": true,
+        "GPUBindGroup": true,
+        "GPUPipelineLayout": true,
+        "GPUShaderModule": true,
+        "GPUCompilationMessage": true,
+        "GPUCompilationInfo": true,
+        "GPUComputePipeline": true,
+        "GPURenderPipeline": true,
+        "GPUColorWrite": true,
+        "GPUCommandBuffer": true,
+        "GPUCommandEncoder": true,
+        "GPUComputePassEncoder": true,
+        "GPURenderPassEncoder": true,
+        "GPURenderBundle": true,
+        "GPURenderBundleEncoder": true,
+        "GPUQueue": true,
+        "GPUQuerySet": true,
+        "GPUCanvasContext": true,
+        "GPUDeviceLostInfo": true,
+        "GPUError": true,
+        "GPUValidationError": true,
+        "GPUOutOfMemoryError": true,
+        "GPUInternalError": true,
+        "GPUUncapturedErrorEvent": true
+      }
+    }
+  },
+  "webhid": {
+    "title": "WebHID API",
+    "url": "https://wicg.github.io/webhid/",
+    "idl": {
+      "bcd": {
+        "WorkerNavigator": [
+          "hid"
+        ]
+      }
+    }
+  },
+  "webnn": {
+    "title": "Web Neural Network API",
+    "url": "https://www.w3.org/TR/webnn/",
+    "idl": {
+      "bcd": {
+        "Navigator": [
+          "ml"
+        ],
+        "WorkerNavigator": [
+          "ml"
+        ],
+        "ML": true,
+        "MLContext": true,
+        "MLOperand": true,
+        "MLOperator": true,
+        "MLGraphBuilder": true,
+        "MLGraph": true,
+        "MLCommandEncoder": true
+      }
+    }
+  },
+  "webrtc-encoded-transform": {
+    "title": "WebRTC Encoded Transform",
+    "url": "https://www.w3.org/TR/webrtc-encoded-transform/",
+    "idl": {
+      "mdn": {
+        "RTCRtpSender": [
+          "transform"
+        ],
+        "RTCEncodedVideoFrame": true,
+        "RTCEncodedAudioFrame": true
+      },
+      "bcd": {
+        "RTCRtpReceiver": [
+          "transform"
+        ],
+        "SFrameTransform": true,
+        "SFrameTransformErrorEvent": true,
+        "RTCTransformEvent": true,
+        "RTCRtpScriptTransformer": true,
+        "RTCRtpScriptTransform": true,
+        "RTCRtpSender": [
+          "generateKeyFrame()"
+        ]
+      }
+    }
+  },
+  "webrtc-ice": {
+    "title": "IceTransport Extensions for WebRTC",
+    "url": "https://w3c.github.io/webrtc-ice/",
+    "idl": {
+      "bcd": {
+        "RTCIceTransport": [
+          "gather()"
+        ]
+      },
+      "mdn": {
+        "RTCIceTransport": [
+          "start()",
+          "stop()",
+          "addRemoteCandidate()"
+        ]
+      }
+    }
+  },
+  "webrtc-identity": {
+    "title": "Identity for WebRTC 1.0",
+    "url": "https://www.w3.org/TR/webrtc-identity/",
+    "idl": {
+      "mdn": {
+        "RTCPeerConnection": [
+          "idpLoginUrl"
+        ],
+        "RTCError": [
+          "httpRequestStatusCode"
+        ]
+      },
+      "bcd": {
+        "RTCPeerConnection": [
+          "idpErrorInfo"
+        ],
+        "MediaStreamTrack": [
+          "isolated"
+        ]
+      }
+    }
+  },
+  "webrtc-priority": {
+    "title": "WebRTC Priority Control API",
+    "url": "https://www.w3.org/TR/webrtc-priority/",
+    "idl": {
+      "mdn": {
+        "RTCDataChannel": [
+          "priority"
+        ]
+      }
+    }
+  },
+  "webrtc": {
+    "title": "WebRTC 1.0: Real-Time Communication Between Browsers",
+    "url": "https://www.w3.org/TR/webrtc/",
+    "idl": {
+      "mdn": {
+        "RTCPeerConnectionIceErrorEvent": [
+          "port"
+        ]
+      }
+    }
+  },
+  "webtransport": {
+    "title": "WebTransport",
+    "url": "https://www.w3.org/TR/webtransport/",
+    "idl": {
+      "mdn": {
+        "WebTransportDatagramDuplexStream": true,
+        "WebTransport": true,
+        "WebTransportBidirectionalStream": true,
+        "WebTransportError": true
+      },
+      "bcd": {
+        "WebTransport": [
+          "getStats()",
+          "reliability",
+          "congestionControl"
+        ],
+        "WebTransportSendStream": true,
+        "WebTransportReceiveStream": true
+      }
+    }
+  },
+  "webusb": {
+    "title": "WebUSB API",
+    "url": "https://wicg.github.io/webusb/",
+    "idl": {
+      "mdn": {
+        "Navigator": [
+          "usb"
+        ],
+        "WorkerNavigator": [
+          "usb"
+        ]
+      }
+    }
+  },
+  "webxr-hand-input": {
+    "title": "WebXR Hand Input Module - Level 1",
+    "url": "https://www.w3.org/TR/webxr-hand-input-1/",
+    "idl": {
+      "bcd": {
+        "XRHand": [
+          "size",
+          "get()"
+        ]
+      }
+    }
+  },
+  "webxr": {
+    "title": "WebXR Device API",
+    "url": "https://www.w3.org/TR/webxr/",
+    "idl": {
+      "bcd": {
+        "XRSession": [
+          "frameRate",
+          "supportedFrameRates",
+          "enabledFeatures",
+          "updateTargetFrameRate()"
+        ],
+        "XRFrame": [
+          "predictedDisplayTime"
+        ]
+      }
+    }
+  },
+  "webxrlayers": {
+    "title": "WebXR Layers API Level 1",
+    "url": "https://www.w3.org/TR/webxrlayers-1/",
+    "idl": {
+      "bcd": {
+        "XRCompositionLayer": [
+          "opacity"
+        ],
+        "XRProjectionLayer": [
+          "deltaPose"
+        ],
+        "XRWebGLSubImage": [
+          "motionVectorTexture",
+          "colorTextureWidth",
+          "colorTextureHeight",
+          "depthStencilTextureWidth",
+          "depthStencilTextureHeight",
+          "motionVectorTextureWidth",
+          "motionVectorTextureHeight"
+        ],
+        "XRWebGLBinding": [
+          "usesDepthValues"
+        ]
+      }
+    }
+  },
+  "window-controls-overlay": {
+    "title": "Window Controls Overlay",
+    "url": "https://wicg.github.io/window-controls-overlay/",
+    "idl": {
+      "mdn": {
+        "Navigator": [
+          "windowControlsOverlay"
+        ]
+      }
+    }
+  },
+  "window-placement": {
+    "title": "Multi-Screen Window Placement",
+    "url": "https://www.w3.org/TR/window-placement/",
+    "idl": {
+      "mdn": {
+        "Screen": [
+          "isExtended"
+        ],
+        "Window": [
+          "getScreenDetails()"
+        ],
+        "ScreenDetails": true,
+        "ScreenDetailed": true
+      }
+    }
+  },
+  "compat": {
+    "title": "Compatibility Standard",
+    "url": "https://compat.spec.whatwg.org/",
+    "css.properties": {
+      "bcd": {
+        "-webkit-align-items": true,
+        "-webkit-align-content": true,
+        "-webkit-align-self": true,
+        "-webkit-animation-name": true,
+        "-webkit-animation-duration": true,
+        "-webkit-animation-timing-function": true,
+        "-webkit-animation-iteration-count": true,
+        "-webkit-animation-direction": true,
+        "-webkit-animation-play-state": true,
+        "-webkit-animation-delay": true,
+        "-webkit-animation-fill-mode": true,
+        "-webkit-animation": true,
+        "-webkit-backface-visibility": true,
+        "-webkit-background-clip": true,
+        "-webkit-background-origin": true,
+        "-webkit-background-size": true,
+        "-webkit-border-bottom-left-radius": true,
+        "-webkit-border-bottom-right-radius": true,
+        "-webkit-border-top-left-radius": true,
+        "-webkit-border-top-right-radius": true,
+        "-webkit-border-radius": true,
+        "-webkit-box-shadow": true,
+        "-webkit-box-sizing": true,
+        "-webkit-flex": true,
+        "-webkit-flex-basis": true,
+        "-webkit-flex-direction": true,
+        "-webkit-flex-flow": true,
+        "-webkit-flex-grow": true,
+        "-webkit-flex-shrink": true,
+        "-webkit-flex-wrap": true,
+        "-webkit-filter": true,
+        "-webkit-justify-content": true,
+        "-webkit-mask": true,
+        "-webkit-mask-box-image-outset": true,
+        "-webkit-mask-box-image-repeat": true,
+        "-webkit-mask-box-image-slice": true,
+        "-webkit-mask-box-image-source": true,
+        "-webkit-mask-box-image-width": true,
+        "-webkit-mask-clip": true,
+        "-webkit-mask-image": true,
+        "-webkit-mask-origin": true,
+        "-webkit-mask-position": true,
+        "-webkit-mask-repeat": true,
+        "-webkit-mask-size": true,
+        "-webkit-order": true,
+        "-webkit-perspective": true,
+        "-webkit-perspective-origin": true,
+        "-webkit-transform-origin": true,
+        "-webkit-transform-style": true,
+        "-webkit-transform": true,
+        "-webkit-transition-delay": true,
+        "-webkit-transition-duration": true,
+        "-webkit-transition-property": true,
+        "-webkit-transition-timing-function": true,
+        "-webkit-transition": true,
+        "-webkit-text-size-adjust": true,
+        "-webkit-box-align": true,
+        "-webkit-box-flex": true,
+        "-webkit-box-ordinal-group": true,
+        "-webkit-box-orient": true,
+        "-webkit-box-pack": true
+      }
+    }
+  },
+  "css-align": {
+    "title": "CSS Box Alignment Module Level 3",
+    "url": "https://www.w3.org/TR/css-align-3/",
+    "css.properties": {
+      "bcd": {
+        "grid-row-gap": true,
+        "grid-column-gap": true,
+        "grid-gap": true
+      }
+    }
+  },
+  "css-backgrounds-4": {
+    "css.properties": {
+      "bcd": {
+        "background-position-inline": true,
+        "background-position-block": true,
+        "corner-shape": true,
+        "corners": true,
+        "border-limit": true,
+        "border-clip": true,
+        "border-clip-top": true,
+        "border-clip-right": true,
+        "border-clip-bottom": true,
+        "border-clip-left": true
+      }
+    }
+  },
+  "css-break": {
+    "title": "CSS Fragmentation Module Level 3",
+    "url": "https://www.w3.org/TR/css-break-3/",
+    "css.properties": {
+      "bcd": {
+        "margin-break": true
+      }
+    }
+  },
+  "css-cascade-6": {
+    "css.atrules": {
+      "bcd": {
+        "@scope": true
+      }
+    }
+  },
+  "css-color-5": {
+    "css.atrules": {
+      "bcd": {
+        "@color-profile": true
+      }
+    }
+  },
+  "css-color-adjust": {
+    "title": "CSS Color Adjustment Module Level 1",
+    "url": "https://www.w3.org/TR/css-color-adjust-1/",
+    "css.properties": {
+      "bcd": {
+        "color-adjust": true
+      }
+    }
+  },
+  "css-conditional-5": {
+    "css.atrules": {
+      "bcd": {
+        "@when": true,
+        "@else": true
+      }
+    }
+  },
+  "css-content": {
+    "title": "CSS Generated Content Module Level 3",
+    "url": "https://www.w3.org/TR/css-content-3/",
+    "css.properties": {
+      "bcd": {
+        "string-set": true,
+        "bookmark-level": true,
+        "bookmark-label": true,
+        "bookmark-state": true
+      }
+    }
+  },
+  "css-exclusions": {
+    "title": "CSS Exclusions Module Level 1",
+    "url": "https://www.w3.org/TR/css3-exclusions/",
+    "css.properties": {
+      "bcd": {
+        "wrap-flow": true,
+        "wrap-through": true
+      }
+    }
+  },
+  "css-extensions": {
+    "title": "CSS Extensions",
+    "url": "https://drafts.csswg.org/css-extensions-1/",
+    "css.atrules": {
+      "bcd": {
+        "@custom-selector": true
+      }
+    }
+  },
+  "css-gcpm-4": {
+    "css.properties": {
+      "bcd": {
+        "copy-into": true
+      }
+    }
+  },
+  "css-gcpm": {
+    "title": "CSS Generated Content for Paged Media Module Level 4",
+    "url": "https://drafts.csswg.org/css-gcpm-4/",
+    "css.properties": {
+      "bcd": {
+        "footnote-display": true,
+        "footnote-policy": true
+      }
+    }
+  },
+  "css-inline": {
+    "title": "CSS Inline Layout Module Level 3",
+    "url": "https://www.w3.org/TR/css-inline-3/",
+    "css.properties": {
+      "bcd": {
+        "dominant-baseline": true,
+        "baseline-source": true,
+        "alignment-baseline": true,
+        "baseline-shift": true,
+        "text-edge": true,
+        "leading-trim": true,
+        "inline-sizing": true,
+        "initial-letter-wrap": true
+      }
+    }
+  },
+  "css-line-grid": {
+    "title": "CSS Line Grid Module Level 1",
+    "url": "https://www.w3.org/TR/css-line-grid-1/",
+    "css.properties": {
+      "bcd": {
+        "line-grid": true,
+        "line-snap": true,
+        "box-snap": true
+      }
+    }
+  },
+  "css-lists": {
+    "title": "CSS Lists and Counters Module Level 3",
+    "url": "https://www.w3.org/TR/css-lists-3/",
+    "css.properties": {
+      "bcd": {
+        "marker-side": true
+      }
+    }
+  },
+  "css-overflow-4": {
+    "css.properties": {
+      "bcd": {
+        "continue": true,
+        "max-lines": true
+      }
+    }
+  },
+  "css-overflow": {
+    "title": "CSS Overflow Module Level 3",
+    "url": "https://www.w3.org/TR/css-overflow-3/",
+    "css.properties": {
+      "bcd": {
+        "block-ellipsis": true,
+        "line-clamp": true,
+        "continue": true,
+        "max-lines": true
+      }
+    }
+  },
+  "css-page-floats": {
+    "title": "CSS Page Floats",
+    "url": "https://www.w3.org/TR/css-page-floats-3/",
+    "css.properties": {
+      "bcd": {
+        "float-reference": true,
+        "float-defer": true,
+        "float-offset": true
+      }
+    }
+  },
+  "css-page": {
+    "title": "Proposals for the future of CSS Paged Media",
+    "url": "https://drafts.csswg.org/css-page-4/",
+    "css.atrules": {
+      "bcd": {
+        "@top-left-corner": true,
+        "@top-left": true,
+        "@top-center": true,
+        "@top-right": true,
+        "@top-right-corner": true,
+        "@bottom-left-corner": true,
+        "@bottom-left": true,
+        "@bottom-center": true,
+        "@bottom-right": true,
+        "@bottom-right-corner": true,
+        "@left-top": true,
+        "@left-middle": true,
+        "@left-bottom": true,
+        "@right-top": true,
+        "@right-middle": true,
+        "@right-bottom": true
+      }
+    }
+  },
+  "css-rhythm": {
+    "title": "CSS Rhythmic Sizing",
+    "url": "https://www.w3.org/TR/css-rhythm-1/",
+    "css.properties": {
+      "bcd": {
+        "block-step-size": true,
+        "block-step-insert": true,
+        "block-step-align": true,
+        "block-step-round": true,
+        "block-step": true
+      }
+    }
+  },
+  "css-round-display": {
+    "title": "CSS Round Display Level 1",
+    "url": "https://www.w3.org/TR/css-round-display-1/",
+    "css.properties": {
+      "bcd": {
+        "border-boundary": true
+      }
+    }
+  },
+  "css-ruby": {
+    "title": "CSS Ruby Annotation Layout Module Level 1",
+    "url": "https://www.w3.org/TR/css-ruby-1/",
+    "css.properties": {
+      "bcd": {
+        "ruby-merge": true,
+        "ruby-overhang": true
+      }
+    }
+  },
+  "css-scroll-snap-2": {
+    "css.properties": {
+      "bcd": {
+        "scroll-start": true,
+        "scroll-start-target": true,
+        "scroll-start-x": true,
+        "scroll-start-y": true,
+        "scroll-start-inline": true,
+        "scroll-start-block": true
+      }
+    }
+  },
+  "css-shapes-2": {
+    "css.properties": {
+      "bcd": {
+        "shape-inside": true,
+        "shape-padding": true
+      }
+    }
+  },
+  "css-sizing-4": {
+    "css.properties": {
+      "bcd": {
+        "contain-intrinsic-width": true,
+        "contain-intrinsic-height": true,
+        "contain-intrinsic-block-size": true,
+        "contain-intrinsic-inline-size": true,
+        "min-intrinsic-sizing": true
+      }
+    }
+  },
+  "css-speech": {
+    "title": "CSS Speech Module",
+    "url": "https://www.w3.org/TR/css-speech-1/",
+    "css.properties": {
+      "bcd": {
+        "voice-volume": true,
+        "voice-balance": true,
+        "speak": true,
+        "speak-as": true,
+        "pause-before": true,
+        "pause-after": true,
+        "pause": true,
+        "rest-before": true,
+        "rest-after": true,
+        "rest": true,
+        "cue-before": true,
+        "cue-after": true,
+        "cue": true,
+        "voice-family": true,
+        "voice-rate": true,
+        "voice-pitch": true,
+        "voice-range": true,
+        "voice-stress": true,
+        "voice-duration": true
+      }
+    }
+  },
+  "css-text-4": {
+    "css.properties": {
+      "bcd": {
+        "word-boundary-detection": true,
+        "word-boundary-expansion": true,
+        "text-space-collapse": true,
+        "text-space-trim": true,
+        "hyphenate-limit-zone": true,
+        "hyphenate-limit-chars": true,
+        "hyphenate-limit-lines": true,
+        "hyphenate-limit-last": true,
+        "word-wrap": true,
+        "text-wrap": true,
+        "wrap-before": true,
+        "wrap-after": true,
+        "wrap-inside": true,
+        "text-align-all": true,
+        "text-group-align": true,
+        "line-padding": true,
+        "text-spacing": true
+      }
+    }
+  },
+  "css-text-decor-4": {
+    "css.properties": {
+      "bcd": {
+        "text-decoration-trim": true,
+        "text-decoration-skip-self": true,
+        "text-decoration-skip-box": true,
+        "text-decoration-skip-spaces": true,
+        "text-emphasis-skip": true
+      }
+    }
+  },
+  "css-text": {
+    "title": "CSS Text Module Level 3",
+    "url": "https://www.w3.org/TR/css-text-3/",
+    "css.properties": {
+      "bcd": {
+        "word-wrap": true,
+        "text-align-all": true
+      }
+    }
+  },
+  "css-ui": {
+    "title": "CSS Basic User Interface Module Level 4",
+    "url": "https://www.w3.org/TR/css-ui-4/",
+    "css.properties": {
+      "bcd": {
+        "caret-shape": true,
+        "caret": true,
+        "nav-up": true,
+        "nav-right": true,
+        "nav-down": true,
+        "nav-left": true,
+        "input-security": true,
+        "-webkit-user-select": true,
+        "-webkit-appearance": true
+      }
+    }
+  },
+  "css-writing-modes": {
+    "title": "CSS Writing Modes Level 4",
+    "url": "https://www.w3.org/TR/css-writing-modes-4/",
+    "css.properties": {
+      "bcd": {
+        "glyph-orientation-vertical": true
+      }
+    }
+  },
+  "fill-stroke": {
+    "title": "CSS Fill and Stroke Module Level 3",
+    "url": "https://www.w3.org/TR/fill-stroke-3/",
+    "css.properties": {
+      "bcd": {
+        "fill-rule": true,
+        "fill-break": true,
+        "fill-color": true,
+        "fill-image": true,
+        "fill-origin": true,
+        "fill-position": true,
+        "fill-size": true,
+        "fill-repeat": true,
+        "fill-opacity": true,
+        "stroke-width": true,
+        "stroke-align": true,
+        "stroke-linecap": true,
+        "stroke-linejoin": true,
+        "stroke-miterlimit": true,
+        "stroke-break": true,
+        "stroke-dasharray": true,
+        "stroke-dashoffset": true,
+        "stroke-dash-corner": true,
+        "stroke-dash-justify": true,
+        "stroke-color": true,
+        "stroke-image": true,
+        "stroke-origin": true,
+        "stroke-position": true,
+        "stroke-size": true,
+        "stroke-repeat": true,
+        "stroke-opacity": true
+      }
+    }
+  },
+  "mediaqueries-5": {
+    "css.atrules": {
+      "bcd": {
+        "@custom-media": true
+      }
+    }
+  },
+  "svg-strokes": {
+    "title": "SVG Strokes",
+    "url": "https://www.w3.org/TR/svg-strokes/",
+    "css.properties": {
+      "bcd": {
+        "stroke-alignment": true,
+        "stroke-dashcorner": true,
+        "stroke-dashadjust": true
+      }
+    }
+  }
+}
