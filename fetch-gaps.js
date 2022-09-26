@@ -92,7 +92,10 @@ function checkIdlTopLevelName(name, item, spec, bcdTree) {
     }
   }
   for (let {spec, item} of idlToCheck) {
-    // Exception for WebAssembly hierarchy
+    // Exceptions for WebAssembly hierarchy
+    if (item.name === "WebAssembly" && item.type === "namespace") {
+      continue;
+    }
     if (item.type !== "includes" && item.extAttrs?.find(e => e.name === "LegacyNamespace" && e.rhs.value === "WebAssembly")) {
       checkIdlTopLevelName(item.name, item, spec, bcd.javascript.builtins.WebAssembly);
       // TODO: members of interfaces, includes
