@@ -39,12 +39,12 @@ function checkMdnPage(tree, type, qname) {
   return mdn.find(p => p.path === `/files/en-us/web/${tree}/${type ? type + '/' : ''}${qnamePath}/index.md`);
 }
 
-function checkIdlTopLevelName(name, item, spec) {
-  if (!bcd.api[name]) {
+function checkIdlTopLevelName(name, item, spec, bcdTree) {
+  if (!bcdTree[name]) {
     setGap(spec, "idl", "bcd", name);
   } else {
     // Check mdn documentation
-    if (!bcd.api[name].__compat.mdn_url) {
+    if (!bcdTree[name].__compat.mdn_url) {
       if (!checkMdnPage("idl", null, name)) {
 	setGap(spec, "idl", "mdn", name);
       } else {
@@ -60,11 +60,11 @@ function checkIdlTopLevelName(name, item, spec) {
       // since event handlers don't get tracked as attributes
       if (member.name.startsWith("on") && member.type === "attribute" && member.idlType?.idlType === "EventHandler") continue;
 
-      if (!bcd.api[name][member.name]) {
+      if (!bcdTree[name][member.name]) {
 	setGap(spec, "idl", "bcd", name, memberName);
       } else {
 	// Check mdn documentation
-	if (!bcd.api[name][member.name].__compat.mdn_url) {
+	if (!bcdTree[name][member.name].__compat.mdn_url) {
 	  if (!checkMdnPage("idl", null, name + "." + memberName)) {
 	    setGap(spec, "idl", "mdn", name, memberName);
 	  } else {
@@ -92,11 +92,17 @@ function checkIdlTopLevelName(name, item, spec) {
     }
   }
   for (let {spec, item} of idlToCheck) {
+    // Exception for WebAssembly hierarchy
+    if (item.type !== "includes" && item.extAttrs?.find(e => e.name === "LegacyNamesapce" && e.rhs.value === "WebAssembly")) {
+      checkIdlTopLevelName(item.name, item, spec, bcd.javascript.builtins.webassembly);
+      // TODO: members of interfaces, includes
+      continue;
+    }
     if (item.type === "interface" || item.type === "namespace" || item.type === "callback interface") {
-      checkIdlTopLevelName(item.name, item, spec);
+      checkIdlTopLevelName(item.name, item, spec, bcd.api);
     } else if (item.type === "includes") {
       if (mixins[item.includes]) {
-	checkIdlTopLevelName(item.target, mixins[item.includes].item, mixins[item.includes].spec);
+	checkIdlTopLevelName(item.target, mixins[item.includes].item, mixins[item.includes].spec, bcd.api);
       } else {
 	console.error(`Could not find mixin ${item.includes}`);
       }
