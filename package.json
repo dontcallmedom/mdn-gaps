@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@mdn/browser-compat-data": "^5.2.3",
+    "@webref/css": "^5.2.1",
+    "@webref/elements": "^2.0.0",
+    "@webref/idl": "^3.17.1",
+    "browser-specs": "^3.23.0",
+    "css-tree": "^2.2.1"
+  }
+}
