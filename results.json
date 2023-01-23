@@ -3484,8 +3484,8 @@
         "line-padding": true,
         "text-spacing": true
       },
-      "mdn": {
-        "hyphenate-limit-chars": true
+      "bcd-mdn": {
+        "undefined": true
       }
     }
   },
