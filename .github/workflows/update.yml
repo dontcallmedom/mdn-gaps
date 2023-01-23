@@ -1,0 +1,52 @@
+name: Update MDN gaps report
+
+on:
+  schedule:
+    - cron: '30 3 * * *'
+  workflow_dispatch:
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      with:
+        ref: main
+        path: mdn-gaps
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      with:
+        ref: gh-pages
+        path: mdn-gaps-web
+    - name: Checkout yari
+      uses: actions/checkout@v3
+      with:
+        repository: mdn/yari
+        path: yari
+    - name: Checkout mdn/content
+      uses: actions/checkout@v3
+      with:
+        repository: mdn/content
+        path: content
+    - name: Setup node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+    - name: Set up yari
+      run: yarn install && cp .env-dist .env
+      working-directory: yari
+    - name: Update yari inventory
+      working-directory: yari
+      run: yarn tool inventory > ../mdn-gaps/inventory.json
+    - name: Install repo dependencies
+      run: |
+        npm install
+      working-directory: mdn-gaps
+    - name: Update gaps report
+      run: node fetch-gaps.js > ../mdn-gaps-web/results.json
+      working-directory: mdn-gaps
+    - name: Publish updated data
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "Update from GH action run"
+        file_pattern: 'results.json'
