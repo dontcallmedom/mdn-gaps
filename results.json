@@ -163,9 +163,6 @@
           "baseVal",
           "animVal"
         ],
-        "Document": [
-          "rootElement"
-        ],
         "SVGSVGElement": [
           "x",
           "y",
@@ -399,6 +396,11 @@
           "search",
           "hash"
         ]
+      },
+      "bcd-mdn": {
+        "Document": [
+          "rootElement"
+        ]
       }
     },
     "css.properties": {
@@ -457,13 +459,6 @@
           "rev",
           "target"
         ],
-        "HTMLMetaElement": [
-          "name",
-          "httpEquiv",
-          "content",
-          "media",
-          "scheme"
-        ],
         "HTMLStyleElement": [
           "blocking"
         ],
@@ -513,7 +508,6 @@
           "defaultChecked",
           "checked",
           "dirName",
-          "disabled",
           "form",
           "max",
           "maxLength",
@@ -575,7 +569,6 @@
           "align"
         ],
         "ValidityState": [
-          "valueMissing",
           "customError",
           "valid"
         ],
@@ -761,6 +754,21 @@
           "nonce",
           "autofocus"
         ]
+      },
+      "bcd-mdn": {
+        "HTMLMetaElement": [
+          "name",
+          "httpEquiv",
+          "content",
+          "media",
+          "scheme"
+        ],
+        "HTMLInputElement": [
+          "disabled"
+        ],
+        "ValidityState": [
+          "valueMissing"
+        ]
       }
     }
   },
@@ -887,8 +895,23 @@
     "title": "Contact Picker API",
     "url": "https://www.w3.org/TR/contact-picker-1/",
     "idl": {
-      "mdn": {
+      "bcd-mdn": {
         "ContactAddress": true
+      },
+      "mdn": {
+        "ContactAddress": [
+          "toJSON()",
+          "city",
+          "country",
+          "dependentLocality",
+          "organization",
+          "phone",
+          "postalCode",
+          "recipient",
+          "region",
+          "sortingCode",
+          "addressLine"
+        ]
       }
     }
   },
@@ -1357,8 +1380,13 @@
     "title": "Custom State Pseudo Class",
     "url": "https://wicg.github.io/custom-state-pseudo-class/",
     "idl": {
-      "mdn": {
+      "bcd-mdn": {
         "CustomStateSet": true
+      },
+      "mdn": {
+        "CustomStateSet": [
+          "add()"
+        ]
       }
     }
   },
@@ -1763,7 +1791,9 @@
         "GamepadHapticActuator": [
           "playEffect()",
           "reset()"
-        ],
+        ]
+      },
+      "bcd-mdn": {
         "Gamepad": [
           "vibrationActuator"
         ]
@@ -1877,11 +1907,17 @@
           "virtualKeyboardPolicy"
         ]
       },
-      "mdn": {
+      "bcd-mdn": {
         "Navigator": [
           "virtualKeyboard"
         ],
         "VirtualKeyboard": true
+      },
+      "mdn": {
+        "VirtualKeyboard": [
+          "show()",
+          "hide()"
+        ]
       }
     }
   },
@@ -1953,11 +1989,19 @@
     "title": "Ink API",
     "url": "https://wicg.github.io/ink-enhancement/",
     "idl": {
-      "mdn": {
+      "bcd-mdn": {
         "Ink": true,
         "InkPresenter": true,
         "Navigator": [
           "ink"
+        ]
+      },
+      "mdn": {
+        "Ink": [
+          "requestPresenter()"
+        ],
+        "InkPresenter": [
+          "updateInkTrailStartPoint()"
         ]
       }
     }
@@ -2013,6 +2057,11 @@
         "Window": [
           "queryLocalFonts()"
         ],
+        "FontData": [
+          "blob()"
+        ]
+      },
+      "bcd-mdn": {
         "FontData": true
       }
     }
@@ -2130,7 +2179,7 @@
     "title": "Navigation API",
     "url": "https://wicg.github.io/navigation-api/",
     "idl": {
-      "mdn": {
+      "bcd-mdn": {
         "Window": [
           "navigation"
         ],
@@ -2140,6 +2189,27 @@
         "NavigateEvent": true,
         "NavigationDestination": true,
         "NavigationHistoryEntry": true
+      },
+      "mdn": {
+        "Navigation": [
+          "entries()",
+          "updateCurrentEntry()",
+          "navigate()",
+          "reload()",
+          "traverseTo()",
+          "back()",
+          "forward()"
+        ],
+        "NavigateEvent": [
+          "intercept()",
+          "scroll()"
+        ],
+        "NavigationDestination": [
+          "getState()"
+        ],
+        "NavigationHistoryEntry": [
+          "getState()"
+        ]
       }
     }
   },
@@ -2356,7 +2426,7 @@
     "title": "Resize Observer",
     "url": "https://www.w3.org/TR/resize-observer-1/",
     "idl": {
-      "mdn": {
+      "bcd-mdn": {
         "ResizeObserverEntry": [
           "devicePixelContentBoxSize"
         ]
@@ -2473,8 +2543,15 @@
     "title": "SVG Animations Level 2",
     "url": "https://svgwg.org/specs/animations/",
     "idl": {
+      "bcd-mdn": {
+        "TimeEvent": true
+      },
       "mdn": {
-        "TimeEvent": true,
+        "TimeEvent": [
+          "view",
+          "detail",
+          "initTimeEvent()"
+        ],
         "SVGAnimationElement": [
           "getStartTime()",
           "getCurrentTime()",
@@ -2537,7 +2614,7 @@
     "title": "User-Agent Client Hints",
     "url": "https://wicg.github.io/ua-client-hints/",
     "idl": {
-      "mdn": {
+      "bcd-mdn": {
         "Navigator": [
           "userAgentData"
         ],
@@ -2604,12 +2681,17 @@
     "title": "Web App Launch Handler API",
     "url": "https://wicg.github.io/web-app-launch/",
     "idl": {
-      "mdn": {
+      "bcd-mdn": {
         "LaunchParams": true,
         "Window": [
           "launchQueue"
         ],
         "LaunchQueue": true
+      },
+      "mdn": {
+        "LaunchQueue": [
+          "setConsumer()"
+        ]
       }
     }
   },
@@ -2647,7 +2729,7 @@
     "title": "Web Locks API",
     "url": "https://www.w3.org/TR/web-locks/",
     "idl": {
-      "mdn": {
+      "bcd-mdn": {
         "WorkerNavigator": [
           "locks"
         ]
@@ -2941,7 +3023,7 @@
     "title": "WebTransport",
     "url": "https://www.w3.org/TR/webtransport/",
     "idl": {
-      "mdn": {
+      "bcd-mdn": {
         "WebTransportDatagramDuplexStream": true,
         "WebTransport": true,
         "WebTransportBidirectionalStream": true,
@@ -2955,6 +3037,13 @@
         ],
         "WebTransportSendStream": true,
         "WebTransportReceiveStream": true
+      },
+      "mdn": {
+        "WebTransport": [
+          "close()",
+          "createBidirectionalStream()",
+          "createUnidirectionalStream()"
+        ]
       }
     }
   },
