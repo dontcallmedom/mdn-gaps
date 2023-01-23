@@ -2173,6 +2173,11 @@
       "bcd": {
         "HTMLModelElement": true
       }
+    },
+    "elements": {
+      "bcd": {
+        "model": true
+      }
     }
   },
   "navigation-api": {
@@ -2329,6 +2334,11 @@
         ],
         "PortalHost": true,
         "PortalActivateEvent": true
+      }
+    },
+    "elements": {
+      "bcd": {
+        "portal": true
       }
     }
   },
@@ -2571,6 +2581,16 @@
       },
       "bcd": {
         "SVGDiscardElement": true
+      }
+    },
+    "elements": {
+      "bcd": {
+        "animate": true,
+        "set": true,
+        "discard": true,
+        "animateMotion": true,
+        "mpath": true,
+        "animateTransform": true
       }
     }
   },
@@ -3132,6 +3152,150 @@
       }
     }
   },
+  "SVG11": {
+    "elements": {
+      "bcd": {
+        "svg": true,
+        "g": true,
+        "defs": true,
+        "desc": true,
+        "title": true,
+        "symbol": true,
+        "use": true,
+        "image": true,
+        "switch": true,
+        "style": true,
+        "path": true,
+        "rect": true,
+        "circle": true,
+        "ellipse": true,
+        "line": true,
+        "polyline": true,
+        "polygon": true,
+        "text": true,
+        "tspan": true,
+        "textPath": true,
+        "marker": true,
+        "linearGradient": true,
+        "radialGradient": true,
+        "stop": true,
+        "pattern": true,
+        "clipPath": true,
+        "mask": true,
+        "filter": true,
+        "feDistantLight": true,
+        "fePointLight": true,
+        "feSpotLight": true,
+        "feBlend": true,
+        "feColorMatrix": true,
+        "feComponentTransfer": true,
+        "feFuncR": true,
+        "feFuncG": true,
+        "feFuncB": true,
+        "feFuncA": true,
+        "feComposite": true,
+        "feConvolveMatrix": true,
+        "feDiffuseLighting": true,
+        "feDisplacementMap": true,
+        "feFlood": true,
+        "feGaussianBlur": true,
+        "feImage": true,
+        "feMerge": true,
+        "feMergeNode": true,
+        "feMorphology": true,
+        "feOffset": true,
+        "feSpecularLighting": true,
+        "feTile": true,
+        "feTurbulence": true,
+        "a": true,
+        "view": true,
+        "script": true,
+        "animate": true,
+        "set": true,
+        "animateMotion": true,
+        "mpath": true,
+        "animateTransform": true,
+        "metadata": true,
+        "foreignObject": true
+      }
+    }
+  },
+  "SVG2": {
+    "elements": {
+      "bcd": {
+        "svg": true,
+        "g": true,
+        "defs": true,
+        "symbol": true,
+        "use": true,
+        "switch": true,
+        "title": true,
+        "desc": true,
+        "metadata": true,
+        "style": true,
+        "path": true,
+        "rect": true,
+        "circle": true,
+        "ellipse": true,
+        "line": true,
+        "polyline": true,
+        "polygon": true,
+        "text": true,
+        "tspan": true,
+        "textPath": true,
+        "image": true,
+        "foreignObject": true,
+        "marker": true,
+        "linearGradient": true,
+        "radialGradient": true,
+        "stop": true,
+        "pattern": true,
+        "script": true,
+        "a": true,
+        "view": true
+      }
+    }
+  },
+  "css-masking-1": {
+    "elements": {
+      "bcd": {
+        "clipPath": true,
+        "mask": true
+      }
+    }
+  },
+  "filter-effects-1": {
+    "elements": {
+      "bcd": {
+        "filter": true,
+        "feBlend": true,
+        "feColorMatrix": true,
+        "feComponentTransfer": true,
+        "feFuncR": true,
+        "feFuncG": true,
+        "feFuncB": true,
+        "feFuncA": true,
+        "feComposite": true,
+        "feConvolveMatrix": true,
+        "feDiffuseLighting": true,
+        "feDisplacementMap": true,
+        "feDropShadow": true,
+        "feFlood": true,
+        "feGaussianBlur": true,
+        "feImage": true,
+        "feMerge": true,
+        "feMergeNode": true,
+        "feMorphology": true,
+        "feOffset": true,
+        "feSpecularLighting": true,
+        "feTile": true,
+        "feTurbulence": true,
+        "feDistantLight": true,
+        "fePointLight": true,
+        "feSpotLight": true
+      }
+    }
+  },
   "mathml-core": {
     "title": "MathML Core",
     "url": "https://www.w3.org/TR/mathml-core/",
@@ -3167,14 +3331,6 @@
         "semantics": true,
         "annotation": true,
         "annotation-xml": true
-      }
-    }
-  },
-  "svg": {
-    "elements": {
-      "bcd": {
-        "model": true,
-        "portal": true
       }
     }
   },
