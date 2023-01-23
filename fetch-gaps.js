@@ -151,15 +151,19 @@ function checkIdlTopLevelName(name, item, spec, bcdTree) {
     for (let [spec, data] of Object.entries(elementsList)) {
       // We assume that other element-defining specs are module of SVG
       // WEBREF: webref doesn't collect mathml elements at the moment
+      let mdnSpec = spec;
       if (!["html", "mathml-core"].includes(spec)) {
-	spec = "svg";
+	mdnSpec = "svg";
+      }
+      if (spec === "mathml-core") {
+	mdnSpec = "mathml";
       }
       for (const el of data.elements) {
 	if (el.obsolete) continue;
 	if (!bcd[spec]?.elements[el.name]) {
 	  setGap(spec, "elements", "bcd", el.name);
-	} else if (!bcd[spec].elements[el.name].__compat.mdn_url) {
-	  if (!checkMdnPage(spec, "element", el.name)) {
+	} else if (!bcd[mdnSpec].elements[el.name].__compat.mdn_url) {
+	  if (!checkMdnPage(mdnSpec, "element", el.name)) {
 	    setGap(spec, "elements", "mdn", el.name);
 	  } else {
 	    setGap(spec, "elements", "bcd-mdn");
