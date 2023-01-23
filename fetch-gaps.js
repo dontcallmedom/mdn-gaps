@@ -45,7 +45,7 @@ function checkIdlTopLevelName(name, item, spec, bcdTree) {
   } else {
     // Check mdn documentation
     if (!bcdTree[name].__compat.mdn_url) {
-      if (!checkMdnPage("idl", null, name)) {
+      if (!checkMdnPage("api", null, name)) {
 	setGap(spec, "idl", "mdn", name);
       } else {
 	setGap(spec, "idl", "bcd-mdn", name);
@@ -65,7 +65,7 @@ function checkIdlTopLevelName(name, item, spec, bcdTree) {
       } else {
 	// Check mdn documentation
 	if (!bcdTree[name][member.name].__compat.mdn_url) {
-	  if (!checkMdnPage("idl", null, name + "." + memberName)) {
+	  if (!checkMdnPage("api", null, name + "." + memberName)) {
 	    setGap(spec, "idl", "mdn", name, memberName);
 	  } else {
 	    setGap(spec, "idl", "bcd-mdn", name, memberName);
