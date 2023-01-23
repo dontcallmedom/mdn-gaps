@@ -23,7 +23,7 @@
     "title": "WebGL EXT_disjoint_timer_query Extension Specification",
     "url": "https://registry.khronos.org/webgl/extensions/EXT_disjoint_timer_query/",
     "idl": {
-      "mdn": {
+      "bcd": {
         "WebGLTimerQueryEXT": true
       }
     }
@@ -42,7 +42,10 @@
     "url": "https://fedidcg.github.io/FedCM/",
     "idl": {
       "bcd": {
-        "IdentityCredential": true
+        "IdentityCredential": [
+          "logoutRPs()"
+        ],
+        "IdentityProvider": true
       }
     }
   },
@@ -381,6 +384,9 @@
         ],
         "SVGUseElementShadowRoot": true,
         "ShadowAnimation": true,
+        "SVGImageElement": [
+          "crossOrigin"
+        ],
         "SVGAElement": [
           "origin",
           "protocol",
@@ -445,6 +451,7 @@
           "type",
           "imageSrcset",
           "imageSizes",
+          "blocking",
           "disabled",
           "charset",
           "rev",
@@ -456,6 +463,9 @@
           "content",
           "media",
           "scheme"
+        ],
+        "HTMLStyleElement": [
+          "blocking"
         ],
         "HTMLLIElement": [
           "value",
@@ -578,12 +588,10 @@
           "crossOrigin",
           "text",
           "integrity",
+          "blocking",
           "charset",
           "event",
           "htmlFor"
-        ],
-        "ImageData": [
-          "colorSpace"
         ],
         "Path2D": [
           "closePath()",
@@ -600,16 +608,74 @@
         "ImageBitmapRenderingContext": [
           "canvas"
         ],
-        "OffscreenCanvasRenderingContext2D": true,
+        "OffscreenCanvasRenderingContext2D": [
+          "canvas",
+          "save()",
+          "restore()",
+          "scale()",
+          "rotate()",
+          "translate()",
+          "transform()",
+          "getTransform()",
+          "setTransform()",
+          "resetTransform()",
+          "globalAlpha",
+          "globalCompositeOperation",
+          "imageSmoothingEnabled",
+          "imageSmoothingQuality",
+          "strokeStyle",
+          "fillStyle",
+          "createLinearGradient()",
+          "createRadialGradient()",
+          "createPattern()",
+          "shadowOffsetX",
+          "shadowOffsetY",
+          "shadowBlur",
+          "shadowColor",
+          "filter",
+          "clearRect()",
+          "fillRect()",
+          "strokeRect()",
+          "beginPath()",
+          "fill()",
+          "stroke()",
+          "clip()",
+          "isPointInPath()",
+          "isPointInStroke()",
+          "fillText()",
+          "strokeText()",
+          "measureText()",
+          "drawImage()",
+          "createImageData()",
+          "getImageData()",
+          "putImageData()",
+          "lineWidth",
+          "lineCap",
+          "lineJoin",
+          "miterLimit",
+          "setLineDash()",
+          "getLineDash()",
+          "lineDashOffset",
+          "font",
+          "textAlign",
+          "textBaseline",
+          "direction",
+          "closePath()",
+          "moveTo()",
+          "lineTo()",
+          "quadraticCurveTo()",
+          "bezierCurveTo()",
+          "arcTo()",
+          "rect()",
+          "arc()",
+          "ellipse()"
+        ],
         "Window": [
           "originAgentCluster",
           "captureEvents()"
         ],
         "BeforeUnloadEvent": [
           "returnValue"
-        ],
-        "Navigator": [
-          "unregisterProtocolHandler()"
         ],
         "Plugin": [
           "length"
@@ -669,17 +735,7 @@
           "arc()",
           "ellipse()"
         ],
-        "HTMLLinkElement": [
-          "blocking"
-        ],
-        "HTMLStyleElement": [
-          "blocking"
-        ],
-        "HTMLScriptElement": [
-          "blocking"
-        ],
         "OffscreenCanvasRenderingContext2D": [
-          "commit()",
           "reset()",
           "isContextLost()",
           "createConicGradient()",
@@ -690,10 +746,6 @@
           "textRendering",
           "wordSpacing",
           "roundRect()"
-        ],
-        "UserActivation": true,
-        "Navigator": [
-          "userActivation"
         ],
         "Window": [
           "clientInformation"
@@ -823,16 +875,17 @@
   },
   "compute-pressure": {
     "title": "Compute Pressure Level 1",
-    "url": "https://wicg.github.io/compute-pressure/",
+    "url": "https://www.w3.org/TR/compute-pressure/",
     "idl": {
       "bcd": {
-        "PressureObserver": true
+        "PressureObserver": true,
+        "PressureRecord": true
       }
     }
   },
-  "contact-api": {
+  "contact-picker": {
     "title": "Contact Picker API",
-    "url": "https://w3c.github.io/contact-api/spec/",
+    "url": "https://www.w3.org/TR/contact-picker-1/",
     "idl": {
       "mdn": {
         "ContactAddress": true
@@ -860,10 +913,8 @@
     "title": "Crash Reporting",
     "url": "https://wicg.github.io/crash-reporting/",
     "idl": {
-      "mdn": {
-        "CrashReportBody": [
-          "toJSON()"
-        ]
+      "bcd": {
+        "CrashReportBody": true
       }
     }
   },
@@ -871,7 +922,7 @@
     "title": "Credential Management Level 1",
     "url": "https://www.w3.org/TR/credential-management-1/",
     "idl": {
-      "bcd": {
+      "mdn": {
         "Credential": [
           "isConditionalMediationAvailable()"
         ]
@@ -902,6 +953,17 @@
       }
     }
   },
+  "css-animations": {
+    "title": "CSS Animations Level 2",
+    "url": "https://drafts.csswg.org/css-animations-2/",
+    "idl": {
+      "bcd": {
+        "CSSKeyframesRule": [
+          "length"
+        ]
+      }
+    }
+  },
   "css-cascade": {
     "title": "CSS Cascading and Inheritance Level 3",
     "url": "https://www.w3.org/TR/css-cascade-3/",
@@ -915,6 +977,18 @@
       }
     }
   },
+  "css-color-5": {
+    "idl": {
+      "bcd": {
+        "CSSColorProfileRule": true
+      }
+    },
+    "css.atrules": {
+      "bcd": {
+        "@color-profile": true
+      }
+    }
+  },
   "css-contain-3": {
     "idl": {
       "bcd": {
@@ -922,24 +996,6 @@
           "containerName",
           "containerQuery"
         ]
-      }
-    }
-  },
-  "css-contain": {
-    "title": "CSS Containment Module Level 2",
-    "url": "https://www.w3.org/TR/css-contain-2/",
-    "idl": {
-      "bcd": {
-        "ContentVisibilityAutoStateChangedEvent": true
-      }
-    }
-  },
-  "css-device-adapt": {
-    "title": "CSS Device Adaptation Module Level 1",
-    "url": "https://www.w3.org/TR/css-device-adapt-1/",
-    "idl": {
-      "bcd": {
-        "CSSViewportRule": true
       }
     }
   },
@@ -986,9 +1042,6 @@
         "font-synthesis-weight": true,
         "font-synthesis-style": true,
         "font-synthesis-small-caps": true
-      },
-      "bcd": {
-        "font-variant-emoji": true
       }
     }
   },
@@ -996,7 +1049,7 @@
     "title": "CSS Custom Highlight API Module Level 1",
     "url": "https://www.w3.org/TR/css-highlight-api-1/",
     "idl": {
-      "bcd": {
+      "mdn": {
         "Highlight": true,
         "CSS": [
           "highlights"
@@ -1014,8 +1067,10 @@
       }
     },
     "css.properties": {
+      "mdn": {
+        "object-view-box": true
+      },
       "bcd": {
-        "object-view-box": true,
         "image-resolution": true
       }
     }
@@ -1099,13 +1154,7 @@
           "cssRules",
           "insertRule()",
           "deleteRule()"
-        ],
-        "CSSNestingRule": true
-      }
-    },
-    "css.atrules": {
-      "bcd": {
-        "@nest": true
+        ]
       }
     }
   },
@@ -1173,32 +1222,26 @@
       }
     }
   },
-  "css-shared-element-transitions": {
-    "title": "CSS Shared Element Transitions Module Level 1",
-    "url": "https://drafts.csswg.org/css-shared-element-transitions-1/",
-    "idl": {
-      "bcd": {
-        "Document": [
-          "createTransition()"
-        ],
-        "DOMTransition": true
-      }
-    },
-    "css.properties": {
-      "bcd": {
-        "page-transition-tag": true
-      }
-    }
-  },
   "css-typed-om": {
-    "title": "CSS Typed OM Level 2",
-    "url": "https://drafts.css-houdini.org/css-typed-om-2/",
+    "title": "CSS Typed OM Level 1",
+    "url": "https://www.w3.org/TR/css-typed-om-1/",
     "idl": {
       "mdn": {
-        "CSSMathClamp": true
+        "CSSMathClamp": true,
+        "CSS": [
+          "cqw()",
+          "cqh()",
+          "cqi()",
+          "cqb()",
+          "cqmin()",
+          "cqmax()"
+        ]
       },
       "bcd": {
         "CSS": [
+          "ic()",
+          "lh()",
+          "rlh()",
           "svw()",
           "svh()",
           "svi()",
@@ -1216,13 +1259,7 @@
           "dvi()",
           "dvb()",
           "dvmin()",
-          "dvmax()",
-          "cqw()",
-          "cqh()",
-          "cqi()",
-          "cqb()",
-          "cqmin()",
-          "cqmax()"
+          "dvmax()"
         ],
         "CSSColorValue": true,
         "CSSRGB": true,
@@ -1236,6 +1273,23 @@
       }
     }
   },
+  "css-view-transitions": {
+    "title": "CSS View Transitions Module Level 1",
+    "url": "https://www.w3.org/TR/css-view-transitions-1/",
+    "idl": {
+      "bcd": {
+        "Document": [
+          "startViewTransition()"
+        ],
+        "ViewTransition": true
+      }
+    },
+    "css.properties": {
+      "bcd": {
+        "view-transition-name": true
+      }
+    }
+  },
   "cssom-view": {
     "title": "CSSOM View Module",
     "url": "https://www.w3.org/TR/cssom-view-1/",
@@ -1246,10 +1300,11 @@
           "offset",
           "getClientRect()"
         ],
-        "Text": [
+        "Element": [
+          "checkVisibility()",
           "getBoxQuads()"
         ],
-        "Element": [
+        "Text": [
           "getBoxQuads()"
         ],
         "Document": [
@@ -1257,13 +1312,12 @@
         ]
       },
       "bcd": {
-        "Element": [
-          "checkVisibility()",
+        "Text": [
           "convertQuadFromNode()",
           "convertRectFromNode()",
           "convertPointFromNode()"
         ],
-        "Text": [
+        "Element": [
           "convertQuadFromNode()",
           "convertRectFromNode()",
           "convertPointFromNode()"
@@ -1304,9 +1358,6 @@
     "url": "https://wicg.github.io/custom-state-pseudo-class/",
     "idl": {
       "mdn": {
-        "ElementInternals": [
-          "states"
-        ],
         "CustomStateSet": true
       }
     }
@@ -1397,35 +1448,13 @@
       }
     }
   },
-  "element-timing": {
-    "title": "Element Timing API",
-    "url": "https://wicg.github.io/element-timing/",
-    "idl": {
-      "mdn": {
-        "Element": [
-          "elementTiming"
-        ]
-      }
-    }
-  },
   "event-timing": {
     "title": "Event Timing API",
     "url": "https://www.w3.org/TR/event-timing/",
     "idl": {
-      "mdn": {
-        "PerformanceEventTiming": [
-          "interactionId",
-          "toJSON()"
-        ],
-        "EventCounts": true,
-        "Performance": [
-          "eventCounts"
-        ]
-      },
       "bcd": {
-        "InteractionCounts": true,
         "Performance": [
-          "interactionCounts"
+          "interactionCount"
         ]
       }
     }
@@ -1436,7 +1465,8 @@
     "idl": {
       "bcd": {
         "Request": [
-          "isReloadNavigation"
+          "isReloadNavigation",
+          "duplex"
         ]
       },
       "mdn": {
@@ -1721,9 +1751,21 @@
     "url": "https://w3c.github.io/gamepad/extensions.html",
     "idl": {
       "bcd": {
+        "GamepadHapticActuator": [
+          "canPlayEffectType()"
+        ],
         "GamepadTouch": true,
         "Gamepad": [
           "touchEvents"
+        ]
+      },
+      "mdn": {
+        "GamepadHapticActuator": [
+          "playEffect()",
+          "reset()"
+        ],
+        "Gamepad": [
+          "vibrationActuator"
         ]
       }
     }
@@ -1847,43 +1889,46 @@
     "title": "Accessible Rich Internet Applications (WAI-ARIA)",
     "url": "https://www.w3.org/TR/wai-aria-1.2/",
     "idl": {
-      "mdn": {
-        "ElementInternals": [
-          "role",
-          "ariaInvalid"
-        ],
-        "Element": [
-          "role",
-          "ariaInvalid"
-        ]
-      },
       "bcd": {
         "ElementInternals": [
           "ariaActiveDescendantElement",
+          "ariaColIndexText",
           "ariaControlsElements",
           "ariaDescribedByElements",
           "ariaDetailsElements",
-          "ariaErrorMessageElement",
+          "ariaErrorMessageElements",
           "ariaFlowToElements",
           "ariaLabelledByElements",
-          "ariaOwnsElements"
+          "ariaOwnsElements",
+          "ariaRowIndexText"
         ],
         "Element": [
           "ariaActiveDescendantElement",
+          "ariaColIndexText",
           "ariaControlsElements",
           "ariaDescribedByElements",
           "ariaDetailsElements",
-          "ariaErrorMessageElement",
+          "ariaErrorMessageElements",
           "ariaFlowToElements",
           "ariaLabelledByElements",
-          "ariaOwnsElements"
+          "ariaOwnsElements",
+          "ariaRowIndexText"
+        ]
+      },
+      "mdn": {
+        "ElementInternals": [
+          "ariaInvalid"
+        ],
+        "Element": [
+          "role",
+          "ariaInvalid"
         ]
       }
     }
   },
   "trusted-types": {
     "title": "Trusted Types",
-    "url": "https://w3c.github.io/webappsec-trusted-types/dist/spec/",
+    "url": "https://www.w3.org/TR/trusted-types/",
     "idl": {
       "bcd": {
         "Window": [
@@ -1910,12 +1955,10 @@
     "idl": {
       "mdn": {
         "Ink": true,
+        "InkPresenter": true,
         "Navigator": [
           "ink"
         ]
-      },
-      "bcd": {
-        "InkPresenter": true
       }
     }
   },
@@ -1963,7 +2006,7 @@
     }
   },
   "local-font-access": {
-    "title": "Local Font Access API",
+    "title": "Local Font Access",
     "url": "https://wicg.github.io/local-font-access/",
     "idl": {
       "mdn": {
@@ -1971,20 +2014,6 @@
           "queryLocalFonts()"
         ],
         "FontData": true
-      }
-    }
-  },
-  "longtasks": {
-    "title": "Long Tasks API 1",
-    "url": "https://www.w3.org/TR/longtasks-1/",
-    "idl": {
-      "mdn": {
-        "PerformanceLongTaskTiming": [
-          "toJSON()"
-        ],
-        "TaskAttributionTiming": [
-          "toJSON()"
-        ]
       }
     }
   },
@@ -1997,24 +2026,6 @@
       }
     }
   },
-  "manifest-incubations": {
-    "title": "Manifest Incubations",
-    "url": "https://wicg.github.io/manifest-incubations/",
-    "idl": {
-      "mdn": {
-        "LaunchParams": true,
-        "Window": [
-          "launchQueue"
-        ],
-        "LaunchQueue": true
-      },
-      "bcd": {
-        "LaunchParams": [
-          "targetURL"
-        ]
-      }
-    }
-  },
   "media-capabilities": {
     "title": "Media Capabilities",
     "url": "https://www.w3.org/TR/media-capabilities/",
@@ -2023,19 +2034,6 @@
         "WorkerNavigator": [
           "mediaCapabilities"
         ]
-      }
-    }
-  },
-  "media-source": {
-    "title": "Media Source Extensions™",
-    "url": "https://www.w3.org/TR/media-source-2/",
-    "idl": {
-      "bcd": {
-        "MediaSource": [
-          "handle",
-          "canConstructInDedicatedWorker"
-        ],
-        "MediaSourceHandle": true
       }
     }
   },
@@ -2142,11 +2140,6 @@
         "NavigateEvent": true,
         "NavigationDestination": true,
         "NavigationHistoryEntry": true
-      },
-      "bcd": {
-        "NavigateEvent": [
-          "canIntercept"
-        ]
       }
     }
   },
@@ -2196,8 +2189,17 @@
     "url": "https://www.w3.org/TR/payment-handler/",
     "idl": {
       "mdn": {
+        "PaymentManager": [
+          "instruments"
+        ],
+        "PaymentInstruments": true
+      },
+      "bcd": {
         "PaymentRequestEvent": [
-          "changePaymentMethod()"
+          "paymentOptions",
+          "shippingOptions",
+          "changeShippingAddress()",
+          "changeShippingOption()"
         ]
       }
     }
@@ -2209,17 +2211,6 @@
       "mdn": {
         "PaymentResponse": [
           "toJSON()"
-        ]
-      }
-    }
-  },
-  "performance-measure-memory": {
-    "title": "Measure Memory API",
-    "url": "https://wicg.github.io/performance-measure-memory/",
-    "idl": {
-      "mdn": {
-        "Performance": [
-          "measureUserAgentSpecificMemory()"
         ]
       }
     }
@@ -2290,10 +2281,12 @@
     "url": "https://wicg.github.io/priority-hints/",
     "idl": {
       "mdn": {
-        "Request": [
-          "priority"
-        ],
         "HTMLScriptElement": [
+          "fetchPriority"
+        ]
+      },
+      "bcd": {
+        "HTMLIFrameElement": [
           "fetchPriority"
         ]
       }
@@ -2323,7 +2316,7 @@
     "title": "WebXR Raw Camera Access Module",
     "url": "https://immersive-web.github.io/raw-camera-access/",
     "idl": {
-      "bcd": {
+      "mdn": {
         "XRView": [
           "camera"
         ],
@@ -2370,22 +2363,11 @@
       }
     }
   },
-  "resource-timing": {
-    "title": "Resource Timing Level 2",
-    "url": "https://www.w3.org/TR/resource-timing-2/",
-    "idl": {
-      "bcd": {
-        "PerformanceResourceTiming": [
-          "renderBlockingStatus"
-        ]
-      }
-    }
-  },
   "sanitizer-api": {
     "title": "HTML Sanitizer API",
     "url": "https://wicg.github.io/sanitizer-api/",
     "idl": {
-      "bcd": {
+      "mdn": {
         "Sanitizer": [
           "getDefaultConfiguration()"
         ]
@@ -2394,7 +2376,7 @@
   },
   "scroll-animations": {
     "title": "Scroll-linked Animations",
-    "url": "https://drafts.csswg.org/scroll-animations-1/",
+    "url": "https://www.w3.org/TR/scroll-animations-1/",
     "idl": {
       "bcd": {
         "ScrollTimeline": true,
@@ -2406,9 +2388,6 @@
     },
     "css.properties": {
       "bcd": {
-        "scroll-timeline-name": true,
-        "scroll-timeline-axis": true,
-        "scroll-timeline": true,
         "view-timeline-name": true,
         "view-timeline-axis": true,
         "view-timeline-inset": true,
@@ -2419,14 +2398,13 @@
       }
     }
   },
-  "scroll-to-text-fragment": {
-    "title": "Text Fragments",
-    "url": "https://wicg.github.io/scroll-to-text-fragment/",
+  "selection-api": {
+    "title": "Selection API",
+    "url": "https://www.w3.org/TR/selection-api/",
     "idl": {
-      "mdn": {
-        "FragmentDirective": true,
-        "Document": [
-          "fragmentDirective"
+      "bcd": {
+        "Selection": [
+          "getComposedRange()"
         ]
       }
     }
@@ -2442,13 +2420,11 @@
         "ServiceWorkerGlobalScope": [
           "serviceWorker"
         ],
-        "FetchEvent": [
-          "handled"
-        ]
-      },
-      "bcd": {
         "WindowClient": [
           "ancestorOrigins"
+        ],
+        "FetchEvent": [
+          "handled"
         ]
       }
     }
@@ -2562,7 +2538,6 @@
     "url": "https://wicg.github.io/ua-client-hints/",
     "idl": {
       "mdn": {
-        "NavigatorUAData": true,
         "Navigator": [
           "userAgentData"
         ],
@@ -2587,20 +2562,6 @@
           "attrName",
           "attrChange",
           "initMutationEvent()"
-        ]
-      }
-    }
-  },
-  "user-timing": {
-    "title": "User Timing",
-    "url": "https://www.w3.org/TR/user-timing/",
-    "idl": {
-      "mdn": {
-        "PerformanceMark": [
-          "detail"
-        ],
-        "PerformanceMeasure": [
-          "detail"
         ]
       }
     }
@@ -2639,11 +2600,27 @@
       }
     }
   },
+  "web-app-launch": {
+    "title": "Web App Launch Handler API",
+    "url": "https://wicg.github.io/web-app-launch/",
+    "idl": {
+      "mdn": {
+        "LaunchParams": true,
+        "Window": [
+          "launchQueue"
+        ],
+        "LaunchQueue": true
+      }
+    }
+  },
   "web-bluetooth": {
     "title": "Web Bluetooth",
     "url": "https://webbluetoothcg.github.io/web-bluetooth/",
     "idl": {
       "bcd": {
+        "Bluetooth": [
+          "referringDevice"
+        ],
         "BluetoothPermissionResult": true,
         "ValueEvent": true,
         "BluetoothDevice": [
@@ -2668,7 +2645,7 @@
   },
   "web-locks": {
     "title": "Web Locks API",
-    "url": "https://w3c.github.io/web-locks/",
+    "url": "https://www.w3.org/TR/web-locks/",
     "idl": {
       "mdn": {
         "WorkerNavigator": [
@@ -2681,7 +2658,7 @@
     "title": "Web NFC API",
     "url": "https://w3c.github.io/web-nfc/",
     "idl": {
-      "bcd": {
+      "mdn": {
         "NDEFReader": [
           "makeReadOnly()"
         ]
@@ -2720,7 +2697,8 @@
     "idl": {
       "mdn": {
         "PublicKeyCredential": [
-          "authenticatorAttachment"
+          "authenticatorAttachment",
+          "isConditionalMediationAvailable()"
         ],
         "AuthenticatorAttestationResponse": [
           "getAuthenticatorData()",
@@ -2730,10 +2708,12 @@
       },
       "bcd": {
         "PublicKeyCredential": [
-          "isConditionalMediationAvailable()",
           "toJSON()",
           "parseCreationOptionsFromJSON()",
           "parseRequestOptionsFromJSON()"
+        ],
+        "AuthenticatorAssertionResponse": [
+          "attestationObject"
         ]
       }
     }
@@ -2758,12 +2738,21 @@
         ],
         "VideoFrame": [
           "copyTo()"
-        ],
-        "ImageDecoder": [
-          "type",
-          "decode()",
-          "isTypeSupported()"
         ]
+      },
+      "bcd": {
+        "VideoFrame": [
+          "metadata()"
+        ]
+      }
+    }
+  },
+  "webgl1": {
+    "title": "WebGL Specification",
+    "url": "https://registry.khronos.org/webgl/specs/latest/1.0/",
+    "idl": {
+      "bcd": {
+        "WebGLObject": true
       }
     }
   },
@@ -2799,6 +2788,7 @@
         "GPUShaderModule": true,
         "GPUCompilationMessage": true,
         "GPUCompilationInfo": true,
+        "GPUPipelineError": true,
         "GPUComputePipeline": true,
         "GPURenderPipeline": true,
         "GPUColorWrite": true,
@@ -2845,7 +2835,7 @@
         "ML": true,
         "MLContext": true,
         "MLOperand": true,
-        "MLOperator": true,
+        "MLActivation": true,
         "MLGraphBuilder": true,
         "MLGraph": true,
         "MLCommandEncoder": true
@@ -2860,18 +2850,18 @@
         "RTCRtpSender": [
           "transform"
         ],
-        "RTCEncodedVideoFrame": true,
-        "RTCEncodedAudioFrame": true
-      },
-      "bcd": {
         "RTCRtpReceiver": [
           "transform"
         ],
-        "SFrameTransform": true,
-        "SFrameTransformErrorEvent": true,
+        "RTCEncodedVideoFrame": true,
+        "RTCEncodedAudioFrame": true,
         "RTCTransformEvent": true,
         "RTCRtpScriptTransformer": true,
-        "RTCRtpScriptTransform": true,
+        "RTCRtpScriptTransform": true
+      },
+      "bcd": {
+        "SFrameTransform": true,
+        "SFrameTransformErrorEvent": true,
         "RTCRtpSender": [
           "generateKeyFrame()"
         ]
@@ -2884,11 +2874,7 @@
     "idl": {
       "bcd": {
         "RTCIceTransport": [
-          "gather()"
-        ]
-      },
-      "mdn": {
-        "RTCIceTransport": [
+          "gather()",
           "start()",
           "stop()",
           "addRemoteCandidate()"
@@ -2900,20 +2886,22 @@
     "title": "Identity for WebRTC 1.0",
     "url": "https://www.w3.org/TR/webrtc-identity/",
     "idl": {
+      "bcd": {
+        "RTCIdentityProviderGlobalScope": true,
+        "RTCIdentityProviderRegistrar": true,
+        "RTCPeerConnection": [
+          "idpErrorInfo"
+        ],
+        "MediaStreamTrack": [
+          "isolated"
+        ]
+      },
       "mdn": {
         "RTCPeerConnection": [
           "idpLoginUrl"
         ],
         "RTCError": [
           "httpRequestStatusCode"
-        ]
-      },
-      "bcd": {
-        "RTCPeerConnection": [
-          "idpErrorInfo"
-        ],
-        "MediaStreamTrack": [
-          "isolated"
         ]
       }
     }
@@ -2933,6 +2921,15 @@
     "title": "WebRTC 1.0: Real-Time Communication Between Browsers",
     "url": "https://www.w3.org/TR/webrtc/",
     "idl": {
+      "bcd": {
+        "RTCIceCandidate": [
+          "relayProtocol",
+          "url"
+        ],
+        "RTCIceTransport": [
+          "component"
+        ]
+      },
       "mdn": {
         "RTCPeerConnectionIceErrorEvent": [
           "port"
@@ -3000,7 +2997,8 @@
         ],
         "XRFrame": [
           "predictedDisplayTime"
-        ]
+        ],
+        "XRPermissionStatus": true
       }
     }
   },
@@ -3010,6 +3008,7 @@
     "idl": {
       "bcd": {
         "XRCompositionLayer": [
+          "forceMonoPresentation",
           "opacity"
         ],
         "XRProjectionLayer": [
@@ -3017,8 +3016,6 @@
         ],
         "XRWebGLSubImage": [
           "motionVectorTexture",
-          "colorTextureWidth",
-          "colorTextureHeight",
           "depthStencilTextureWidth",
           "depthStencilTextureHeight",
           "motionVectorTextureWidth",
@@ -3026,17 +3023,6 @@
         ],
         "XRWebGLBinding": [
           "usesDepthValues"
-        ]
-      }
-    }
-  },
-  "window-controls-overlay": {
-    "title": "Window Controls Overlay",
-    "url": "https://wicg.github.io/window-controls-overlay/",
-    "idl": {
-      "mdn": {
-        "Navigator": [
-          "windowControlsOverlay"
         ]
       }
     }
@@ -3054,6 +3040,52 @@
         ],
         "ScreenDetails": true,
         "ScreenDetailed": true
+      }
+    }
+  },
+  "mathml-core": {
+    "title": "MathML Core",
+    "url": "https://www.w3.org/TR/mathml-core/",
+    "elements": {
+      "bcd": {
+        "math": true,
+        "mtext": true,
+        "mi": true,
+        "mn": true,
+        "mo": true,
+        "mspace": true,
+        "ms": true,
+        "mrow": true,
+        "mfrac": true,
+        "msqrt": true,
+        "mroot": true,
+        "mstyle": true,
+        "merror": true,
+        "mpadded": true,
+        "mphantom": true,
+        "msub": true,
+        "msup": true,
+        "msubsup": true,
+        "munder": true,
+        "mover": true,
+        "munderover": true,
+        "mmultiscripts": true,
+        "mprescripts": true,
+        "mtable": true,
+        "mtr": true,
+        "mtd": true,
+        "maction": true,
+        "semantics": true,
+        "annotation": true,
+        "annotation-xml": true
+      }
+    }
+  },
+  "svg": {
+    "elements": {
+      "bcd": {
+        "model": true,
+        "portal": true
       }
     }
   },
@@ -3137,6 +3169,22 @@
       }
     }
   },
+  "css-anchor": {
+    "title": "CSS Anchor Positioning",
+    "url": "https://drafts.csswg.org/css-anchor-1/",
+    "css.properties": {
+      "bcd": {
+        "anchor-scroll": true,
+        "anchor-name": true,
+        "position-fallback": true
+      }
+    },
+    "css.atrules": {
+      "bcd": {
+        "@position-fallback": true
+      }
+    }
+  },
   "css-backgrounds-4": {
     "css.properties": {
       "bcd": {
@@ -3166,13 +3214,6 @@
     "css.atrules": {
       "bcd": {
         "@scope": true
-      }
-    }
-  },
-  "css-color-5": {
-    "css.atrules": {
-      "bcd": {
-        "@color-profile": true
       }
     }
   },
@@ -3352,6 +3393,11 @@
       "bcd": {
         "border-boundary": true
       }
+    },
+    "css.atrules": {
+      "bcd": {
+        "@viewport": true
+      }
     }
   },
   "css-ruby": {
@@ -3387,10 +3433,6 @@
   "css-sizing-4": {
     "css.properties": {
       "bcd": {
-        "contain-intrinsic-width": true,
-        "contain-intrinsic-height": true,
-        "contain-intrinsic-block-size": true,
-        "contain-intrinsic-inline-size": true,
         "min-intrinsic-sizing": true
       }
     }
@@ -3430,7 +3472,6 @@
         "text-space-collapse": true,
         "text-space-trim": true,
         "hyphenate-limit-zone": true,
-        "hyphenate-limit-chars": true,
         "hyphenate-limit-lines": true,
         "hyphenate-limit-last": true,
         "word-wrap": true,
@@ -3442,6 +3483,9 @@
         "text-group-align": true,
         "line-padding": true,
         "text-spacing": true
+      },
+      "mdn": {
+        "hyphenate-limit-chars": true
       }
     }
   },
@@ -3467,8 +3511,8 @@
     }
   },
   "css-ui": {
-    "title": "CSS Basic User Interface Module Level 4",
-    "url": "https://www.w3.org/TR/css-ui-4/",
+    "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
+    "url": "https://www.w3.org/TR/css-ui-3/",
     "css.properties": {
       "bcd": {
         "caret-shape": true,
@@ -3484,8 +3528,8 @@
     }
   },
   "css-writing-modes": {
-    "title": "CSS Writing Modes Level 4",
-    "url": "https://www.w3.org/TR/css-writing-modes-4/",
+    "title": "CSS Writing Modes Level 3",
+    "url": "https://www.w3.org/TR/css-writing-modes-3/",
     "css.properties": {
       "bcd": {
         "glyph-orientation-vertical": true
