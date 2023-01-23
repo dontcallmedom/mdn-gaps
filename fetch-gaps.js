@@ -156,7 +156,7 @@ function checkIdlTopLevelName(name, item, spec, bcdTree) {
       }
       for (const el of data.elements) {
 	if (el.obsolete) continue;
-	if (!bcd[spec].elements[el.name]) {
+	if (!bcd[spec]?.elements[el.name]) {
 	  setGap(spec, "elements", "bcd", el.name);
 	} else if (!bcd[spec].elements[el.name].__compat.mdn_url) {
 	  if (!checkMdnPage(spec, "element", el.name)) {
