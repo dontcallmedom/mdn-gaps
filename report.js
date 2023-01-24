@@ -32,7 +32,6 @@ for (const id of Object.keys(gapIds)) {
 	  for (let feature of [...gaps]) {
 	    const bcdTd = document.createElement("td");
 	    const mdnTd = document.createElement("td");
-	    const syncTd = document.createElement("td");
 	    if (specData[gapId].bcd[feature]) {
 	      if (Array.isArray(specData[gapId].bcd[feature])) {
 		const ul = document.createElement("ul");
@@ -61,7 +60,7 @@ for (const id of Object.keys(gapIds)) {
 	      }
 	      mdnTd.className = "missing";
 	    }
-	    tr.append(bcdTd, mdnTd, syncTd);
+	    tr.append(bcdTd, mdnTd);
 	    table.append(tr);
 	    tr = document.createElement("tr");
 	  }
