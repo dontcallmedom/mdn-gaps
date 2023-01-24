@@ -1,11 +1,52 @@
 {
+  "ANGLE_instanced_arrays": {
+    "title": "WebGL ANGLE_instanced_arrays Khronos Ratified Extension Specification",
+    "url": "https://registry.khronos.org/webgl/extensions/ANGLE_instanced_arrays/",
+    "idl": {
+      "mdn": {
+        "ANGLE_instanced_arrays": [
+          "drawArraysInstancedANGLE()",
+          "drawElementsInstancedANGLE()",
+          "vertexAttribDivisorANGLE()"
+        ]
+      }
+    }
+  },
   "CSP": {
     "title": "Content Security Policy Level 3",
     "url": "https://www.w3.org/TR/CSP3/",
     "idl": {
       "mdn": {
         "CSPViolationReportBody": [
-          "toJSON()"
+          "toJSON()",
+          "documentURL",
+          "referrer",
+          "blockedURL",
+          "effectiveDirective",
+          "originalPolicy",
+          "sourceFile",
+          "sample",
+          "disposition",
+          "statusCode",
+          "lineNumber",
+          "columnNumber"
+        ]
+      }
+    }
+  },
+  "DOM-Parsing": {
+    "title": "DOM Parsing and Serialization",
+    "url": "https://www.w3.org/TR/DOM-Parsing/",
+    "idl": {
+      "mdn": {
+        "XMLSerializer": [
+          "serializeToString()"
+        ],
+        "Element": [
+          "insertAdjacentHTML()"
+        ],
+        "Range": [
+          "createContextualFragment()"
         ]
       }
     }
@@ -14,6 +55,9 @@
     "title": "WebGL EXT_clip_cull_distance Extension Draft Specification",
     "url": "https://registry.khronos.org/webgl/extensions/EXT_clip_cull_distance/",
     "idl": {
+      "mdn": {
+        "EXT_clip_cull_distance": true
+      },
       "bcd": {
         "EXT_clip_cull_distance": true
       }
@@ -23,6 +67,19 @@
     "title": "WebGL EXT_disjoint_timer_query Extension Specification",
     "url": "https://registry.khronos.org/webgl/extensions/EXT_disjoint_timer_query/",
     "idl": {
+      "mdn": {
+        "WebGLTimerQueryEXT": true,
+        "EXT_disjoint_timer_query": [
+          "createQueryEXT()",
+          "deleteQueryEXT()",
+          "isQueryEXT()",
+          "beginQueryEXT()",
+          "endQueryEXT()",
+          "queryCounterEXT()",
+          "getQueryEXT()",
+          "getQueryObjectEXT()"
+        ]
+      },
       "bcd": {
         "WebGLTimerQueryEXT": true
       }
@@ -41,11 +98,113 @@
     "title": "Federated Credential Management API",
     "url": "https://fedidcg.github.io/FedCM/",
     "idl": {
+      "mdn": {
+        "IdentityCredential": true,
+        "IdentityProvider": true
+      },
       "bcd": {
         "IdentityCredential": [
           "logoutRPs()"
         ],
         "IdentityProvider": true
+      }
+    }
+  },
+  "FileAPI": {
+    "title": "File API",
+    "url": "https://www.w3.org/TR/FileAPI/",
+    "idl": {
+      "mdn": {
+        "Blob": [
+          "slice()",
+          "stream()",
+          "text()",
+          "arrayBuffer()"
+        ],
+        "FileList": [
+          "item()"
+        ],
+        "FileReader": [
+          "readAsArrayBuffer()",
+          "readAsBinaryString()",
+          "readAsText()",
+          "readAsDataURL()",
+          "abort()"
+        ],
+        "FileReaderSync": [
+          "readAsArrayBuffer()",
+          "readAsBinaryString()",
+          "readAsText()",
+          "readAsDataURL()"
+        ],
+        "URL": [
+          "createObjectURL()",
+          "revokeObjectURL()"
+        ]
+      }
+    }
+  },
+  "IndexedDB": {
+    "title": "Indexed Database API 3.0",
+    "url": "https://www.w3.org/TR/IndexedDB-3/",
+    "idl": {
+      "mdn": {
+        "IDBFactory": [
+          "open()",
+          "deleteDatabase()",
+          "databases()",
+          "cmp()"
+        ],
+        "IDBDatabase": [
+          "transaction()",
+          "close()",
+          "createObjectStore()",
+          "deleteObjectStore()"
+        ],
+        "IDBObjectStore": [
+          "put()",
+          "add()",
+          "delete()",
+          "clear()",
+          "get()",
+          "getKey()",
+          "getAll()",
+          "getAllKeys()",
+          "count()",
+          "openCursor()",
+          "openKeyCursor()",
+          "index()",
+          "createIndex()",
+          "deleteIndex()"
+        ],
+        "IDBIndex": [
+          "get()",
+          "getKey()",
+          "getAll()",
+          "getAllKeys()",
+          "count()",
+          "openCursor()",
+          "openKeyCursor()"
+        ],
+        "IDBKeyRange": [
+          "only()",
+          "lowerBound()",
+          "upperBound()",
+          "bound()",
+          "includes()"
+        ],
+        "IDBCursor": [
+          "advance()",
+          "continue()",
+          "continuePrimaryKey()",
+          "update()",
+          "delete()"
+        ],
+        "IDBTransaction": [
+          "objectStore()",
+          "commit()",
+          "abort()"
+        ]
       }
     }
   },
@@ -58,6 +217,32 @@
       }
     }
   },
+  "OES_vertex_array_object": {
+    "title": "WebGL OES_vertex_array_object Khronos Ratified Extension Specification",
+    "url": "https://registry.khronos.org/webgl/extensions/OES_vertex_array_object/",
+    "idl": {
+      "mdn": {
+        "WebGLVertexArrayObjectOES": true,
+        "OES_vertex_array_object": [
+          "createVertexArrayOES()",
+          "deleteVertexArrayOES()",
+          "isVertexArrayOES()",
+          "bindVertexArrayOES()"
+        ]
+      }
+    }
+  },
+  "OVR_multiview2": {
+    "title": "WebGL OVR_multiview2 Extension Specification",
+    "url": "https://registry.khronos.org/webgl/extensions/OVR_multiview2/",
+    "idl": {
+      "mdn": {
+        "OVR_multiview2": [
+          "framebufferTextureMultiviewOVR()"
+        ]
+      }
+    }
+  },
   "SVG": {
     "title": "Scalable Vector Graphics (SVG) 1.1 (Second Edition)",
     "url": "https://www.w3.org/TR/SVG11/",
@@ -66,14 +251,23 @@
         "SVGElement": [
           "className",
           "ownerSVGElement",
-          "viewportElement"
+          "viewportElement",
+          "correspondingElement",
+          "correspondingUseElement"
         ],
         "SVGGraphicsElement": [
           "transform",
+          "getBBox()",
           "getCTM()",
           "getScreenCTM()",
           "requiredExtensions",
           "systemLanguage"
+        ],
+        "SVGGeometryElement": [
+          "isPointInFill()",
+          "isPointInStroke()",
+          "getTotalLength()",
+          "getPointAtLength()"
         ],
         "SVGNumber": [
           "value"
@@ -200,8 +394,12 @@
           "y",
           "width",
           "height",
+          "instanceRoot",
+          "animatedInstanceRoot",
           "href"
         ],
+        "SVGUseElementShadowRoot": true,
+        "ShadowAnimation": true,
         "SVGTransform": [
           "type",
           "matrix",
@@ -258,6 +456,15 @@
           "x2",
           "y2"
         ],
+        "SVGPointList": [
+          "clear()",
+          "initialize()",
+          "getItem()",
+          "insertItemBefore()",
+          "replaceItem()",
+          "removeItem()",
+          "appendItem()"
+        ],
         "SVGPolylineElement": [
           "points",
           "animatedPoints"
@@ -292,6 +499,10 @@
           "spacing",
           "href"
         ],
+        "SVGImageElement": [
+          "crossOrigin",
+          "href"
+        ],
         "SVGForeignObjectElement": [
           "x",
           "y",
@@ -299,7 +510,9 @@
           "height"
         ],
         "SVGMarkerElement": [
-          "orient"
+          "orient",
+          "setOrientToAuto()",
+          "setOrientToAngle()"
         ],
         "SVGGradientElement": [
           "gradientUnits",
@@ -350,7 +563,17 @@
           "type",
           "text",
           "referrerPolicy",
-          "href"
+          "href",
+          "origin",
+          "protocol",
+          "username",
+          "password",
+          "host",
+          "hostname",
+          "port",
+          "pathname",
+          "search",
+          "hash"
         ],
         "SVGViewElement": [
           "viewBox",
@@ -396,14 +619,32 @@
           "search",
           "hash"
         ]
-      },
-      "bcd-mdn": {
-        "Document": [
-          "rootElement"
-        ]
       }
     },
     "css.properties": {
+      "mdn": {
+        "cx": true,
+        "cy": true,
+        "r": true,
+        "rx": true,
+        "ry": true,
+        "x": true,
+        "y": true,
+        "vector-effect": true,
+        "d": true,
+        "shape-subtract": true,
+        "text-anchor": true,
+        "fill": true,
+        "stroke": true,
+        "marker-start": true,
+        "marker-mid": true,
+        "marker-end": true,
+        "marker": true,
+        "color-interpolation": true,
+        "shape-rendering": true,
+        "stop-color": true,
+        "stop-opacity": true
+      },
       "bcd": {
         "cx": true,
         "cy": true,
@@ -435,22 +676,71 @@
     "idl": {
       "mdn": {
         "SVGElement": [
+          "dataset",
           "nonce",
           "autofocus",
           "tabIndex",
           "focus()",
           "blur()"
         ],
+        "PaintRenderingContext2D": true,
+        "HTMLAllCollection": true,
+        "HTMLFormControlsCollection": [
+          "namedItem()"
+        ],
+        "HTMLOptionsCollection": [
+          "length",
+          "add()",
+          "remove()",
+          "selectedIndex"
+        ],
+        "DOMStringList": [
+          "item()",
+          "contains()"
+        ],
+        "Document": [
+          "getElementsByName()",
+          "open()",
+          "close()",
+          "write()",
+          "writeln()",
+          "hasFocus()",
+          "execCommand()",
+          "queryCommandEnabled()",
+          "queryCommandIndeterm()",
+          "queryCommandState()",
+          "queryCommandSupported()",
+          "queryCommandValue()",
+          "clear()",
+          "captureEvents()",
+          "releaseEvents()"
+        ],
         "HTMLElement": [
+          "translate",
+          "click()",
+          "draggable",
+          "spellcheck",
           "autocapitalize",
-          "autofocus"
+          "attachInternals()",
+          "autofocus",
+          "focus()",
+          "blur()"
+        ],
+        "HTMLTitleElement": [
+          "text"
+        ],
+        "HTMLBaseElement": [
+          "href",
+          "target"
         ],
         "HTMLLinkElement": [
           "href",
+          "crossOrigin",
           "media",
           "integrity",
           "hreflang",
           "type",
+          "sizes",
           "imageSrcset",
           "imageSizes",
           "blocking",
@@ -462,23 +752,63 @@
         "HTMLStyleElement": [
           "blocking"
         ],
+        "HTMLQuoteElement": [
+          "cite"
+        ],
+        "HTMLOListElement": [
+          "reversed",
+          "start",
+          "type",
+          "compact"
+        ],
         "HTMLLIElement": [
           "value",
           "type"
         ],
         "HTMLAnchorElement": [
-          "ping"
+          "target",
+          "ping",
+          "hreflang",
+          "type",
+          "text",
+          "coords",
+          "charset",
+          "name",
+          "rev",
+          "shape"
+        ],
+        "HTMLModElement": [
+          "cite",
+          "dateTime"
         ],
         "HTMLSourceElement": [
+          "src",
+          "type",
+          "srcset",
+          "sizes",
+          "media",
           "width",
           "height"
         ],
+        "HTMLImageElement": [
+          "decode()",
+          "lowsrc"
+        ],
         "HTMLIFrameElement": [
+          "name",
           "sandbox",
           "allow",
           "allowFullscreen",
+          "width",
+          "height",
           "loading",
-          "getSVGDocument()"
+          "getSVGDocument()",
+          "align",
+          "scrolling",
+          "frameBorder",
+          "longDesc",
+          "marginHeight",
+          "marginWidth"
         ],
         "HTMLEmbedElement": [
           "src",
@@ -489,32 +819,173 @@
           "align",
           "name"
         ],
+        "HTMLObjectElement": [
+          "getSVGDocument()",
+          "checkValidity()",
+          "reportValidity()",
+          "setCustomValidity()",
+          "align",
+          "archive",
+          "code",
+          "declare",
+          "hspace",
+          "standby",
+          "vspace",
+          "codeBase",
+          "codeType",
+          "border"
+        ],
         "HTMLVideoElement": [
+          "width",
+          "height",
+          "poster",
           "playsInline"
         ],
+        "HTMLTrackElement": [
+          "kind",
+          "srclang",
+          "label",
+          "default",
+          "readyState",
+          "track"
+        ],
         "HTMLMediaElement": [
-          "getStartDate()"
+          "preload",
+          "load()",
+          "canPlayType()",
+          "seeking",
+          "fastSeek()",
+          "getStartDate()",
+          "played",
+          "play()",
+          "pause()",
+          "addTextTrack()"
+        ],
+        "AudioTrackList": [
+          "getTrackById()"
+        ],
+        "VideoTrackList": [
+          "getTrackById()"
+        ],
+        "TextTrackList": [
+          "getTrackById()"
+        ],
+        "TextTrack": [
+          "addCue()",
+          "removeCue()"
+        ],
+        "TextTrackCueList": [
+          "getCueById()"
+        ],
+        "TimeRanges": [
+          "start()",
+          "end()"
+        ],
+        "HTMLMapElement": [
+          "name",
+          "areas"
         ],
         "HTMLAreaElement": [
-          "ping"
+          "alt",
+          "coords",
+          "shape",
+          "target",
+          "download",
+          "ping",
+          "noHref"
+        ],
+        "HTMLTableElement": [
+          "createCaption()",
+          "deleteCaption()",
+          "createTHead()",
+          "deleteTHead()",
+          "createTFoot()",
+          "deleteTFoot()",
+          "createTBody()",
+          "insertRow()",
+          "deleteRow()"
+        ],
+        "HTMLTableColElement": [
+          "span",
+          "align",
+          "ch",
+          "chOff",
+          "vAlign",
+          "width"
+        ],
+        "HTMLTableSectionElement": [
+          "rows",
+          "insertRow()",
+          "deleteRow()",
+          "align",
+          "ch",
+          "chOff",
+          "vAlign"
+        ],
+        "HTMLTableRowElement": [
+          "sectionRowIndex",
+          "cells",
+          "insertCell()",
+          "deleteCell()",
+          "align",
+          "ch",
+          "chOff",
+          "vAlign",
+          "bgColor"
+        ],
+        "HTMLTableCellElement": [
+          "colSpan",
+          "rowSpan",
+          "headers",
+          "cellIndex",
+          "scope",
+          "abbr",
+          "align",
+          "axis",
+          "height",
+          "width",
+          "ch",
+          "chOff",
+          "noWrap",
+          "vAlign",
+          "bgColor"
         ],
         "HTMLFormElement": [
+          "autocomplete",
+          "noValidate",
           "rel",
-          "relList"
+          "relList",
+          "submit()",
+          "requestSubmit()",
+          "reset()",
+          "checkValidity()",
+          "reportValidity()"
         ],
         "HTMLInputElement": [
           "accept",
           "alt",
+          "autocomplete",
           "defaultChecked",
           "checked",
           "dirName",
           "form",
+          "formAction",
+          "formEnctype",
+          "formMethod",
+          "formNoValidate",
+          "formTarget",
+          "height",
+          "indeterminate",
+          "list",
           "max",
           "maxLength",
           "min",
           "minLength",
           "name",
+          "pattern",
+          "placeholder",
           "readOnly",
+          "required",
           "size",
           "src",
           "step",
@@ -523,16 +994,80 @@
           "value",
           "valueAsDate",
           "valueAsNumber",
+          "width",
+          "stepUp()",
+          "stepDown()",
+          "willValidate",
+          "validity",
+          "validationMessage",
+          "checkValidity()",
+          "reportValidity()",
+          "setCustomValidity()",
+          "select()",
           "selectionStart",
           "selectionEnd",
+          "selectionDirection",
+          "setRangeText()",
+          "setSelectionRange()",
+          "showPicker()",
           "align",
           "useMap"
         ],
         "HTMLButtonElement": [
+          "form",
+          "formAction",
+          "formEnctype",
+          "formMethod",
+          "formNoValidate",
+          "formTarget",
+          "name",
+          "type",
+          "value",
+          "willValidate",
+          "validity",
+          "validationMessage",
           "checkValidity()",
+          "reportValidity()",
           "setCustomValidity()"
         ],
+        "HTMLSelectElement": [
+          "autocomplete",
+          "multiple",
+          "name",
+          "required",
+          "size",
+          "length",
+          "item()",
+          "namedItem()",
+          "add()",
+          "remove()",
+          "value",
+          "willValidate",
+          "validity",
+          "validationMessage",
+          "checkValidity()",
+          "reportValidity()",
+          "setCustomValidity()"
+        ],
+        "HTMLDataListElement": [
+          "options"
+        ],
+        "HTMLOptGroupElement": [
+          "disabled",
+          "label"
+        ],
+        "HTMLOptionElement": [
+          "disabled",
+          "form",
+          "label",
+          "defaultSelected",
+          "selected",
+          "value",
+          "text",
+          "index"
+        ],
         "HTMLTextAreaElement": [
+          "autocomplete",
           "cols",
           "dirName",
           "disabled",
@@ -548,10 +1083,12 @@
           "type",
           "defaultValue",
           "value",
+          "textLength",
           "willValidate",
           "validity",
           "validationMessage",
           "checkValidity()",
+          "reportValidity()",
           "setCustomValidity()",
           "select()",
           "selectionStart",
@@ -560,8 +1097,44 @@
           "setRangeText()",
           "setSelectionRange()"
         ],
-        "HTMLFieldSetElement": [
+        "HTMLOutputElement": [
+          "htmlFor",
+          "form",
+          "name",
+          "type",
+          "defaultValue",
+          "value",
+          "willValidate",
+          "validity",
+          "validationMessage",
           "checkValidity()",
+          "reportValidity()",
+          "setCustomValidity()"
+        ],
+        "HTMLProgressElement": [
+          "value",
+          "max",
+          "position"
+        ],
+        "HTMLMeterElement": [
+          "value",
+          "min",
+          "max",
+          "low",
+          "high",
+          "optimum"
+        ],
+        "HTMLFieldSetElement": [
+          "disabled",
+          "form",
+          "name",
+          "type",
+          "elements",
+          "willValidate",
+          "validity",
+          "validationMessage",
+          "checkValidity()",
+          "reportValidity()",
           "setCustomValidity()"
         ],
         "HTMLLegendElement": [
@@ -571,6 +1144,11 @@
         "ValidityState": [
           "customError",
           "valid"
+        ],
+        "HTMLDialogElement": [
+          "show()",
+          "showModal()",
+          "close()"
         ],
         "HTMLScriptElement": [
           "src",
@@ -582,11 +1160,78 @@
           "text",
           "integrity",
           "blocking",
+          "supports()",
           "charset",
           "event",
           "htmlFor"
         ],
+        "HTMLSlotElement": [
+          "assignedNodes()",
+          "assignedElements()",
+          "assign()"
+        ],
+        "HTMLCanvasElement": [
+          "getContext()",
+          "toDataURL()",
+          "toBlob()",
+          "transferControlToOffscreen()"
+        ],
+        "CanvasRenderingContext2D": [
+          "getContextAttributes()",
+          "save()",
+          "restore()",
+          "reset()",
+          "isContextLost()",
+          "scale()",
+          "rotate()",
+          "translate()",
+          "transform()",
+          "getTransform()",
+          "setTransform()",
+          "resetTransform()",
+          "createLinearGradient()",
+          "createRadialGradient()",
+          "createConicGradient()",
+          "createPattern()",
+          "clearRect()",
+          "fillRect()",
+          "strokeRect()",
+          "beginPath()",
+          "fill()",
+          "stroke()",
+          "clip()",
+          "isPointInPath()",
+          "isPointInStroke()",
+          "drawFocusIfNeeded()",
+          "scrollPathIntoView()",
+          "fillText()",
+          "strokeText()",
+          "measureText()",
+          "drawImage()",
+          "createImageData()",
+          "getImageData()",
+          "putImageData()",
+          "setLineDash()",
+          "getLineDash()",
+          "closePath()",
+          "moveTo()",
+          "lineTo()",
+          "quadraticCurveTo()",
+          "bezierCurveTo()",
+          "arcTo()",
+          "rect()",
+          "roundRect()",
+          "arc()",
+          "ellipse()"
+        ],
+        "CanvasGradient": [
+          "addColorStop()"
+        ],
+        "CanvasPattern": [
+          "setTransform()"
+        ],
         "Path2D": [
+          "addPath()",
           "closePath()",
           "moveTo()",
           "lineTo()",
@@ -599,12 +1244,21 @@
           "ellipse()"
         ],
         "ImageBitmapRenderingContext": [
-          "canvas"
+          "canvas",
+          "transferFromImageBitmap()"
+        ],
+        "OffscreenCanvas": [
+          "getContext()",
+          "transferToImageBitmap()",
+          "convertToBlob()"
         ],
         "OffscreenCanvasRenderingContext2D": [
+          "commit()",
           "canvas",
           "save()",
           "restore()",
+          "reset()",
+          "isContextLost()",
           "scale()",
           "rotate()",
           "translate()",
@@ -620,6 +1274,7 @@
           "fillStyle",
           "createLinearGradient()",
           "createRadialGradient()",
+          "createConicGradient()",
           "createPattern()",
           "shadowOffsetX",
           "shadowOffsetY",
@@ -653,6 +1308,12 @@
           "textAlign",
           "textBaseline",
           "direction",
+          "letterSpacing",
+          "fontKerning",
+          "fontStretch",
+          "fontVariantCaps",
+          "textRendering",
+          "wordSpacing",
           "closePath()",
           "moveTo()",
           "lineTo()",
@@ -660,24 +1321,172 @@
           "bezierCurveTo()",
           "arcTo()",
           "rect()",
+          "roundRect()",
           "arc()",
           "ellipse()"
         ],
+        "CustomElementRegistry": [
+          "define()",
+          "get()",
+          "whenDefined()",
+          "upgrade()"
+        ],
+        "ElementInternals": [
+          "setFormValue()",
+          "setValidity()",
+          "checkValidity()",
+          "reportValidity()"
+        ],
+        "DataTransfer": [
+          "setDragImage()",
+          "getData()",
+          "setData()",
+          "clearData()"
+        ],
+        "DataTransferItemList": [
+          "add()",
+          "remove()",
+          "clear()"
+        ],
+        "DataTransferItem": [
+          "getAsString()",
+          "getAsFile()"
+        ],
         "Window": [
+          "close()",
+          "stop()",
+          "focus()",
+          "blur()",
+          "open()",
+          "clientInformation",
           "originAgentCluster",
-          "captureEvents()"
+          "alert()",
+          "confirm()",
+          "prompt()",
+          "print()",
+          "postMessage()",
+          "requestAnimationFrame()",
+          "cancelAnimationFrame()",
+          "captureEvents()",
+          "releaseEvents()"
+        ],
+        "Location": [
+          "assign()",
+          "replace()",
+          "reload()"
+        ],
+        "History": [
+          "go()",
+          "back()",
+          "forward()",
+          "pushState()",
+          "replaceState()"
+        ],
+        "PopStateEvent": [
+          "state"
         ],
         "BeforeUnloadEvent": [
           "returnValue"
         ],
+        "ErrorEvent": [
+          "message",
+          "filename",
+          "lineno",
+          "colno",
+          "error"
+        ],
+        "DOMParser": [
+          "parseFromString()"
+        ],
+        "Navigator": [
+          "taintEnabled()",
+          "registerProtocolHandler()",
+          "unregisterProtocolHandler()",
+          "javaEnabled()"
+        ],
+        "PluginArray": [
+          "refresh()",
+          "length",
+          "item()",
+          "namedItem()"
+        ],
+        "MimeTypeArray": [
+          "length",
+          "item()",
+          "namedItem()"
+        ],
         "Plugin": [
-          "length"
+          "name",
+          "description",
+          "filename",
+          "length",
+          "item()",
+          "namedItem()"
+        ],
+        "MimeType": [
+          "type",
+          "description",
+          "suffixes",
+          "enabledPlugin"
+        ],
+        "ImageBitmap": [
+          "close()"
         ],
         "DedicatedWorkerGlobalScope": [
           "requestAnimationFrame()",
-          "cancelAnimationFrame()"
+          "cancelAnimationFrame()",
+          "postMessage()",
+          "close()"
+        ],
+        "MessageEvent": [
+          "initMessageEvent()"
+        ],
+        "EventSource": [
+          "close()"
+        ],
+        "MessagePort": [
+          "postMessage()",
+          "start()",
+          "close()"
+        ],
+        "BroadcastChannel": [
+          "postMessage()",
+          "close()"
+        ],
+        "WorkerGlobalScope": [
+          "importScripts()",
+          "onerror"
+        ],
+        "SharedWorkerGlobalScope": [
+          "close()"
+        ],
+        "Worker": [
+          "terminate()",
+          "postMessage()"
+        ],
+        "WorkerNavigator": [
+          "taintEnabled()",
+          "oscpu"
         ],
         "WorkletGlobalScope": true,
+        "Worklet": [
+          "addModule()"
+        ],
+        "Storage": [
+          "key()",
+          "getItem()",
+          "setItem()",
+          "removeItem()",
+          "clear()"
+        ],
+        "StorageEvent": [
+          "key",
+          "oldValue",
+          "newValue",
+          "url",
+          "storageArea",
+          "initStorageEvent()"
+        ],
         "HTMLMarqueeElement": [
           "behavior",
           "bgColor",
@@ -697,7 +1506,31 @@
           "cols",
           "rows"
         ],
+        "HTMLFrameElement": true,
+        "HTMLBodyElement": [
+          "text",
+          "link",
+          "vLink",
+          "aLink",
+          "bgColor",
+          "background"
+        ],
+        "HTMLBRElement": [
+          "clear"
+        ],
+        "HTMLTableCaptionElement": [
+          "align"
+        ],
         "HTMLDirectoryElement": true,
+        "HTMLDivElement": [
+          "align"
+        ],
+        "HTMLDListElement": [
+          "compact"
+        ],
+        "HTMLHeadingElement": [
+          "align"
+        ],
         "HTMLHRElement": [
           "align",
           "color",
@@ -705,8 +1538,30 @@
           "size",
           "width"
         ],
+        "HTMLMenuElement": [
+          "compact"
+        ],
+        "HTMLParagraphElement": [
+          "align"
+        ],
+        "HTMLParamElement": [
+          "name",
+          "value",
+          "type",
+          "valueType"
+        ],
+        "HTMLPreElement": [
+          "width"
+        ],
+        "HTMLUListElement": [
+          "compact",
+          "type"
+        ],
+        "External": true,
         "MathMLElement": [
           "dataset",
+          "nonce",
+          "autofocus",
           "tabIndex",
           "focus()",
           "blur()"
@@ -754,21 +1609,16 @@
           "nonce",
           "autofocus"
         ]
-      },
-      "bcd-mdn": {
-        "HTMLMetaElement": [
-          "name",
-          "httpEquiv",
-          "content",
-          "media",
-          "scheme"
-        ],
-        "HTMLInputElement": [
-          "disabled"
-        ],
-        "ValidityState": [
-          "valueMissing"
-        ]
+      }
+    },
+    "elements": {
+      "mdn": {
+        "h1": true,
+        "h2": true,
+        "h3": true,
+        "h4": true,
+        "h5": true,
+        "h6": true
       }
     }
   },
@@ -776,8 +1626,44 @@
     "title": "WebGL WEBGL_blend_equation_advanced_coherent Extension Draft Specification",
     "url": "https://registry.khronos.org/webgl/extensions/WEBGL_blend_equation_advanced_coherent/",
     "idl": {
+      "mdn": {
+        "WEBGL_blend_equation_advanced_coherent": true
+      },
       "bcd": {
         "WEBGL_blend_equation_advanced_coherent": true
+      }
+    }
+  },
+  "WEBGL_compressed_texture_astc": {
+    "title": "WebGL WEBGL_compressed_texture_astc Extension Specification",
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_astc/",
+    "idl": {
+      "mdn": {
+        "WEBGL_compressed_texture_astc": [
+          "getSupportedProfiles()"
+        ]
+      }
+    }
+  },
+  "WEBGL_debug_shaders": {
+    "title": "WebGL WEBGL_debug_shaders Khronos Ratified Extension Specification",
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_debug_shaders/",
+    "idl": {
+      "mdn": {
+        "WEBGL_debug_shaders": [
+          "getTranslatedShaderSource()"
+        ]
+      }
+    }
+  },
+  "WEBGL_draw_buffers": {
+    "title": "WebGL WEBGL_draw_buffers Khronos Ratified Extension Specification",
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_draw_buffers/",
+    "idl": {
+      "mdn": {
+        "WEBGL_draw_buffers": [
+          "drawBuffersWEBGL()"
+        ]
       }
     }
   },
@@ -785,8 +1671,37 @@
     "title": "WebGL WEBGL_draw_instanced_base_vertex_base_instance Extension Draft Specification",
     "url": "https://registry.khronos.org/webgl/extensions/WEBGL_draw_instanced_base_vertex_base_instance/",
     "idl": {
+      "mdn": {
+        "WEBGL_draw_instanced_base_vertex_base_instance": true
+      },
       "bcd": {
         "WEBGL_draw_instanced_base_vertex_base_instance": true
+      }
+    }
+  },
+  "WEBGL_lose_context": {
+    "title": "WebGL WEBGL_lose_context Khronos Ratified Extension Specification",
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_lose_context/",
+    "idl": {
+      "mdn": {
+        "WEBGL_lose_context": [
+          "loseContext()",
+          "restoreContext()"
+        ]
+      }
+    }
+  },
+  "WEBGL_multi_draw": {
+    "title": "WebGL WEBGL_multi_draw Extension Specification",
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw/",
+    "idl": {
+      "mdn": {
+        "WEBGL_multi_draw": [
+          "multiDrawArraysWEBGL()",
+          "multiDrawElementsWEBGL()",
+          "multiDrawArraysInstancedWEBGL()",
+          "multiDrawElementsInstancedWEBGL()"
+        ]
       }
     }
   },
@@ -794,8 +1709,43 @@
     "title": "WebGL WEBGL_multi_draw_instanced_base_vertex_base_instance Extension Draft Specification",
     "url": "https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw_instanced_base_vertex_base_instance/",
     "idl": {
+      "mdn": {
+        "WEBGL_multi_draw_instanced_base_vertex_base_instance": true
+      },
       "bcd": {
         "WEBGL_multi_draw_instanced_base_vertex_base_instance": true
+      }
+    }
+  },
+  "WebCryptoAPI": {
+    "title": "Web Cryptography API",
+    "url": "https://www.w3.org/TR/WebCryptoAPI/",
+    "idl": {
+      "mdn": {
+        "Crypto": [
+          "getRandomValues()",
+          "randomUUID()"
+        ],
+        "CryptoKey": [
+          "type",
+          "extractable",
+          "algorithm",
+          "usages"
+        ],
+        "SubtleCrypto": [
+          "encrypt()",
+          "decrypt()",
+          "sign()",
+          "verify()",
+          "digest()",
+          "generateKey()",
+          "deriveKey()",
+          "deriveBits()",
+          "importKey()",
+          "exportKey()",
+          "wrapKey()",
+          "unwrapKey()"
+        ]
       }
     }
   },
@@ -803,6 +1753,22 @@
     "title": "WebXR Anchors Module",
     "url": "https://immersive-web.github.io/anchors/",
     "idl": {
+      "mdn": {
+        "XRAnchor": [
+          "requestPersistentHandle()",
+          "delete()"
+        ],
+        "XRFrame": [
+          "createAnchor()"
+        ],
+        "XRSession": [
+          "restorePersistentAnchor()",
+          "deletePersistentAnchor()"
+        ],
+        "XRHitTestResult": [
+          "createAnchor()"
+        ]
+      },
       "bcd": {
         "XRAnchor": [
           "requestPersistentHandle()"
@@ -818,6 +1784,17 @@
     "title": "Attribution Reporting",
     "url": "https://wicg.github.io/attribution-reporting-api/",
     "idl": {
+      "mdn": {
+        "HTMLAnchorElement": [
+          "attributionSrc"
+        ],
+        "HTMLImageElement": [
+          "attributionSrc"
+        ],
+        "HTMLScriptElement": [
+          "attributionSrc"
+        ]
+      },
       "bcd": {
         "HTMLAnchorElement": [
           "attributionSrc"
@@ -831,13 +1808,68 @@
       }
     }
   },
+  "audio-output": {
+    "title": "Audio Output Devices API",
+    "url": "https://www.w3.org/TR/audio-output/",
+    "idl": {
+      "mdn": {
+        "HTMLMediaElement": [
+          "setSinkId()"
+        ],
+        "MediaDevices": [
+          "selectAudioOutput()"
+        ]
+      }
+    }
+  },
   "autoplay-detection": {
     "title": "Autoplay Policy Detection",
     "url": "https://www.w3.org/TR/autoplay-detection/",
     "idl": {
+      "mdn": {
+        "Navigator": [
+          "getAutoplayPolicy()"
+        ]
+      },
       "bcd": {
         "Navigator": [
           "getAutoplayPolicy()"
+        ]
+      }
+    }
+  },
+  "background-fetch": {
+    "title": "Background Fetch",
+    "url": "https://wicg.github.io/background-fetch/",
+    "idl": {
+      "mdn": {
+        "ServiceWorkerRegistration": [
+          "backgroundFetch"
+        ],
+        "BackgroundFetchManager": [
+          "fetch()",
+          "get()",
+          "getIds()"
+        ],
+        "BackgroundFetchRegistration": [
+          "abort()",
+          "match()",
+          "matchAll()"
+        ],
+        "BackgroundFetchUpdateUIEvent": [
+          "updateUI()"
+        ]
+      }
+    }
+  },
+  "background-sync": {
+    "title": "Web Background Synchronization",
+    "url": "https://wicg.github.io/background-sync/spec/",
+    "idl": {
+      "mdn": {
+        "SyncManager": [
+          "register()",
+          "getTags()"
         ]
       }
     }
@@ -846,6 +1878,18 @@
     "title": "Badging API",
     "url": "https://w3c.github.io/badging/",
     "idl": {
+      "mdn": {
+        "Navigator": [
+          "setClientBadge()",
+          "clearClientBadge()",
+          "setAppBadge()",
+          "clearAppBadge()"
+        ],
+        "WorkerNavigator": [
+          "setAppBadge()",
+          "clearAppBadge()"
+        ]
+      },
       "bcd": {
         "Navigator": [
           "setClientBadge()",
@@ -854,6 +1898,28 @@
         "WorkerNavigator": [
           "setAppBadge()",
           "clearAppBadge()"
+        ]
+      }
+    }
+  },
+  "battery-status": {
+    "title": "Battery Status API",
+    "url": "https://www.w3.org/TR/battery-status/",
+    "idl": {
+      "mdn": {
+        "Navigator": [
+          "getBattery()"
+        ]
+      }
+    }
+  },
+  "beacon": {
+    "title": "Beacon",
+    "url": "https://www.w3.org/TR/beacon/",
+    "idl": {
+      "mdn": {
+        "Navigator": [
+          "sendBeacon()"
         ]
       }
     }
@@ -872,10 +1938,30 @@
       }
     }
   },
+  "clipboard-apis": {
+    "title": "Clipboard API and events",
+    "url": "https://www.w3.org/TR/clipboard-apis/",
+    "idl": {
+      "mdn": {
+        "ClipboardItem": [
+          "getType()"
+        ],
+        "Clipboard": [
+          "read()",
+          "readText()",
+          "write()",
+          "writeText()"
+        ]
+      }
+    }
+  },
   "close-watcher": {
     "title": "Close Watcher API",
     "url": "https://wicg.github.io/close-watcher/",
     "idl": {
+      "mdn": {
+        "CloseWatcher": true
+      },
       "bcd": {
         "CloseWatcher": true
       }
@@ -885,9 +1971,42 @@
     "title": "Compute Pressure Level 1",
     "url": "https://www.w3.org/TR/compute-pressure/",
     "idl": {
+      "mdn": {
+        "PressureObserver": true,
+        "PressureRecord": true
+      },
       "bcd": {
         "PressureObserver": true,
         "PressureRecord": true
+      }
+    }
+  },
+  "console": {
+    "title": "Console Standard",
+    "url": "https://console.spec.whatwg.org/",
+    "idl": {
+      "mdn": {
+        "console": [
+          "assert()",
+          "clear()",
+          "debug()",
+          "error()",
+          "info()",
+          "log()",
+          "table()",
+          "trace()",
+          "warn()",
+          "dir()",
+          "dirxml()",
+          "count()",
+          "countReset()",
+          "group()",
+          "groupCollapsed()",
+          "groupEnd()",
+          "time()",
+          "timeLog()",
+          "timeEnd()"
+        ]
       }
     }
   },
@@ -895,9 +2014,6 @@
     "title": "Contact Picker API",
     "url": "https://www.w3.org/TR/contact-picker-1/",
     "idl": {
-      "bcd-mdn": {
-        "ContactAddress": true
-      },
       "mdn": {
         "ContactAddress": [
           "toJSON()",
@@ -911,6 +2027,23 @@
           "region",
           "sortingCode",
           "addressLine"
+        ],
+        "ContactsManager": [
+          "getProperties()",
+          "select()"
+        ]
+      }
+    }
+  },
+  "content-index": {
+    "title": "Content Index",
+    "url": "https://wicg.github.io/content-index/spec/",
+    "idl": {
+      "mdn": {
+        "ContentIndex": [
+          "add()",
+          "delete()",
+          "getAll()"
         ]
       }
     }
@@ -920,6 +2053,17 @@
     "url": "https://wicg.github.io/cookie-store/",
     "idl": {
       "mdn": {
+        "CookieStore": [
+          "get()",
+          "getAll()",
+          "set()",
+          "delete()"
+        ],
+        "CookieStoreManager": [
+          "subscribe()",
+          "getSubscriptions()",
+          "unsubscribe()"
+        ],
         "ServiceWorkerRegistration": [
           "cookies"
         ],
@@ -936,6 +2080,9 @@
     "title": "Crash Reporting",
     "url": "https://wicg.github.io/crash-reporting/",
     "idl": {
+      "mdn": {
+        "CrashReportBody": true
+      },
       "bcd": {
         "CrashReportBody": true
       }
@@ -948,6 +2095,16 @@
       "mdn": {
         "Credential": [
           "isConditionalMediationAvailable()"
+        ],
+        "CredentialsContainer": [
+          "get()",
+          "store()",
+          "create()",
+          "preventSilentAccess()"
+        ],
+        "FederatedCredential": [
+          "name",
+          "iconURL"
         ]
       }
     }
@@ -956,6 +2113,9 @@
     "title": "Scripting Policy",
     "url": "https://wicg.github.io/csp-next/scripting-policy.html",
     "idl": {
+      "mdn": {
+        "ScriptingPolicyReportBody": true
+      },
       "bcd": {
         "ScriptingPolicyReportBody": true
       }
@@ -965,6 +2125,15 @@
     "title": "CSS Animation Worklet API",
     "url": "https://www.w3.org/TR/css-animation-worklet-1/",
     "idl": {
+      "mdn": {
+        "CSS": [
+          "animationWorklet"
+        ],
+        "AnimationWorkletGlobalScope": true,
+        "WorkletAnimationEffect": true,
+        "WorkletAnimation": true,
+        "WorkletGroupEffect": true
+      },
       "bcd": {
         "CSS": [
           "animationWorklet"
@@ -980,6 +2149,14 @@
     "title": "CSS Animations Level 2",
     "url": "https://drafts.csswg.org/css-animations-2/",
     "idl": {
+      "mdn": {
+        "CSSKeyframesRule": [
+          "length",
+          "appendRule()",
+          "deleteRule()",
+          "findRule()"
+        ]
+      },
       "bcd": {
         "CSSKeyframesRule": [
           "length"
@@ -1002,6 +2179,9 @@
   },
   "css-color-5": {
     "idl": {
+      "mdn": {
+        "CSSColorProfileRule": true
+      },
       "bcd": {
         "CSSColorProfileRule": true
       }
@@ -1012,8 +2192,22 @@
       }
     }
   },
+  "css-conditional": {
+    "title": "CSS Conditional Rules Module Level 3",
+    "url": "https://www.w3.org/TR/css-conditional-3/",
+    "idl": {
+      "mdn": {
+        "CSS": [
+          "supports()"
+        ]
+      }
+    }
+  },
   "css-contain-3": {
     "idl": {
+      "mdn": {
+        "CSSContainerRule": true
+      },
       "bcd": {
         "CSSContainerRule": [
           "containerName",
@@ -1026,6 +2220,26 @@
     "title": "CSS Font Loading Module Level 3",
     "url": "https://www.w3.org/TR/css-font-loading-3/",
     "idl": {
+      "mdn": {
+        "FontFace": [
+          "load()",
+          "features",
+          "variations",
+          "palettes"
+        ],
+        "FontFaceFeatures": true,
+        "FontFaceVariationAxis": true,
+        "FontFaceVariations": true,
+        "FontFacePalette": true,
+        "FontFacePalettes": true,
+        "FontFaceSet": [
+          "add()",
+          "delete()",
+          "clear()",
+          "load()",
+          "check()"
+        ]
+      },
       "bcd": {
         "FontFaceFeatures": true,
         "FontFaceVariationAxis": true,
@@ -1046,6 +2260,7 @@
     "idl": {
       "mdn": {
         "CSSFontFeatureValuesRule": true,
+        "CSSFontFeatureValuesMap": true,
         "CSSFontPaletteValuesRule": true
       },
       "bcd": {
@@ -1083,6 +2298,11 @@
   },
   "css-images-4": {
     "idl": {
+      "mdn": {
+        "CSS": [
+          "elementSources"
+        ]
+      },
       "bcd": {
         "CSS": [
           "elementSources"
@@ -1102,6 +2322,20 @@
     "title": "CSS Layout API Level 1",
     "url": "https://www.w3.org/TR/css-layout-api-1/",
     "idl": {
+      "mdn": {
+        "CSS": [
+          "layoutWorklet"
+        ],
+        "LayoutWorkletGlobalScope": true,
+        "LayoutChild": true,
+        "LayoutFragment": true,
+        "IntrinsicSizes": true,
+        "LayoutConstraints": true,
+        "ChildBreakToken": true,
+        "BreakToken": true,
+        "LayoutEdges": true,
+        "FragmentResult": true
+      },
       "bcd": {
         "CSS": [
           "layoutWorklet"
@@ -1138,6 +2372,9 @@
       }
     },
     "css.properties": {
+      "mdn": {
+        "clip-rule": true
+      },
       "bcd": {
         "clip-rule": true,
         "mask-border-mode": true
@@ -1148,6 +2385,17 @@
     "title": "CSS Spatial Navigation Level 1",
     "url": "https://www.w3.org/TR/css-nav-1/",
     "idl": {
+      "mdn": {
+        "Window": [
+          "navigate()"
+        ],
+        "Element": [
+          "getSpatialNavigationContainer()",
+          "focusableAreas()",
+          "spatialNavigationSearch()"
+        ],
+        "NavigationEvent": true
+      },
       "bcd": {
         "Window": [
           "navigate()"
@@ -1161,6 +2409,11 @@
       }
     },
     "css.properties": {
+      "mdn": {
+        "spatial-navigation-contain": true,
+        "spatial-navigation-action": true,
+        "spatial-navigation-function": true
+      },
       "bcd": {
         "spatial-navigation-contain": true,
         "spatial-navigation-action": true,
@@ -1172,6 +2425,13 @@
     "title": "CSS Nesting Module",
     "url": "https://www.w3.org/TR/css-nesting-1/",
     "idl": {
+      "mdn": {
+        "CSSStyleRule": [
+          "cssRules",
+          "insertRule()",
+          "deleteRule()"
+        ]
+      },
       "bcd": {
         "CSSStyleRule": [
           "cssRules",
@@ -1181,10 +2441,40 @@
       }
     }
   },
+  "css-paint-api": {
+    "title": "CSS Painting API Level 1",
+    "url": "https://www.w3.org/TR/css-paint-api-1/",
+    "idl": {
+      "mdn": {
+        "PaintWorkletGlobalScope": true,
+        "PaintRenderingContext2D": true,
+        "PaintSize": true
+      }
+    }
+  },
   "css-parser-api": {
     "title": "CSS Parser API",
     "url": "https://wicg.github.io/css-parser-api/",
     "idl": {
+      "mdn": {
+        "CSS": [
+          "parseStylesheet()",
+          "parseRuleList()",
+          "parseRule()",
+          "parseDeclarationList()",
+          "parseDeclaration()",
+          "parseValue()",
+          "parseValueList()",
+          "parseCommaValueList()"
+        ],
+        "CSSParserRule": true,
+        "CSSParserAtRule": true,
+        "CSSParserQualifiedRule": true,
+        "CSSParserDeclaration": true,
+        "CSSParserValue": true,
+        "CSSParserBlock": true,
+        "CSSParserFunction": true
+      },
       "bcd": {
         "CSS": [
           "parseStylesheet()",
@@ -1206,10 +2496,30 @@
       }
     }
   },
+  "css-properties-values-api": {
+    "title": "CSS Properties and Values API Level 1",
+    "url": "https://www.w3.org/TR/css-properties-values-api-1/",
+    "idl": {
+      "mdn": {
+        "CSS": [
+          "registerProperty()"
+        ]
+      }
+    }
+  },
   "css-pseudo": {
     "title": "CSS Pseudo-Elements Module Level 4",
     "url": "https://www.w3.org/TR/css-pseudo-4/",
     "idl": {
+      "mdn": {
+        "CSSPseudoElement": [
+          "parent",
+          "pseudo()"
+        ],
+        "Element": [
+          "pseudo()"
+        ]
+      },
       "bcd": {
         "CSSPseudoElement": [
           "parent",
@@ -1225,6 +2535,17 @@
     "title": "CSS Regions Module Level 1",
     "url": "https://www.w3.org/TR/css-regions-1/",
     "idl": {
+      "mdn": {
+        "Document": [
+          "namedFlows"
+        ],
+        "NamedFlowMap": true,
+        "NamedFlow": true,
+        "Element": [
+          "regionOverset",
+          "getRegionFlowRanges()"
+        ]
+      },
       "bcd": {
         "Document": [
           "namedFlows"
@@ -1238,6 +2559,11 @@
       }
     },
     "css.properties": {
+      "mdn": {
+        "flow-into": true,
+        "flow-from": true,
+        "region-fragment": true
+      },
       "bcd": {
         "flow-into": true,
         "flow-from": true,
@@ -1250,15 +2576,113 @@
     "url": "https://www.w3.org/TR/css-typed-om-1/",
     "idl": {
       "mdn": {
+        "CSSStyleValue": [
+          "parse()",
+          "parseAll()"
+        ],
+        "StylePropertyMapReadOnly": [
+          "get()",
+          "getAll()",
+          "has()"
+        ],
+        "StylePropertyMap": [
+          "set()",
+          "append()",
+          "delete()",
+          "clear()"
+        ],
+        "Element": [
+          "computedStyleMap()"
+        ],
+        "CSSNumericValue": [
+          "add()",
+          "sub()",
+          "mul()",
+          "div()",
+          "min()",
+          "max()",
+          "equals()",
+          "to()",
+          "toSum()",
+          "type()",
+          "parse()"
+        ],
         "CSSMathClamp": true,
         "CSS": [
+          "number()",
+          "percent()",
+          "em()",
+          "ex()",
+          "ch()",
+          "ic()",
+          "rem()",
+          "lh()",
+          "rlh()",
+          "vw()",
+          "vh()",
+          "vi()",
+          "vb()",
+          "vmin()",
+          "vmax()",
+          "svw()",
+          "svh()",
+          "svi()",
+          "svb()",
+          "svmin()",
+          "svmax()",
+          "lvw()",
+          "lvh()",
+          "lvi()",
+          "lvb()",
+          "lvmin()",
+          "lvmax()",
+          "dvw()",
+          "dvh()",
+          "dvi()",
+          "dvb()",
+          "dvmin()",
+          "dvmax()",
           "cqw()",
           "cqh()",
           "cqi()",
           "cqb()",
           "cqmin()",
-          "cqmax()"
-        ]
+          "cqmax()",
+          "cm()",
+          "mm()",
+          "Q()",
+          "in()",
+          "pt()",
+          "pc()",
+          "px()",
+          "deg()",
+          "grad()",
+          "rad()",
+          "turn()",
+          "s()",
+          "ms()",
+          "Hz()",
+          "kHz()",
+          "dpi()",
+          "dpcm()",
+          "dppx()",
+          "fr()"
+        ],
+        "CSSTransformValue": [
+          "toMatrix()"
+        ],
+        "CSSTransformComponent": [
+          "toMatrix()"
+        ],
+        "CSSColorValue": true,
+        "CSSRGB": true,
+        "CSSHSL": true,
+        "CSSHWB": true,
+        "CSSLab": true,
+        "CSSLCH": true,
+        "CSSOKLab": true,
+        "CSSOKLCH": true,
+        "CSSColor": true
       },
       "bcd": {
         "CSS": [
@@ -1300,6 +2724,12 @@
     "title": "CSS View Transitions Module Level 1",
     "url": "https://www.w3.org/TR/css-view-transitions-1/",
     "idl": {
+      "mdn": {
+        "Document": [
+          "startViewTransition()"
+        ],
+        "ViewTransition": true
+      },
       "bcd": {
         "Document": [
           "startViewTransition()"
@@ -1308,6 +2738,9 @@
       }
     },
     "css.properties": {
+      "mdn": {
+        "view-transition-name": true
+      },
       "bcd": {
         "view-transition-name": true
       }
@@ -1318,20 +2751,62 @@
     "url": "https://www.w3.org/TR/cssom-view-1/",
     "idl": {
       "mdn": {
+        "Window": [
+          "matchMedia()",
+          "moveTo()",
+          "moveBy()",
+          "resizeTo()",
+          "resizeBy()",
+          "scroll()",
+          "scrollTo()",
+          "scrollBy()"
+        ],
+        "MediaQueryList": [
+          "addListener()",
+          "removeListener()"
+        ],
+        "Document": [
+          "elementFromPoint()",
+          "elementsFromPoint()",
+          "caretPositionFromPoint()",
+          "getBoxQuads()",
+          "convertQuadFromNode()",
+          "convertRectFromNode()",
+          "convertPointFromNode()"
+        ],
         "CaretPosition": [
           "offsetNode",
           "offset",
           "getClientRect()"
         ],
         "Element": [
+          "getClientRects()",
+          "getBoundingClientRect()",
           "checkVisibility()",
-          "getBoxQuads()"
+          "scrollIntoView()",
+          "scroll()",
+          "scrollTo()",
+          "scrollBy()",
+          "getBoxQuads()",
+          "convertQuadFromNode()",
+          "convertRectFromNode()",
+          "convertPointFromNode()"
+        ],
+        "Range": [
+          "getClientRects()",
+          "getBoundingClientRect()"
         ],
         "Text": [
-          "getBoxQuads()"
+          "getBoxQuads()",
+          "convertQuadFromNode()",
+          "convertRectFromNode()",
+          "convertPointFromNode()"
         ],
-        "Document": [
-          "getBoxQuads()"
+        "CSSPseudoElement": [
+          "getBoxQuads()",
+          "convertQuadFromNode()",
+          "convertRectFromNode()",
+          "convertPointFromNode()"
         ]
       },
       "bcd": {
@@ -1363,16 +2838,60 @@
     "title": "CSS Object Model (CSSOM)",
     "url": "https://www.w3.org/TR/cssom-1/",
     "idl": {
-      "bcd": {
-        "CSSMarginRule": true
-      },
       "mdn": {
+        "MediaList": [
+          "length",
+          "item()",
+          "appendMedium()",
+          "deleteMedium()"
+        ],
+        "CSSStyleSheet": [
+          "insertRule()",
+          "deleteRule()",
+          "replace()",
+          "replaceSync()",
+          "addRule()",
+          "removeRule()"
+        ],
+        "StyleSheetList": [
+          "item()"
+        ],
+        "CSSRuleList": [
+          "item()"
+        ],
+        "CSSGroupingRule": [
+          "insertRule()",
+          "deleteRule()"
+        ],
+        "CSSMarginRule": true,
+        "CSSStyleDeclaration": [
+          "item()",
+          "getPropertyValue()",
+          "getPropertyPriority()",
+          "setProperty()",
+          "removeProperty()"
+        ],
         "SVGElement": [
           "style"
         ],
         "MathMLElement": [
           "style"
+        ],
+        "Window": [
+          "getComputedStyle()"
+        ],
+        "CSS": [
+          "escape()"
+        ],
+        "HTMLLinkElement": [
+          "sheet"
+        ],
+        "HTMLStyleElement": [
+          "sheet"
         ]
+      },
+      "bcd": {
+        "CSSMarginRule": true
       }
     }
   },
@@ -1380,9 +2899,6 @@
     "title": "Custom State Pseudo Class",
     "url": "https://wicg.github.io/custom-state-pseudo-class/",
     "idl": {
-      "bcd-mdn": {
-        "CustomStateSet": true
-      },
       "mdn": {
         "CustomStateSet": [
           "add()"
@@ -1396,6 +2912,17 @@
     "idl": {
       "mdn": {
         "DataCue": true
+      }
+    }
+  },
+  "deprecation-reporting": {
+    "title": "Deprecation Reporting",
+    "url": "https://wicg.github.io/deprecation-reporting/",
+    "idl": {
+      "mdn": {
+        "DeprecationReportBody": [
+          "toJSON()"
+        ]
       }
     }
   },
@@ -1414,6 +2941,12 @@
     "title": "Device Posture API",
     "url": "https://www.w3.org/TR/device-posture/",
     "idl": {
+      "mdn": {
+        "Navigator": [
+          "devicePosture"
+        ],
+        "DevicePosture": true
+      },
       "bcd": {
         "Navigator": [
           "devicePosture"
@@ -1426,6 +2959,12 @@
     "title": "Digital Goods API",
     "url": "https://wicg.github.io/digital-goods/",
     "idl": {
+      "mdn": {
+        "Window": [
+          "getDigitalGoodsService()"
+        ],
+        "DigitalGoodsService": true
+      },
       "bcd": {
         "Window": [
           "getDigitalGoodsService()"
@@ -1438,6 +2977,248 @@
     "title": "DOM Standard",
     "url": "https://dom.spec.whatwg.org/",
     "idl": {
+      "mdn": {
+        "Event": [
+          "composedPath()",
+          "stopPropagation()",
+          "stopImmediatePropagation()",
+          "preventDefault()",
+          "initEvent()"
+        ],
+        "CustomEvent": [
+          "initCustomEvent()"
+        ],
+        "EventTarget": [
+          "addEventListener()",
+          "removeEventListener()",
+          "dispatchEvent()"
+        ],
+        "EventListener": true,
+        "AbortController": [
+          "abort()"
+        ],
+        "AbortSignal": [
+          "abort()",
+          "timeout()",
+          "throwIfAborted()"
+        ],
+        "Document": [
+          "getElementById()",
+          "prepend()",
+          "append()",
+          "replaceChildren()",
+          "querySelector()",
+          "querySelectorAll()",
+          "charset",
+          "inputEncoding",
+          "getElementsByTagName()",
+          "getElementsByTagNameNS()",
+          "getElementsByClassName()",
+          "createElement()",
+          "createElementNS()",
+          "createDocumentFragment()",
+          "createTextNode()",
+          "createCDATASection()",
+          "createComment()",
+          "createProcessingInstruction()",
+          "importNode()",
+          "adoptNode()",
+          "createAttribute()",
+          "createAttributeNS()",
+          "createEvent()",
+          "createRange()",
+          "createNodeIterator()",
+          "createTreeWalker()",
+          "createExpression()",
+          "createNSResolver()",
+          "evaluate()"
+        ],
+        "DocumentFragment": [
+          "getElementById()",
+          "prepend()",
+          "append()",
+          "replaceChildren()",
+          "querySelector()",
+          "querySelectorAll()"
+        ],
+        "Element": [
+          "prepend()",
+          "append()",
+          "replaceChildren()",
+          "querySelector()",
+          "querySelectorAll()",
+          "before()",
+          "after()",
+          "replaceWith()",
+          "remove()",
+          "hasAttributes()",
+          "getAttributeNames()",
+          "getAttribute()",
+          "getAttributeNS()",
+          "setAttribute()",
+          "setAttributeNS()",
+          "removeAttribute()",
+          "removeAttributeNS()",
+          "toggleAttribute()",
+          "hasAttribute()",
+          "hasAttributeNS()",
+          "getAttributeNode()",
+          "getAttributeNodeNS()",
+          "setAttributeNode()",
+          "setAttributeNodeNS()",
+          "removeAttributeNode()",
+          "attachShadow()",
+          "closest()",
+          "matches()",
+          "webkitMatchesSelector()",
+          "getElementsByTagName()",
+          "getElementsByTagNameNS()",
+          "getElementsByClassName()",
+          "insertAdjacentElement()",
+          "insertAdjacentText()"
+        ],
+        "DocumentType": [
+          "before()",
+          "after()",
+          "replaceWith()",
+          "remove()",
+          "name",
+          "publicId",
+          "systemId"
+        ],
+        "CharacterData": [
+          "before()",
+          "after()",
+          "replaceWith()",
+          "remove()",
+          "substringData()",
+          "appendData()",
+          "insertData()",
+          "deleteData()",
+          "replaceData()"
+        ],
+        "NodeList": [
+          "item()"
+        ],
+        "HTMLCollection": [
+          "item()",
+          "namedItem()"
+        ],
+        "MutationObserver": [
+          "observe()",
+          "disconnect()",
+          "takeRecords()"
+        ],
+        "Node": [
+          "getRootNode()",
+          "hasChildNodes()",
+          "normalize()",
+          "cloneNode()",
+          "isEqualNode()",
+          "isSameNode()",
+          "compareDocumentPosition()",
+          "contains()",
+          "lookupPrefix()",
+          "lookupNamespaceURI()",
+          "isDefaultNamespace()",
+          "insertBefore()",
+          "appendChild()",
+          "replaceChild()",
+          "removeChild()"
+        ],
+        "DOMImplementation": [
+          "createDocumentType()",
+          "createDocument()",
+          "createHTMLDocument()",
+          "hasFeature()"
+        ],
+        "ShadowRoot": [
+          "slotAssignment"
+        ],
+        "NamedNodeMap": [
+          "item()",
+          "getNamedItem()",
+          "getNamedItemNS()",
+          "setNamedItem()",
+          "setNamedItemNS()",
+          "removeNamedItem()",
+          "removeNamedItemNS()"
+        ],
+        "Text": [
+          "splitText()"
+        ],
+        "Range": [
+          "setStart()",
+          "setEnd()",
+          "setStartBefore()",
+          "setStartAfter()",
+          "setEndBefore()",
+          "setEndAfter()",
+          "collapse()",
+          "selectNode()",
+          "selectNodeContents()",
+          "compareBoundaryPoints()",
+          "deleteContents()",
+          "extractContents()",
+          "cloneContents()",
+          "insertNode()",
+          "surroundContents()",
+          "cloneRange()",
+          "detach()",
+          "isPointInRange()",
+          "comparePoint()",
+          "intersectsNode()"
+        ],
+        "NodeIterator": [
+          "nextNode()",
+          "previousNode()",
+          "detach()"
+        ],
+        "TreeWalker": [
+          "parentNode()",
+          "firstChild()",
+          "lastChild()",
+          "previousSibling()",
+          "nextSibling()",
+          "previousNode()",
+          "nextNode()"
+        ],
+        "NodeFilter": true,
+        "DOMTokenList": [
+          "item()",
+          "contains()",
+          "add()",
+          "remove()",
+          "toggle()",
+          "replace()",
+          "supports()"
+        ],
+        "XPathResult": [
+          "iterateNext()",
+          "snapshotItem()"
+        ],
+        "XPathExpression": [
+          "evaluate()"
+        ],
+        "XPathNSResolver": [
+          "lookupNamespaceURI()"
+        ],
+        "XPathEvaluator": [
+          "createExpression()",
+          "createNSResolver()",
+          "evaluate()"
+        ],
+        "XSLTProcessor": [
+          "importStylesheet()",
+          "transformToFragment()",
+          "transformToDocument()",
+          "setParameter()",
+          "getParameter()",
+          "removeParameter()",
+          "clearParameters()",
+          "reset()"
+        ]
+      },
       "bcd": {
         "EventListener": true,
         "Document": [
@@ -1449,13 +3230,43 @@
         ],
         "NodeFilter": true,
         "XPathNSResolver": true
-      },
+      }
+    }
+  },
+  "web-animations": {
+    "title": "Web Animations Level 2",
+    "url": "https://drafts.csswg.org/web-animations-2/",
+    "idl": {
       "mdn": {
-        "DocumentFragment": [
-          "getElementById()"
+        "Document": [
+          "getAnimations()"
         ],
         "ShadowRoot": [
-          "slotAssignment"
+          "getAnimations()"
+        ],
+        "Animation": [
+          "cancel()",
+          "finish()",
+          "play()",
+          "pause()",
+          "updatePlaybackRate()",
+          "reverse()",
+          "persist()",
+          "commitStyles()"
+        ],
+        "AnimationEffect": [
+          "getTiming()",
+          "getComputedTiming()",
+          "updateTiming()"
+        ],
+        "KeyframeEffect": [
+          "pseudoElement",
+          "getKeyframes()",
+          "setKeyframes()"
+        ],
+        "Element": [
+          "animate()",
+          "getAnimations()"
         ]
       }
     }
@@ -1464,6 +3275,16 @@
     "title": "EditContext API",
     "url": "https://www.w3.org/TR/edit-context/",
     "idl": {
+      "mdn": {
+        "Element": [
+          "editContext"
+        ],
+        "EditContext": true,
+        "TextUpdateEvent": true,
+        "TextFormat": true,
+        "TextFormatUpdateEvent": true,
+        "CharacterBoundsUpdateEvent": true
+      },
       "bcd": {
         "Element": [
           "editContext"
@@ -1476,13 +3297,118 @@
       }
     }
   },
+  "element-timing": {
+    "title": "Element Timing API",
+    "url": "https://wicg.github.io/element-timing/",
+    "idl": {
+      "mdn": {
+        "PerformanceElementTiming": [
+          "toJSON()"
+        ]
+      }
+    }
+  },
+  "encoding": {
+    "title": "Encoding Standard",
+    "url": "https://encoding.spec.whatwg.org/",
+    "idl": {
+      "mdn": {
+        "TextDecoder": [
+          "decode()"
+        ],
+        "TextEncoder": [
+          "encode()",
+          "encodeInto()"
+        ]
+      }
+    }
+  },
+  "encrypted-media": {
+    "title": "Encrypted Media Extensions",
+    "url": "https://www.w3.org/TR/encrypted-media/",
+    "idl": {
+      "mdn": {
+        "Navigator": [
+          "requestMediaKeySystemAccess()"
+        ],
+        "MediaKeySystemAccess": [
+          "getConfiguration()",
+          "createMediaKeys()"
+        ],
+        "MediaKeys": [
+          "createSession()",
+          "setServerCertificate()"
+        ],
+        "MediaKeySession": [
+          "generateRequest()",
+          "load()",
+          "update()",
+          "close()",
+          "remove()"
+        ],
+        "MediaKeyStatusMap": [
+          "has()",
+          "get()"
+        ],
+        "HTMLMediaElement": [
+          "mediaKeys",
+          "setMediaKeys()"
+        ],
+        "MediaEncryptedEvent": true
+      }
+    }
+  },
+  "entries-api": {
+    "title": "File and Directory Entries API",
+    "url": "https://wicg.github.io/entries-api/",
+    "idl": {
+      "mdn": {
+        "DataTransferItem": [
+          "webkitGetAsEntry()"
+        ],
+        "FileSystemEntry": [
+          "getParent()"
+        ],
+        "FileSystemDirectoryEntry": [
+          "createReader()",
+          "getFile()",
+          "getDirectory()"
+        ],
+        "FileSystemDirectoryReader": [
+          "readEntries()"
+        ],
+        "FileSystemFileEntry": [
+          "file()"
+        ]
+      }
+    }
+  },
   "event-timing": {
     "title": "Event Timing API",
     "url": "https://www.w3.org/TR/event-timing/",
     "idl": {
+      "mdn": {
+        "PerformanceEventTiming": [
+          "toJSON()"
+        ],
+        "Performance": [
+          "interactionCount"
+        ]
+      },
       "bcd": {
         "Performance": [
           "interactionCount"
+        ]
+      }
+    }
+  },
+  "eyedropper-api": {
+    "title": "EyeDropper API",
+    "url": "https://wicg.github.io/eyedropper-api/",
+    "idl": {
+      "mdn": {
+        "EyeDropper": [
+          "open()"
         ]
       }
     }
@@ -1491,15 +3417,62 @@
     "title": "Fetch Standard",
     "url": "https://fetch.spec.whatwg.org/",
     "idl": {
+      "mdn": {
+        "Headers": [
+          "append()",
+          "delete()",
+          "get()",
+          "has()",
+          "set()"
+        ],
+        "Request": [
+          "keepalive",
+          "isReloadNavigation",
+          "isHistoryNavigation",
+          "signal",
+          "duplex",
+          "clone()",
+          "arrayBuffer()",
+          "blob()",
+          "formData()",
+          "json()",
+          "text()"
+        ],
+        "Response": [
+          "error()",
+          "redirect()",
+          "json()",
+          "clone()",
+          "arrayBuffer()",
+          "blob()",
+          "formData()",
+          "text()"
+        ]
+      },
       "bcd": {
         "Request": [
           "isReloadNavigation",
           "duplex"
         ]
-      },
+      }
+    }
+  },
+  "file-system-access": {
+    "title": "File System Access",
+    "url": "https://wicg.github.io/file-system-access/",
+    "idl": {
       "mdn": {
-        "Request": [
-          "isHistoryNavigation"
+        "FileSystemHandle": [
+          "queryPermission()",
+          "requestPermission()"
+        ],
+        "Window": [
+          "showOpenFilePicker()",
+          "showSaveFilePicker()",
+          "showDirectoryPicker()"
+        ],
+        "DataTransferItem": [
+          "getAsFileSystemHandle()"
         ]
       }
     }
@@ -1528,6 +3501,9 @@
           "result"
         ],
         "SVGFEColorMatrixElement": [
+          "in1",
+          "type",
+          "values",
           "x",
           "y",
           "width",
@@ -1661,6 +3637,7 @@
         ],
         "SVGFEImageElement": [
           "preserveAspectRatio",
+          "crossOrigin",
           "x",
           "y",
           "width",
@@ -1740,6 +3717,12 @@
       }
     },
     "css.properties": {
+      "mdn": {
+        "flood-color": true,
+        "flood-opacity": true,
+        "color-interpolation-filters": true,
+        "lighting-color": true
+      },
       "bcd": {
         "flood-color": true,
         "flood-opacity": true,
@@ -1752,6 +3735,15 @@
     "title": "Font Metrics API Level 1",
     "url": "https://drafts.css-houdini.org/font-metrics-api-1/",
     "idl": {
+      "mdn": {
+        "Document": [
+          "measureElement()",
+          "measureText()"
+        ],
+        "FontMetrics": true,
+        "Baseline": true,
+        "Font": true
+      },
       "bcd": {
         "Document": [
           "measureElement()",
@@ -1768,8 +3760,49 @@
     "url": "https://fs.spec.whatwg.org/",
     "idl": {
       "mdn": {
+        "FileSystemHandle": [
+          "isSameEntry()"
+        ],
+        "FileSystemFileHandle": [
+          "getFile()",
+          "createWritable()",
+          "createSyncAccessHandle()"
+        ],
+        "FileSystemDirectoryHandle": [
+          "getFileHandle()",
+          "getDirectoryHandle()",
+          "removeEntry()",
+          "resolve()"
+        ],
+        "FileSystemWritableFileStream": [
+          "write()",
+          "seek()",
+          "truncate()"
+        ],
+        "FileSystemSyncAccessHandle": [
+          "read()",
+          "write()",
+          "truncate()",
+          "getSize()",
+          "flush()",
+          "close()"
+        ],
         "StorageManager": [
           "getDirectory()"
+        ]
+      }
+    }
+  },
+  "fullscreen": {
+    "title": "Fullscreen API Standard",
+    "url": "https://fullscreen.spec.whatwg.org/",
+    "idl": {
+      "mdn": {
+        "Element": [
+          "requestFullscreen()"
+        ],
+        "Document": [
+          "exitFullscreen()"
         ]
       }
     }
@@ -1778,6 +3811,18 @@
     "title": "Gamepad Extensions",
     "url": "https://w3c.github.io/gamepad/extensions.html",
     "idl": {
+      "mdn": {
+        "GamepadHapticActuator": [
+          "canPlayEffectType()",
+          "playEffect()",
+          "pulse()",
+          "reset()"
+        ],
+        "GamepadTouch": true,
+        "Gamepad": [
+          "touchEvents"
+        ]
+      },
       "bcd": {
         "GamepadHapticActuator": [
           "canPlayEffectType()"
@@ -1786,16 +3831,28 @@
         "Gamepad": [
           "touchEvents"
         ]
-      },
+      }
+    }
+  },
+  "gamepad": {
+    "title": "Gamepad",
+    "url": "https://www.w3.org/TR/gamepad/",
+    "idl": {
       "mdn": {
-        "GamepadHapticActuator": [
-          "playEffect()",
-          "reset()"
+        "Navigator": [
+          "getGamepads()"
         ]
-      },
-      "bcd-mdn": {
-        "Gamepad": [
-          "vibrationActuator"
+      }
+    }
+  },
+  "generic-sensor": {
+    "title": "Generic Sensor API",
+    "url": "https://www.w3.org/TR/generic-sensor/",
+    "idl": {
+      "mdn": {
+        "Sensor": [
+          "start()",
+          "stop()"
         ]
       }
     }
@@ -1804,8 +3861,24 @@
     "title": "Geolocation Sensor",
     "url": "https://www.w3.org/TR/geolocation-sensor/",
     "idl": {
+      "mdn": {
+        "GeolocationSensor": true
+      },
       "bcd": {
         "GeolocationSensor": true
+      }
+    }
+  },
+  "geolocation": {
+    "title": "Geolocation API",
+    "url": "https://www.w3.org/TR/geolocation/",
+    "idl": {
+      "mdn": {
+        "Geolocation": [
+          "getCurrentPosition()",
+          "watchPosition()",
+          "clearWatch()"
+        ]
       }
     }
   },
@@ -1814,7 +3887,16 @@
     "url": "https://www.w3.org/TR/geometry-1/",
     "idl": {
       "mdn": {
+        "DOMPointReadOnly": [
+          "fromPoint()",
+          "matrixTransform()",
+          "toJSON()"
+        ],
+        "DOMPoint": [
+          "fromPoint()"
+        ],
         "DOMRectReadOnly": [
+          "fromRect()",
           "toJSON()"
         ],
         "DOMRect": [
@@ -1828,12 +3910,57 @@
         "DOMQuad": [
           "fromRect()",
           "fromQuad()",
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "getBounds()",
           "toJSON()"
         ],
         "DOMMatrixReadOnly": [
           "fromMatrix()",
           "fromFloat32Array()",
           "fromFloat64Array()",
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f",
+          "m11",
+          "m12",
+          "m13",
+          "m14",
+          "m21",
+          "m22",
+          "m23",
+          "m24",
+          "m31",
+          "m32",
+          "m33",
+          "m34",
+          "m41",
+          "m42",
+          "m43",
+          "m44",
+          "is2D",
+          "isIdentity",
+          "translate()",
+          "scale()",
+          "scaleNonUniform()",
+          "scale3d()",
+          "rotate()",
+          "rotateFromVector()",
+          "rotateAxisAngle()",
+          "skewX()",
+          "skewY()",
+          "multiply()",
+          "flipX()",
+          "flipY()",
+          "inverse()",
+          "transformPoint()",
+          "toFloat32Array()",
+          "toFloat64Array()",
           "toJSON()"
         ],
         "DOMMatrix": [
@@ -1865,6 +3992,8 @@
           "multiplySelf()",
           "preMultiplySelf()",
           "translateSelf()",
+          "scaleSelf()",
+          "scale3dSelf()",
           "rotateSelf()",
           "rotateFromVectorSelf()",
           "rotateAxisAngleSelf()",
@@ -1887,6 +4016,18 @@
       }
     }
   },
+  "hr-time": {
+    "title": "High Resolution Time",
+    "url": "https://www.w3.org/TR/hr-time-3/",
+    "idl": {
+      "mdn": {
+        "Performance": [
+          "now()",
+          "toJSON()"
+        ]
+      }
+    }
+  },
   "html-media-capture": {
     "title": "HTML Media Capture",
     "url": "https://www.w3.org/TR/html-media-capture/",
@@ -1902,21 +4043,18 @@
     "title": "VirtualKeyboard API",
     "url": "https://www.w3.org/TR/virtual-keyboard/",
     "idl": {
-      "bcd": {
+      "mdn": {
         "HTMLElement": [
           "virtualKeyboardPolicy"
-        ]
-      },
-      "bcd-mdn": {
-        "Navigator": [
-          "virtualKeyboard"
         ],
-        "VirtualKeyboard": true
-      },
-      "mdn": {
         "VirtualKeyboard": [
           "show()",
           "hide()"
+        ]
+      },
+      "bcd": {
+        "HTMLElement": [
+          "virtualKeyboardPolicy"
         ]
       }
     }
@@ -1925,6 +4063,35 @@
     "title": "Accessible Rich Internet Applications (WAI-ARIA)",
     "url": "https://www.w3.org/TR/wai-aria-1.2/",
     "idl": {
+      "mdn": {
+        "ElementInternals": [
+          "ariaActiveDescendantElement",
+          "ariaColIndexText",
+          "ariaControlsElements",
+          "ariaDescribedByElements",
+          "ariaDetailsElements",
+          "ariaErrorMessageElements",
+          "ariaFlowToElements",
+          "ariaInvalid",
+          "ariaLabelledByElements",
+          "ariaOwnsElements",
+          "ariaRowIndexText"
+        ],
+        "Element": [
+          "role",
+          "ariaActiveDescendantElement",
+          "ariaColIndexText",
+          "ariaControlsElements",
+          "ariaDescribedByElements",
+          "ariaDetailsElements",
+          "ariaErrorMessageElements",
+          "ariaFlowToElements",
+          "ariaInvalid",
+          "ariaLabelledByElements",
+          "ariaOwnsElements",
+          "ariaRowIndexText"
+        ]
+      },
       "bcd": {
         "ElementInternals": [
           "ariaActiveDescendantElement",
@@ -1950,15 +4117,6 @@
           "ariaOwnsElements",
           "ariaRowIndexText"
         ]
-      },
-      "mdn": {
-        "ElementInternals": [
-          "ariaInvalid"
-        ],
-        "Element": [
-          "role",
-          "ariaInvalid"
-        ]
       }
     }
   },
@@ -1966,6 +4124,39 @@
     "title": "Trusted Types",
     "url": "https://www.w3.org/TR/trusted-types/",
     "idl": {
+      "mdn": {
+        "Window": [
+          "trustedTypes"
+        ],
+        "WorkerGlobalScope": [
+          "trustedTypes"
+        ],
+        "TrustedHTML": [
+          "toJSON()",
+          "fromLiteral()"
+        ],
+        "TrustedScript": [
+          "toJSON()",
+          "fromLiteral()"
+        ],
+        "TrustedScriptURL": [
+          "toJSON()",
+          "fromLiteral()"
+        ],
+        "TrustedTypePolicyFactory": [
+          "createPolicy()",
+          "isHTML()",
+          "isScript()",
+          "isScriptURL()",
+          "getAttributeType()",
+          "getPropertyType()"
+        ],
+        "TrustedTypePolicy": [
+          "createHTML()",
+          "createScript()",
+          "createScriptURL()"
+        ]
+      },
       "bcd": {
         "Window": [
           "trustedTypes"
@@ -1985,17 +4176,36 @@
       }
     }
   },
+  "idle-detection": {
+    "title": "Idle Detection API",
+    "url": "https://wicg.github.io/idle-detection/",
+    "idl": {
+      "mdn": {
+        "IdleDetector": [
+          "requestPermission()",
+          "start()"
+        ]
+      }
+    }
+  },
+  "image-capture": {
+    "title": "MediaStream Image Capture",
+    "url": "https://www.w3.org/TR/image-capture/",
+    "idl": {
+      "mdn": {
+        "ImageCapture": [
+          "takePhoto()",
+          "getPhotoCapabilities()",
+          "getPhotoSettings()",
+          "grabFrame()"
+        ]
+      }
+    }
+  },
   "ink-enhancement": {
     "title": "Ink API",
     "url": "https://wicg.github.io/ink-enhancement/",
     "idl": {
-      "bcd-mdn": {
-        "Ink": true,
-        "InkPresenter": true,
-        "Navigator": [
-          "ink"
-        ]
-      },
       "mdn": {
         "Ink": [
           "requestPresenter()"
@@ -2010,9 +4220,50 @@
     "title": "Input Device Capabilities",
     "url": "https://wicg.github.io/input-device-capabilities/",
     "idl": {
+      "mdn": {
+        "InputDeviceCapabilities": [
+          "pointerMovementScrolls"
+        ]
+      },
       "bcd": {
         "InputDeviceCapabilities": [
           "pointerMovementScrolls"
+        ]
+      }
+    }
+  },
+  "input-events": {
+    "title": "Input Events Level 2",
+    "url": "https://www.w3.org/TR/input-events-2/",
+    "idl": {
+      "mdn": {
+        "InputEvent": [
+          "getTargetRanges()"
+        ]
+      }
+    }
+  },
+  "intersection-observer": {
+    "title": "Intersection Observer",
+    "url": "https://www.w3.org/TR/intersection-observer/",
+    "idl": {
+      "mdn": {
+        "IntersectionObserver": [
+          "observe()",
+          "unobserve()",
+          "disconnect()",
+          "takeRecords()"
+        ]
+      }
+    }
+  },
+  "intervention-reporting": {
+    "title": "Intervention Reporting",
+    "url": "https://wicg.github.io/intervention-reporting/",
+    "idl": {
+      "mdn": {
+        "InterventionReportBody": [
+          "toJSON()"
         ]
       }
     }
@@ -2038,12 +4289,50 @@
       }
     }
   },
+  "keyboard-lock": {
+    "title": "Keyboard Lock",
+    "url": "https://wicg.github.io/keyboard-lock/",
+    "idl": {
+      "mdn": {
+        "Keyboard": [
+          "lock()",
+          "unlock()"
+        ]
+      }
+    }
+  },
+  "keyboard-map": {
+    "title": "Keyboard Map",
+    "url": "https://wicg.github.io/keyboard-map/",
+    "idl": {
+      "mdn": {
+        "Keyboard": [
+          "getLayoutMap()"
+        ]
+      }
+    }
+  },
+  "largest-contentful-paint": {
+    "title": "Largest Contentful Paint",
+    "url": "https://www.w3.org/TR/largest-contentful-paint/",
+    "idl": {
+      "mdn": {
+        "LargestContentfulPaint": [
+          "toJSON()"
+        ]
+      }
+    }
+  },
   "layout-instability": {
     "title": "Layout Instability",
     "url": "https://wicg.github.io/layout-instability/",
     "idl": {
       "mdn": {
         "LayoutShift": [
+          "value",
+          "hadRecentInput",
+          "lastInputTime",
+          "sources",
           "toJSON()"
         ]
       }
@@ -2060,9 +4349,20 @@
         "FontData": [
           "blob()"
         ]
-      },
-      "bcd-mdn": {
-        "FontData": true
+      }
+    }
+  },
+  "longtasks": {
+    "title": "Long Tasks API 1",
+    "url": "https://www.w3.org/TR/longtasks-1/",
+    "idl": {
+      "mdn": {
+        "PerformanceLongTaskTiming": [
+          "toJSON()"
+        ],
+        "TaskAttributionTiming": [
+          "toJSON()"
+        ]
       }
     }
   },
@@ -2070,8 +4370,22 @@
     "title": "Magnetometer",
     "url": "https://www.w3.org/TR/magnetometer/",
     "idl": {
+      "mdn": {
+        "UncalibratedMagnetometer": true
+      },
       "bcd": {
         "UncalibratedMagnetometer": true
+      }
+    }
+  },
+  "manifest-incubations": {
+    "title": "Manifest Incubations",
+    "url": "https://wicg.github.io/manifest-incubations/",
+    "idl": {
+      "mdn": {
+        "BeforeInstallPromptEvent": [
+          "prompt()"
+        ]
       }
     }
   },
@@ -2082,6 +4396,63 @@
       "mdn": {
         "WorkerNavigator": [
           "mediaCapabilities"
+        ],
+        "MediaCapabilities": [
+          "decodingInfo()",
+          "encodingInfo()"
+        ]
+      }
+    }
+  },
+  "media-playback-quality": {
+    "title": "Media Playback Quality",
+    "url": "https://w3c.github.io/media-playback-quality/",
+    "idl": {
+      "mdn": {
+        "HTMLVideoElement": [
+          "getVideoPlaybackQuality()"
+        ]
+      }
+    }
+  },
+  "media-source": {
+    "title": "Media Source Extensions™",
+    "url": "https://www.w3.org/TR/media-source-2/",
+    "idl": {
+      "mdn": {
+        "MediaSource": [
+          "addSourceBuffer()",
+          "removeSourceBuffer()",
+          "endOfStream()",
+          "setLiveSeekableRange()",
+          "clearLiveSeekableRange()",
+          "isTypeSupported()"
+        ],
+        "SourceBuffer": [
+          "appendBuffer()",
+          "abort()",
+          "changeType()",
+          "remove()"
+        ],
+        "TextTrack": [
+          "sourceBuffer"
+        ]
+      }
+    }
+  },
+  "mediacapture-fromelement": {
+    "title": "Media Capture from DOM Elements",
+    "url": "https://www.w3.org/TR/mediacapture-fromelement/",
+    "idl": {
+      "mdn": {
+        "HTMLMediaElement": [
+          "captureStream()"
+        ],
+        "HTMLCanvasElement": [
+          "captureStream()"
+        ],
+        "CanvasCaptureMediaStreamTrack": [
+          "requestFrame()"
         ]
       }
     }
@@ -2090,6 +4461,16 @@
     "title": "The Capture-Handle Actions Mechanism",
     "url": "https://w3c.github.io/mediacapture-handle/actions/",
     "idl": {
+      "mdn": {
+        "MediaDevices": [
+          "setSupportedCaptureActions()"
+        ],
+        "CaptureActionEvent": true,
+        "MediaStreamTrack": [
+          "getSupportedCaptureActions()",
+          "sendCaptureAction()"
+        ]
+      },
       "bcd": {
         "MediaDevices": [
           "setSupportedCaptureActions()"
@@ -2117,8 +4498,39 @@
     "url": "https://www.w3.org/TR/mediacapture-streams/",
     "idl": {
       "mdn": {
+        "MediaStream": [
+          "getAudioTracks()",
+          "getVideoTracks()",
+          "getTracks()",
+          "getTrackById()",
+          "addTrack()",
+          "removeTrack()",
+          "clone()"
+        ],
+        "MediaStreamTrack": [
+          "clone()",
+          "stop()",
+          "getCapabilities()",
+          "getConstraints()",
+          "getSettings()",
+          "applyConstraints()"
+        ],
+        "MediaStreamTrackEvent": [
+          "track"
+        ],
+        "MediaDevices": [
+          "enumerateDevices()",
+          "getSupportedConstraints()",
+          "getUserMedia()"
+        ],
         "MediaDeviceInfo": [
           "toJSON()"
+        ],
+        "InputDeviceInfo": [
+          "getCapabilities()"
+        ],
+        "Navigator": [
+          "getUserMedia()"
         ]
       }
     }
@@ -2127,6 +4539,9 @@
     "title": "MediaStreamTrack Insertable Media Processing using Streams",
     "url": "https://www.w3.org/TR/mediacapture-transform/",
     "idl": {
+      "mdn": {
+        "VideoTrackGenerator": true
+      },
       "bcd": {
         "VideoTrackGenerator": true
       }
@@ -2136,6 +4551,11 @@
     "title": "Viewport Capture",
     "url": "https://www.w3.org/TR/mediacapture-viewport/",
     "idl": {
+      "mdn": {
+        "MediaDevices": [
+          "getViewportMedia()"
+        ]
+      },
       "bcd": {
         "MediaDevices": [
           "getViewportMedia()"
@@ -2149,6 +4569,8 @@
     "idl": {
       "mdn": {
         "MediaSession": [
+          "setActionHandler()",
+          "setPositionState()",
           "setMicrophoneActive()",
           "setCameraActive()"
         ]
@@ -2161,7 +4583,13 @@
     "idl": {
       "mdn": {
         "MediaRecorder": [
-          "audioBitrateMode"
+          "audioBitrateMode",
+          "start()",
+          "stop()",
+          "pause()",
+          "resume()",
+          "requestData()",
+          "isTypeSupported()"
         ]
       }
     }
@@ -2170,11 +4598,17 @@
     "title": "The <model> element",
     "url": "https://immersive-web.github.io/model-element/",
     "idl": {
+      "mdn": {
+        "HTMLModelElement": true
+      },
       "bcd": {
         "HTMLModelElement": true
       }
     },
     "elements": {
+      "mdn": {
+        "model": true
+      },
       "bcd": {
         "model": true
       }
@@ -2184,17 +4618,6 @@
     "title": "Navigation API",
     "url": "https://wicg.github.io/navigation-api/",
     "idl": {
-      "bcd-mdn": {
-        "Window": [
-          "navigation"
-        ],
-        "Navigation": true,
-        "NavigationCurrentEntryChangeEvent": true,
-        "NavigationTransition": true,
-        "NavigateEvent": true,
-        "NavigationDestination": true,
-        "NavigationHistoryEntry": true
-      },
       "mdn": {
         "Navigation": [
           "entries()",
@@ -2223,8 +4646,30 @@
     "url": "https://www.w3.org/TR/navigation-timing-2/",
     "idl": {
       "mdn": {
+        "PerformanceNavigationTiming": [
+          "toJSON()"
+        ],
         "PerformanceTiming": [
           "toJSON()"
+        ],
+        "PerformanceNavigation": [
+          "toJSON()"
+        ]
+      }
+    }
+  },
+  "notifications": {
+    "title": "Notifications API Standard",
+    "url": "https://notifications.spec.whatwg.org/",
+    "idl": {
+      "mdn": {
+        "Notification": [
+          "requestPermission()",
+          "close()"
+        ],
+        "ServiceWorkerRegistration": [
+          "showNotification()",
+          "getNotifications()"
         ]
       }
     }
@@ -2243,6 +4688,17 @@
       }
     }
   },
+  "orientation-sensor": {
+    "title": "Orientation Sensor",
+    "url": "https://www.w3.org/TR/orientation-sensor/",
+    "idl": {
+      "mdn": {
+        "OrientationSensor": [
+          "populateMatrix()"
+        ]
+      }
+    }
+  },
   "page-lifecycle": {
     "title": "Page Lifecycle",
     "url": "https://wicg.github.io/page-lifecycle/",
@@ -2250,6 +4706,9 @@
       "mdn": {
         "Document": [
           "wasDiscarded"
+        ],
+        "Client": [
+          "lifecycleState"
         ]
       },
       "bcd": {
@@ -2265,9 +4724,22 @@
     "idl": {
       "mdn": {
         "PaymentManager": [
-          "instruments"
+          "instruments",
+          "enableDelegations()"
         ],
-        "PaymentInstruments": true
+        "PaymentInstruments": true,
+        "CanMakePaymentEvent": [
+          "respondWith()"
+        ],
+        "PaymentRequestEvent": [
+          "paymentOptions",
+          "shippingOptions",
+          "openWindow()",
+          "changePaymentMethod()",
+          "changeShippingAddress()",
+          "changeShippingOption()",
+          "respondWith()"
+        ]
       },
       "bcd": {
         "PaymentRequestEvent": [
@@ -2284,8 +4756,68 @@
     "url": "https://www.w3.org/TR/payment-request-1.1/",
     "idl": {
       "mdn": {
+        "PaymentRequest": [
+          "show()",
+          "abort()",
+          "canMakePayment()"
+        ],
         "PaymentResponse": [
+          "toJSON()",
+          "complete()",
+          "retry()"
+        ],
+        "PaymentRequestUpdateEvent": [
+          "updateWith()"
+        ]
+      }
+    }
+  },
+  "performance-measure-memory": {
+    "title": "Measure Memory API",
+    "url": "https://wicg.github.io/performance-measure-memory/",
+    "idl": {
+      "mdn": {
+        "Performance": [
+          "measureUserAgentSpecificMemory()"
+        ]
+      }
+    }
+  },
+  "performance-timeline": {
+    "title": "Performance Timeline",
+    "url": "https://www.w3.org/TR/performance-timeline/",
+    "idl": {
+      "mdn": {
+        "Performance": [
+          "getEntries()",
+          "getEntriesByType()",
+          "getEntriesByName()"
+        ],
+        "PerformanceEntry": [
           "toJSON()"
+        ],
+        "PerformanceObserver": [
+          "observe()",
+          "disconnect()",
+          "takeRecords()"
+        ],
+        "PerformanceObserverEntryList": [
+          "getEntries()",
+          "getEntriesByType()",
+          "getEntriesByName()"
+        ]
+      }
+    }
+  },
+  "periodic-background-sync": {
+    "title": "Web Periodic Background Synchronization",
+    "url": "https://wicg.github.io/periodic-background-sync/",
+    "idl": {
+      "mdn": {
+        "PeriodicSyncManager": [
+          "register()",
+          "getTags()",
+          "unregister()"
         ]
       }
     }
@@ -2294,6 +4826,16 @@
     "title": "Permissions Policy",
     "url": "https://www.w3.org/TR/permissions-policy-1/",
     "idl": {
+      "mdn": {
+        "PermissionsPolicy": true,
+        "Document": [
+          "permissionsPolicy"
+        ],
+        "HTMLIFrameElement": [
+          "permissionsPolicy"
+        ],
+        "PermissionsPolicyViolationReportBody": true
+      },
       "bcd": {
         "PermissionsPolicy": true,
         "Document": [
@@ -2301,6 +4843,56 @@
         ],
         "HTMLIFrameElement": [
           "permissionsPolicy"
+        ]
+      }
+    }
+  },
+  "permissions-request": {
+    "title": "Requesting Permissions",
+    "url": "https://wicg.github.io/permissions-request/",
+    "idl": {
+      "mdn": {
+        "Permissions": [
+          "request()"
+        ]
+      }
+    }
+  },
+  "permissions-revoke": {
+    "title": "Relinquishing Permissions",
+    "url": "https://wicg.github.io/permissions-revoke/",
+    "idl": {
+      "mdn": {
+        "Permissions": [
+          "revoke()"
+        ]
+      }
+    }
+  },
+  "permissions": {
+    "title": "Permissions",
+    "url": "https://www.w3.org/TR/permissions/",
+    "idl": {
+      "mdn": {
+        "Permissions": [
+          "query()"
+        ]
+      }
+    }
+  },
+  "picture-in-picture": {
+    "title": "Picture-in-Picture",
+    "url": "https://www.w3.org/TR/picture-in-picture/",
+    "idl": {
+      "mdn": {
+        "HTMLVideoElement": [
+          "requestPictureInPicture()"
+        ],
+        "Document": [
+          "exitPictureInPicture()"
+        ],
+        "PictureInPictureEvent": [
+          "pictureInPictureWindow"
         ]
       }
     }
@@ -2313,7 +4905,27 @@
         "PointerEvent": [
           "altitudeAngle",
           "azimuthAngle",
+          "getCoalescedEvents()",
           "getPredictedEvents()"
+        ],
+        "Element": [
+          "setPointerCapture()",
+          "releasePointerCapture()",
+          "hasPointerCapture()"
+        ]
+      }
+    }
+  },
+  "pointerlock": {
+    "title": "Pointer Lock 2.0",
+    "url": "https://www.w3.org/TR/pointerlock-2/",
+    "idl": {
+      "mdn": {
+        "Element": [
+          "requestPointerLock()"
+        ],
+        "Document": [
+          "exitPointerLock()"
         ]
       }
     }
@@ -2322,6 +4934,14 @@
     "title": "Portals",
     "url": "https://wicg.github.io/portals/",
     "idl": {
+      "mdn": {
+        "HTMLPortalElement": true,
+        "Window": [
+          "portalHost"
+        ],
+        "PortalHost": true,
+        "PortalActivateEvent": true
+      },
       "bcd": {
         "HTMLPortalElement": [
           "src",
@@ -2337,6 +4957,9 @@
       }
     },
     "elements": {
+      "mdn": {
+        "portal": true
+      },
       "bcd": {
         "portal": true
       }
@@ -2346,6 +4969,14 @@
     "title": "Prerendering Revamped",
     "url": "https://wicg.github.io/nav-speculation/prerendering.html",
     "idl": {
+      "mdn": {
+        "Document": [
+          "prerendering"
+        ],
+        "PerformanceNavigationTiming": [
+          "activationStart"
+        ]
+      },
       "bcd": {
         "Document": [
           "prerendering"
@@ -2356,12 +4987,43 @@
       }
     }
   },
+  "presentation-api": {
+    "title": "Presentation API",
+    "url": "https://www.w3.org/TR/presentation-api/",
+    "idl": {
+      "mdn": {
+        "PresentationRequest": [
+          "start()",
+          "reconnect()",
+          "getAvailability()"
+        ],
+        "PresentationConnection": [
+          "close()",
+          "terminate()",
+          "send()"
+        ],
+        "PresentationConnectionCloseEvent": [
+          "reason",
+          "message"
+        ],
+        "PresentationReceiver": [
+          "connectionList"
+        ],
+        "PresentationConnectionList": [
+          "connections"
+        ]
+      }
+    }
+  },
   "priority-hints": {
     "title": "Priority Hints",
     "url": "https://wicg.github.io/priority-hints/",
     "idl": {
       "mdn": {
         "HTMLScriptElement": [
+          "fetchPriority"
+        ],
+        "HTMLIFrameElement": [
           "fetchPriority"
         ]
       },
@@ -2387,8 +5049,36 @@
     "title": "Proximity Sensor",
     "url": "https://www.w3.org/TR/proximity/",
     "idl": {
+      "mdn": {
+        "ProximitySensor": true
+      },
       "bcd": {
         "ProximitySensor": true
+      }
+    }
+  },
+  "push-api": {
+    "title": "Push API",
+    "url": "https://www.w3.org/TR/push-api/",
+    "idl": {
+      "mdn": {
+        "PushManager": [
+          "subscribe()",
+          "getSubscription()",
+          "permissionState()"
+        ],
+        "PushSubscription": [
+          "getKey()",
+          "unsubscribe()",
+          "toJSON()"
+        ],
+        "PushMessageData": [
+          "arrayBuffer()",
+          "blob()",
+          "json()",
+          "text()"
+        ],
+        "PushSubscriptionChangeEvent": true
       }
     }
   },
@@ -2412,6 +5102,11 @@
     "url": "https://www.w3.org/TR/remote-playback/",
     "idl": {
       "mdn": {
+        "RemotePlayback": [
+          "watchAvailability()",
+          "cancelWatchAvailability()",
+          "prompt()"
+        ],
         "HTMLMediaElement": [
           "remote"
         ]
@@ -2428,6 +5123,26 @@
         ],
         "Report": [
           "toJSON()"
+        ],
+        "ReportingObserver": [
+          "observe()",
+          "disconnect()",
+          "takeRecords()"
+        ]
+      }
+    }
+  },
+  "requestidlecallback": {
+    "title": "requestIdleCallback() Cooperative Scheduling of Background Tasks",
+    "url": "https://www.w3.org/TR/requestidlecallback/",
+    "idl": {
+      "mdn": {
+        "Window": [
+          "requestIdleCallback()",
+          "cancelIdleCallback()"
+        ],
+        "IdleDeadline": [
+          "timeRemaining()"
         ]
       }
     }
@@ -2436,9 +5151,26 @@
     "title": "Resize Observer",
     "url": "https://www.w3.org/TR/resize-observer-1/",
     "idl": {
-      "bcd-mdn": {
-        "ResizeObserverEntry": [
-          "devicePixelContentBoxSize"
+      "mdn": {
+        "ResizeObserver": [
+          "observe()",
+          "unobserve()",
+          "disconnect()"
+        ]
+      }
+    }
+  },
+  "resource-timing": {
+    "title": "Resource Timing",
+    "url": "https://www.w3.org/TR/resource-timing/",
+    "idl": {
+      "mdn": {
+        "PerformanceResourceTiming": [
+          "toJSON()"
+        ],
+        "Performance": [
+          "clearResourceTimings()",
+          "setResourceTimingBufferSize()"
         ]
       }
     }
@@ -2449,7 +5181,67 @@
     "idl": {
       "mdn": {
         "Sanitizer": [
+          "sanitize()",
+          "sanitizeFor()",
+          "getConfiguration()",
           "getDefaultConfiguration()"
+        ],
+        "Element": [
+          "setHTML()"
+        ]
+      }
+    }
+  },
+  "scheduling-apis": {
+    "title": "Prioritized Task Scheduling",
+    "url": "https://wicg.github.io/scheduling-apis/",
+    "idl": {
+      "mdn": {
+        "Scheduler": [
+          "postTask()"
+        ],
+        "TaskController": [
+          "setPriority()"
+        ]
+      }
+    }
+  },
+  "screen-capture": {
+    "title": "Screen Capture",
+    "url": "https://www.w3.org/TR/screen-capture/",
+    "idl": {
+      "mdn": {
+        "MediaDevices": [
+          "getDisplayMedia()"
+        ],
+        "CaptureController": [
+          "setFocusBehavior()"
+        ]
+      }
+    }
+  },
+  "screen-orientation": {
+    "title": "Screen Orientation",
+    "url": "https://www.w3.org/TR/screen-orientation/",
+    "idl": {
+      "mdn": {
+        "ScreenOrientation": [
+          "lock()",
+          "unlock()"
+        ]
+      }
+    }
+  },
+  "screen-wake-lock": {
+    "title": "Screen Wake Lock API",
+    "url": "https://www.w3.org/TR/screen-wake-lock/",
+    "idl": {
+      "mdn": {
+        "WakeLock": [
+          "request()"
+        ],
+        "WakeLockSentinel": [
+          "release()"
         ]
       }
     }
@@ -2458,6 +5250,13 @@
     "title": "Scroll-linked Animations",
     "url": "https://www.w3.org/TR/scroll-animations-1/",
     "idl": {
+      "mdn": {
+        "ScrollTimeline": true,
+        "ViewTimeline": true,
+        "AnimationTimeline": [
+          "getCurrentTime()"
+        ]
+      },
       "bcd": {
         "ScrollTimeline": true,
         "ViewTimeline": true,
@@ -2467,6 +5266,15 @@
       }
     },
     "css.properties": {
+      "mdn": {
+        "view-timeline-name": true,
+        "view-timeline-axis": true,
+        "view-timeline-inset": true,
+        "view-timeline": true,
+        "animation-range": true,
+        "animation-delay-start": true,
+        "animation-delay-end": true
+      },
       "bcd": {
         "view-timeline-name": true,
         "view-timeline-axis": true,
@@ -2482,9 +5290,66 @@
     "title": "Selection API",
     "url": "https://www.w3.org/TR/selection-api/",
     "idl": {
+      "mdn": {
+        "Selection": [
+          "getRangeAt()",
+          "addRange()",
+          "removeRange()",
+          "removeAllRanges()",
+          "empty()",
+          "getComposedRange()",
+          "collapse()",
+          "setPosition()",
+          "collapseToStart()",
+          "collapseToEnd()",
+          "extend()",
+          "setBaseAndExtent()",
+          "selectAllChildren()",
+          "modify()",
+          "deleteFromDocument()",
+          "containsNode()"
+        ],
+        "Document": [
+          "getSelection()"
+        ],
+        "Window": [
+          "getSelection()"
+        ]
+      },
       "bcd": {
         "Selection": [
           "getComposedRange()"
+        ]
+      }
+    }
+  },
+  "serial": {
+    "title": "Web Serial API",
+    "url": "https://wicg.github.io/serial/",
+    "idl": {
+      "mdn": {
+        "Serial": [
+          "getPorts()",
+          "requestPort()"
+        ],
+        "SerialPort": [
+          "getInfo()",
+          "open()",
+          "setSignals()",
+          "getSignals()",
+          "close()",
+          "forget()"
+        ]
+      }
+    }
+  },
+  "server-timing": {
+    "title": "Server Timing",
+    "url": "https://www.w3.org/TR/server-timing/",
+    "idl": {
+      "mdn": {
+        "PerformanceServerTiming": [
+          "toJSON()"
         ]
       }
     }
@@ -2497,14 +5362,65 @@
         "ServiceWorker": [
           "postMessage()"
         ],
-        "ServiceWorkerGlobalScope": [
+        "ServiceWorkerRegistration": [
+          "update()",
+          "unregister()"
+        ],
+        "WorkerNavigator": [
           "serviceWorker"
         ],
+        "ServiceWorkerContainer": [
+          "register()",
+          "getRegistration()",
+          "getRegistrations()",
+          "startMessages()"
+        ],
+        "NavigationPreloadManager": [
+          "enable()",
+          "disable()",
+          "setHeaderValue()",
+          "getState()"
+        ],
+        "ServiceWorkerGlobalScope": [
+          "serviceWorker",
+          "skipWaiting()"
+        ],
+        "Client": [
+          "postMessage()"
+        ],
         "WindowClient": [
-          "ancestorOrigins"
+          "ancestorOrigins",
+          "focus()",
+          "navigate()"
+        ],
+        "Clients": [
+          "get()",
+          "matchAll()",
+          "openWindow()",
+          "claim()"
+        ],
+        "ExtendableEvent": [
+          "waitUntil()"
         ],
         "FetchEvent": [
-          "handled"
+          "handled",
+          "respondWith()"
+        ],
+        "Cache": [
+          "match()",
+          "matchAll()",
+          "add()",
+          "addAll()",
+          "put()",
+          "delete()",
+          "keys()"
+        ],
+        "CacheStorage": [
+          "match()",
+          "has()",
+          "open()",
+          "delete()",
+          "keys()"
         ]
       }
     }
@@ -2513,6 +5429,13 @@
     "title": "Accelerated Shape Detection in Images",
     "url": "https://wicg.github.io/shape-detection-api/",
     "idl": {
+      "mdn": {
+        "FaceDetector": true,
+        "BarcodeDetector": [
+          "getSupportedFormats()",
+          "detect()"
+        ]
+      },
       "bcd": {
         "FaceDetector": true
       }
@@ -2523,8 +5446,56 @@
     "url": "https://wicg.github.io/speech-api/",
     "idl": {
       "mdn": {
+        "SpeechRecognition": [
+          "start()",
+          "stop()",
+          "abort()"
+        ],
+        "SpeechRecognitionResult": [
+          "item()"
+        ],
+        "SpeechRecognitionResultList": [
+          "item()"
+        ],
+        "SpeechGrammarList": [
+          "item()",
+          "addFromURI()",
+          "addFromString()"
+        ],
+        "SpeechSynthesis": [
+          "speak()",
+          "cancel()",
+          "pause()",
+          "resume()",
+          "getVoices()"
+        ],
         "SpeechSynthesisEvent": [
           "charLength"
+        ]
+      }
+    }
+  },
+  "storage-access": {
+    "title": "The Storage Access API",
+    "url": "https://privacycg.github.io/storage-access/",
+    "idl": {
+      "mdn": {
+        "Document": [
+          "hasStorageAccess()",
+          "requestStorageAccess()"
+        ]
+      }
+    }
+  },
+  "storage": {
+    "title": "Storage Standard",
+    "url": "https://storage.spec.whatwg.org/",
+    "idl": {
+      "mdn": {
+        "StorageManager": [
+          "persisted()",
+          "persist()",
+          "estimate()"
         ]
       }
     }
@@ -2534,15 +5505,64 @@
     "url": "https://streams.spec.whatwg.org/",
     "idl": {
       "mdn": {
+        "ReadableStream": [
+          "cancel()",
+          "getReader()",
+          "pipeThrough()",
+          "pipeTo()",
+          "tee()"
+        ],
+        "ReadableStreamDefaultReader": [
+          "read()",
+          "releaseLock()",
+          "cancel()"
+        ],
+        "ReadableStreamBYOBReader": [
+          "read()",
+          "releaseLock()",
+          "cancel()"
+        ],
+        "ReadableStreamDefaultController": [
+          "close()",
+          "enqueue()",
+          "error()"
+        ],
+        "ReadableByteStreamController": [
+          "close()",
+          "enqueue()",
+          "error()"
+        ],
+        "ReadableStreamBYOBRequest": [
+          "respond()",
+          "respondWithNewView()"
+        ],
         "WritableStream": [
-          "close()"
+          "abort()",
+          "close()",
+          "getWriter()"
+        ],
+        "WritableStreamDefaultWriter": [
+          "abort()",
+          "close()",
+          "releaseLock()",
+          "write()"
+        ],
+        "WritableStreamDefaultController": [
+          "signal",
+          "error()"
+        ],
+        "TransformStreamDefaultController": [
+          "enqueue()",
+          "error()",
+          "terminate()"
         ],
         "ByteLengthQueuingStrategy": [
           "highWaterMark"
         ],
         "CountQueuingStrategy": [
           "highWaterMark"
-        ]
+        ],
+        "SFrameTransform": true
       },
       "bcd": {
         "SFrameTransform": true
@@ -2553,9 +5573,6 @@
     "title": "SVG Animations Level 2",
     "url": "https://svgwg.org/specs/animations/",
     "idl": {
-      "bcd-mdn": {
-        "TimeEvent": true
-      },
       "mdn": {
         "TimeEvent": [
           "view",
@@ -2571,6 +5588,7 @@
           "endElement()",
           "endElementAt()"
         ],
+        "SVGDiscardElement": true,
         "SVGSVGElement": [
           "pauseAnimations()",
           "unpauseAnimations()",
@@ -2588,6 +5606,9 @@
     "title": "Test Utils Standard",
     "url": "https://testutils.spec.whatwg.org/",
     "idl": {
+      "mdn": {
+        "TestUtils": true
+      },
       "bcd": {
         "TestUtils": true
       }
@@ -2597,6 +5618,9 @@
     "title": "Accelerated Text Detection in Images",
     "url": "https://wicg.github.io/shape-detection-api/text.html",
     "idl": {
+      "mdn": {
+        "TextDetector": true
+      },
       "bcd": {
         "TextDetector": true
       }
@@ -2611,6 +5635,12 @@
           "altitudeAngle",
           "azimuthAngle",
           "touchType"
+        ],
+        "TouchList": [
+          "item()"
+        ],
+        "TouchEvent": [
+          "getModifierState()"
         ]
       },
       "bcd": {
@@ -2624,12 +5654,10 @@
     "title": "User-Agent Client Hints",
     "url": "https://wicg.github.io/ua-client-hints/",
     "idl": {
-      "bcd-mdn": {
-        "Navigator": [
-          "userAgentData"
-        ],
-        "WorkerNavigator": [
-          "userAgentData"
+      "mdn": {
+        "NavigatorUAData": [
+          "getHighEntropyValues()",
+          "toJSON()"
         ]
       }
     }
@@ -2639,8 +5667,19 @@
     "url": "https://www.w3.org/TR/uievents/",
     "idl": {
       "mdn": {
+        "MouseEvent": [
+          "getModifierState()",
+          "initMouseEvent()"
+        ],
         "KeyboardEvent": [
+          "getModifierState()",
           "initKeyboardEvent()"
+        ],
+        "UIEvent": [
+          "initUIEvent()"
+        ],
+        "CompositionEvent": [
+          "initCompositionEvent()"
         ],
         "MutationEvent": [
           "relatedNode",
@@ -2649,6 +5688,63 @@
           "attrName",
           "attrChange",
           "initMutationEvent()"
+        ]
+      }
+    }
+  },
+  "url": {
+    "title": "URL Standard",
+    "url": "https://url.spec.whatwg.org/",
+    "idl": {
+      "mdn": {
+        "URL": [
+          "toJSON()"
+        ],
+        "URLSearchParams": [
+          "append()",
+          "delete()",
+          "get()",
+          "getAll()",
+          "has()",
+          "set()",
+          "sort()"
+        ]
+      }
+    }
+  },
+  "urlpattern": {
+    "title": "URLPattern API",
+    "url": "https://wicg.github.io/urlpattern/",
+    "idl": {
+      "mdn": {
+        "URLPattern": [
+          "test()",
+          "exec()"
+        ]
+      }
+    }
+  },
+  "user-timing": {
+    "title": "User Timing",
+    "url": "https://www.w3.org/TR/user-timing/",
+    "idl": {
+      "mdn": {
+        "Performance": [
+          "mark()",
+          "clearMarks()",
+          "measure()",
+          "clearMeasures()"
+        ]
+      }
+    }
+  },
+  "vibration": {
+    "title": "Vibration API (Second Edition)",
+    "url": "https://www.w3.org/TR/vibration/",
+    "idl": {
+      "mdn": {
+        "Navigator": [
+          "vibrate()"
         ]
       }
     }
@@ -2665,8 +5761,39 @@
       }
     }
   },
+  "wasm-js-api": {
+    "title": "WebAssembly JavaScript Interface: Exception Handling",
+    "url": "https://webassembly.github.io/exception-handling/js-api/",
+    "idl": {
+      "mdn": {
+        "Module": true,
+        "Instance": true,
+        "Memory": true,
+        "Table": true,
+        "Global": true
+      }
+    }
+  },
   "web-animations-2": {
     "idl": {
+      "mdn": {
+        "AnimationTimeline": [
+          "duration",
+          "play()"
+        ],
+        "AnimationEffect": [
+          "parent",
+          "previousSibling",
+          "nextSibling",
+          "before()",
+          "after()",
+          "replace()",
+          "remove()"
+        ],
+        "GroupEffect": true,
+        "AnimationNodeList": true,
+        "SequenceEffect": true
+      },
       "bcd": {
         "AnimationTimeline": [
           "duration",
@@ -2691,13 +5818,6 @@
     "title": "Web App Launch Handler API",
     "url": "https://wicg.github.io/web-app-launch/",
     "idl": {
-      "bcd-mdn": {
-        "LaunchParams": true,
-        "Window": [
-          "launchQueue"
-        ],
-        "LaunchQueue": true
-      },
       "mdn": {
         "LaunchQueue": [
           "setConsumer()"
@@ -2709,6 +5829,59 @@
     "title": "Web Bluetooth",
     "url": "https://webbluetoothcg.github.io/web-bluetooth/",
     "idl": {
+      "mdn": {
+        "Bluetooth": [
+          "getAvailability()",
+          "referringDevice",
+          "getDevices()",
+          "requestDevice()"
+        ],
+        "BluetoothPermissionResult": true,
+        "ValueEvent": true,
+        "BluetoothDevice": [
+          "forget()",
+          "watchAdvertisements()",
+          "watchingAdvertisements"
+        ],
+        "BluetoothManufacturerDataMap": true,
+        "BluetoothServiceDataMap": true,
+        "BluetoothAdvertisingEvent": true,
+        "BluetoothRemoteGATTServer": [
+          "connect()",
+          "disconnect()",
+          "getPrimaryService()",
+          "getPrimaryServices()"
+        ],
+        "BluetoothRemoteGATTService": [
+          "getCharacteristic()",
+          "getCharacteristics()",
+          "getIncludedService()",
+          "getIncludedServices()"
+        ],
+        "BluetoothRemoteGATTCharacteristic": [
+          "getDescriptor()",
+          "getDescriptors()",
+          "readValue()",
+          "writeValue()",
+          "writeValueWithResponse()",
+          "writeValueWithoutResponse()",
+          "startNotifications()",
+          "stopNotifications()"
+        ],
+        "BluetoothRemoteGATTDescriptor": [
+          "readValue()",
+          "writeValue()"
+        ],
+        "BluetoothUUID": [
+          "getService()",
+          "getCharacteristic()",
+          "getDescriptor()",
+          "canonicalUUID()"
+        ],
+        "Navigator": [
+          "bluetooth"
+        ]
+      },
       "bcd": {
         "Bluetooth": [
           "referringDevice"
@@ -2727,11 +5900,6 @@
           "getIncludedService()",
           "getIncludedServices()"
         ]
-      },
-      "mdn": {
-        "Navigator": [
-          "bluetooth"
-        ]
       }
     }
   },
@@ -2739,9 +5907,10 @@
     "title": "Web Locks API",
     "url": "https://www.w3.org/TR/web-locks/",
     "idl": {
-      "bcd-mdn": {
-        "WorkerNavigator": [
-          "locks"
+      "mdn": {
+        "LockManager": [
+          "request()",
+          "query()"
         ]
       }
     }
@@ -2751,8 +5920,25 @@
     "url": "https://w3c.github.io/web-nfc/",
     "idl": {
       "mdn": {
+        "NDEFRecord": [
+          "toRecords()"
+        ],
         "NDEFReader": [
+          "scan()",
+          "write()",
           "makeReadOnly()"
+        ]
+      }
+    }
+  },
+  "web-share": {
+    "title": "Web Share API",
+    "url": "https://www.w3.org/TR/web-share/",
+    "idl": {
+      "mdn": {
+        "Navigator": [
+          "share()",
+          "canShare()"
         ]
       }
     }
@@ -2761,6 +5947,114 @@
     "title": "Web Audio API",
     "url": "https://www.w3.org/TR/webaudio/",
     "idl": {
+      "mdn": {
+        "BaseAudioContext": [
+          "createAnalyser()",
+          "createBiquadFilter()",
+          "createBuffer()",
+          "createBufferSource()",
+          "createChannelMerger()",
+          "createChannelSplitter()",
+          "createConstantSource()",
+          "createConvolver()",
+          "createDelay()",
+          "createDynamicsCompressor()",
+          "createGain()",
+          "createIIRFilter()",
+          "createOscillator()",
+          "createPanner()",
+          "createPeriodicWave()",
+          "createScriptProcessor()",
+          "createStereoPanner()",
+          "createWaveShaper()",
+          "decodeAudioData()"
+        ],
+        "AudioContext": [
+          "sinkId",
+          "renderCapacity",
+          "getOutputTimestamp()",
+          "resume()",
+          "suspend()",
+          "close()",
+          "setSinkId()",
+          "createMediaElementSource()",
+          "createMediaStreamSource()",
+          "createMediaStreamTrackSource()",
+          "createMediaStreamDestination()"
+        ],
+        "AudioSinkInfo": true,
+        "AudioRenderCapacity": true,
+        "AudioRenderCapacityEvent": true,
+        "OfflineAudioContext": [
+          "startRendering()",
+          "resume()",
+          "suspend()"
+        ],
+        "AudioBuffer": [
+          "getChannelData()",
+          "copyFromChannel()",
+          "copyToChannel()"
+        ],
+        "AudioNode": [
+          "connect()",
+          "disconnect()"
+        ],
+        "AudioParam": [
+          "automationRate",
+          "setValueAtTime()",
+          "linearRampToValueAtTime()",
+          "exponentialRampToValueAtTime()",
+          "setTargetAtTime()",
+          "setValueCurveAtTime()",
+          "cancelScheduledValues()",
+          "cancelAndHoldAtTime()"
+        ],
+        "AudioScheduledSourceNode": [
+          "start()",
+          "stop()"
+        ],
+        "AnalyserNode": [
+          "getFloatFrequencyData()",
+          "getByteFrequencyData()",
+          "getFloatTimeDomainData()",
+          "getByteTimeDomainData()"
+        ],
+        "AudioBufferSourceNode": [
+          "start()"
+        ],
+        "AudioListener": [
+          "setPosition()",
+          "setOrientation()"
+        ],
+        "AudioProcessingEvent": [
+          "playbackTime",
+          "inputBuffer",
+          "outputBuffer"
+        ],
+        "BiquadFilterNode": [
+          "getFrequencyResponse()"
+        ],
+        "IIRFilterNode": [
+          "getFrequencyResponse()"
+        ],
+        "OscillatorNode": [
+          "setPeriodicWave()"
+        ],
+        "PannerNode": [
+          "setPosition()",
+          "setOrientation()"
+        ],
+        "AudioWorklet": [
+          "port"
+        ],
+        "AudioWorkletGlobalScope": [
+          "registerProcessor()",
+          "currentFrame",
+          "currentTime",
+          "sampleRate",
+          "port"
+        ]
+      },
       "bcd": {
         "AudioContext": [
           "renderCapacity"
@@ -2773,13 +6067,6 @@
         "AudioWorkletGlobalScope": [
           "port"
         ]
-      },
-      "mdn": {
-        "AudioProcessingEvent": [
-          "playbackTime",
-          "inputBuffer",
-          "outputBuffer"
-        ]
       }
     }
   },
@@ -2790,12 +6077,21 @@
       "mdn": {
         "PublicKeyCredential": [
           "authenticatorAttachment",
-          "isConditionalMediationAvailable()"
+          "getClientExtensionResults()",
+          "isConditionalMediationAvailable()",
+          "toJSON()",
+          "isUserVerifyingPlatformAuthenticatorAvailable()",
+          "parseCreationOptionsFromJSON()",
+          "parseRequestOptionsFromJSON()"
         ],
         "AuthenticatorAttestationResponse": [
+          "getTransports()",
           "getAuthenticatorData()",
           "getPublicKey()",
           "getPublicKeyAlgorithm()"
+        ],
+        "AuthenticatorAssertionResponse": [
+          "attestationObject"
         ]
       },
       "bcd": {
@@ -2816,20 +6112,64 @@
     "idl": {
       "mdn": {
         "AudioDecoder": [
+          "configure()",
+          "decode()",
+          "flush()",
+          "reset()",
+          "close()",
           "isConfigSupported()"
         ],
         "VideoDecoder": [
+          "configure()",
+          "decode()",
+          "flush()",
+          "reset()",
+          "close()",
           "isConfigSupported()"
         ],
         "AudioEncoder": [
+          "configure()",
+          "encode()",
+          "flush()",
+          "reset()",
+          "close()",
           "isConfigSupported()"
         ],
         "VideoEncoder": [
+          "configure()",
+          "encode()",
           "flush()",
+          "reset()",
+          "close()",
           "isConfigSupported()"
         ],
-        "VideoFrame": [
+        "EncodedAudioChunk": [
           "copyTo()"
+        ],
+        "EncodedVideoChunk": [
+          "copyTo()"
+        ],
+        "AudioData": [
+          "allocationSize()",
+          "copyTo()",
+          "clone()",
+          "close()"
+        ],
+        "VideoFrame": [
+          "metadata()",
+          "allocationSize()",
+          "copyTo()",
+          "clone()",
+          "close()"
+        ],
+        "VideoColorSpace": [
+          "toJSON()"
+        ],
+        "ImageDecoder": [
+          "decode()",
+          "reset()",
+          "close()",
+          "isTypeSupported()"
         ]
       },
       "bcd": {
@@ -2843,8 +6183,204 @@
     "title": "WebGL Specification",
     "url": "https://registry.khronos.org/webgl/specs/latest/1.0/",
     "idl": {
+      "mdn": {
+        "WebGLObject": true,
+        "WebGLRenderingContext": [
+          "bufferData()",
+          "bufferSubData()",
+          "compressedTexImage2D()",
+          "compressedTexSubImage2D()",
+          "readPixels()",
+          "texImage2D()",
+          "texSubImage2D()",
+          "uniform1fv()",
+          "uniform2fv()",
+          "uniform3fv()",
+          "uniform4fv()",
+          "uniform1iv()",
+          "uniform2iv()",
+          "uniform3iv()",
+          "uniform4iv()",
+          "uniformMatrix2fv()",
+          "uniformMatrix3fv()",
+          "uniformMatrix4fv()"
+        ]
+      },
       "bcd": {
         "WebGLObject": true
+      }
+    }
+  },
+  "webxr": {
+    "title": "WebXR Device API",
+    "url": "https://www.w3.org/TR/webxr/",
+    "idl": {
+      "mdn": {
+        "WebGLRenderingContext": [
+          "makeXRCompatible()"
+        ],
+        "WebGL2RenderingContext": [
+          "makeXRCompatible()"
+        ],
+        "XRSystem": [
+          "isSessionSupported()",
+          "requestSession()"
+        ],
+        "XRSession": [
+          "frameRate",
+          "supportedFrameRates",
+          "enabledFeatures",
+          "updateRenderState()",
+          "updateTargetFrameRate()",
+          "requestReferenceSpace()",
+          "requestAnimationFrame()",
+          "cancelAnimationFrame()",
+          "end()"
+        ],
+        "XRFrame": [
+          "predictedDisplayTime",
+          "getViewerPose()",
+          "getPose()"
+        ],
+        "XRReferenceSpace": [
+          "getOffsetReferenceSpace()"
+        ],
+        "XRView": [
+          "requestViewportScale()"
+        ],
+        "XRWebGLLayer": [
+          "getViewport()",
+          "getNativeFramebufferScaleFactor()"
+        ],
+        "XRPermissionStatus": true
+      },
+      "bcd": {
+        "XRSession": [
+          "frameRate",
+          "supportedFrameRates",
+          "enabledFeatures",
+          "updateTargetFrameRate()"
+        ],
+        "XRFrame": [
+          "predictedDisplayTime"
+        ],
+        "XRPermissionStatus": true
+      }
+    }
+  },
+  "webgl2": {
+    "title": "WebGL 2.0 Specification",
+    "url": "https://registry.khronos.org/webgl/specs/latest/2.0/",
+    "idl": {
+      "mdn": {
+        "WebGL2RenderingContext": [
+          "copyBufferSubData()",
+          "getBufferSubData()",
+          "blitFramebuffer()",
+          "framebufferTextureLayer()",
+          "invalidateFramebuffer()",
+          "invalidateSubFramebuffer()",
+          "readBuffer()",
+          "getInternalformatParameter()",
+          "renderbufferStorageMultisample()",
+          "texStorage2D()",
+          "texStorage3D()",
+          "texImage3D()",
+          "texSubImage3D()",
+          "copyTexSubImage3D()",
+          "compressedTexImage3D()",
+          "compressedTexSubImage3D()",
+          "getFragDataLocation()",
+          "uniform1ui()",
+          "uniform2ui()",
+          "uniform3ui()",
+          "uniform4ui()",
+          "uniform1uiv()",
+          "uniform2uiv()",
+          "uniform3uiv()",
+          "uniform4uiv()",
+          "uniformMatrix3x2fv()",
+          "uniformMatrix4x2fv()",
+          "uniformMatrix2x3fv()",
+          "uniformMatrix4x3fv()",
+          "uniformMatrix2x4fv()",
+          "uniformMatrix3x4fv()",
+          "vertexAttribI4i()",
+          "vertexAttribI4iv()",
+          "vertexAttribI4ui()",
+          "vertexAttribI4uiv()",
+          "vertexAttribIPointer()",
+          "vertexAttribDivisor()",
+          "drawArraysInstanced()",
+          "drawElementsInstanced()",
+          "drawRangeElements()",
+          "drawBuffers()",
+          "clearBufferfv()",
+          "clearBufferiv()",
+          "clearBufferuiv()",
+          "clearBufferfi()",
+          "createQuery()",
+          "deleteQuery()",
+          "isQuery()",
+          "beginQuery()",
+          "endQuery()",
+          "getQuery()",
+          "getQueryParameter()",
+          "createSampler()",
+          "deleteSampler()",
+          "isSampler()",
+          "bindSampler()",
+          "samplerParameteri()",
+          "samplerParameterf()",
+          "getSamplerParameter()",
+          "fenceSync()",
+          "isSync()",
+          "deleteSync()",
+          "clientWaitSync()",
+          "waitSync()",
+          "getSyncParameter()",
+          "createTransformFeedback()",
+          "deleteTransformFeedback()",
+          "isTransformFeedback()",
+          "bindTransformFeedback()",
+          "beginTransformFeedback()",
+          "endTransformFeedback()",
+          "transformFeedbackVaryings()",
+          "getTransformFeedbackVarying()",
+          "pauseTransformFeedback()",
+          "resumeTransformFeedback()",
+          "bindBufferBase()",
+          "bindBufferRange()",
+          "getIndexedParameter()",
+          "getUniformIndices()",
+          "getActiveUniforms()",
+          "getUniformBlockIndex()",
+          "getActiveUniformBlockParameter()",
+          "getActiveUniformBlockName()",
+          "uniformBlockBinding()",
+          "createVertexArray()",
+          "deleteVertexArray()",
+          "isVertexArray()",
+          "bindVertexArray()",
+          "bufferData()",
+          "bufferSubData()",
+          "texImage2D()",
+          "texSubImage2D()",
+          "compressedTexImage2D()",
+          "compressedTexSubImage2D()",
+          "uniform1fv()",
+          "uniform2fv()",
+          "uniform3fv()",
+          "uniform4fv()",
+          "uniform1iv()",
+          "uniform2iv()",
+          "uniform3iv()",
+          "uniform4iv()",
+          "uniformMatrix2fv()",
+          "uniformMatrix3fv()",
+          "uniformMatrix4fv()",
+          "readPixels()"
+        ]
       }
     }
   },
@@ -2852,6 +6388,54 @@
     "title": "WebGPU",
     "url": "https://www.w3.org/TR/webgpu/",
     "idl": {
+      "mdn": {
+        "GPUSupportedLimits": true,
+        "GPUSupportedFeatures": true,
+        "GPUAdapterInfo": true,
+        "Navigator": [
+          "gpu"
+        ],
+        "WorkerNavigator": [
+          "gpu"
+        ],
+        "GPU": true,
+        "GPUAdapter": true,
+        "GPUDevice": true,
+        "GPUBuffer": true,
+        "GPUBufferUsage": true,
+        "GPUMapMode": true,
+        "GPUTexture": true,
+        "GPUTextureUsage": true,
+        "GPUTextureView": true,
+        "GPUExternalTexture": true,
+        "GPUSampler": true,
+        "GPUBindGroupLayout": true,
+        "GPUShaderStage": true,
+        "GPUBindGroup": true,
+        "GPUPipelineLayout": true,
+        "GPUShaderModule": true,
+        "GPUCompilationMessage": true,
+        "GPUCompilationInfo": true,
+        "GPUPipelineError": true,
+        "GPUComputePipeline": true,
+        "GPURenderPipeline": true,
+        "GPUColorWrite": true,
+        "GPUCommandBuffer": true,
+        "GPUCommandEncoder": true,
+        "GPUComputePassEncoder": true,
+        "GPURenderPassEncoder": true,
+        "GPURenderBundle": true,
+        "GPURenderBundleEncoder": true,
+        "GPUQueue": true,
+        "GPUQuerySet": true,
+        "GPUCanvasContext": true,
+        "GPUDeviceLostInfo": true,
+        "GPUError": true,
+        "GPUValidationError": true,
+        "GPUOutOfMemoryError": true,
+        "GPUInternalError": true,
+        "GPUUncapturedErrorEvent": true
+      },
       "bcd": {
         "GPUSupportedLimits": true,
         "GPUSupportedFeatures": true,
@@ -2906,9 +6490,45 @@
     "title": "WebHID API",
     "url": "https://wicg.github.io/webhid/",
     "idl": {
+      "mdn": {
+        "WorkerNavigator": [
+          "hid"
+        ],
+        "HID": [
+          "getDevices()",
+          "requestDevice()"
+        ],
+        "HIDDevice": [
+          "open()",
+          "close()",
+          "forget()",
+          "sendReport()",
+          "sendFeatureReport()",
+          "receiveFeatureReport()"
+        ]
+      },
       "bcd": {
         "WorkerNavigator": [
           "hid"
+        ]
+      }
+    }
+  },
+  "webmidi": {
+    "title": "Web MIDI API",
+    "url": "https://www.w3.org/TR/webmidi/",
+    "idl": {
+      "mdn": {
+        "Navigator": [
+          "requestMIDIAccess()"
+        ],
+        "MIDIPort": [
+          "open()",
+          "close()"
+        ],
+        "MIDIOutput": [
+          "send()",
+          "clear()"
         ]
       }
     }
@@ -2917,6 +6537,21 @@
     "title": "Web Neural Network API",
     "url": "https://www.w3.org/TR/webnn/",
     "idl": {
+      "mdn": {
+        "Navigator": [
+          "ml"
+        ],
+        "WorkerNavigator": [
+          "ml"
+        ],
+        "ML": true,
+        "MLContext": true,
+        "MLOperand": true,
+        "MLActivation": true,
+        "MLGraphBuilder": true,
+        "MLGraph": true,
+        "MLCommandEncoder": true
+      },
       "bcd": {
         "Navigator": [
           "ml"
@@ -2940,11 +6575,14 @@
     "idl": {
       "mdn": {
         "RTCRtpSender": [
-          "transform"
+          "transform",
+          "generateKeyFrame()"
         ],
         "RTCRtpReceiver": [
           "transform"
         ],
+        "SFrameTransform": true,
+        "SFrameTransformErrorEvent": true,
         "RTCEncodedVideoFrame": true,
         "RTCEncodedAudioFrame": true,
         "RTCTransformEvent": true,
@@ -2964,6 +6602,14 @@
     "title": "IceTransport Extensions for WebRTC",
     "url": "https://w3c.github.io/webrtc-ice/",
     "idl": {
+      "mdn": {
+        "RTCIceTransport": [
+          "gather()",
+          "start()",
+          "stop()",
+          "addRemoteCandidate()"
+        ]
+      },
       "bcd": {
         "RTCIceTransport": [
           "gather()",
@@ -2978,6 +6624,26 @@
     "title": "Identity for WebRTC 1.0",
     "url": "https://www.w3.org/TR/webrtc-identity/",
     "idl": {
+      "mdn": {
+        "RTCIdentityProviderGlobalScope": true,
+        "RTCIdentityProviderRegistrar": true,
+        "RTCPeerConnection": [
+          "setIdentityProvider()",
+          "getIdentityAssertion()",
+          "idpLoginUrl",
+          "idpErrorInfo"
+        ],
+        "RTCIdentityAssertion": [
+          "idp",
+          "name"
+        ],
+        "RTCError": [
+          "httpRequestStatusCode"
+        ],
+        "MediaStreamTrack": [
+          "isolated"
+        ]
+      },
       "bcd": {
         "RTCIdentityProviderGlobalScope": true,
         "RTCIdentityProviderRegistrar": true,
@@ -2986,14 +6652,6 @@
         ],
         "MediaStreamTrack": [
           "isolated"
-        ]
-      },
-      "mdn": {
-        "RTCPeerConnection": [
-          "idpLoginUrl"
-        ],
-        "RTCError": [
-          "httpRequestStatusCode"
         ]
       }
     }
@@ -3013,6 +6671,91 @@
     "title": "WebRTC 1.0: Real-Time Communication Between Browsers",
     "url": "https://www.w3.org/TR/webrtc/",
     "idl": {
+      "mdn": {
+        "RTCPeerConnection": [
+          "createOffer()",
+          "createAnswer()",
+          "setLocalDescription()",
+          "setRemoteDescription()",
+          "addIceCandidate()",
+          "restartIce()",
+          "getConfiguration()",
+          "setConfiguration()",
+          "close()",
+          "generateCertificate()",
+          "getSenders()",
+          "getReceivers()",
+          "getTransceivers()",
+          "addTrack()",
+          "removeTrack()",
+          "addTransceiver()",
+          "createDataChannel()",
+          "getStats()"
+        ],
+        "RTCSessionDescription": [
+          "toJSON()"
+        ],
+        "RTCIceCandidate": [
+          "relayProtocol",
+          "url",
+          "toJSON()"
+        ],
+        "RTCPeerConnectionIceEvent": [
+          "url"
+        ],
+        "RTCPeerConnectionIceErrorEvent": [
+          "port",
+          "url",
+          "errorCode",
+          "errorText"
+        ],
+        "RTCCertificate": [
+          "expires",
+          "getFingerprints()"
+        ],
+        "RTCRtpSender": [
+          "getCapabilities()",
+          "setParameters()",
+          "getParameters()",
+          "replaceTrack()",
+          "setStreams()",
+          "getStats()"
+        ],
+        "RTCRtpReceiver": [
+          "getCapabilities()",
+          "getParameters()",
+          "getContributingSources()",
+          "getSynchronizationSources()",
+          "getStats()"
+        ],
+        "RTCRtpTransceiver": [
+          "stop()",
+          "setCodecPreferences()"
+        ],
+        "RTCDtlsTransport": [
+          "getRemoteCertificates()"
+        ],
+        "RTCIceTransport": [
+          "getLocalCandidates()",
+          "getRemoteCandidates()",
+          "getSelectedCandidatePair()",
+          "getLocalParameters()",
+          "getRemoteParameters()"
+        ],
+        "RTCSctpTransport": [
+          "transport",
+          "maxMessageSize",
+          "maxChannels"
+        ],
+        "RTCDataChannel": [
+          "close()",
+          "send()"
+        ],
+        "RTCDTMFSender": [
+          "insertDTMF()",
+          "canInsertDTMF"
+        ]
+      },
       "bcd": {
         "RTCIceCandidate": [
           "relayProtocol",
@@ -3021,10 +6764,17 @@
         "RTCIceTransport": [
           "component"
         ]
-      },
+      }
+    }
+  },
+  "websockets": {
+    "title": "WebSockets Standard",
+    "url": "https://websockets.spec.whatwg.org/",
+    "idl": {
       "mdn": {
-        "RTCPeerConnectionIceErrorEvent": [
-          "port"
+        "WebSocket": [
+          "close()",
+          "send()"
         ]
       }
     }
@@ -3033,11 +6783,17 @@
     "title": "WebTransport",
     "url": "https://www.w3.org/TR/webtransport/",
     "idl": {
-      "bcd-mdn": {
-        "WebTransportDatagramDuplexStream": true,
-        "WebTransport": true,
-        "WebTransportBidirectionalStream": true,
-        "WebTransportError": true
+      "mdn": {
+        "WebTransport": [
+          "getStats()",
+          "reliability",
+          "congestionControl",
+          "close()",
+          "createBidirectionalStream()",
+          "createUnidirectionalStream()"
+        ],
+        "WebTransportSendStream": true,
+        "WebTransportReceiveStream": true
       },
       "bcd": {
         "WebTransport": [
@@ -3047,13 +6803,6 @@
         ],
         "WebTransportSendStream": true,
         "WebTransportReceiveStream": true
-      },
-      "mdn": {
-        "WebTransport": [
-          "close()",
-          "createBidirectionalStream()",
-          "createUnidirectionalStream()"
-        ]
       }
     }
   },
@@ -3062,11 +6811,114 @@
     "url": "https://wicg.github.io/webusb/",
     "idl": {
       "mdn": {
+        "USB": [
+          "getDevices()",
+          "requestDevice()"
+        ],
         "Navigator": [
           "usb"
         ],
         "WorkerNavigator": [
           "usb"
+        ],
+        "USBInTransferResult": [
+          "data",
+          "status"
+        ],
+        "USBOutTransferResult": [
+          "bytesWritten",
+          "status"
+        ],
+        "USBIsochronousInTransferPacket": [
+          "data",
+          "status"
+        ],
+        "USBIsochronousInTransferResult": [
+          "data",
+          "packets"
+        ],
+        "USBIsochronousOutTransferPacket": [
+          "bytesWritten",
+          "status"
+        ],
+        "USBIsochronousOutTransferResult": [
+          "packets"
+        ],
+        "USBDevice": [
+          "open()",
+          "close()",
+          "forget()",
+          "selectConfiguration()",
+          "claimInterface()",
+          "releaseInterface()",
+          "selectAlternateInterface()",
+          "controlTransferIn()",
+          "controlTransferOut()",
+          "clearHalt()",
+          "transferIn()",
+          "transferOut()",
+          "isochronousTransferIn()",
+          "isochronousTransferOut()",
+          "reset()"
+        ],
+        "USBInterface": [
+          "interfaceNumber",
+          "alternate",
+          "alternates",
+          "claimed"
+        ],
+        "USBAlternateInterface": [
+          "alternateSetting",
+          "interfaceClass",
+          "interfaceSubclass",
+          "interfaceProtocol",
+          "interfaceName",
+          "endpoints"
+        ],
+        "USBEndpoint": [
+          "endpointNumber",
+          "direction",
+          "type",
+          "packetSize"
+        ],
+        "USBPermissionResult": true
+      }
+    }
+  },
+  "webvtt": {
+    "title": "WebVTT: The Web Video Text Tracks Format",
+    "url": "https://www.w3.org/TR/webvtt1/",
+    "idl": {
+      "mdn": {
+        "VTTCue": [
+          "getCueAsHTML()"
+        ],
+        "VTTRegion": [
+          "id",
+          "width",
+          "lines",
+          "regionAnchorX",
+          "regionAnchorY",
+          "viewportAnchorX",
+          "viewportAnchorY",
+          "scroll"
+        ]
+      }
+    }
+  },
+  "webxr-depth-sensing": {
+    "title": "WebXR Depth Sensing Module",
+    "url": "https://www.w3.org/TR/webxr-depth-sensing-1/",
+    "idl": {
+      "mdn": {
+        "XRCPUDepthInformation": [
+          "getDepthInMeters()"
+        ],
+        "XRFrame": [
+          "getDepthInformation()"
+        ],
+        "XRWebGLBinding": [
+          "getDepthInformation()"
         ]
       }
     }
@@ -3075,6 +6927,17 @@
     "title": "WebXR Hand Input Module - Level 1",
     "url": "https://www.w3.org/TR/webxr-hand-input-1/",
     "idl": {
+      "mdn": {
+        "XRHand": [
+          "size",
+          "get()"
+        ],
+        "XRFrame": [
+          "getJointPose()",
+          "fillJointRadii()",
+          "fillPoses()"
+        ]
+      },
       "bcd": {
         "XRHand": [
           "size",
@@ -3083,21 +6946,45 @@
       }
     }
   },
-  "webxr": {
-    "title": "WebXR Device API",
-    "url": "https://www.w3.org/TR/webxr/",
+  "webxr-hit-test": {
+    "title": "WebXR Hit Test Module",
+    "url": "https://www.w3.org/TR/webxr-hit-test-1/",
     "idl": {
-      "bcd": {
+      "mdn": {
+        "XRHitTestSource": [
+          "cancel()"
+        ],
+        "XRTransientInputHitTestSource": [
+          "cancel()"
+        ],
+        "XRHitTestResult": [
+          "getPose()"
+        ],
         "XRSession": [
-          "frameRate",
-          "supportedFrameRates",
-          "enabledFeatures",
-          "updateTargetFrameRate()"
+          "requestHitTestSource()",
+          "requestHitTestSourceForTransientInput()"
         ],
         "XRFrame": [
-          "predictedDisplayTime"
+          "getHitTestResults()",
+          "getHitTestResultsForTransientInput()"
+        ]
+      }
+    }
+  },
+  "webxr-lighting-estimation": {
+    "title": "WebXR Lighting Estimation API Level 1",
+    "url": "https://www.w3.org/TR/webxr-lighting-estimation-1/",
+    "idl": {
+      "mdn": {
+        "XRSession": [
+          "requestLightProbe()"
         ],
-        "XRPermissionStatus": true
+        "XRFrame": [
+          "getLightEstimate()"
+        ],
+        "XRWebGLBinding": [
+          "getReflectionCubeMap()"
+        ]
       }
     }
   },
@@ -3105,6 +6992,38 @@
     "title": "WebXR Layers API Level 1",
     "url": "https://www.w3.org/TR/webxrlayers-1/",
     "idl": {
+      "mdn": {
+        "XRCompositionLayer": [
+          "forceMonoPresentation",
+          "opacity",
+          "destroy()"
+        ],
+        "XRProjectionLayer": [
+          "deltaPose"
+        ],
+        "XRWebGLSubImage": [
+          "motionVectorTexture",
+          "depthStencilTextureWidth",
+          "depthStencilTextureHeight",
+          "motionVectorTextureWidth",
+          "motionVectorTextureHeight"
+        ],
+        "XRWebGLBinding": [
+          "usesDepthValues",
+          "createProjectionLayer()",
+          "createQuadLayer()",
+          "createCylinderLayer()",
+          "createEquirectLayer()",
+          "createCubeLayer()",
+          "getSubImage()",
+          "getViewSubImage()"
+        ],
+        "XRMediaBinding": [
+          "createQuadLayer()",
+          "createCylinderLayer()",
+          "createEquirectLayer()"
+        ]
+      },
       "bcd": {
         "XRCompositionLayer": [
           "forceMonoPresentation",
@@ -3126,6 +7045,17 @@
       }
     }
   },
+  "window-controls-overlay": {
+    "title": "Window Controls Overlay",
+    "url": "https://wicg.github.io/window-controls-overlay/",
+    "idl": {
+      "mdn": {
+        "WindowControlsOverlay": [
+          "getTitlebarAreaRect()"
+        ]
+      }
+    }
+  },
   "window-placement": {
     "title": "Multi-Screen Window Placement",
     "url": "https://www.w3.org/TR/window-placement/",
@@ -3142,10 +7072,41 @@
       }
     }
   },
+  "xhr": {
+    "title": "XMLHttpRequest Standard",
+    "url": "https://xhr.spec.whatwg.org/",
+    "idl": {
+      "mdn": {
+        "XMLHttpRequestUpload": true,
+        "XMLHttpRequest": [
+          "open()",
+          "setRequestHeader()",
+          "send()",
+          "abort()",
+          "getResponseHeader()",
+          "getAllResponseHeaders()",
+          "overrideMimeType()"
+        ],
+        "FormData": [
+          "append()",
+          "delete()",
+          "get()",
+          "getAll()",
+          "has()",
+          "set()"
+        ]
+      }
+    }
+  },
   "mathml-core": {
     "title": "MathML Core",
     "url": "https://www.w3.org/TR/mathml-core/",
     "elements": {
+      "mdn": {
+        "mprescripts": true,
+        "annotation": true,
+        "annotation-xml": true
+      },
       "bcd": {
         "mprescripts": true,
         "annotation": true,
@@ -3157,6 +7118,69 @@
     "title": "Compatibility Standard",
     "url": "https://compat.spec.whatwg.org/",
     "css.properties": {
+      "mdn": {
+        "-webkit-align-items": true,
+        "-webkit-align-content": true,
+        "-webkit-align-self": true,
+        "-webkit-animation-name": true,
+        "-webkit-animation-duration": true,
+        "-webkit-animation-timing-function": true,
+        "-webkit-animation-iteration-count": true,
+        "-webkit-animation-direction": true,
+        "-webkit-animation-play-state": true,
+        "-webkit-animation-delay": true,
+        "-webkit-animation-fill-mode": true,
+        "-webkit-animation": true,
+        "-webkit-backface-visibility": true,
+        "-webkit-background-clip": true,
+        "-webkit-background-origin": true,
+        "-webkit-background-size": true,
+        "-webkit-border-bottom-left-radius": true,
+        "-webkit-border-bottom-right-radius": true,
+        "-webkit-border-top-left-radius": true,
+        "-webkit-border-top-right-radius": true,
+        "-webkit-border-radius": true,
+        "-webkit-box-shadow": true,
+        "-webkit-box-sizing": true,
+        "-webkit-flex": true,
+        "-webkit-flex-basis": true,
+        "-webkit-flex-direction": true,
+        "-webkit-flex-flow": true,
+        "-webkit-flex-grow": true,
+        "-webkit-flex-shrink": true,
+        "-webkit-flex-wrap": true,
+        "-webkit-filter": true,
+        "-webkit-justify-content": true,
+        "-webkit-mask": true,
+        "-webkit-mask-box-image-outset": true,
+        "-webkit-mask-box-image-repeat": true,
+        "-webkit-mask-box-image-slice": true,
+        "-webkit-mask-box-image-source": true,
+        "-webkit-mask-box-image-width": true,
+        "-webkit-mask-clip": true,
+        "-webkit-mask-image": true,
+        "-webkit-mask-origin": true,
+        "-webkit-mask-position": true,
+        "-webkit-mask-repeat": true,
+        "-webkit-mask-size": true,
+        "-webkit-order": true,
+        "-webkit-perspective": true,
+        "-webkit-perspective-origin": true,
+        "-webkit-transform-origin": true,
+        "-webkit-transform-style": true,
+        "-webkit-transform": true,
+        "-webkit-transition-delay": true,
+        "-webkit-transition-duration": true,
+        "-webkit-transition-property": true,
+        "-webkit-transition-timing-function": true,
+        "-webkit-transition": true,
+        "-webkit-text-size-adjust": true,
+        "-webkit-box-align": true,
+        "-webkit-box-flex": true,
+        "-webkit-box-ordinal-group": true,
+        "-webkit-box-orient": true,
+        "-webkit-box-pack": true
+      },
       "bcd": {
         "-webkit-align-items": true,
         "-webkit-align-content": true,
@@ -3226,6 +7250,11 @@
     "title": "CSS Box Alignment Module Level 3",
     "url": "https://www.w3.org/TR/css-align-3/",
     "css.properties": {
+      "mdn": {
+        "grid-row-gap": true,
+        "grid-column-gap": true,
+        "grid-gap": true
+      },
       "bcd": {
         "grid-row-gap": true,
         "grid-column-gap": true,
@@ -3237,6 +7266,11 @@
     "title": "CSS Anchor Positioning",
     "url": "https://drafts.csswg.org/css-anchor-1/",
     "css.properties": {
+      "mdn": {
+        "anchor-scroll": true,
+        "anchor-name": true,
+        "position-fallback": true
+      },
       "bcd": {
         "anchor-scroll": true,
         "anchor-name": true,
@@ -3244,6 +7278,9 @@
       }
     },
     "css.atrules": {
+      "mdn": {
+        "@position-fallback": true
+      },
       "bcd": {
         "@position-fallback": true
       }
@@ -3251,6 +7288,18 @@
   },
   "css-backgrounds-4": {
     "css.properties": {
+      "mdn": {
+        "background-position-inline": true,
+        "background-position-block": true,
+        "corner-shape": true,
+        "corners": true,
+        "border-limit": true,
+        "border-clip": true,
+        "border-clip-top": true,
+        "border-clip-right": true,
+        "border-clip-bottom": true,
+        "border-clip-left": true
+      },
       "bcd": {
         "background-position-inline": true,
         "background-position-block": true,
@@ -3269,6 +7318,9 @@
     "title": "CSS Fragmentation Module Level 3",
     "url": "https://www.w3.org/TR/css-break-3/",
     "css.properties": {
+      "mdn": {
+        "margin-break": true
+      },
       "bcd": {
         "margin-break": true
       }
@@ -3276,6 +7328,9 @@
   },
   "css-cascade-6": {
     "css.atrules": {
+      "mdn": {
+        "@scope": true
+      },
       "bcd": {
         "@scope": true
       }
@@ -3285,6 +7340,9 @@
     "title": "CSS Color Adjustment Module Level 1",
     "url": "https://www.w3.org/TR/css-color-adjust-1/",
     "css.properties": {
+      "mdn": {
+        "color-adjust": true
+      },
       "bcd": {
         "color-adjust": true
       }
@@ -3292,6 +7350,10 @@
   },
   "css-conditional-5": {
     "css.atrules": {
+      "mdn": {
+        "@when": true,
+        "@else": true
+      },
       "bcd": {
         "@when": true,
         "@else": true
@@ -3302,6 +7364,12 @@
     "title": "CSS Generated Content Module Level 3",
     "url": "https://www.w3.org/TR/css-content-3/",
     "css.properties": {
+      "mdn": {
+        "string-set": true,
+        "bookmark-level": true,
+        "bookmark-label": true,
+        "bookmark-state": true
+      },
       "bcd": {
         "string-set": true,
         "bookmark-level": true,
@@ -3314,6 +7382,10 @@
     "title": "CSS Exclusions Module Level 1",
     "url": "https://www.w3.org/TR/css3-exclusions/",
     "css.properties": {
+      "mdn": {
+        "wrap-flow": true,
+        "wrap-through": true
+      },
       "bcd": {
         "wrap-flow": true,
         "wrap-through": true
@@ -3324,6 +7396,9 @@
     "title": "CSS Extensions",
     "url": "https://drafts.csswg.org/css-extensions-1/",
     "css.atrules": {
+      "mdn": {
+        "@custom-selector": true
+      },
       "bcd": {
         "@custom-selector": true
       }
@@ -3331,6 +7406,9 @@
   },
   "css-gcpm-4": {
     "css.properties": {
+      "mdn": {
+        "copy-into": true
+      },
       "bcd": {
         "copy-into": true
       }
@@ -3340,6 +7418,10 @@
     "title": "CSS Generated Content for Paged Media Module Level 4",
     "url": "https://drafts.csswg.org/css-gcpm-4/",
     "css.properties": {
+      "mdn": {
+        "footnote-display": true,
+        "footnote-policy": true
+      },
       "bcd": {
         "footnote-display": true,
         "footnote-policy": true
@@ -3350,6 +7432,16 @@
     "title": "CSS Inline Layout Module Level 3",
     "url": "https://www.w3.org/TR/css-inline-3/",
     "css.properties": {
+      "mdn": {
+        "dominant-baseline": true,
+        "baseline-source": true,
+        "alignment-baseline": true,
+        "baseline-shift": true,
+        "text-edge": true,
+        "leading-trim": true,
+        "inline-sizing": true,
+        "initial-letter-wrap": true
+      },
       "bcd": {
         "dominant-baseline": true,
         "baseline-source": true,
@@ -3366,6 +7458,11 @@
     "title": "CSS Line Grid Module Level 1",
     "url": "https://www.w3.org/TR/css-line-grid-1/",
     "css.properties": {
+      "mdn": {
+        "line-grid": true,
+        "line-snap": true,
+        "box-snap": true
+      },
       "bcd": {
         "line-grid": true,
         "line-snap": true,
@@ -3377,6 +7474,9 @@
     "title": "CSS Lists and Counters Module Level 3",
     "url": "https://www.w3.org/TR/css-lists-3/",
     "css.properties": {
+      "mdn": {
+        "marker-side": true
+      },
       "bcd": {
         "marker-side": true
       }
@@ -3384,6 +7484,10 @@
   },
   "css-overflow-4": {
     "css.properties": {
+      "mdn": {
+        "continue": true,
+        "max-lines": true
+      },
       "bcd": {
         "continue": true,
         "max-lines": true
@@ -3394,6 +7498,12 @@
     "title": "CSS Overflow Module Level 3",
     "url": "https://www.w3.org/TR/css-overflow-3/",
     "css.properties": {
+      "mdn": {
+        "block-ellipsis": true,
+        "line-clamp": true,
+        "continue": true,
+        "max-lines": true
+      },
       "bcd": {
         "block-ellipsis": true,
         "line-clamp": true,
@@ -3406,6 +7516,11 @@
     "title": "CSS Page Floats",
     "url": "https://www.w3.org/TR/css-page-floats-3/",
     "css.properties": {
+      "mdn": {
+        "float-reference": true,
+        "float-defer": true,
+        "float-offset": true
+      },
       "bcd": {
         "float-reference": true,
         "float-defer": true,
@@ -3416,7 +7531,30 @@
   "css-page": {
     "title": "Proposals for the future of CSS Paged Media",
     "url": "https://drafts.csswg.org/css-page-4/",
+    "css.properties": {
+      "mdn": {
+        "page": true
+      }
+    },
     "css.atrules": {
+      "mdn": {
+        "@top-left-corner": true,
+        "@top-left": true,
+        "@top-center": true,
+        "@top-right": true,
+        "@top-right-corner": true,
+        "@bottom-left-corner": true,
+        "@bottom-left": true,
+        "@bottom-center": true,
+        "@bottom-right": true,
+        "@bottom-right-corner": true,
+        "@left-top": true,
+        "@left-middle": true,
+        "@left-bottom": true,
+        "@right-top": true,
+        "@right-middle": true,
+        "@right-bottom": true
+      },
       "bcd": {
         "@top-left-corner": true,
         "@top-left": true,
@@ -3441,6 +7579,13 @@
     "title": "CSS Rhythmic Sizing",
     "url": "https://www.w3.org/TR/css-rhythm-1/",
     "css.properties": {
+      "mdn": {
+        "block-step-size": true,
+        "block-step-insert": true,
+        "block-step-align": true,
+        "block-step-round": true,
+        "block-step": true
+      },
       "bcd": {
         "block-step-size": true,
         "block-step-insert": true,
@@ -3454,11 +7599,17 @@
     "title": "CSS Round Display Level 1",
     "url": "https://www.w3.org/TR/css-round-display-1/",
     "css.properties": {
+      "mdn": {
+        "border-boundary": true
+      },
       "bcd": {
         "border-boundary": true
       }
     },
     "css.atrules": {
+      "mdn": {
+        "@viewport": true
+      },
       "bcd": {
         "@viewport": true
       }
@@ -3468,6 +7619,10 @@
     "title": "CSS Ruby Annotation Layout Module Level 1",
     "url": "https://www.w3.org/TR/css-ruby-1/",
     "css.properties": {
+      "mdn": {
+        "ruby-merge": true,
+        "ruby-overhang": true
+      },
       "bcd": {
         "ruby-merge": true,
         "ruby-overhang": true
@@ -3476,6 +7631,14 @@
   },
   "css-scroll-snap-2": {
     "css.properties": {
+      "mdn": {
+        "scroll-start": true,
+        "scroll-start-target": true,
+        "scroll-start-x": true,
+        "scroll-start-y": true,
+        "scroll-start-inline": true,
+        "scroll-start-block": true
+      },
       "bcd": {
         "scroll-start": true,
         "scroll-start-target": true,
@@ -3488,6 +7651,10 @@
   },
   "css-shapes-2": {
     "css.properties": {
+      "mdn": {
+        "shape-inside": true,
+        "shape-padding": true
+      },
       "bcd": {
         "shape-inside": true,
         "shape-padding": true
@@ -3496,6 +7663,9 @@
   },
   "css-sizing-4": {
     "css.properties": {
+      "mdn": {
+        "min-intrinsic-sizing": true
+      },
       "bcd": {
         "min-intrinsic-sizing": true
       }
@@ -3505,6 +7675,27 @@
     "title": "CSS Speech Module",
     "url": "https://www.w3.org/TR/css-speech-1/",
     "css.properties": {
+      "mdn": {
+        "voice-volume": true,
+        "voice-balance": true,
+        "speak": true,
+        "speak-as": true,
+        "pause-before": true,
+        "pause-after": true,
+        "pause": true,
+        "rest-before": true,
+        "rest-after": true,
+        "rest": true,
+        "cue-before": true,
+        "cue-after": true,
+        "cue": true,
+        "voice-family": true,
+        "voice-rate": true,
+        "voice-pitch": true,
+        "voice-range": true,
+        "voice-stress": true,
+        "voice-duration": true
+      },
       "bcd": {
         "voice-volume": true,
         "voice-balance": true,
@@ -3530,7 +7721,7 @@
   },
   "css-text-4": {
     "css.properties": {
-      "bcd": {
+      "mdn": {
         "word-boundary-detection": true,
         "word-boundary-expansion": true,
         "text-space-collapse": true,
@@ -3548,13 +7739,35 @@
         "line-padding": true,
         "text-spacing": true
       },
-      "bcd-mdn": {
-        "undefined": true
+      "bcd": {
+        "word-boundary-detection": true,
+        "word-boundary-expansion": true,
+        "text-space-collapse": true,
+        "text-space-trim": true,
+        "hyphenate-limit-zone": true,
+        "hyphenate-limit-lines": true,
+        "hyphenate-limit-last": true,
+        "word-wrap": true,
+        "text-wrap": true,
+        "wrap-before": true,
+        "wrap-after": true,
+        "wrap-inside": true,
+        "text-align-all": true,
+        "text-group-align": true,
+        "line-padding": true,
+        "text-spacing": true
       }
     }
   },
   "css-text-decor-4": {
     "css.properties": {
+      "mdn": {
+        "text-decoration-trim": true,
+        "text-decoration-skip-self": true,
+        "text-decoration-skip-box": true,
+        "text-decoration-skip-spaces": true,
+        "text-emphasis-skip": true
+      },
       "bcd": {
         "text-decoration-trim": true,
         "text-decoration-skip-self": true,
@@ -3568,6 +7781,10 @@
     "title": "CSS Text Module Level 3",
     "url": "https://www.w3.org/TR/css-text-3/",
     "css.properties": {
+      "mdn": {
+        "word-wrap": true,
+        "text-align-all": true
+      },
       "bcd": {
         "word-wrap": true,
         "text-align-all": true
@@ -3578,6 +7795,17 @@
     "title": "CSS Basic User Interface Module Level 3 (CSS3 UI)",
     "url": "https://www.w3.org/TR/css-ui-3/",
     "css.properties": {
+      "mdn": {
+        "caret-shape": true,
+        "caret": true,
+        "nav-up": true,
+        "nav-right": true,
+        "nav-down": true,
+        "nav-left": true,
+        "input-security": true,
+        "-webkit-user-select": true,
+        "-webkit-appearance": true
+      },
       "bcd": {
         "caret-shape": true,
         "caret": true,
@@ -3595,6 +7823,9 @@
     "title": "CSS Writing Modes Level 3",
     "url": "https://www.w3.org/TR/css-writing-modes-3/",
     "css.properties": {
+      "mdn": {
+        "glyph-orientation-vertical": true
+      },
       "bcd": {
         "glyph-orientation-vertical": true
       }
@@ -3604,6 +7835,34 @@
     "title": "CSS Fill and Stroke Module Level 3",
     "url": "https://www.w3.org/TR/fill-stroke-3/",
     "css.properties": {
+      "mdn": {
+        "fill-rule": true,
+        "fill-break": true,
+        "fill-color": true,
+        "fill-image": true,
+        "fill-origin": true,
+        "fill-position": true,
+        "fill-size": true,
+        "fill-repeat": true,
+        "fill-opacity": true,
+        "stroke-width": true,
+        "stroke-align": true,
+        "stroke-linecap": true,
+        "stroke-linejoin": true,
+        "stroke-miterlimit": true,
+        "stroke-break": true,
+        "stroke-dasharray": true,
+        "stroke-dashoffset": true,
+        "stroke-dash-corner": true,
+        "stroke-dash-justify": true,
+        "stroke-color": true,
+        "stroke-image": true,
+        "stroke-origin": true,
+        "stroke-position": true,
+        "stroke-size": true,
+        "stroke-repeat": true,
+        "stroke-opacity": true
+      },
       "bcd": {
         "fill-rule": true,
         "fill-break": true,
@@ -3636,6 +7895,9 @@
   },
   "mediaqueries-5": {
     "css.atrules": {
+      "mdn": {
+        "@custom-media": true
+      },
       "bcd": {
         "@custom-media": true
       }
@@ -3645,6 +7907,11 @@
     "title": "SVG Strokes",
     "url": "https://www.w3.org/TR/svg-strokes/",
     "css.properties": {
+      "mdn": {
+        "stroke-alignment": true,
+        "stroke-dashcorner": true,
+        "stroke-dashadjust": true
+      },
       "bcd": {
         "stroke-alignment": true,
         "stroke-dashcorner": true,

@@ -25,46 +25,42 @@ for (const id of Object.keys(gapIds)) {
 	  th.textContent = shortname;
 	}
 	if (specData[gapId].bcd || specData[gapId].mdn) {
-	  th.setAttribute("rowspan", Object.keys(specData[gapId]?.bcd || {}).length + Object.keys(specData[gapId]?.mdn || {}).length);
-	  for (let feature of Object.keys(specData[gapId].bcd || {})) {
+	  if (!specData[gapId].bcd) specData[gapId].bcd = {};
+	  if (!specData[gapId].mdn) specData[gapId].mdn = {};
+	  const gaps = new Set(Object.keys(specData[gapId].bcd).concat(Object.keys(specData[gapId].mdn)));
+	  th.setAttribute("rowspan", gaps.size);
+	  for (let feature of [...gaps]) {
 	    const bcdTd = document.createElement("td");
 	    const mdnTd = document.createElement("td");
 	    const syncTd = document.createElement("td");
-	    if (Array.isArray(specData[gapId].bcd[feature])) {
-	      const ul = document.createElement("ul");
-	      specData[gapId].bcd[feature].forEach(t => {
-		const li = document.createElement("li");
-		li.textContent = feature + "." + t;
-		ul.appendChild(li);
-	      });
-	      bcdTd.appendChild(ul);
-	    } else {
-	      bcdTd.textContent = feature;
+	    if (specData[gapId].bcd[feature]) {
+	      if (Array.isArray(specData[gapId].bcd[feature])) {
+		const ul = document.createElement("ul");
+		specData[gapId].bcd[feature].forEach(t => {
+		  const li = document.createElement("li");
+		  li.textContent = feature + "." + t;
+		  ul.appendChild(li);
+		});
+		bcdTd.appendChild(ul);
+	      } else {
+		bcdTd.textContent = feature;
+	      }
+	      bcdTd.className = "missing";
 	    }
-	    bcdTd.className = "missing";
-	    // TODO: we assume it's missing in mdn if missing in bcd
-	    mdnTd.className = "missing";
-	    mdnTd.textContent = "";
-	    tr.append(bcdTd, mdnTd, syncTd);
-	    table.append(tr);
-	    tr = document.createElement("tr");
-	  }
-	  for (let feature of Object.keys(specData[gapId].mdn || {})) {
-	    const bcdTd = document.createElement("td");
-	    const mdnTd = document.createElement("td");
-	    const syncTd = document.createElement("td");
-	    if (Array.isArray(specData[gapId].mdn[feature])) {
-	      const ul = document.createElement("ul");
-	      specData[gapId].mdn[feature].forEach(t => {
-		const li = document.createElement("li");
-		li.textContent = feature + "." + t;
-		ul.appendChild(li);
-	      });
-	      mdnTd.appendChild(ul);
-	    } else {
-	      mdnTd.textContent = feature;
+	    if (specData[gapId]?.mdn[feature]) {
+	      if (Array.isArray(specData[gapId].mdn[feature])) {
+		const ul = document.createElement("ul");
+		specData[gapId].mdn[feature].forEach(t => {
+		  const li = document.createElement("li");
+		  li.textContent = feature + "." + t;
+		  ul.appendChild(li);
+		});
+		mdnTd.appendChild(ul);
+	      } else {
+		mdnTd.textContent = feature;
+	      }
+	      mdnTd.className = "missing";
 	    }
-	    mdnTd.className = "missing";
 	    tr.append(bcdTd, mdnTd, syncTd);
 	    table.append(tr);
 	    tr = document.createElement("tr");
