@@ -57,7 +57,7 @@ function checkIdlTopLevelName(name, item, spec, bcdTree) {
     if (member.name.startsWith("on") && member.type === "attribute" && member.idlType?.idlType === "EventHandler") continue;
 
     // Check mdn documentation
-    if (checkMdnPage("api", null, name) && !checkMdnPage("api", null, name + "." + memberName)) {
+    if (checkMdnPage("api", null, name) && !checkMdnPage("api", null, name + "." + member.name)) {
       setGap(spec, "idl", "mdn", name, memberName);
     }
     if (bcdTree[name] && !bcdTree[name][member.name]) {
