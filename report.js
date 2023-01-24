@@ -16,19 +16,21 @@ for (const id of Object.keys(gapIds)) {
     const specData= gaps[shortname];
     for (const gapId of gapIds[id]) {
       if (specData[gapId]) {
-	if (specData.url) {
-	  const link = document.createElement("a");
-	  link.href = specData.url;
-	  link.textContent = specData.title;
-	  th.append(link);
-	} else {
-	  th.textContent = shortname;
+	if (!th.textContent) {
+	  if (specData.url) {
+	    const link = document.createElement("a");
+	    link.href = specData.url;
+	    link.textContent = specData.title;
+	    th.append(link);
+	  } else {
+	    th.textContent = shortname;
+	  }
 	}
 	if (specData[gapId].bcd || specData[gapId].mdn) {
 	  if (!specData[gapId].bcd) specData[gapId].bcd = {};
 	  if (!specData[gapId].mdn) specData[gapId].mdn = {};
 	  const gaps = new Set(Object.keys(specData[gapId].bcd).concat(Object.keys(specData[gapId].mdn)));
-	  th.setAttribute("rowspan", gaps.size);
+	  th.setAttribute("rowspan", parseInt(th.getAttribute("rowspan") || 0) + gaps.size );
 	  for (let feature of [...gaps]) {
 	    const bcdTd = document.createElement("td");
 	    const mdnTd = document.createElement("td");
@@ -52,11 +54,27 @@ for (const id of Object.keys(gapIds)) {
 		specData[gapId].mdn[feature].forEach(t => {
 		  const li = document.createElement("li");
 		  li.textContent = feature + "." + t;
+		  if (id === "idl") {
+		    const stubLink = document.createElement("a");
+		    stubLink.title = `Generate stub for ${li.textContent} MDN page`;
+		    stubLink.textContent = "[stub]";
+		    stubLink.href = `https://dontcallmedom.github.io/mdn-scaffold/?interface=${feature}&member=${t}`;
+		    li.textContent += " ";
+		    li.append(stubLink);
+		  }
 		  ul.appendChild(li);
 		});
 		mdnTd.appendChild(ul);
 	      } else {
 		mdnTd.textContent = feature;
+		if (id === "idl") {
+		  const stubLink = document.createElement("a");
+		  stubLink.title = `Generate stub for ${feature} MDN page`;
+		  stubLink.textContent = "[stub]";
+		  stubLink.href = `https://dontcallmedom.github.io/mdn-scaffold/?interface=${feature}`;
+		  mdnTd.textContent += " ";
+		  mdnTd.append(stubLink);
+		}
 	      }
 	      mdnTd.className = "missing";
 	    }
