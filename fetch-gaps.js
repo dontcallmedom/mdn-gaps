@@ -40,38 +40,28 @@ function checkMdnPage(tree, type, qname) {
 }
 
 function checkIdlTopLevelName(name, item, spec, bcdTree) {
+  // Check mdn documentation
+  if (!checkMdnPage("api", null, name)) {
+    setGap(spec, "idl", "mdn", name);
+  }
   if (!bcdTree[name]) {
     setGap(spec, "idl", "bcd", name);
-  } else {
-    // Check mdn documentation
-    if (!bcdTree[name].__compat.mdn_url) {
-      if (!checkMdnPage("api", null, name)) {
-	setGap(spec, "idl", "mdn", name);
-      } else {
-	setGap(spec, "idl", "bcd-mdn", name);
-      }
-    }
-    // Check members
-    for (let member of item.members) {
-      if (!member.name) continue;
-      const memberName = member.name + ( member.type === "operation" ? "()" : "");
-      if (member.type === "const") continue;
-      // TODO check events separately
-      // since event handlers don't get tracked as attributes
-      if (member.name.startsWith("on") && member.type === "attribute" && member.idlType?.idlType === "EventHandler") continue;
+  }
+  // Check members
+  for (let member of item.members) {
+    if (!member.name) continue;
+    const memberName = member.name + ( member.type === "operation" ? "()" : "");
+    if (member.type === "const") continue;
+    // TODO check events separately
+    // since event handlers don't get tracked as attributes
+    if (member.name.startsWith("on") && member.type === "attribute" && member.idlType?.idlType === "EventHandler") continue;
 
-      if (!bcdTree[name][member.name]) {
-	setGap(spec, "idl", "bcd", name, memberName);
-      } else {
-	// Check mdn documentation
-	if (!bcdTree[name][member.name].__compat.mdn_url) {
-	  if (!checkMdnPage("api", null, name + "." + memberName)) {
-	    setGap(spec, "idl", "mdn", name, memberName);
-	  } else {
-	    setGap(spec, "idl", "bcd-mdn", name, memberName);
-	  }
-	}
-      }
+    // Check mdn documentation
+    if (checkMdnPage("api", null, name) && !checkMdnPage("api", null, name + "." + memberName)) {
+      setGap(spec, "idl", "mdn", name, memberName);
+    }
+    if (bcdTree[name] && !bcdTree[name][member.name]) {
+      setGap(spec, "idl", "bcd", name, memberName);
     }
   }
 }
@@ -113,37 +103,27 @@ function checkIdlTopLevelName(name, item, spec, bcdTree) {
       console.error(`Unhandled IDL: ${item.type}`);
     }
   }
-
+  
   const parsedCssFiles = await css.listAll();
   for (const [spec, data] of Object.entries(parsedCssFiles)) {
     // TODO figure out how to check against bcd.css.types
     for (const [name, desc] of Object.entries(data.properties)) {
+      // TODO check keywords definitions in MDN content?
+      if (!checkMdnPage("css", null, name)) {
+	setGap(spec, "css.properties", "mdn", name);
+      }
       if (!bcd.css.properties[name]) {
 	setGap(spec, "css.properties", "bcd", name);
-      } else {
-	if (!bcd.css.properties[name].__compat.mdn_url) {
-	  if (!checkMdnPage("css", null, name)) {
-	    setGap(spec, "css.properties", "mdn", name);
-	  } else {
-	    setGap(spec, "css.properties", "bcd-mdn");
-	  }
-	}
-	// TODO check keywords definitions in MDN content?
       }
     }
     for (const [name, desc] of Object.entries(data.atrules)) {
       const atrulesName = name.slice(1);
+      // TODO check descriptors?
+      if (!checkMdnPage("css", null, name)) {
+	setGap(spec, "css.atrules", "mdn", name);
+      }
       if (!bcd.css["at-rules"][atrulesName]) {
 	setGap(spec, "css.atrules", "bcd", name);
-      } else {
-	if (!bcd.css["at-rules"][atrulesName].__compat.mdn_url) {
-	  if (!checkMdnPage("css", null, name)) {
-	    setGap(spec, "css.atrules", "mdn", name);
-	  } else {
-	    setGap(spec, "css.atrules", "bcd-mdn");
-	  }
-	}
-	// TODO check descriptors?
       }
     }
 
@@ -160,14 +140,11 @@ function checkIdlTopLevelName(name, item, spec, bcdTree) {
       }
       for (const el of data.elements) {
 	if (el.obsolete) continue;
+	if (!checkMdnPage(mdnSpec, "element", el.name)) {
+	  setGap(spec, "elements", "mdn", el.name);
+	}
 	if (!bcd[mdnSpec]?.elements[el.name]) {
 	  setGap(spec, "elements", "bcd", el.name);
-	} else if (!bcd[mdnSpec].elements[el.name].__compat.mdn_url) {
-	  if (!checkMdnPage(mdnSpec, "element", el.name)) {
-	    setGap(spec, "elements", "mdn", el.name);
-	  } else {
-	    setGap(spec, "elements", "bcd-mdn");
-	  }
 	}
 	// WEBREF: Would be nice to check attributes,
 	// but webref doesn't collect those at the moment
