@@ -1,17 +1,4 @@
 {
-  "ANGLE_instanced_arrays": {
-    "title": "WebGL ANGLE_instanced_arrays Khronos Ratified Extension Specification",
-    "url": "https://registry.khronos.org/webgl/extensions/ANGLE_instanced_arrays/",
-    "idl": {
-      "mdn": {
-        "ANGLE_instanced_arrays": [
-          "drawArraysInstancedANGLE()",
-          "drawElementsInstancedANGLE()",
-          "vertexAttribDivisorANGLE()"
-        ]
-      }
-    }
-  },
   "CSP": {
     "title": "Content Security Policy Level 3",
     "url": "https://www.w3.org/TR/CSP3/",
@@ -34,23 +21,6 @@
       }
     }
   },
-  "DOM-Parsing": {
-    "title": "DOM Parsing and Serialization",
-    "url": "https://www.w3.org/TR/DOM-Parsing/",
-    "idl": {
-      "mdn": {
-        "XMLSerializer": [
-          "serializeToString()"
-        ],
-        "Element": [
-          "insertAdjacentHTML()"
-        ],
-        "Range": [
-          "createContextualFragment()"
-        ]
-      }
-    }
-  },
   "EXT_clip_cull_distance": {
     "title": "WebGL EXT_clip_cull_distance Extension Draft Specification",
     "url": "https://registry.khronos.org/webgl/extensions/EXT_clip_cull_distance/",
@@ -68,17 +38,7 @@
     "url": "https://registry.khronos.org/webgl/extensions/EXT_disjoint_timer_query/",
     "idl": {
       "mdn": {
-        "WebGLTimerQueryEXT": true,
-        "EXT_disjoint_timer_query": [
-          "createQueryEXT()",
-          "deleteQueryEXT()",
-          "isQueryEXT()",
-          "beginQueryEXT()",
-          "endQueryEXT()",
-          "queryCounterEXT()",
-          "getQueryEXT()",
-          "getQueryObjectEXT()"
-        ]
+        "WebGLTimerQueryEXT": true
       },
       "bcd": {
         "WebGLTimerQueryEXT": true
@@ -110,104 +70,6 @@
       }
     }
   },
-  "FileAPI": {
-    "title": "File API",
-    "url": "https://www.w3.org/TR/FileAPI/",
-    "idl": {
-      "mdn": {
-        "Blob": [
-          "slice()",
-          "stream()",
-          "text()",
-          "arrayBuffer()"
-        ],
-        "FileList": [
-          "item()"
-        ],
-        "FileReader": [
-          "readAsArrayBuffer()",
-          "readAsBinaryString()",
-          "readAsText()",
-          "readAsDataURL()",
-          "abort()"
-        ],
-        "FileReaderSync": [
-          "readAsArrayBuffer()",
-          "readAsBinaryString()",
-          "readAsText()",
-          "readAsDataURL()"
-        ],
-        "URL": [
-          "createObjectURL()",
-          "revokeObjectURL()"
-        ]
-      }
-    }
-  },
-  "IndexedDB": {
-    "title": "Indexed Database API 3.0",
-    "url": "https://www.w3.org/TR/IndexedDB-3/",
-    "idl": {
-      "mdn": {
-        "IDBFactory": [
-          "open()",
-          "deleteDatabase()",
-          "databases()",
-          "cmp()"
-        ],
-        "IDBDatabase": [
-          "transaction()",
-          "close()",
-          "createObjectStore()",
-          "deleteObjectStore()"
-        ],
-        "IDBObjectStore": [
-          "put()",
-          "add()",
-          "delete()",
-          "clear()",
-          "get()",
-          "getKey()",
-          "getAll()",
-          "getAllKeys()",
-          "count()",
-          "openCursor()",
-          "openKeyCursor()",
-          "index()",
-          "createIndex()",
-          "deleteIndex()"
-        ],
-        "IDBIndex": [
-          "get()",
-          "getKey()",
-          "getAll()",
-          "getAllKeys()",
-          "count()",
-          "openCursor()",
-          "openKeyCursor()"
-        ],
-        "IDBKeyRange": [
-          "only()",
-          "lowerBound()",
-          "upperBound()",
-          "bound()",
-          "includes()"
-        ],
-        "IDBCursor": [
-          "advance()",
-          "continue()",
-          "continuePrimaryKey()",
-          "update()",
-          "delete()"
-        ],
-        "IDBTransaction": [
-          "objectStore()",
-          "commit()",
-          "abort()"
-        ]
-      }
-    }
-  },
   "OES_draw_buffers_indexed": {
     "title": "WebGL OES_draw_buffers_indexed Extension Specification",
     "url": "https://registry.khronos.org/webgl/extensions/OES_draw_buffers_indexed/",
@@ -222,24 +84,7 @@
     "url": "https://registry.khronos.org/webgl/extensions/OES_vertex_array_object/",
     "idl": {
       "mdn": {
-        "WebGLVertexArrayObjectOES": true,
-        "OES_vertex_array_object": [
-          "createVertexArrayOES()",
-          "deleteVertexArrayOES()",
-          "isVertexArrayOES()",
-          "bindVertexArrayOES()"
-        ]
-      }
-    }
-  },
-  "OVR_multiview2": {
-    "title": "WebGL OVR_multiview2 Extension Specification",
-    "url": "https://registry.khronos.org/webgl/extensions/OVR_multiview2/",
-    "idl": {
-      "mdn": {
-        "OVR_multiview2": [
-          "framebufferTextureMultiviewOVR()"
-        ]
+        "WebGLVertexArrayObjectOES": true
       }
     }
   },
@@ -257,17 +102,10 @@
         ],
         "SVGGraphicsElement": [
           "transform",
-          "getBBox()",
           "getCTM()",
           "getScreenCTM()",
           "requiredExtensions",
           "systemLanguage"
-        ],
-        "SVGGeometryElement": [
-          "isPointInFill()",
-          "isPointInStroke()",
-          "getTotalLength()",
-          "getPointAtLength()"
         ],
         "SVGNumber": [
           "value"
@@ -456,15 +294,6 @@
           "x2",
           "y2"
         ],
-        "SVGPointList": [
-          "clear()",
-          "initialize()",
-          "getItem()",
-          "insertItemBefore()",
-          "replaceItem()",
-          "removeItem()",
-          "appendItem()"
-        ],
         "SVGPolylineElement": [
           "points",
           "animatedPoints"
@@ -510,9 +339,7 @@
           "height"
         ],
         "SVGMarkerElement": [
-          "orient",
-          "setOrientToAuto()",
-          "setOrientToAngle()"
+          "orient"
         ],
         "SVGGradientElement": [
           "gradientUnits",
@@ -685,46 +512,24 @@
         ],
         "PaintRenderingContext2D": true,
         "HTMLAllCollection": true,
-        "HTMLFormControlsCollection": [
-          "namedItem()"
-        ],
         "HTMLOptionsCollection": [
           "length",
           "add()",
           "remove()",
           "selectedIndex"
         ],
-        "DOMStringList": [
-          "item()",
-          "contains()"
-        ],
         "Document": [
-          "getElementsByName()",
-          "open()",
-          "close()",
-          "write()",
-          "writeln()",
-          "hasFocus()",
-          "execCommand()",
-          "queryCommandEnabled()",
           "queryCommandIndeterm()",
-          "queryCommandState()",
-          "queryCommandSupported()",
           "queryCommandValue()",
-          "clear()",
           "captureEvents()",
           "releaseEvents()"
         ],
         "HTMLElement": [
           "translate",
-          "click()",
           "draggable",
           "spellcheck",
           "autocapitalize",
-          "attachInternals()",
-          "autofocus",
-          "focus()",
-          "blur()"
+          "autofocus"
         ],
         "HTMLTitleElement": [
           "text"
@@ -790,10 +595,6 @@
           "width",
           "height"
         ],
-        "HTMLImageElement": [
-          "decode()",
-          "lowsrc"
-        ],
         "HTMLIFrameElement": [
           "name",
           "sandbox",
@@ -821,9 +622,7 @@
         ],
         "HTMLObjectElement": [
           "getSVGDocument()",
-          "checkValidity()",
           "reportValidity()",
-          "setCustomValidity()",
           "align",
           "archive",
           "code",
@@ -851,35 +650,10 @@
         ],
         "HTMLMediaElement": [
           "preload",
-          "load()",
-          "canPlayType()",
           "seeking",
-          "fastSeek()",
           "getStartDate()",
           "played",
-          "play()",
-          "pause()",
           "addTextTrack()"
-        ],
-        "AudioTrackList": [
-          "getTrackById()"
-        ],
-        "VideoTrackList": [
-          "getTrackById()"
-        ],
-        "TextTrackList": [
-          "getTrackById()"
-        ],
-        "TextTrack": [
-          "addCue()",
-          "removeCue()"
-        ],
-        "TextTrackCueList": [
-          "getCueById()"
-        ],
-        "TimeRanges": [
-          "start()",
-          "end()"
         ],
         "HTMLMapElement": [
           "name",
@@ -893,17 +667,6 @@
           "download",
           "ping",
           "noHref"
-        ],
-        "HTMLTableElement": [
-          "createCaption()",
-          "deleteCaption()",
-          "createTHead()",
-          "deleteTHead()",
-          "createTFoot()",
-          "deleteTFoot()",
-          "createTBody()",
-          "insertRow()",
-          "deleteRow()"
         ],
         "HTMLTableColElement": [
           "span",
@@ -925,7 +688,6 @@
         "HTMLTableRowElement": [
           "sectionRowIndex",
           "cells",
-          "insertCell()",
           "deleteCell()",
           "align",
           "ch",
@@ -955,11 +717,7 @@
           "noValidate",
           "rel",
           "relList",
-          "submit()",
-          "requestSubmit()",
-          "reset()",
-          "checkValidity()",
-          "reportValidity()"
+          "checkValidity()"
         ],
         "HTMLInputElement": [
           "accept",
@@ -995,21 +753,12 @@
           "valueAsDate",
           "valueAsNumber",
           "width",
-          "stepUp()",
-          "stepDown()",
           "willValidate",
           "validity",
           "validationMessage",
-          "checkValidity()",
-          "reportValidity()",
-          "setCustomValidity()",
-          "select()",
           "selectionStart",
           "selectionEnd",
           "selectionDirection",
-          "setRangeText()",
-          "setSelectionRange()",
-          "showPicker()",
           "align",
           "useMap"
         ],
@@ -1037,17 +786,11 @@
           "required",
           "size",
           "length",
-          "item()",
-          "namedItem()",
-          "add()",
-          "remove()",
           "value",
           "willValidate",
           "validity",
           "validationMessage",
-          "checkValidity()",
-          "reportValidity()",
-          "setCustomValidity()"
+          "reportValidity()"
         ],
         "HTMLDataListElement": [
           "options"
@@ -1145,11 +888,6 @@
           "customError",
           "valid"
         ],
-        "HTMLDialogElement": [
-          "show()",
-          "showModal()",
-          "close()"
-        ],
         "HTMLScriptElement": [
           "src",
           "type",
@@ -1160,78 +898,11 @@
           "text",
           "integrity",
           "blocking",
-          "supports()",
           "charset",
           "event",
           "htmlFor"
         ],
-        "HTMLSlotElement": [
-          "assignedNodes()",
-          "assignedElements()",
-          "assign()"
-        ],
-        "HTMLCanvasElement": [
-          "getContext()",
-          "toDataURL()",
-          "toBlob()",
-          "transferControlToOffscreen()"
-        ],
-        "CanvasRenderingContext2D": [
-          "getContextAttributes()",
-          "save()",
-          "restore()",
-          "reset()",
-          "isContextLost()",
-          "scale()",
-          "rotate()",
-          "translate()",
-          "transform()",
-          "getTransform()",
-          "setTransform()",
-          "resetTransform()",
-          "createLinearGradient()",
-          "createRadialGradient()",
-          "createConicGradient()",
-          "createPattern()",
-          "clearRect()",
-          "fillRect()",
-          "strokeRect()",
-          "beginPath()",
-          "fill()",
-          "stroke()",
-          "clip()",
-          "isPointInPath()",
-          "isPointInStroke()",
-          "drawFocusIfNeeded()",
-          "scrollPathIntoView()",
-          "fillText()",
-          "strokeText()",
-          "measureText()",
-          "drawImage()",
-          "createImageData()",
-          "getImageData()",
-          "putImageData()",
-          "setLineDash()",
-          "getLineDash()",
-          "closePath()",
-          "moveTo()",
-          "lineTo()",
-          "quadraticCurveTo()",
-          "bezierCurveTo()",
-          "arcTo()",
-          "rect()",
-          "roundRect()",
-          "arc()",
-          "ellipse()"
-        ],
-        "CanvasGradient": [
-          "addColorStop()"
-        ],
-        "CanvasPattern": [
-          "setTransform()"
-        ],
         "Path2D": [
-          "addPath()",
           "closePath()",
           "moveTo()",
           "lineTo()",
@@ -1244,16 +915,9 @@
           "ellipse()"
         ],
         "ImageBitmapRenderingContext": [
-          "canvas",
-          "transferFromImageBitmap()"
-        ],
-        "OffscreenCanvas": [
-          "getContext()",
-          "transferToImageBitmap()",
-          "convertToBlob()"
+          "canvas"
         ],
         "OffscreenCanvasRenderingContext2D": [
-          "commit()",
           "canvas",
           "save()",
           "restore()",
@@ -1325,62 +989,9 @@
           "arc()",
           "ellipse()"
         ],
-        "CustomElementRegistry": [
-          "define()",
-          "get()",
-          "whenDefined()",
-          "upgrade()"
-        ],
-        "ElementInternals": [
-          "setFormValue()",
-          "setValidity()",
-          "checkValidity()",
-          "reportValidity()"
-        ],
-        "DataTransfer": [
-          "setDragImage()",
-          "getData()",
-          "setData()",
-          "clearData()"
-        ],
-        "DataTransferItemList": [
-          "add()",
-          "remove()",
-          "clear()"
-        ],
-        "DataTransferItem": [
-          "getAsString()",
-          "getAsFile()"
-        ],
         "Window": [
-          "close()",
-          "stop()",
-          "focus()",
-          "blur()",
-          "open()",
           "clientInformation",
-          "originAgentCluster",
-          "alert()",
-          "confirm()",
-          "prompt()",
-          "print()",
-          "postMessage()",
-          "requestAnimationFrame()",
-          "cancelAnimationFrame()",
-          "captureEvents()",
-          "releaseEvents()"
-        ],
-        "Location": [
-          "assign()",
-          "replace()",
-          "reload()"
-        ],
-        "History": [
-          "go()",
-          "back()",
-          "forward()",
-          "pushState()",
-          "replaceState()"
+          "originAgentCluster"
         ],
         "PopStateEvent": [
           "state"
@@ -1394,15 +1005,6 @@
           "lineno",
           "colno",
           "error"
-        ],
-        "DOMParser": [
-          "parseFromString()"
-        ],
-        "Navigator": [
-          "taintEnabled()",
-          "registerProtocolHandler()",
-          "unregisterProtocolHandler()",
-          "javaEnabled()"
         ],
         "PluginArray": [
           "refresh()",
@@ -1429,63 +1031,27 @@
           "suffixes",
           "enabledPlugin"
         ],
-        "ImageBitmap": [
-          "close()"
-        ],
         "DedicatedWorkerGlobalScope": [
           "requestAnimationFrame()",
-          "cancelAnimationFrame()",
-          "postMessage()",
-          "close()"
+          "cancelAnimationFrame()"
         ],
         "MessageEvent": [
           "initMessageEvent()"
         ],
-        "EventSource": [
-          "close()"
-        ],
-        "MessagePort": [
-          "postMessage()",
-          "start()",
-          "close()"
-        ],
-        "BroadcastChannel": [
-          "postMessage()",
-          "close()"
-        ],
         "WorkerGlobalScope": [
-          "importScripts()",
           "onerror"
-        ],
-        "SharedWorkerGlobalScope": [
-          "close()"
-        ],
-        "Worker": [
-          "terminate()",
-          "postMessage()"
         ],
         "WorkerNavigator": [
           "taintEnabled()",
           "oscpu"
         ],
         "WorkletGlobalScope": true,
-        "Worklet": [
-          "addModule()"
-        ],
-        "Storage": [
-          "key()",
-          "getItem()",
-          "setItem()",
-          "removeItem()",
-          "clear()"
-        ],
         "StorageEvent": [
           "key",
           "oldValue",
           "newValue",
           "url",
-          "storageArea",
-          "initStorageEvent()"
+          "storageArea"
         ],
         "HTMLMarqueeElement": [
           "behavior",
@@ -1537,6 +1103,9 @@
           "noShade",
           "size",
           "width"
+        ],
+        "HTMLImageElement": [
+          "lowsrc"
         ],
         "HTMLMenuElement": [
           "compact"
@@ -1634,39 +1203,6 @@
       }
     }
   },
-  "WEBGL_compressed_texture_astc": {
-    "title": "WebGL WEBGL_compressed_texture_astc Extension Specification",
-    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_compressed_texture_astc/",
-    "idl": {
-      "mdn": {
-        "WEBGL_compressed_texture_astc": [
-          "getSupportedProfiles()"
-        ]
-      }
-    }
-  },
-  "WEBGL_debug_shaders": {
-    "title": "WebGL WEBGL_debug_shaders Khronos Ratified Extension Specification",
-    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_debug_shaders/",
-    "idl": {
-      "mdn": {
-        "WEBGL_debug_shaders": [
-          "getTranslatedShaderSource()"
-        ]
-      }
-    }
-  },
-  "WEBGL_draw_buffers": {
-    "title": "WebGL WEBGL_draw_buffers Khronos Ratified Extension Specification",
-    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_draw_buffers/",
-    "idl": {
-      "mdn": {
-        "WEBGL_draw_buffers": [
-          "drawBuffersWEBGL()"
-        ]
-      }
-    }
-  },
   "WEBGL_draw_instanced_base_vertex_base_instance": {
     "title": "WebGL WEBGL_draw_instanced_base_vertex_base_instance Extension Draft Specification",
     "url": "https://registry.khronos.org/webgl/extensions/WEBGL_draw_instanced_base_vertex_base_instance/",
@@ -1676,32 +1212,6 @@
       },
       "bcd": {
         "WEBGL_draw_instanced_base_vertex_base_instance": true
-      }
-    }
-  },
-  "WEBGL_lose_context": {
-    "title": "WebGL WEBGL_lose_context Khronos Ratified Extension Specification",
-    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_lose_context/",
-    "idl": {
-      "mdn": {
-        "WEBGL_lose_context": [
-          "loseContext()",
-          "restoreContext()"
-        ]
-      }
-    }
-  },
-  "WEBGL_multi_draw": {
-    "title": "WebGL WEBGL_multi_draw Extension Specification",
-    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw/",
-    "idl": {
-      "mdn": {
-        "WEBGL_multi_draw": [
-          "multiDrawArraysWEBGL()",
-          "multiDrawElementsWEBGL()",
-          "multiDrawArraysInstancedWEBGL()",
-          "multiDrawElementsInstancedWEBGL()"
-        ]
       }
     }
   },
@@ -1722,29 +1232,11 @@
     "url": "https://www.w3.org/TR/WebCryptoAPI/",
     "idl": {
       "mdn": {
-        "Crypto": [
-          "getRandomValues()",
-          "randomUUID()"
-        ],
         "CryptoKey": [
           "type",
           "extractable",
           "algorithm",
           "usages"
-        ],
-        "SubtleCrypto": [
-          "encrypt()",
-          "decrypt()",
-          "sign()",
-          "verify()",
-          "digest()",
-          "generateKey()",
-          "deriveKey()",
-          "deriveBits()",
-          "importKey()",
-          "exportKey()",
-          "wrapKey()",
-          "unwrapKey()"
         ]
       }
     }
@@ -1755,18 +1247,11 @@
     "idl": {
       "mdn": {
         "XRAnchor": [
-          "requestPersistentHandle()",
-          "delete()"
-        ],
-        "XRFrame": [
-          "createAnchor()"
+          "requestPersistentHandle()"
         ],
         "XRSession": [
           "restorePersistentAnchor()",
           "deletePersistentAnchor()"
-        ],
-        "XRHitTestResult": [
-          "createAnchor()"
         ]
       },
       "bcd": {
@@ -1808,20 +1293,6 @@
       }
     }
   },
-  "audio-output": {
-    "title": "Audio Output Devices API",
-    "url": "https://www.w3.org/TR/audio-output/",
-    "idl": {
-      "mdn": {
-        "HTMLMediaElement": [
-          "setSinkId()"
-        ],
-        "MediaDevices": [
-          "selectAudioOutput()"
-        ]
-      }
-    }
-  },
   "autoplay-detection": {
     "title": "Autoplay Policy Detection",
     "url": "https://www.w3.org/TR/autoplay-detection/",
@@ -1845,31 +1316,6 @@
       "mdn": {
         "ServiceWorkerRegistration": [
           "backgroundFetch"
-        ],
-        "BackgroundFetchManager": [
-          "fetch()",
-          "get()",
-          "getIds()"
-        ],
-        "BackgroundFetchRegistration": [
-          "abort()",
-          "match()",
-          "matchAll()"
-        ],
-        "BackgroundFetchUpdateUIEvent": [
-          "updateUI()"
-        ]
-      }
-    }
-  },
-  "background-sync": {
-    "title": "Web Background Synchronization",
-    "url": "https://wicg.github.io/background-sync/spec/",
-    "idl": {
-      "mdn": {
-        "SyncManager": [
-          "register()",
-          "getTags()"
         ]
       }
     }
@@ -1881,9 +1327,7 @@
       "mdn": {
         "Navigator": [
           "setClientBadge()",
-          "clearClientBadge()",
-          "setAppBadge()",
-          "clearAppBadge()"
+          "clearClientBadge()"
         ],
         "WorkerNavigator": [
           "setAppBadge()",
@@ -1902,28 +1346,6 @@
       }
     }
   },
-  "battery-status": {
-    "title": "Battery Status API",
-    "url": "https://www.w3.org/TR/battery-status/",
-    "idl": {
-      "mdn": {
-        "Navigator": [
-          "getBattery()"
-        ]
-      }
-    }
-  },
-  "beacon": {
-    "title": "Beacon",
-    "url": "https://www.w3.org/TR/beacon/",
-    "idl": {
-      "mdn": {
-        "Navigator": [
-          "sendBeacon()"
-        ]
-      }
-    }
-  },
   "capture-handle-identity": {
     "title": "Capture Handle - Bootstrapping Collaboration when Screensharing",
     "url": "https://www.w3.org/TR/capture-handle-identity/",
@@ -1934,23 +1356,6 @@
         ],
         "MediaStreamTrack": [
           "getCaptureHandle()"
-        ]
-      }
-    }
-  },
-  "clipboard-apis": {
-    "title": "Clipboard API and events",
-    "url": "https://www.w3.org/TR/clipboard-apis/",
-    "idl": {
-      "mdn": {
-        "ClipboardItem": [
-          "getType()"
-        ],
-        "Clipboard": [
-          "read()",
-          "readText()",
-          "write()",
-          "writeText()"
         ]
       }
     }
@@ -1981,35 +1386,6 @@
       }
     }
   },
-  "console": {
-    "title": "Console Standard",
-    "url": "https://console.spec.whatwg.org/",
-    "idl": {
-      "mdn": {
-        "console": [
-          "assert()",
-          "clear()",
-          "debug()",
-          "error()",
-          "info()",
-          "log()",
-          "table()",
-          "trace()",
-          "warn()",
-          "dir()",
-          "dirxml()",
-          "count()",
-          "countReset()",
-          "group()",
-          "groupCollapsed()",
-          "groupEnd()",
-          "time()",
-          "timeLog()",
-          "timeEnd()"
-        ]
-      }
-    }
-  },
   "contact-picker": {
     "title": "Contact Picker API",
     "url": "https://www.w3.org/TR/contact-picker-1/",
@@ -2027,23 +1403,6 @@
           "region",
           "sortingCode",
           "addressLine"
-        ],
-        "ContactsManager": [
-          "getProperties()",
-          "select()"
-        ]
-      }
-    }
-  },
-  "content-index": {
-    "title": "Content Index",
-    "url": "https://wicg.github.io/content-index/spec/",
-    "idl": {
-      "mdn": {
-        "ContentIndex": [
-          "add()",
-          "delete()",
-          "getAll()"
         ]
       }
     }
@@ -2053,17 +1412,6 @@
     "url": "https://wicg.github.io/cookie-store/",
     "idl": {
       "mdn": {
-        "CookieStore": [
-          "get()",
-          "getAll()",
-          "set()",
-          "delete()"
-        ],
-        "CookieStoreManager": [
-          "subscribe()",
-          "getSubscriptions()",
-          "unsubscribe()"
-        ],
         "ServiceWorkerRegistration": [
           "cookies"
         ],
@@ -2095,12 +1443,6 @@
       "mdn": {
         "Credential": [
           "isConditionalMediationAvailable()"
-        ],
-        "CredentialsContainer": [
-          "get()",
-          "store()",
-          "create()",
-          "preventSilentAccess()"
         ],
         "FederatedCredential": [
           "name",
@@ -2151,10 +1493,7 @@
     "idl": {
       "mdn": {
         "CSSKeyframesRule": [
-          "length",
-          "appendRule()",
-          "deleteRule()",
-          "findRule()"
+          "length"
         ]
       },
       "bcd": {
@@ -2192,17 +1531,6 @@
       }
     }
   },
-  "css-conditional": {
-    "title": "CSS Conditional Rules Module Level 3",
-    "url": "https://www.w3.org/TR/css-conditional-3/",
-    "idl": {
-      "mdn": {
-        "CSS": [
-          "supports()"
-        ]
-      }
-    }
-  },
   "css-contain-3": {
     "idl": {
       "mdn": {
@@ -2221,23 +1549,15 @@
     "url": "https://www.w3.org/TR/css-font-loading-3/",
     "idl": {
       "mdn": {
-        "FontFace": [
-          "load()",
-          "features",
-          "variations",
-          "palettes"
-        ],
         "FontFaceFeatures": true,
         "FontFaceVariationAxis": true,
         "FontFaceVariations": true,
         "FontFacePalette": true,
         "FontFacePalettes": true,
-        "FontFaceSet": [
-          "add()",
-          "delete()",
-          "clear()",
-          "load()",
-          "check()"
+        "FontFace": [
+          "features",
+          "variations",
+          "palettes"
         ]
       },
       "bcd": {
@@ -2496,17 +1816,6 @@
       }
     }
   },
-  "css-properties-values-api": {
-    "title": "CSS Properties and Values API Level 1",
-    "url": "https://www.w3.org/TR/css-properties-values-api-1/",
-    "idl": {
-      "mdn": {
-        "CSS": [
-          "registerProperty()"
-        ]
-      }
-    }
-  },
   "css-pseudo": {
     "title": "CSS Pseudo-Elements Module Level 4",
     "url": "https://www.w3.org/TR/css-pseudo-4/",
@@ -2576,37 +1885,6 @@
     "url": "https://www.w3.org/TR/css-typed-om-1/",
     "idl": {
       "mdn": {
-        "CSSStyleValue": [
-          "parse()",
-          "parseAll()"
-        ],
-        "StylePropertyMapReadOnly": [
-          "get()",
-          "getAll()",
-          "has()"
-        ],
-        "StylePropertyMap": [
-          "set()",
-          "append()",
-          "delete()",
-          "clear()"
-        ],
-        "Element": [
-          "computedStyleMap()"
-        ],
-        "CSSNumericValue": [
-          "add()",
-          "sub()",
-          "mul()",
-          "div()",
-          "min()",
-          "max()",
-          "equals()",
-          "to()",
-          "toSum()",
-          "type()",
-          "parse()"
-        ],
         "CSSMathClamp": true,
         "CSS": [
           "number()",
@@ -2667,12 +1945,6 @@
           "dpcm()",
           "dppx()",
           "fr()"
-        ],
-        "CSSTransformValue": [
-          "toMatrix()"
-        ],
-        "CSSTransformComponent": [
-          "toMatrix()"
         ],
         "CSSColorValue": true,
         "CSSRGB": true,
@@ -2751,50 +2023,17 @@
     "url": "https://www.w3.org/TR/cssom-view-1/",
     "idl": {
       "mdn": {
-        "Window": [
-          "matchMedia()",
-          "moveTo()",
-          "moveBy()",
-          "resizeTo()",
-          "resizeBy()",
-          "scroll()",
-          "scrollTo()",
-          "scrollBy()"
-        ],
-        "MediaQueryList": [
-          "addListener()",
-          "removeListener()"
-        ],
-        "Document": [
-          "elementFromPoint()",
-          "elementsFromPoint()",
-          "caretPositionFromPoint()",
-          "getBoxQuads()",
-          "convertQuadFromNode()",
-          "convertRectFromNode()",
-          "convertPointFromNode()"
-        ],
         "CaretPosition": [
           "offsetNode",
           "offset",
           "getClientRect()"
         ],
         "Element": [
-          "getClientRects()",
-          "getBoundingClientRect()",
           "checkVisibility()",
-          "scrollIntoView()",
-          "scroll()",
-          "scrollTo()",
-          "scrollBy()",
           "getBoxQuads()",
           "convertQuadFromNode()",
           "convertRectFromNode()",
           "convertPointFromNode()"
-        ],
-        "Range": [
-          "getClientRects()",
-          "getBoundingClientRect()"
         ],
         "Text": [
           "getBoxQuads()",
@@ -2803,6 +2042,12 @@
           "convertPointFromNode()"
         ],
         "CSSPseudoElement": [
+          "getBoxQuads()",
+          "convertQuadFromNode()",
+          "convertRectFromNode()",
+          "convertPointFromNode()"
+        ],
+        "Document": [
           "getBoxQuads()",
           "convertQuadFromNode()",
           "convertRectFromNode()",
@@ -2845,43 +2090,12 @@
           "appendMedium()",
           "deleteMedium()"
         ],
-        "CSSStyleSheet": [
-          "insertRule()",
-          "deleteRule()",
-          "replace()",
-          "replaceSync()",
-          "addRule()",
-          "removeRule()"
-        ],
-        "StyleSheetList": [
-          "item()"
-        ],
-        "CSSRuleList": [
-          "item()"
-        ],
-        "CSSGroupingRule": [
-          "insertRule()",
-          "deleteRule()"
-        ],
         "CSSMarginRule": true,
-        "CSSStyleDeclaration": [
-          "item()",
-          "getPropertyValue()",
-          "getPropertyPriority()",
-          "setProperty()",
-          "removeProperty()"
-        ],
         "SVGElement": [
           "style"
         ],
         "MathMLElement": [
           "style"
-        ],
-        "Window": [
-          "getComputedStyle()"
-        ],
-        "CSS": [
-          "escape()"
         ],
         "HTMLLinkElement": [
           "sheet"
@@ -2895,34 +2109,12 @@
       }
     }
   },
-  "custom-state-pseudo-class": {
-    "title": "Custom State Pseudo Class",
-    "url": "https://wicg.github.io/custom-state-pseudo-class/",
-    "idl": {
-      "mdn": {
-        "CustomStateSet": [
-          "add()"
-        ]
-      }
-    }
-  },
   "datacue": {
     "title": "DataCue API",
     "url": "https://wicg.github.io/datacue/",
     "idl": {
       "mdn": {
         "DataCue": true
-      }
-    }
-  },
-  "deprecation-reporting": {
-    "title": "Deprecation Reporting",
-    "url": "https://wicg.github.io/deprecation-reporting/",
-    "idl": {
-      "mdn": {
-        "DeprecationReportBody": [
-          "toJSON()"
-        ]
       }
     }
   },
@@ -2978,236 +2170,26 @@
     "url": "https://dom.spec.whatwg.org/",
     "idl": {
       "mdn": {
-        "Event": [
-          "composedPath()",
-          "stopPropagation()",
-          "stopImmediatePropagation()",
-          "preventDefault()",
-          "initEvent()"
-        ],
-        "CustomEvent": [
-          "initCustomEvent()"
-        ],
-        "EventTarget": [
-          "addEventListener()",
-          "removeEventListener()",
-          "dispatchEvent()"
-        ],
         "EventListener": true,
-        "AbortController": [
-          "abort()"
-        ],
-        "AbortSignal": [
-          "abort()",
-          "timeout()",
-          "throwIfAborted()"
+        "DocumentFragment": [
+          "getElementById()"
         ],
         "Document": [
-          "getElementById()",
-          "prepend()",
-          "append()",
-          "replaceChildren()",
-          "querySelector()",
-          "querySelectorAll()",
           "charset",
-          "inputEncoding",
-          "getElementsByTagName()",
-          "getElementsByTagNameNS()",
-          "getElementsByClassName()",
-          "createElement()",
-          "createElementNS()",
-          "createDocumentFragment()",
-          "createTextNode()",
-          "createCDATASection()",
-          "createComment()",
-          "createProcessingInstruction()",
-          "importNode()",
-          "adoptNode()",
-          "createAttribute()",
-          "createAttributeNS()",
-          "createEvent()",
-          "createRange()",
-          "createNodeIterator()",
-          "createTreeWalker()",
-          "createExpression()",
-          "createNSResolver()",
-          "evaluate()"
-        ],
-        "DocumentFragment": [
-          "getElementById()",
-          "prepend()",
-          "append()",
-          "replaceChildren()",
-          "querySelector()",
-          "querySelectorAll()"
-        ],
-        "Element": [
-          "prepend()",
-          "append()",
-          "replaceChildren()",
-          "querySelector()",
-          "querySelectorAll()",
-          "before()",
-          "after()",
-          "replaceWith()",
-          "remove()",
-          "hasAttributes()",
-          "getAttributeNames()",
-          "getAttribute()",
-          "getAttributeNS()",
-          "setAttribute()",
-          "setAttributeNS()",
-          "removeAttribute()",
-          "removeAttributeNS()",
-          "toggleAttribute()",
-          "hasAttribute()",
-          "hasAttributeNS()",
-          "getAttributeNode()",
-          "getAttributeNodeNS()",
-          "setAttributeNode()",
-          "setAttributeNodeNS()",
-          "removeAttributeNode()",
-          "attachShadow()",
-          "closest()",
-          "matches()",
-          "webkitMatchesSelector()",
-          "getElementsByTagName()",
-          "getElementsByTagNameNS()",
-          "getElementsByClassName()",
-          "insertAdjacentElement()",
-          "insertAdjacentText()"
+          "inputEncoding"
         ],
         "DocumentType": [
-          "before()",
-          "after()",
-          "replaceWith()",
-          "remove()",
           "name",
           "publicId",
           "systemId"
         ],
-        "CharacterData": [
-          "before()",
-          "after()",
-          "replaceWith()",
-          "remove()",
-          "substringData()",
-          "appendData()",
-          "insertData()",
-          "deleteData()",
-          "replaceData()"
-        ],
-        "NodeList": [
-          "item()"
-        ],
-        "HTMLCollection": [
-          "item()",
-          "namedItem()"
-        ],
-        "MutationObserver": [
-          "observe()",
-          "disconnect()",
-          "takeRecords()"
-        ],
-        "Node": [
-          "getRootNode()",
-          "hasChildNodes()",
-          "normalize()",
-          "cloneNode()",
-          "isEqualNode()",
-          "isSameNode()",
-          "compareDocumentPosition()",
-          "contains()",
-          "lookupPrefix()",
-          "lookupNamespaceURI()",
-          "isDefaultNamespace()",
-          "insertBefore()",
-          "appendChild()",
-          "replaceChild()",
-          "removeChild()"
-        ],
-        "DOMImplementation": [
-          "createDocumentType()",
-          "createDocument()",
-          "createHTMLDocument()",
-          "hasFeature()"
-        ],
         "ShadowRoot": [
           "slotAssignment"
         ],
-        "NamedNodeMap": [
-          "item()",
-          "getNamedItem()",
-          "getNamedItemNS()",
-          "setNamedItem()",
-          "setNamedItemNS()",
-          "removeNamedItem()",
-          "removeNamedItemNS()"
-        ],
-        "Text": [
-          "splitText()"
-        ],
-        "Range": [
-          "setStart()",
-          "setEnd()",
-          "setStartBefore()",
-          "setStartAfter()",
-          "setEndBefore()",
-          "setEndAfter()",
-          "collapse()",
-          "selectNode()",
-          "selectNodeContents()",
-          "compareBoundaryPoints()",
-          "deleteContents()",
-          "extractContents()",
-          "cloneContents()",
-          "insertNode()",
-          "surroundContents()",
-          "cloneRange()",
-          "detach()",
-          "isPointInRange()",
-          "comparePoint()",
-          "intersectsNode()"
-        ],
-        "NodeIterator": [
-          "nextNode()",
-          "previousNode()",
-          "detach()"
-        ],
-        "TreeWalker": [
-          "parentNode()",
-          "firstChild()",
-          "lastChild()",
-          "previousSibling()",
-          "nextSibling()",
-          "previousNode()",
-          "nextNode()"
+        "Element": [
+          "webkitMatchesSelector()"
         ],
         "NodeFilter": true,
-        "DOMTokenList": [
-          "item()",
-          "contains()",
-          "add()",
-          "remove()",
-          "toggle()",
-          "replace()",
-          "supports()"
-        ],
-        "XPathResult": [
-          "iterateNext()",
-          "snapshotItem()"
-        ],
-        "XPathExpression": [
-          "evaluate()"
-        ],
-        "XPathNSResolver": [
-          "lookupNamespaceURI()"
-        ],
-        "XPathEvaluator": [
-          "createExpression()",
-          "createNSResolver()",
-          "evaluate()"
-        ],
         "XSLTProcessor": [
           "importStylesheet()",
           "transformToFragment()",
@@ -3230,44 +2212,6 @@
         ],
         "NodeFilter": true,
         "XPathNSResolver": true
-      }
-    }
-  },
-  "web-animations": {
-    "title": "Web Animations Level 2",
-    "url": "https://drafts.csswg.org/web-animations-2/",
-    "idl": {
-      "mdn": {
-        "Document": [
-          "getAnimations()"
-        ],
-        "ShadowRoot": [
-          "getAnimations()"
-        ],
-        "Animation": [
-          "cancel()",
-          "finish()",
-          "play()",
-          "pause()",
-          "updatePlaybackRate()",
-          "reverse()",
-          "persist()",
-          "commitStyles()"
-        ],
-        "AnimationEffect": [
-          "getTiming()",
-          "getComputedTiming()",
-          "updateTiming()"
-        ],
-        "KeyframeEffect": [
-          "pseudoElement",
-          "getKeyframes()",
-          "setKeyframes()"
-        ],
-        "Element": [
-          "animate()",
-          "getAnimations()"
-        ]
       }
     }
   },
@@ -3297,89 +2241,15 @@
       }
     }
   },
-  "element-timing": {
-    "title": "Element Timing API",
-    "url": "https://wicg.github.io/element-timing/",
-    "idl": {
-      "mdn": {
-        "PerformanceElementTiming": [
-          "toJSON()"
-        ]
-      }
-    }
-  },
-  "encoding": {
-    "title": "Encoding Standard",
-    "url": "https://encoding.spec.whatwg.org/",
-    "idl": {
-      "mdn": {
-        "TextDecoder": [
-          "decode()"
-        ],
-        "TextEncoder": [
-          "encode()",
-          "encodeInto()"
-        ]
-      }
-    }
-  },
   "encrypted-media": {
     "title": "Encrypted Media Extensions",
     "url": "https://www.w3.org/TR/encrypted-media/",
     "idl": {
       "mdn": {
-        "Navigator": [
-          "requestMediaKeySystemAccess()"
-        ],
-        "MediaKeySystemAccess": [
-          "getConfiguration()",
-          "createMediaKeys()"
-        ],
-        "MediaKeys": [
-          "createSession()",
-          "setServerCertificate()"
-        ],
-        "MediaKeySession": [
-          "generateRequest()",
-          "load()",
-          "update()",
-          "close()",
-          "remove()"
-        ],
-        "MediaKeyStatusMap": [
-          "has()",
-          "get()"
-        ],
         "HTMLMediaElement": [
-          "mediaKeys",
-          "setMediaKeys()"
+          "mediaKeys"
         ],
         "MediaEncryptedEvent": true
-      }
-    }
-  },
-  "entries-api": {
-    "title": "File and Directory Entries API",
-    "url": "https://wicg.github.io/entries-api/",
-    "idl": {
-      "mdn": {
-        "DataTransferItem": [
-          "webkitGetAsEntry()"
-        ],
-        "FileSystemEntry": [
-          "getParent()"
-        ],
-        "FileSystemDirectoryEntry": [
-          "createReader()",
-          "getFile()",
-          "getDirectory()"
-        ],
-        "FileSystemDirectoryReader": [
-          "readEntries()"
-        ],
-        "FileSystemFileEntry": [
-          "file()"
-        ]
       }
     }
   },
@@ -3388,9 +2258,6 @@
     "url": "https://www.w3.org/TR/event-timing/",
     "idl": {
       "mdn": {
-        "PerformanceEventTiming": [
-          "toJSON()"
-        ],
         "Performance": [
           "interactionCount"
         ]
@@ -3398,17 +2265,6 @@
       "bcd": {
         "Performance": [
           "interactionCount"
-        ]
-      }
-    }
-  },
-  "eyedropper-api": {
-    "title": "EyeDropper API",
-    "url": "https://wicg.github.io/eyedropper-api/",
-    "idl": {
-      "mdn": {
-        "EyeDropper": [
-          "open()"
         ]
       }
     }
@@ -3418,61 +2274,18 @@
     "url": "https://fetch.spec.whatwg.org/",
     "idl": {
       "mdn": {
-        "Headers": [
-          "append()",
-          "delete()",
-          "get()",
-          "has()",
-          "set()"
-        ],
         "Request": [
           "keepalive",
           "isReloadNavigation",
           "isHistoryNavigation",
           "signal",
-          "duplex",
-          "clone()",
-          "arrayBuffer()",
-          "blob()",
-          "formData()",
-          "json()",
-          "text()"
-        ],
-        "Response": [
-          "error()",
-          "redirect()",
-          "json()",
-          "clone()",
-          "arrayBuffer()",
-          "blob()",
-          "formData()",
-          "text()"
+          "duplex"
         ]
       },
       "bcd": {
         "Request": [
           "isReloadNavigation",
           "duplex"
-        ]
-      }
-    }
-  },
-  "file-system-access": {
-    "title": "File System Access",
-    "url": "https://wicg.github.io/file-system-access/",
-    "idl": {
-      "mdn": {
-        "FileSystemHandle": [
-          "queryPermission()",
-          "requestPermission()"
-        ],
-        "Window": [
-          "showOpenFilePicker()",
-          "showSaveFilePicker()",
-          "showDirectoryPicker()"
-        ],
-        "DataTransferItem": [
-          "getAsFileSystemHandle()"
         ]
       }
     }
@@ -3755,58 +2568,6 @@
       }
     }
   },
-  "fs": {
-    "title": "File System Standard",
-    "url": "https://fs.spec.whatwg.org/",
-    "idl": {
-      "mdn": {
-        "FileSystemHandle": [
-          "isSameEntry()"
-        ],
-        "FileSystemFileHandle": [
-          "getFile()",
-          "createWritable()",
-          "createSyncAccessHandle()"
-        ],
-        "FileSystemDirectoryHandle": [
-          "getFileHandle()",
-          "getDirectoryHandle()",
-          "removeEntry()",
-          "resolve()"
-        ],
-        "FileSystemWritableFileStream": [
-          "write()",
-          "seek()",
-          "truncate()"
-        ],
-        "FileSystemSyncAccessHandle": [
-          "read()",
-          "write()",
-          "truncate()",
-          "getSize()",
-          "flush()",
-          "close()"
-        ],
-        "StorageManager": [
-          "getDirectory()"
-        ]
-      }
-    }
-  },
-  "fullscreen": {
-    "title": "Fullscreen API Standard",
-    "url": "https://fullscreen.spec.whatwg.org/",
-    "idl": {
-      "mdn": {
-        "Element": [
-          "requestFullscreen()"
-        ],
-        "Document": [
-          "exitFullscreen()"
-        ]
-      }
-    }
-  },
   "gamepad-extensions": {
     "title": "Gamepad Extensions",
     "url": "https://w3c.github.io/gamepad/extensions.html",
@@ -3814,8 +2575,6 @@
       "mdn": {
         "GamepadHapticActuator": [
           "canPlayEffectType()",
-          "playEffect()",
-          "pulse()",
           "reset()"
         ],
         "GamepadTouch": true,
@@ -3834,29 +2593,6 @@
       }
     }
   },
-  "gamepad": {
-    "title": "Gamepad",
-    "url": "https://www.w3.org/TR/gamepad/",
-    "idl": {
-      "mdn": {
-        "Navigator": [
-          "getGamepads()"
-        ]
-      }
-    }
-  },
-  "generic-sensor": {
-    "title": "Generic Sensor API",
-    "url": "https://www.w3.org/TR/generic-sensor/",
-    "idl": {
-      "mdn": {
-        "Sensor": [
-          "start()",
-          "stop()"
-        ]
-      }
-    }
-  },
   "geolocation-sensor": {
     "title": "Geolocation Sensor",
     "url": "https://www.w3.org/TR/geolocation-sensor/",
@@ -3869,38 +2605,18 @@
       }
     }
   },
-  "geolocation": {
-    "title": "Geolocation API",
-    "url": "https://www.w3.org/TR/geolocation/",
-    "idl": {
-      "mdn": {
-        "Geolocation": [
-          "getCurrentPosition()",
-          "watchPosition()",
-          "clearWatch()"
-        ]
-      }
-    }
-  },
   "geometry": {
     "title": "Geometry Interfaces Module Level 1",
     "url": "https://www.w3.org/TR/geometry-1/",
     "idl": {
       "mdn": {
         "DOMPointReadOnly": [
-          "fromPoint()",
-          "matrixTransform()",
-          "toJSON()"
-        ],
-        "DOMPoint": [
-          "fromPoint()"
+          "matrixTransform()"
         ],
         "DOMRectReadOnly": [
-          "fromRect()",
           "toJSON()"
         ],
         "DOMRect": [
-          "fromRect()",
           "x",
           "y",
           "width",
@@ -3945,8 +2661,6 @@
           "m44",
           "is2D",
           "isIdentity",
-          "translate()",
-          "scale()",
           "scaleNonUniform()",
           "scale3d()",
           "rotate()",
@@ -3955,7 +2669,6 @@
           "skewX()",
           "skewY()",
           "multiply()",
-          "flipX()",
           "flipY()",
           "inverse()",
           "transformPoint()",
@@ -4016,18 +2729,6 @@
       }
     }
   },
-  "hr-time": {
-    "title": "High Resolution Time",
-    "url": "https://www.w3.org/TR/hr-time-3/",
-    "idl": {
-      "mdn": {
-        "Performance": [
-          "now()",
-          "toJSON()"
-        ]
-      }
-    }
-  },
   "html-media-capture": {
     "title": "HTML Media Capture",
     "url": "https://www.w3.org/TR/html-media-capture/",
@@ -4046,10 +2747,6 @@
       "mdn": {
         "HTMLElement": [
           "virtualKeyboardPolicy"
-        ],
-        "VirtualKeyboard": [
-          "show()",
-          "hide()"
         ]
       },
       "bcd": {
@@ -4132,29 +2829,13 @@
           "trustedTypes"
         ],
         "TrustedHTML": [
-          "toJSON()",
           "fromLiteral()"
         ],
         "TrustedScript": [
-          "toJSON()",
           "fromLiteral()"
         ],
         "TrustedScriptURL": [
-          "toJSON()",
           "fromLiteral()"
-        ],
-        "TrustedTypePolicyFactory": [
-          "createPolicy()",
-          "isHTML()",
-          "isScript()",
-          "isScriptURL()",
-          "getAttributeType()",
-          "getPropertyType()"
-        ],
-        "TrustedTypePolicy": [
-          "createHTML()",
-          "createScript()",
-          "createScriptURL()"
         ]
       },
       "bcd": {
@@ -4176,46 +2857,6 @@
       }
     }
   },
-  "idle-detection": {
-    "title": "Idle Detection API",
-    "url": "https://wicg.github.io/idle-detection/",
-    "idl": {
-      "mdn": {
-        "IdleDetector": [
-          "requestPermission()",
-          "start()"
-        ]
-      }
-    }
-  },
-  "image-capture": {
-    "title": "MediaStream Image Capture",
-    "url": "https://www.w3.org/TR/image-capture/",
-    "idl": {
-      "mdn": {
-        "ImageCapture": [
-          "takePhoto()",
-          "getPhotoCapabilities()",
-          "getPhotoSettings()",
-          "grabFrame()"
-        ]
-      }
-    }
-  },
-  "ink-enhancement": {
-    "title": "Ink API",
-    "url": "https://wicg.github.io/ink-enhancement/",
-    "idl": {
-      "mdn": {
-        "Ink": [
-          "requestPresenter()"
-        ],
-        "InkPresenter": [
-          "updateInkTrailStartPoint()"
-        ]
-      }
-    }
-  },
   "input-device-capabilities": {
     "title": "Input Device Capabilities",
     "url": "https://wicg.github.io/input-device-capabilities/",
@@ -4228,42 +2869,6 @@
       "bcd": {
         "InputDeviceCapabilities": [
           "pointerMovementScrolls"
-        ]
-      }
-    }
-  },
-  "input-events": {
-    "title": "Input Events Level 2",
-    "url": "https://www.w3.org/TR/input-events-2/",
-    "idl": {
-      "mdn": {
-        "InputEvent": [
-          "getTargetRanges()"
-        ]
-      }
-    }
-  },
-  "intersection-observer": {
-    "title": "Intersection Observer",
-    "url": "https://www.w3.org/TR/intersection-observer/",
-    "idl": {
-      "mdn": {
-        "IntersectionObserver": [
-          "observe()",
-          "unobserve()",
-          "disconnect()",
-          "takeRecords()"
-        ]
-      }
-    }
-  },
-  "intervention-reporting": {
-    "title": "Intervention Reporting",
-    "url": "https://wicg.github.io/intervention-reporting/",
-    "idl": {
-      "mdn": {
-        "InterventionReportBody": [
-          "toJSON()"
         ]
       }
     }
@@ -4289,40 +2894,6 @@
       }
     }
   },
-  "keyboard-lock": {
-    "title": "Keyboard Lock",
-    "url": "https://wicg.github.io/keyboard-lock/",
-    "idl": {
-      "mdn": {
-        "Keyboard": [
-          "lock()",
-          "unlock()"
-        ]
-      }
-    }
-  },
-  "keyboard-map": {
-    "title": "Keyboard Map",
-    "url": "https://wicg.github.io/keyboard-map/",
-    "idl": {
-      "mdn": {
-        "Keyboard": [
-          "getLayoutMap()"
-        ]
-      }
-    }
-  },
-  "largest-contentful-paint": {
-    "title": "Largest Contentful Paint",
-    "url": "https://www.w3.org/TR/largest-contentful-paint/",
-    "idl": {
-      "mdn": {
-        "LargestContentfulPaint": [
-          "toJSON()"
-        ]
-      }
-    }
-  },
   "layout-instability": {
     "title": "Layout Instability",
     "url": "https://wicg.github.io/layout-instability/",
@@ -4333,34 +2904,6 @@
           "hadRecentInput",
           "lastInputTime",
           "sources",
-          "toJSON()"
-        ]
-      }
-    }
-  },
-  "local-font-access": {
-    "title": "Local Font Access",
-    "url": "https://wicg.github.io/local-font-access/",
-    "idl": {
-      "mdn": {
-        "Window": [
-          "queryLocalFonts()"
-        ],
-        "FontData": [
-          "blob()"
-        ]
-      }
-    }
-  },
-  "longtasks": {
-    "title": "Long Tasks API 1",
-    "url": "https://www.w3.org/TR/longtasks-1/",
-    "idl": {
-      "mdn": {
-        "PerformanceLongTaskTiming": [
-          "toJSON()"
-        ],
-        "TaskAttributionTiming": [
           "toJSON()"
         ]
       }
@@ -4378,17 +2921,6 @@
       }
     }
   },
-  "manifest-incubations": {
-    "title": "Manifest Incubations",
-    "url": "https://wicg.github.io/manifest-incubations/",
-    "idl": {
-      "mdn": {
-        "BeforeInstallPromptEvent": [
-          "prompt()"
-        ]
-      }
-    }
-  },
   "media-capabilities": {
     "title": "Media Capabilities",
     "url": "https://www.w3.org/TR/media-capabilities/",
@@ -4396,21 +2928,6 @@
       "mdn": {
         "WorkerNavigator": [
           "mediaCapabilities"
-        ],
-        "MediaCapabilities": [
-          "decodingInfo()",
-          "encodingInfo()"
-        ]
-      }
-    }
-  },
-  "media-playback-quality": {
-    "title": "Media Playback Quality",
-    "url": "https://w3c.github.io/media-playback-quality/",
-    "idl": {
-      "mdn": {
-        "HTMLVideoElement": [
-          "getVideoPlaybackQuality()"
         ]
       }
     }
@@ -4420,39 +2937,8 @@
     "url": "https://www.w3.org/TR/media-source-2/",
     "idl": {
       "mdn": {
-        "MediaSource": [
-          "addSourceBuffer()",
-          "removeSourceBuffer()",
-          "endOfStream()",
-          "setLiveSeekableRange()",
-          "clearLiveSeekableRange()",
-          "isTypeSupported()"
-        ],
-        "SourceBuffer": [
-          "appendBuffer()",
-          "abort()",
-          "changeType()",
-          "remove()"
-        ],
         "TextTrack": [
           "sourceBuffer"
-        ]
-      }
-    }
-  },
-  "mediacapture-fromelement": {
-    "title": "Media Capture from DOM Elements",
-    "url": "https://www.w3.org/TR/mediacapture-fromelement/",
-    "idl": {
-      "mdn": {
-        "HTMLMediaElement": [
-          "captureStream()"
-        ],
-        "HTMLCanvasElement": [
-          "captureStream()"
-        ],
-        "CanvasCaptureMediaStreamTrack": [
-          "requestFrame()"
         ]
       }
     }
@@ -4499,38 +2985,13 @@
     "idl": {
       "mdn": {
         "MediaStream": [
-          "getAudioTracks()",
-          "getVideoTracks()",
-          "getTracks()",
-          "getTrackById()",
-          "addTrack()",
-          "removeTrack()",
-          "clone()"
-        ],
-        "MediaStreamTrack": [
-          "clone()",
-          "stop()",
-          "getCapabilities()",
-          "getConstraints()",
-          "getSettings()",
-          "applyConstraints()"
+          "removeTrack()"
         ],
         "MediaStreamTrackEvent": [
           "track"
         ],
-        "MediaDevices": [
-          "enumerateDevices()",
-          "getSupportedConstraints()",
-          "getUserMedia()"
-        ],
         "MediaDeviceInfo": [
           "toJSON()"
-        ],
-        "InputDeviceInfo": [
-          "getCapabilities()"
-        ],
-        "Navigator": [
-          "getUserMedia()"
         ]
       }
     }
@@ -4563,33 +3024,13 @@
       }
     }
   },
-  "mediasession": {
-    "title": "Media Session Standard",
-    "url": "https://www.w3.org/TR/mediasession/",
-    "idl": {
-      "mdn": {
-        "MediaSession": [
-          "setActionHandler()",
-          "setPositionState()",
-          "setMicrophoneActive()",
-          "setCameraActive()"
-        ]
-      }
-    }
-  },
   "mediastream-recording": {
     "title": "MediaStream Recording",
     "url": "https://www.w3.org/TR/mediastream-recording/",
     "idl": {
       "mdn": {
         "MediaRecorder": [
-          "audioBitrateMode",
-          "start()",
-          "stop()",
-          "pause()",
-          "resume()",
-          "requestData()",
-          "isTypeSupported()"
+          "audioBitrateMode"
         ]
       }
     }
@@ -4614,62 +3055,16 @@
       }
     }
   },
-  "navigation-api": {
-    "title": "Navigation API",
-    "url": "https://wicg.github.io/navigation-api/",
-    "idl": {
-      "mdn": {
-        "Navigation": [
-          "entries()",
-          "updateCurrentEntry()",
-          "navigate()",
-          "reload()",
-          "traverseTo()",
-          "back()",
-          "forward()"
-        ],
-        "NavigateEvent": [
-          "intercept()",
-          "scroll()"
-        ],
-        "NavigationDestination": [
-          "getState()"
-        ],
-        "NavigationHistoryEntry": [
-          "getState()"
-        ]
-      }
-    }
-  },
   "navigation-timing": {
     "title": "Navigation Timing Level 2",
     "url": "https://www.w3.org/TR/navigation-timing-2/",
     "idl": {
       "mdn": {
-        "PerformanceNavigationTiming": [
-          "toJSON()"
-        ],
         "PerformanceTiming": [
           "toJSON()"
         ],
         "PerformanceNavigation": [
           "toJSON()"
-        ]
-      }
-    }
-  },
-  "notifications": {
-    "title": "Notifications API Standard",
-    "url": "https://notifications.spec.whatwg.org/",
-    "idl": {
-      "mdn": {
-        "Notification": [
-          "requestPermission()",
-          "close()"
-        ],
-        "ServiceWorkerRegistration": [
-          "showNotification()",
-          "getNotifications()"
         ]
       }
     }
@@ -4684,17 +3079,6 @@
         ],
         "DeviceMotionEvent": [
           "requestPermission()"
-        ]
-      }
-    }
-  },
-  "orientation-sensor": {
-    "title": "Orientation Sensor",
-    "url": "https://www.w3.org/TR/orientation-sensor/",
-    "idl": {
-      "mdn": {
-        "OrientationSensor": [
-          "populateMatrix()"
         ]
       }
     }
@@ -4724,21 +3108,14 @@
     "idl": {
       "mdn": {
         "PaymentManager": [
-          "instruments",
-          "enableDelegations()"
+          "instruments"
         ],
         "PaymentInstruments": true,
-        "CanMakePaymentEvent": [
-          "respondWith()"
-        ],
         "PaymentRequestEvent": [
           "paymentOptions",
           "shippingOptions",
-          "openWindow()",
-          "changePaymentMethod()",
           "changeShippingAddress()",
-          "changeShippingOption()",
-          "respondWith()"
+          "changeShippingOption()"
         ]
       },
       "bcd": {
@@ -4756,68 +3133,8 @@
     "url": "https://www.w3.org/TR/payment-request-1.1/",
     "idl": {
       "mdn": {
-        "PaymentRequest": [
-          "show()",
-          "abort()",
-          "canMakePayment()"
-        ],
         "PaymentResponse": [
-          "toJSON()",
-          "complete()",
-          "retry()"
-        ],
-        "PaymentRequestUpdateEvent": [
-          "updateWith()"
-        ]
-      }
-    }
-  },
-  "performance-measure-memory": {
-    "title": "Measure Memory API",
-    "url": "https://wicg.github.io/performance-measure-memory/",
-    "idl": {
-      "mdn": {
-        "Performance": [
-          "measureUserAgentSpecificMemory()"
-        ]
-      }
-    }
-  },
-  "performance-timeline": {
-    "title": "Performance Timeline",
-    "url": "https://www.w3.org/TR/performance-timeline/",
-    "idl": {
-      "mdn": {
-        "Performance": [
-          "getEntries()",
-          "getEntriesByType()",
-          "getEntriesByName()"
-        ],
-        "PerformanceEntry": [
           "toJSON()"
-        ],
-        "PerformanceObserver": [
-          "observe()",
-          "disconnect()",
-          "takeRecords()"
-        ],
-        "PerformanceObserverEntryList": [
-          "getEntries()",
-          "getEntriesByType()",
-          "getEntriesByName()"
-        ]
-      }
-    }
-  },
-  "periodic-background-sync": {
-    "title": "Web Periodic Background Synchronization",
-    "url": "https://wicg.github.io/periodic-background-sync/",
-    "idl": {
-      "mdn": {
-        "PeriodicSyncManager": [
-          "register()",
-          "getTags()",
-          "unregister()"
         ]
       }
     }
@@ -4858,39 +3175,11 @@
       }
     }
   },
-  "permissions-revoke": {
-    "title": "Relinquishing Permissions",
-    "url": "https://wicg.github.io/permissions-revoke/",
-    "idl": {
-      "mdn": {
-        "Permissions": [
-          "revoke()"
-        ]
-      }
-    }
-  },
-  "permissions": {
-    "title": "Permissions",
-    "url": "https://www.w3.org/TR/permissions/",
-    "idl": {
-      "mdn": {
-        "Permissions": [
-          "query()"
-        ]
-      }
-    }
-  },
   "picture-in-picture": {
     "title": "Picture-in-Picture",
     "url": "https://www.w3.org/TR/picture-in-picture/",
     "idl": {
       "mdn": {
-        "HTMLVideoElement": [
-          "requestPictureInPicture()"
-        ],
-        "Document": [
-          "exitPictureInPicture()"
-        ],
         "PictureInPictureEvent": [
           "pictureInPictureWindow"
         ]
@@ -4905,27 +3194,7 @@
         "PointerEvent": [
           "altitudeAngle",
           "azimuthAngle",
-          "getCoalescedEvents()",
           "getPredictedEvents()"
-        ],
-        "Element": [
-          "setPointerCapture()",
-          "releasePointerCapture()",
-          "hasPointerCapture()"
-        ]
-      }
-    }
-  },
-  "pointerlock": {
-    "title": "Pointer Lock 2.0",
-    "url": "https://www.w3.org/TR/pointerlock-2/",
-    "idl": {
-      "mdn": {
-        "Element": [
-          "requestPointerLock()"
-        ],
-        "Document": [
-          "exitPointerLock()"
         ]
       }
     }
@@ -4992,16 +3261,6 @@
     "url": "https://www.w3.org/TR/presentation-api/",
     "idl": {
       "mdn": {
-        "PresentationRequest": [
-          "start()",
-          "reconnect()",
-          "getAvailability()"
-        ],
-        "PresentationConnection": [
-          "close()",
-          "terminate()",
-          "send()"
-        ],
         "PresentationConnectionCloseEvent": [
           "reason",
           "message"
@@ -5062,22 +3321,6 @@
     "url": "https://www.w3.org/TR/push-api/",
     "idl": {
       "mdn": {
-        "PushManager": [
-          "subscribe()",
-          "getSubscription()",
-          "permissionState()"
-        ],
-        "PushSubscription": [
-          "getKey()",
-          "unsubscribe()",
-          "toJSON()"
-        ],
-        "PushMessageData": [
-          "arrayBuffer()",
-          "blob()",
-          "json()",
-          "text()"
-        ],
         "PushSubscriptionChangeEvent": true
       }
     }
@@ -5102,11 +3345,6 @@
     "url": "https://www.w3.org/TR/remote-playback/",
     "idl": {
       "mdn": {
-        "RemotePlayback": [
-          "watchAvailability()",
-          "cancelWatchAvailability()",
-          "prompt()"
-        ],
         "HTMLMediaElement": [
           "remote"
         ]
@@ -5118,59 +3356,8 @@
     "url": "https://www.w3.org/TR/reporting-1/",
     "idl": {
       "mdn": {
-        "ReportBody": [
-          "toJSON()"
-        ],
         "Report": [
           "toJSON()"
-        ],
-        "ReportingObserver": [
-          "observe()",
-          "disconnect()",
-          "takeRecords()"
-        ]
-      }
-    }
-  },
-  "requestidlecallback": {
-    "title": "requestIdleCallback() Cooperative Scheduling of Background Tasks",
-    "url": "https://www.w3.org/TR/requestidlecallback/",
-    "idl": {
-      "mdn": {
-        "Window": [
-          "requestIdleCallback()",
-          "cancelIdleCallback()"
-        ],
-        "IdleDeadline": [
-          "timeRemaining()"
-        ]
-      }
-    }
-  },
-  "resize-observer": {
-    "title": "Resize Observer",
-    "url": "https://www.w3.org/TR/resize-observer-1/",
-    "idl": {
-      "mdn": {
-        "ResizeObserver": [
-          "observe()",
-          "unobserve()",
-          "disconnect()"
-        ]
-      }
-    }
-  },
-  "resource-timing": {
-    "title": "Resource Timing",
-    "url": "https://www.w3.org/TR/resource-timing/",
-    "idl": {
-      "mdn": {
-        "PerformanceResourceTiming": [
-          "toJSON()"
-        ],
-        "Performance": [
-          "clearResourceTimings()",
-          "setResourceTimingBufferSize()"
         ]
       }
     }
@@ -5181,67 +3368,8 @@
     "idl": {
       "mdn": {
         "Sanitizer": [
-          "sanitize()",
-          "sanitizeFor()",
           "getConfiguration()",
           "getDefaultConfiguration()"
-        ],
-        "Element": [
-          "setHTML()"
-        ]
-      }
-    }
-  },
-  "scheduling-apis": {
-    "title": "Prioritized Task Scheduling",
-    "url": "https://wicg.github.io/scheduling-apis/",
-    "idl": {
-      "mdn": {
-        "Scheduler": [
-          "postTask()"
-        ],
-        "TaskController": [
-          "setPriority()"
-        ]
-      }
-    }
-  },
-  "screen-capture": {
-    "title": "Screen Capture",
-    "url": "https://www.w3.org/TR/screen-capture/",
-    "idl": {
-      "mdn": {
-        "MediaDevices": [
-          "getDisplayMedia()"
-        ],
-        "CaptureController": [
-          "setFocusBehavior()"
-        ]
-      }
-    }
-  },
-  "screen-orientation": {
-    "title": "Screen Orientation",
-    "url": "https://www.w3.org/TR/screen-orientation/",
-    "idl": {
-      "mdn": {
-        "ScreenOrientation": [
-          "lock()",
-          "unlock()"
-        ]
-      }
-    }
-  },
-  "screen-wake-lock": {
-    "title": "Screen Wake Lock API",
-    "url": "https://www.w3.org/TR/screen-wake-lock/",
-    "idl": {
-      "mdn": {
-        "WakeLock": [
-          "request()"
-        ],
-        "WakeLockSentinel": [
-          "release()"
         ]
       }
     }
@@ -5292,64 +3420,14 @@
     "idl": {
       "mdn": {
         "Selection": [
-          "getRangeAt()",
-          "addRange()",
-          "removeRange()",
-          "removeAllRanges()",
           "empty()",
           "getComposedRange()",
-          "collapse()",
-          "setPosition()",
-          "collapseToStart()",
-          "collapseToEnd()",
-          "extend()",
-          "setBaseAndExtent()",
-          "selectAllChildren()",
-          "modify()",
-          "deleteFromDocument()",
-          "containsNode()"
-        ],
-        "Document": [
-          "getSelection()"
-        ],
-        "Window": [
-          "getSelection()"
+          "setPosition()"
         ]
       },
       "bcd": {
         "Selection": [
           "getComposedRange()"
-        ]
-      }
-    }
-  },
-  "serial": {
-    "title": "Web Serial API",
-    "url": "https://wicg.github.io/serial/",
-    "idl": {
-      "mdn": {
-        "Serial": [
-          "getPorts()",
-          "requestPort()"
-        ],
-        "SerialPort": [
-          "getInfo()",
-          "open()",
-          "setSignals()",
-          "getSignals()",
-          "close()",
-          "forget()"
-        ]
-      }
-    }
-  },
-  "server-timing": {
-    "title": "Server Timing",
-    "url": "https://www.w3.org/TR/server-timing/",
-    "idl": {
-      "mdn": {
-        "PerformanceServerTiming": [
-          "toJSON()"
         ]
       }
     }
@@ -5362,65 +3440,17 @@
         "ServiceWorker": [
           "postMessage()"
         ],
-        "ServiceWorkerRegistration": [
-          "update()",
-          "unregister()"
-        ],
         "WorkerNavigator": [
           "serviceWorker"
         ],
-        "ServiceWorkerContainer": [
-          "register()",
-          "getRegistration()",
-          "getRegistrations()",
-          "startMessages()"
-        ],
-        "NavigationPreloadManager": [
-          "enable()",
-          "disable()",
-          "setHeaderValue()",
-          "getState()"
-        ],
         "ServiceWorkerGlobalScope": [
-          "serviceWorker",
-          "skipWaiting()"
-        ],
-        "Client": [
-          "postMessage()"
+          "serviceWorker"
         ],
         "WindowClient": [
-          "ancestorOrigins",
-          "focus()",
-          "navigate()"
-        ],
-        "Clients": [
-          "get()",
-          "matchAll()",
-          "openWindow()",
-          "claim()"
-        ],
-        "ExtendableEvent": [
-          "waitUntil()"
+          "ancestorOrigins"
         ],
         "FetchEvent": [
-          "handled",
-          "respondWith()"
-        ],
-        "Cache": [
-          "match()",
-          "matchAll()",
-          "add()",
-          "addAll()",
-          "put()",
-          "delete()",
-          "keys()"
-        ],
-        "CacheStorage": [
-          "match()",
-          "has()",
-          "open()",
-          "delete()",
-          "keys()"
+          "handled"
         ]
       }
     }
@@ -5430,11 +3460,7 @@
     "url": "https://wicg.github.io/shape-detection-api/",
     "idl": {
       "mdn": {
-        "FaceDetector": true,
-        "BarcodeDetector": [
-          "getSupportedFormats()",
-          "detect()"
-        ]
+        "FaceDetector": true
       },
       "bcd": {
         "FaceDetector": true
@@ -5446,56 +3472,8 @@
     "url": "https://wicg.github.io/speech-api/",
     "idl": {
       "mdn": {
-        "SpeechRecognition": [
-          "start()",
-          "stop()",
-          "abort()"
-        ],
-        "SpeechRecognitionResult": [
-          "item()"
-        ],
-        "SpeechRecognitionResultList": [
-          "item()"
-        ],
-        "SpeechGrammarList": [
-          "item()",
-          "addFromURI()",
-          "addFromString()"
-        ],
-        "SpeechSynthesis": [
-          "speak()",
-          "cancel()",
-          "pause()",
-          "resume()",
-          "getVoices()"
-        ],
         "SpeechSynthesisEvent": [
           "charLength"
-        ]
-      }
-    }
-  },
-  "storage-access": {
-    "title": "The Storage Access API",
-    "url": "https://privacycg.github.io/storage-access/",
-    "idl": {
-      "mdn": {
-        "Document": [
-          "hasStorageAccess()",
-          "requestStorageAccess()"
-        ]
-      }
-    }
-  },
-  "storage": {
-    "title": "Storage Standard",
-    "url": "https://storage.spec.whatwg.org/",
-    "idl": {
-      "mdn": {
-        "StorageManager": [
-          "persisted()",
-          "persist()",
-          "estimate()"
         ]
       }
     }
@@ -5505,56 +3483,11 @@
     "url": "https://streams.spec.whatwg.org/",
     "idl": {
       "mdn": {
-        "ReadableStream": [
-          "cancel()",
-          "getReader()",
-          "pipeThrough()",
-          "pipeTo()",
-          "tee()"
-        ],
-        "ReadableStreamDefaultReader": [
-          "read()",
-          "releaseLock()",
-          "cancel()"
-        ],
-        "ReadableStreamBYOBReader": [
-          "read()",
-          "releaseLock()",
-          "cancel()"
-        ],
-        "ReadableStreamDefaultController": [
-          "close()",
-          "enqueue()",
-          "error()"
-        ],
-        "ReadableByteStreamController": [
-          "close()",
-          "enqueue()",
-          "error()"
-        ],
-        "ReadableStreamBYOBRequest": [
-          "respond()",
-          "respondWithNewView()"
-        ],
         "WritableStream": [
-          "abort()",
-          "close()",
-          "getWriter()"
-        ],
-        "WritableStreamDefaultWriter": [
-          "abort()",
-          "close()",
-          "releaseLock()",
-          "write()"
+          "close()"
         ],
         "WritableStreamDefaultController": [
-          "signal",
-          "error()"
-        ],
-        "TransformStreamDefaultController": [
-          "enqueue()",
-          "error()",
-          "terminate()"
+          "signal"
         ],
         "ByteLengthQueuingStrategy": [
           "highWaterMark"
@@ -5636,9 +3569,6 @@
           "azimuthAngle",
           "touchType"
         ],
-        "TouchList": [
-          "item()"
-        ],
         "TouchEvent": [
           "getModifierState()"
         ]
@@ -5650,37 +3580,11 @@
       }
     }
   },
-  "ua-client-hints": {
-    "title": "User-Agent Client Hints",
-    "url": "https://wicg.github.io/ua-client-hints/",
-    "idl": {
-      "mdn": {
-        "NavigatorUAData": [
-          "getHighEntropyValues()",
-          "toJSON()"
-        ]
-      }
-    }
-  },
   "uievents": {
     "title": "UI Events",
     "url": "https://www.w3.org/TR/uievents/",
     "idl": {
       "mdn": {
-        "MouseEvent": [
-          "getModifierState()",
-          "initMouseEvent()"
-        ],
-        "KeyboardEvent": [
-          "getModifierState()",
-          "initKeyboardEvent()"
-        ],
-        "UIEvent": [
-          "initUIEvent()"
-        ],
-        "CompositionEvent": [
-          "initCompositionEvent()"
-        ],
         "MutationEvent": [
           "relatedNode",
           "prevValue",
@@ -5688,63 +3592,6 @@
           "attrName",
           "attrChange",
           "initMutationEvent()"
-        ]
-      }
-    }
-  },
-  "url": {
-    "title": "URL Standard",
-    "url": "https://url.spec.whatwg.org/",
-    "idl": {
-      "mdn": {
-        "URL": [
-          "toJSON()"
-        ],
-        "URLSearchParams": [
-          "append()",
-          "delete()",
-          "get()",
-          "getAll()",
-          "has()",
-          "set()",
-          "sort()"
-        ]
-      }
-    }
-  },
-  "urlpattern": {
-    "title": "URLPattern API",
-    "url": "https://wicg.github.io/urlpattern/",
-    "idl": {
-      "mdn": {
-        "URLPattern": [
-          "test()",
-          "exec()"
-        ]
-      }
-    }
-  },
-  "user-timing": {
-    "title": "User Timing",
-    "url": "https://www.w3.org/TR/user-timing/",
-    "idl": {
-      "mdn": {
-        "Performance": [
-          "mark()",
-          "clearMarks()",
-          "measure()",
-          "clearMeasures()"
-        ]
-      }
-    }
-  },
-  "vibration": {
-    "title": "Vibration API (Second Edition)",
-    "url": "https://www.w3.org/TR/vibration/",
-    "idl": {
-      "mdn": {
-        "Navigator": [
-          "vibrate()"
         ]
       }
     }
@@ -5814,13 +3661,13 @@
       }
     }
   },
-  "web-app-launch": {
-    "title": "Web App Launch Handler API",
-    "url": "https://wicg.github.io/web-app-launch/",
+  "web-animations": {
+    "title": "Web Animations Level 2",
+    "url": "https://drafts.csswg.org/web-animations-2/",
     "idl": {
       "mdn": {
-        "LaunchQueue": [
-          "setConsumer()"
+        "KeyframeEffect": [
+          "pseudoElement"
         ]
       }
     }
@@ -5831,10 +3678,7 @@
     "idl": {
       "mdn": {
         "Bluetooth": [
-          "getAvailability()",
-          "referringDevice",
-          "getDevices()",
-          "requestDevice()"
+          "referringDevice"
         ],
         "BluetoothPermissionResult": true,
         "ValueEvent": true,
@@ -5846,37 +3690,9 @@
         "BluetoothManufacturerDataMap": true,
         "BluetoothServiceDataMap": true,
         "BluetoothAdvertisingEvent": true,
-        "BluetoothRemoteGATTServer": [
-          "connect()",
-          "disconnect()",
-          "getPrimaryService()",
-          "getPrimaryServices()"
-        ],
         "BluetoothRemoteGATTService": [
-          "getCharacteristic()",
-          "getCharacteristics()",
           "getIncludedService()",
           "getIncludedServices()"
-        ],
-        "BluetoothRemoteGATTCharacteristic": [
-          "getDescriptor()",
-          "getDescriptors()",
-          "readValue()",
-          "writeValue()",
-          "writeValueWithResponse()",
-          "writeValueWithoutResponse()",
-          "startNotifications()",
-          "stopNotifications()"
-        ],
-        "BluetoothRemoteGATTDescriptor": [
-          "readValue()",
-          "writeValue()"
-        ],
-        "BluetoothUUID": [
-          "getService()",
-          "getCharacteristic()",
-          "getDescriptor()",
-          "canonicalUUID()"
         ],
         "Navigator": [
           "bluetooth"
@@ -5903,42 +3719,13 @@
       }
     }
   },
-  "web-locks": {
-    "title": "Web Locks API",
-    "url": "https://www.w3.org/TR/web-locks/",
-    "idl": {
-      "mdn": {
-        "LockManager": [
-          "request()",
-          "query()"
-        ]
-      }
-    }
-  },
   "web-nfc": {
     "title": "Web NFC API",
     "url": "https://w3c.github.io/web-nfc/",
     "idl": {
       "mdn": {
-        "NDEFRecord": [
-          "toRecords()"
-        ],
         "NDEFReader": [
-          "scan()",
-          "write()",
           "makeReadOnly()"
-        ]
-      }
-    }
-  },
-  "web-share": {
-    "title": "Web Share API",
-    "url": "https://www.w3.org/TR/web-share/",
-    "idl": {
-      "mdn": {
-        "Navigator": [
-          "share()",
-          "canShare()"
         ]
       }
     }
@@ -5948,107 +3735,26 @@
     "url": "https://www.w3.org/TR/webaudio/",
     "idl": {
       "mdn": {
-        "BaseAudioContext": [
-          "createAnalyser()",
-          "createBiquadFilter()",
-          "createBuffer()",
-          "createBufferSource()",
-          "createChannelMerger()",
-          "createChannelSplitter()",
-          "createConstantSource()",
-          "createConvolver()",
-          "createDelay()",
-          "createDynamicsCompressor()",
-          "createGain()",
-          "createIIRFilter()",
-          "createOscillator()",
-          "createPanner()",
-          "createPeriodicWave()",
-          "createScriptProcessor()",
-          "createStereoPanner()",
-          "createWaveShaper()",
-          "decodeAudioData()"
-        ],
         "AudioContext": [
           "sinkId",
           "renderCapacity",
-          "getOutputTimestamp()",
-          "resume()",
-          "suspend()",
-          "close()",
-          "setSinkId()",
-          "createMediaElementSource()",
-          "createMediaStreamSource()",
-          "createMediaStreamTrackSource()",
-          "createMediaStreamDestination()"
+          "setSinkId()"
         ],
         "AudioSinkInfo": true,
         "AudioRenderCapacity": true,
         "AudioRenderCapacityEvent": true,
-        "OfflineAudioContext": [
-          "startRendering()",
-          "resume()",
-          "suspend()"
-        ],
-        "AudioBuffer": [
-          "getChannelData()",
-          "copyFromChannel()",
-          "copyToChannel()"
-        ],
-        "AudioNode": [
-          "connect()",
-          "disconnect()"
-        ],
         "AudioParam": [
-          "automationRate",
-          "setValueAtTime()",
-          "linearRampToValueAtTime()",
-          "exponentialRampToValueAtTime()",
-          "setTargetAtTime()",
-          "setValueCurveAtTime()",
-          "cancelScheduledValues()",
-          "cancelAndHoldAtTime()"
-        ],
-        "AudioScheduledSourceNode": [
-          "start()",
-          "stop()"
-        ],
-        "AnalyserNode": [
-          "getFloatFrequencyData()",
-          "getByteFrequencyData()",
-          "getFloatTimeDomainData()",
-          "getByteTimeDomainData()"
-        ],
-        "AudioBufferSourceNode": [
-          "start()"
-        ],
-        "AudioListener": [
-          "setPosition()",
-          "setOrientation()"
+          "automationRate"
         ],
         "AudioProcessingEvent": [
           "playbackTime",
           "inputBuffer",
           "outputBuffer"
         ],
-        "BiquadFilterNode": [
-          "getFrequencyResponse()"
-        ],
-        "IIRFilterNode": [
-          "getFrequencyResponse()"
-        ],
-        "OscillatorNode": [
-          "setPeriodicWave()"
-        ],
-        "PannerNode": [
-          "setPosition()",
-          "setOrientation()"
-        ],
         "AudioWorklet": [
           "port"
         ],
         "AudioWorkletGlobalScope": [
-          "registerProcessor()",
           "currentFrame",
           "currentTime",
           "sampleRate",
@@ -6077,15 +3783,12 @@
       "mdn": {
         "PublicKeyCredential": [
           "authenticatorAttachment",
-          "getClientExtensionResults()",
           "isConditionalMediationAvailable()",
           "toJSON()",
-          "isUserVerifyingPlatformAuthenticatorAvailable()",
           "parseCreationOptionsFromJSON()",
           "parseRequestOptionsFromJSON()"
         ],
         "AuthenticatorAttestationResponse": [
-          "getTransports()",
           "getAuthenticatorData()",
           "getPublicKey()",
           "getPublicKeyAlgorithm()"
@@ -6111,65 +3814,8 @@
     "url": "https://www.w3.org/TR/webcodecs/",
     "idl": {
       "mdn": {
-        "AudioDecoder": [
-          "configure()",
-          "decode()",
-          "flush()",
-          "reset()",
-          "close()",
-          "isConfigSupported()"
-        ],
-        "VideoDecoder": [
-          "configure()",
-          "decode()",
-          "flush()",
-          "reset()",
-          "close()",
-          "isConfigSupported()"
-        ],
-        "AudioEncoder": [
-          "configure()",
-          "encode()",
-          "flush()",
-          "reset()",
-          "close()",
-          "isConfigSupported()"
-        ],
-        "VideoEncoder": [
-          "configure()",
-          "encode()",
-          "flush()",
-          "reset()",
-          "close()",
-          "isConfigSupported()"
-        ],
-        "EncodedAudioChunk": [
-          "copyTo()"
-        ],
-        "EncodedVideoChunk": [
-          "copyTo()"
-        ],
-        "AudioData": [
-          "allocationSize()",
-          "copyTo()",
-          "clone()",
-          "close()"
-        ],
         "VideoFrame": [
-          "metadata()",
-          "allocationSize()",
-          "copyTo()",
-          "clone()",
-          "close()"
-        ],
-        "VideoColorSpace": [
-          "toJSON()"
-        ],
-        "ImageDecoder": [
-          "decode()",
-          "reset()",
-          "close()",
-          "isTypeSupported()"
+          "metadata()"
         ]
       },
       "bcd": {
@@ -6186,13 +3832,6 @@
       "mdn": {
         "WebGLObject": true,
         "WebGLRenderingContext": [
-          "bufferData()",
-          "bufferSubData()",
-          "compressedTexImage2D()",
-          "compressedTexSubImage2D()",
-          "readPixels()",
-          "texImage2D()",
-          "texSubImage2D()",
           "uniform1fv()",
           "uniform2fv()",
           "uniform3fv()",
@@ -6216,41 +3855,17 @@
     "url": "https://www.w3.org/TR/webxr/",
     "idl": {
       "mdn": {
-        "WebGLRenderingContext": [
-          "makeXRCompatible()"
-        ],
         "WebGL2RenderingContext": [
           "makeXRCompatible()"
-        ],
-        "XRSystem": [
-          "isSessionSupported()",
-          "requestSession()"
         ],
         "XRSession": [
           "frameRate",
           "supportedFrameRates",
           "enabledFeatures",
-          "updateRenderState()",
-          "updateTargetFrameRate()",
-          "requestReferenceSpace()",
-          "requestAnimationFrame()",
-          "cancelAnimationFrame()",
-          "end()"
+          "updateTargetFrameRate()"
         ],
         "XRFrame": [
-          "predictedDisplayTime",
-          "getViewerPose()",
-          "getPose()"
-        ],
-        "XRReferenceSpace": [
-          "getOffsetReferenceSpace()"
-        ],
-        "XRView": [
-          "requestViewportScale()"
-        ],
-        "XRWebGLLayer": [
-          "getViewport()",
-          "getNativeFramebufferScaleFactor()"
+          "predictedDisplayTime"
         ],
         "XRPermissionStatus": true
       },
@@ -6274,23 +3889,7 @@
     "idl": {
       "mdn": {
         "WebGL2RenderingContext": [
-          "copyBufferSubData()",
-          "getBufferSubData()",
-          "blitFramebuffer()",
-          "framebufferTextureLayer()",
-          "invalidateFramebuffer()",
-          "invalidateSubFramebuffer()",
-          "readBuffer()",
-          "getInternalformatParameter()",
-          "renderbufferStorageMultisample()",
-          "texStorage2D()",
-          "texStorage3D()",
-          "texImage3D()",
-          "texSubImage3D()",
-          "copyTexSubImage3D()",
           "compressedTexImage3D()",
-          "compressedTexSubImage3D()",
-          "getFragDataLocation()",
           "uniform1ui()",
           "uniform2ui()",
           "uniform3ui()",
@@ -6309,59 +3908,12 @@
           "vertexAttribI4iv()",
           "vertexAttribI4ui()",
           "vertexAttribI4uiv()",
-          "vertexAttribIPointer()",
-          "vertexAttribDivisor()",
-          "drawArraysInstanced()",
-          "drawElementsInstanced()",
-          "drawRangeElements()",
-          "drawBuffers()",
           "clearBufferfv()",
           "clearBufferiv()",
           "clearBufferuiv()",
           "clearBufferfi()",
-          "createQuery()",
-          "deleteQuery()",
-          "isQuery()",
-          "beginQuery()",
-          "endQuery()",
-          "getQuery()",
-          "getQueryParameter()",
-          "createSampler()",
-          "deleteSampler()",
-          "isSampler()",
-          "bindSampler()",
           "samplerParameteri()",
           "samplerParameterf()",
-          "getSamplerParameter()",
-          "fenceSync()",
-          "isSync()",
-          "deleteSync()",
-          "clientWaitSync()",
-          "waitSync()",
-          "getSyncParameter()",
-          "createTransformFeedback()",
-          "deleteTransformFeedback()",
-          "isTransformFeedback()",
-          "bindTransformFeedback()",
-          "beginTransformFeedback()",
-          "endTransformFeedback()",
-          "transformFeedbackVaryings()",
-          "getTransformFeedbackVarying()",
-          "pauseTransformFeedback()",
-          "resumeTransformFeedback()",
-          "bindBufferBase()",
-          "bindBufferRange()",
-          "getIndexedParameter()",
-          "getUniformIndices()",
-          "getActiveUniforms()",
-          "getUniformBlockIndex()",
-          "getActiveUniformBlockParameter()",
-          "getActiveUniformBlockName()",
-          "uniformBlockBinding()",
-          "createVertexArray()",
-          "deleteVertexArray()",
-          "isVertexArray()",
-          "bindVertexArray()",
           "bufferData()",
           "bufferSubData()",
           "texImage2D()",
@@ -6493,42 +4045,11 @@
       "mdn": {
         "WorkerNavigator": [
           "hid"
-        ],
-        "HID": [
-          "getDevices()",
-          "requestDevice()"
-        ],
-        "HIDDevice": [
-          "open()",
-          "close()",
-          "forget()",
-          "sendReport()",
-          "sendFeatureReport()",
-          "receiveFeatureReport()"
         ]
       },
       "bcd": {
         "WorkerNavigator": [
           "hid"
-        ]
-      }
-    }
-  },
-  "webmidi": {
-    "title": "Web MIDI API",
-    "url": "https://www.w3.org/TR/webmidi/",
-    "idl": {
-      "mdn": {
-        "Navigator": [
-          "requestMIDIAccess()"
-        ],
-        "MIDIPort": [
-          "open()",
-          "close()"
-        ],
-        "MIDIOutput": [
-          "send()",
-          "clear()"
         ]
       }
     }
@@ -6628,8 +4149,6 @@
         "RTCIdentityProviderGlobalScope": true,
         "RTCIdentityProviderRegistrar": true,
         "RTCPeerConnection": [
-          "setIdentityProvider()",
-          "getIdentityAssertion()",
           "idpLoginUrl",
           "idpErrorInfo"
         ],
@@ -6672,33 +4191,9 @@
     "url": "https://www.w3.org/TR/webrtc/",
     "idl": {
       "mdn": {
-        "RTCPeerConnection": [
-          "createOffer()",
-          "createAnswer()",
-          "setLocalDescription()",
-          "setRemoteDescription()",
-          "addIceCandidate()",
-          "restartIce()",
-          "getConfiguration()",
-          "setConfiguration()",
-          "close()",
-          "generateCertificate()",
-          "getSenders()",
-          "getReceivers()",
-          "getTransceivers()",
-          "addTrack()",
-          "removeTrack()",
-          "addTransceiver()",
-          "createDataChannel()",
-          "getStats()"
-        ],
-        "RTCSessionDescription": [
-          "toJSON()"
-        ],
         "RTCIceCandidate": [
           "relayProtocol",
-          "url",
-          "toJSON()"
+          "url"
         ],
         "RTCPeerConnectionIceEvent": [
           "url"
@@ -6713,46 +4208,15 @@
           "expires",
           "getFingerprints()"
         ],
-        "RTCRtpSender": [
-          "getCapabilities()",
-          "setParameters()",
-          "getParameters()",
-          "replaceTrack()",
-          "setStreams()",
-          "getStats()"
-        ],
-        "RTCRtpReceiver": [
-          "getCapabilities()",
-          "getParameters()",
-          "getContributingSources()",
-          "getSynchronizationSources()",
-          "getStats()"
-        ],
-        "RTCRtpTransceiver": [
-          "stop()",
-          "setCodecPreferences()"
-        ],
         "RTCDtlsTransport": [
           "getRemoteCertificates()"
-        ],
-        "RTCIceTransport": [
-          "getLocalCandidates()",
-          "getRemoteCandidates()",
-          "getSelectedCandidatePair()",
-          "getLocalParameters()",
-          "getRemoteParameters()"
         ],
         "RTCSctpTransport": [
           "transport",
           "maxMessageSize",
           "maxChannels"
         ],
-        "RTCDataChannel": [
-          "close()",
-          "send()"
-        ],
         "RTCDTMFSender": [
-          "insertDTMF()",
           "canInsertDTMF"
         ]
       },
@@ -6767,18 +4231,6 @@
       }
     }
   },
-  "websockets": {
-    "title": "WebSockets Standard",
-    "url": "https://websockets.spec.whatwg.org/",
-    "idl": {
-      "mdn": {
-        "WebSocket": [
-          "close()",
-          "send()"
-        ]
-      }
-    }
-  },
   "webtransport": {
     "title": "WebTransport",
     "url": "https://www.w3.org/TR/webtransport/",
@@ -6787,10 +4239,7 @@
         "WebTransport": [
           "getStats()",
           "reliability",
-          "congestionControl",
-          "close()",
-          "createBidirectionalStream()",
-          "createUnidirectionalStream()"
+          "congestionControl"
         ],
         "WebTransportSendStream": true,
         "WebTransportReceiveStream": true
@@ -6811,10 +4260,6 @@
     "url": "https://wicg.github.io/webusb/",
     "idl": {
       "mdn": {
-        "USB": [
-          "getDevices()",
-          "requestDevice()"
-        ],
         "Navigator": [
           "usb"
         ],
@@ -6843,23 +4288,6 @@
         ],
         "USBIsochronousOutTransferResult": [
           "packets"
-        ],
-        "USBDevice": [
-          "open()",
-          "close()",
-          "forget()",
-          "selectConfiguration()",
-          "claimInterface()",
-          "releaseInterface()",
-          "selectAlternateInterface()",
-          "controlTransferIn()",
-          "controlTransferOut()",
-          "clearHalt()",
-          "transferIn()",
-          "transferOut()",
-          "isochronousTransferIn()",
-          "isochronousTransferOut()",
-          "reset()"
         ],
         "USBInterface": [
           "interfaceNumber",
@@ -6890,9 +4318,6 @@
     "url": "https://www.w3.org/TR/webvtt1/",
     "idl": {
       "mdn": {
-        "VTTCue": [
-          "getCueAsHTML()"
-        ],
         "VTTRegion": [
           "id",
           "width",
@@ -6906,23 +4331,6 @@
       }
     }
   },
-  "webxr-depth-sensing": {
-    "title": "WebXR Depth Sensing Module",
-    "url": "https://www.w3.org/TR/webxr-depth-sensing-1/",
-    "idl": {
-      "mdn": {
-        "XRCPUDepthInformation": [
-          "getDepthInMeters()"
-        ],
-        "XRFrame": [
-          "getDepthInformation()"
-        ],
-        "XRWebGLBinding": [
-          "getDepthInformation()"
-        ]
-      }
-    }
-  },
   "webxr-hand-input": {
     "title": "WebXR Hand Input Module - Level 1",
     "url": "https://www.w3.org/TR/webxr-hand-input-1/",
@@ -6931,59 +4339,12 @@
         "XRHand": [
           "size",
           "get()"
-        ],
-        "XRFrame": [
-          "getJointPose()",
-          "fillJointRadii()",
-          "fillPoses()"
         ]
       },
       "bcd": {
         "XRHand": [
           "size",
           "get()"
-        ]
-      }
-    }
-  },
-  "webxr-hit-test": {
-    "title": "WebXR Hit Test Module",
-    "url": "https://www.w3.org/TR/webxr-hit-test-1/",
-    "idl": {
-      "mdn": {
-        "XRHitTestSource": [
-          "cancel()"
-        ],
-        "XRTransientInputHitTestSource": [
-          "cancel()"
-        ],
-        "XRHitTestResult": [
-          "getPose()"
-        ],
-        "XRSession": [
-          "requestHitTestSource()",
-          "requestHitTestSourceForTransientInput()"
-        ],
-        "XRFrame": [
-          "getHitTestResults()",
-          "getHitTestResultsForTransientInput()"
-        ]
-      }
-    }
-  },
-  "webxr-lighting-estimation": {
-    "title": "WebXR Lighting Estimation API Level 1",
-    "url": "https://www.w3.org/TR/webxr-lighting-estimation-1/",
-    "idl": {
-      "mdn": {
-        "XRSession": [
-          "requestLightProbe()"
-        ],
-        "XRFrame": [
-          "getLightEstimate()"
-        ],
-        "XRWebGLBinding": [
-          "getReflectionCubeMap()"
         ]
       }
     }
@@ -6995,8 +4356,7 @@
       "mdn": {
         "XRCompositionLayer": [
           "forceMonoPresentation",
-          "opacity",
-          "destroy()"
+          "opacity"
         ],
         "XRProjectionLayer": [
           "deltaPose"
@@ -7009,19 +4369,7 @@
           "motionVectorTextureHeight"
         ],
         "XRWebGLBinding": [
-          "usesDepthValues",
-          "createProjectionLayer()",
-          "createQuadLayer()",
-          "createCylinderLayer()",
-          "createEquirectLayer()",
-          "createCubeLayer()",
-          "getSubImage()",
-          "getViewSubImage()"
-        ],
-        "XRMediaBinding": [
-          "createQuadLayer()",
-          "createCylinderLayer()",
-          "createEquirectLayer()"
+          "usesDepthValues"
         ]
       },
       "bcd": {
@@ -7041,17 +4389,6 @@
         ],
         "XRWebGLBinding": [
           "usesDepthValues"
-        ]
-      }
-    }
-  },
-  "window-controls-overlay": {
-    "title": "Window Controls Overlay",
-    "url": "https://wicg.github.io/window-controls-overlay/",
-    "idl": {
-      "mdn": {
-        "WindowControlsOverlay": [
-          "getTitlebarAreaRect()"
         ]
       }
     }
@@ -7077,24 +4414,7 @@
     "url": "https://xhr.spec.whatwg.org/",
     "idl": {
       "mdn": {
-        "XMLHttpRequestUpload": true,
-        "XMLHttpRequest": [
-          "open()",
-          "setRequestHeader()",
-          "send()",
-          "abort()",
-          "getResponseHeader()",
-          "getAllResponseHeaders()",
-          "overrideMimeType()"
-        ],
-        "FormData": [
-          "append()",
-          "delete()",
-          "get()",
-          "getAll()",
-          "has()",
-          "set()"
-        ]
+        "XMLHttpRequestUpload": true
       }
     }
   },
