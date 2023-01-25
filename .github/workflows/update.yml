@@ -37,7 +37,7 @@ jobs:
       working-directory: yari
     - name: Update yari inventory
       working-directory: yari
-      run: yarn tool inventory > ../mdn-gaps/inventory.json
+      run: yarn build:dist && yarn tool inventory > ../mdn-gaps/inventory.json
     - name: Install repo dependencies
       run: |
         npm install
