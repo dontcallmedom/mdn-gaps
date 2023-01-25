@@ -8,7 +8,7 @@ const { definitionSyntax } = require('css-tree');
 
 const gaps = {};
 
-function setGap(spec, type, content, name, subname) {
+function setGap(spec, type, content, name, subname, props = {}) {
   if (!gaps[spec]) {
     const specData = browserSpecs.find(s => s.series.shortname === spec);
     gaps[spec] = {title: specData?.title, url: specData?.url};
@@ -16,21 +16,51 @@ function setGap(spec, type, content, name, subname) {
   if (!gaps[spec][type]) {
     gaps[spec][type] = {};
   }
-  if (!gaps[spec][type][content]) {
-    gaps[spec][type][content] = {};
+  if (!gaps[spec][type][name]) {
+    gaps[spec][type][name] = {};
   }
-
   if (!subname) {
-    gaps[spec][type][content][name] = true;
+    gaps[spec][type][name][content] = true;
   } else {
-    if (gaps[spec][type][content][name] !== true) {
-      if (!Array.isArray(gaps[spec][type][content][name])) {
-	gaps[spec][type][content][name] = [];
+    if (gaps[spec][type][name][content] !== true) {
+      if (!gaps[spec][type][name].members) {
+	gaps[spec][type][name].members = {};
       }
-      if (!gaps[spec][type][content][name].includes(subname)) {
-	gaps[spec][type][content][name].push(subname);
+      if (!gaps[spec][type][name].members[subname]) {
+	gaps[spec][type][name].members[subname] = {...props};
+      }
+      gaps[spec][type][name].members[subname][content] = true;
+    }
+  }
+}
+
+function setBcdSupport(name, item, spec, bcdTree) {
+  const ret = {"chrome": null, "firefox": null, "safari": null };
+  if (bcdTree[name]) {
+    const supportData = item ? bcdTree[name][item].__compat.support : bcdTree[name].__compat.support;
+    // TODO: this won't work well for mobile-only feature
+    for (const browserId of Object.keys(ret)) {
+      const versionData = supportData[browserId];
+      if (versionData.version_removed) {
+	ret[browserId] = false;
+      }
+      const versionAdded = versionData.version_added;
+      if (typeof versionAdded === "boolean") {
+	ret[browserId] = versionAdded;
+      } else if (!versionAdded) {
+	ret[browserId] = null;
+      } else {
+      ret[browserId] = true;
       }
     }
+  }
+  if (item) {
+    if (!gaps[spec]["idl"][name].members[item]) {
+      gaps[spec]["idl"][name].members[item] = {};
+    }
+    gaps[spec]["idl"][name].members[item].bcdSupport = ret;
+  } else {
+    gaps[spec]["idl"][name].bcdSupport = ret;
   }
 }
 
@@ -41,27 +71,42 @@ function checkMdnPage(tree, type, qname) {
 
 function checkIdlTopLevelName(name, item, spec, bcdTree) {
   // Check mdn documentation
+  let hasMdnGap = false, hasBcdGap = false;
   if (!checkMdnPage("api", null, name)) {
     setGap(spec, "idl", "mdn", name);
+    hasMdnGap = true;
   }
   if (!bcdTree[name]) {
     setGap(spec, "idl", "bcd", name);
+    hasBcdGap = true;
+  } else {
+    if (hasMdnGap) {
+      setBcdSupport(name, null, spec, bcdTree);
+    }
   }
+  if (hasBcdGap && hasMdnGap) return;
   // Check members
   for (let member of item.members) {
+    let hasMdnGap = false, hasBcdGap = false;
     if (!member.name) continue;
-    const memberName = member.name + ( member.type === "operation" ? "()" : "");
     if (member.type === "const") continue;
     // TODO check events separately
     // since event handlers don't get tracked as attributes
     if (member.name.startsWith("on") && member.type === "attribute" && member.idlType?.idlType === "EventHandler") continue;
-
+    const type = member.type === "operation" ? "method" : "attribute";
+    const isStatic = member.special === "static";
     // Check mdn documentation
     if (checkMdnPage("api", null, name) && !checkMdnPage("api", null, name + "." + member.name)) {
-      setGap(spec, "idl", "mdn", name, memberName);
+      hasMdnGap = true;
+      setGap(spec, "idl", "mdn", name, member.name, {type, isStatic});
     }
     if (bcdTree[name] && !bcdTree[name][member.name]) {
-      setGap(spec, "idl", "bcd", name, memberName);
+      hasBcdGap = true;
+      setGap(spec, "idl", "bcd", name, member.name, {type, isStatic});
+    } else {
+      if (hasMdnGap) {
+	setBcdSupport(name, member.name, spec, bcdTree);
+      }
     }
   }
 }
