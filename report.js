@@ -58,7 +58,7 @@ for (const id of Object.keys(gapIds)) {
 		    const stubLink = document.createElement("a");
 		    stubLink.title = `Generate stub for ${li.textContent} MDN page`;
 		    stubLink.textContent = "[stub]";
-		    stubLink.href = `https://dontcallmedom.github.io/mdn-scaffold/?interface=${feature}&member=${t}`;
+		    stubLink.href = `https://dontcallmedom.github.io/mdn-scaffold/?interface=${feature}&member=${(t.endsWith('()') ? "operation|" : "attribute|") + t.replace("()", "")}`; // TODO this doesn't deal with static properties / operations
 		    li.textContent += " ";
 		    li.append(stubLink);
 		  }
