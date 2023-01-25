@@ -47,6 +47,7 @@ jobs:
       working-directory: mdn-gaps
     - name: Publish updated data
       uses: stefanzweifel/git-auto-commit-action@v4
+      working-directory: mdn-gaps
       with:
         commit_message: "Update from GH action run"
         file_pattern: 'results.json'
