@@ -1966,19 +1966,7 @@
           "svi()",
           "svb()",
           "svmin()",
-          "svmax()",
-          "lvw()",
-          "lvh()",
-          "lvi()",
-          "lvb()",
-          "lvmin()",
-          "lvmax()",
-          "dvw()",
-          "dvh()",
-          "dvi()",
-          "dvb()",
-          "dvmin()",
-          "dvmax()"
+          "svmax()"
         ],
         "CSSColorValue": true,
         "CSSRGB": true,
@@ -3736,11 +3724,8 @@
     "idl": {
       "mdn": {
         "AudioContext": [
-          "sinkId",
-          "renderCapacity",
-          "setSinkId()"
+          "renderCapacity"
         ],
-        "AudioSinkInfo": true,
         "AudioRenderCapacity": true,
         "AudioRenderCapacityEvent": true,
         "AudioParam": [
