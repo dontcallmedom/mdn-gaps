@@ -46,8 +46,8 @@ jobs:
       run: node fetch-gaps.js > ../mdn-gaps-web/results.json
       working-directory: mdn-gaps
     - name: Publish updated data
-      uses: stefanzweifel/git-auto-commit-action@v4
       working-directory: mdn-gaps
+      uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: "Update from GH action run"
         file_pattern: 'results.json'
