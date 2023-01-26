@@ -9166,63 +9166,6 @@
           "safari": false
         }
       },
-<<<<<<< HEAD
-      "bcd": {
-        "CSS": [
-          "ic()",
-          "lh()",
-          "rlh()",
-          "svw()",
-          "svh()",
-          "svi()",
-          "svb()",
-          "svmin()",
-          "svmax()"
-        ],
-        "CSSColorValue": true,
-        "CSSRGB": true,
-        "CSSHSL": true,
-        "CSSHWB": true,
-        "CSSLab": true,
-        "CSSLCH": true,
-        "CSSOKLab": true,
-        "CSSOKLCH": true,
-        "CSSColor": true
-||||||| parent of e926109 (Adapt to new data structure)
-      "bcd": {
-        "CSS": [
-          "ic()",
-          "lh()",
-          "rlh()",
-          "svw()",
-          "svh()",
-          "svi()",
-          "svb()",
-          "svmin()",
-          "svmax()",
-          "lvw()",
-          "lvh()",
-          "lvi()",
-          "lvb()",
-          "lvmin()",
-          "lvmax()",
-          "dvw()",
-          "dvh()",
-          "dvi()",
-          "dvb()",
-          "dvmin()",
-          "dvmax()"
-        ],
-        "CSSColorValue": true,
-        "CSSRGB": true,
-        "CSSHSL": true,
-        "CSSHWB": true,
-        "CSSLab": true,
-        "CSSLCH": true,
-        "CSSOKLab": true,
-        "CSSOKLCH": true,
-        "CSSColor": true
-=======
       "CSS": {
         "members": {
           "number": {
@@ -9403,73 +9346,121 @@
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "lvh": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "lvi": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "lvb": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "lvmin": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "lvmax": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "dvw": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "dvh": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "dvi": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "dvb": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "dvmin": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "dvmax": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "cqw": {
             "type": "method",
@@ -9758,7 +9749,6 @@
       "CSSColor": {
         "mdn": true,
         "bcd": true
->>>>>>> e926109 (Adapt to new data structure)
       }
     }
   },
@@ -14145,28 +14135,6 @@
     "title": "Payment Handler API",
     "url": "https://www.w3.org/TR/payment-handler/",
     "idl": {
-      "PaymentManager": {
-        "members": {
-          "instruments": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      },
-      "PaymentInstruments": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
-        }
-      },
       "PaymentRequestEvent": {
         "members": {
           "paymentOptions": {
@@ -15525,95 +15493,14 @@
     "title": "Web Audio API",
     "url": "https://www.w3.org/TR/webaudio/",
     "idl": {
-<<<<<<< HEAD
-      "mdn": {
-        "AudioContext": [
-          "renderCapacity"
-        ],
-        "AudioRenderCapacity": true,
-        "AudioRenderCapacityEvent": true,
-        "AudioParam": [
-          "automationRate"
-        ],
-        "AudioProcessingEvent": [
-          "playbackTime",
-          "inputBuffer",
-          "outputBuffer"
-        ],
-        "AudioWorklet": [
-          "port"
-        ],
-        "AudioWorkletGlobalScope": [
-          "currentFrame",
-          "currentTime",
-          "sampleRate",
-          "port"
-        ]
-||||||| parent of e926109 (Adapt to new data structure)
-      "mdn": {
-        "AudioContext": [
-          "sinkId",
-          "renderCapacity",
-          "setSinkId()"
-        ],
-        "AudioSinkInfo": true,
-        "AudioRenderCapacity": true,
-        "AudioRenderCapacityEvent": true,
-        "AudioParam": [
-          "automationRate"
-        ],
-        "AudioProcessingEvent": [
-          "playbackTime",
-          "inputBuffer",
-          "outputBuffer"
-        ],
-        "AudioWorklet": [
-          "port"
-        ],
-        "AudioWorkletGlobalScope": [
-          "currentFrame",
-          "currentTime",
-          "sampleRate",
-          "port"
-        ]
-=======
       "AudioContext": {
         "members": {
-          "sinkId": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
           "renderCapacity": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
             "bcd": true
-          },
-          "setSinkId": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
           }
-        }
->>>>>>> e926109 (Adapt to new data structure)
-      },
-      "AudioSinkInfo": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
         }
       },
       "AudioRenderCapacity": {
@@ -16688,7 +16575,7 @@
         "mdn": true,
         "bcd": true
       },
-      "MLContext": {
+      "MLGraph": {
         "mdn": true,
         "bcd": true
       },
@@ -16700,15 +16587,15 @@
         "mdn": true,
         "bcd": true
       },
-      "MLGraphBuilder": {
-        "mdn": true,
-        "bcd": true
-      },
-      "MLGraph": {
+      "MLContext": {
         "mdn": true,
         "bcd": true
       },
       "MLCommandEncoder": {
+        "mdn": true,
+        "bcd": true
+      },
+      "MLGraphBuilder": {
         "mdn": true,
         "bcd": true
       }
