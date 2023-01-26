@@ -6,12 +6,32 @@ const gapIds = {
   elements: ["elements"]
 };
 
+const browserEngines = {
+  "chrome": "https://cdn.w3.org/assets/logos/browser-logos/chrome/chrome.svg",
+  "firefox": "https://cdn.w3.org/assets/logos/browser-logos/firefox/firefox.svg",
+  "safari": "https://cdn.w3.org/assets/logos/browser-logos/safari-ios/safari-ios.svg"
+};
+
 function idlStubLink(feature, memberName, memberType, isStatic) {
   const stubLink = document.createElement("a");
   stubLink.title = `Generate stub for ${feature + memberName ? "." + memberName : ""} MDN page`;
   stubLink.textContent = "[stub]";
   stubLink.href = `https://dontcallmedom.github.io/mdn-scaffold/?interface=${feature}&${memberName ? `member=${memberType}|${memberName}${isStatic ? "|static" : ""}}` : ""}`;
 return stubLink;
+}
+
+function bcdSupport(name, support) {
+  const ret = [];
+  for (const engine in browserEngines) {
+    if (support[engine] === true) {
+      const img = document.createElement("img");
+      img.width = 20;
+      img.src = browserEngines[engine];
+      img.alt = `${name} supported in ${engine}`;
+      ret.push(img);
+    }
+  }
+  return ret;
 }
 
 for (const id of Object.keys(gapIds)) {
@@ -47,6 +67,9 @@ for (const id of Object.keys(gapIds)) {
 	    if (gapId === "idl") {
 	      mdnTd.append(document.createTextNode(" "), idlStubLink(feature));
 	    }
+	    if (specData[gapId][feature].bcdSupport) {
+	      mdnTd.append(...bcdSupport(feature, specData[gapId][feature].bcdSupport));
+	    }
 	    mdnTd.className = "missing";
 	  }
 	  if (specData[gapId][feature].members) {
@@ -62,6 +85,9 @@ for (const id of Object.keys(gapIds)) {
 	      if (f.mdn) {
 		if (gapId === "idl") {
 		  li.append(document.createTextNode(" "), idlStubLink(feature, t, f.type, f.isStatic));
+		  if (f.bcdSupport) {
+		    li.append(...bcdSupport(feature + "." + t, f.bcdSupport));
+		  }
 		}
 		mdnUl.append(li);
 	      }
