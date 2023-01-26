@@ -58,37 +58,48 @@ for (const id of Object.keys(gapIds)) {
 	for (let feature of [...gaps]) {
 	  const bcdTd = document.createElement("td");
 	  const mdnTd = document.createElement("td");
+	  const div = document.createElement("div");
 	  if (specData[gapId][feature].bcd) {
 	    bcdTd.textContent = feature;
 	    bcdTd.className = "missing";
 	  }
 	  if (specData[gapId][feature].mdn) {
-	    mdnTd.textContent = feature;
+	    const nameSpan = document.createElement("span");
+	    const supportSpan = document.createElement("span");
+	    nameSpan.textContent = feature;
+	    div.append(nameSpan);
 	    if (gapId === "idl") {
-	      mdnTd.append(document.createTextNode(" "), idlStubLink(feature));
+	      div.append(" ", idlStubLink(feature));
 	    }
 	    if (specData[gapId][feature].bcdSupport) {
-	      mdnTd.append(...bcdSupport(feature, specData[gapId][feature].bcdSupport));
+	      const images = bcdSupport(feature, specData[gapId][feature].bcdSupport);
+	      supportSpan.append(...images);
 	    }
-	    mdnTd.className = "missing";
+	    div.append(supportSpan);
+	    mdnTd.append(div);
+	    mdnTd.className = "mdn missing";
 	  }
 	  if (specData[gapId][feature].members) {
 	    const bcdUl = document.createElement("ul");
 	    const mdnUl = document.createElement("ul");
 	    Object.keys(specData[gapId][feature].members).forEach(t => {
+	      const nameSpan = document.createElement("span");
+	      const supportSpan = document.createElement("span");
 	      const f = specData[gapId][feature].members[t];
 	      const li = document.createElement("li");
-	      li.textContent = feature + "." + t;
+	      nameSpan.textContent = feature + "." + t;
+	      li.append(nameSpan);
 	      if (f.bcd) {
 		bcdUl.append(li.cloneNode(true));
 	      }
 	      if (f.mdn) {
 		if (gapId === "idl") {
-		  li.append(document.createTextNode(" "), idlStubLink(feature, t, f.type, f.isStatic));
-		  if (f.bcdSupport) {
-		    li.append(...bcdSupport(feature + "." + t, f.bcdSupport));
-		  }
+		  li.append(" ", idlStubLink(feature, t, f.type, f.isStatic));
 		}
+		if (f.bcdSupport) {
+		  supportSpan.append(...bcdSupport(feature + "." + t, f.bcdSupport));
+		}
+		li.append(supportSpan);
 		mdnUl.append(li);
 	      }
 	    });
@@ -98,38 +109,8 @@ for (const id of Object.keys(gapIds)) {
 	    }
 	    if (mdnUl.childElementCount) {
 	      mdnTd.append(mdnUl);
-	      mdnTd.className = "missing";
+	      mdnTd.className = "mdn missing";
 	    }
-	  }
-	  if (specData[gapId][feature].mdn) {
-	    if (Array.isArray(specData[gapId][feature].mdn)) {
-	      const ul = document.createElement("ul");
-	      specData[gapId][feature].mdn.forEach(t => {
-		const li = document.createElement("li");
-		li.textContent = feature + "." + t;
-		if (id === "idl") {
-		  const stubLink = document.createElement("a");
-		  stubLink.title = `Generate stub for ${li.textContent} MDN page`;
-		  stubLink.textContent = "[stub]";
-		  stubLink.href = `https://dontcallmedom.github.io/mdn-scaffold/?interface=${feature}&member=${(t.endsWith('()') ? "operation|" : "attribute|") + t.replace("()", "")}`; // TODO this doesn't deal with static properties / operations
-		  li.textContent += " ";
-		  li.append(stubLink);
-		}
-		ul.appendChild(li);
-	      });
-	      mdnTd.appendChild(ul);
-	    } else {
-	      mdnTd.textContent = feature;
-	      if (id === "idl") {
-		const stubLink = document.createElement("a");
-		stubLink.title = `Generate stub for ${feature} MDN page`;
-		stubLink.textContent = "[stub]";
-		stubLink.href = `https://dontcallmedom.github.io/mdn-scaffold/?interface=${feature}`;
-		mdnTd.textContent += " ";
-		mdnTd.append(stubLink);
-		}
-	    }
-	    mdnTd.className = "missing";
 	  }
 	  tr.append(bcdTd, mdnTd);
 	  table.append(tr);
