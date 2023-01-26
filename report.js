@@ -6,6 +6,13 @@ const gapIds = {
   elements: ["elements"]
 };
 
+function idlStubLink(feature, memberName, memberType, isStatic) {
+  const stubLink = document.createElement("a");
+  stubLink.title = `Generate stub for ${feature + memberName ? "." + memberName : ""} MDN page`;
+  stubLink.textContent = "[stub]";
+  stubLink.href = `https://dontcallmedom.github.io/mdn-scaffold/?interface=${feature}&${memberName ? `member=${memberType}|${memberName}${isStatic ? "|static" : ""}}` : ""}`;
+return stubLink;
+}
 
 for (const id of Object.keys(gapIds)) {
   const table = document.getElementById(id);
@@ -26,62 +33,81 @@ for (const id of Object.keys(gapIds)) {
 	    th.textContent = shortname;
 	  }
 	}
-	if (specData[gapId].bcd || specData[gapId].mdn) {
-	  if (!specData[gapId].bcd) specData[gapId].bcd = {};
-	  if (!specData[gapId].mdn) specData[gapId].mdn = {};
-	  const gaps = new Set(Object.keys(specData[gapId].bcd).concat(Object.keys(specData[gapId].mdn)));
-	  th.setAttribute("rowspan", parseInt(th.getAttribute("rowspan") || 0) + gaps.size );
-	  for (let feature of [...gaps]) {
-	    const bcdTd = document.createElement("td");
-	    const mdnTd = document.createElement("td");
-	    if (specData[gapId].bcd[feature]) {
-	      if (Array.isArray(specData[gapId].bcd[feature])) {
-		const ul = document.createElement("ul");
-		specData[gapId].bcd[feature].forEach(t => {
-		  const li = document.createElement("li");
-		  li.textContent = feature + "." + t;
-		  ul.appendChild(li);
-		});
-		bcdTd.appendChild(ul);
-	      } else {
-		bcdTd.textContent = feature;
+	const gaps = Object.keys(specData[gapId]);
+	th.setAttribute("rowspan", gaps.length );
+	for (let feature of [...gaps]) {
+	  const bcdTd = document.createElement("td");
+	  const mdnTd = document.createElement("td");
+	  if (specData[gapId][feature].bcd) {
+	    bcdTd.textContent = feature;
+	    bcdTd.className = "missing";
+	  }
+	  if (specData[gapId][feature].mdn) {
+	    mdnTd.textContent = feature;
+	    if (gapId === "idl") {
+	      mdnTd.append(document.createTextNode(" "), idlStubLink(feature));
+	    }
+	    mdnTd.className = "missing";
+	  }
+	  if (specData[gapId][feature].members) {
+	    const bcdUl = document.createElement("ul");
+	    const mdnUl = document.createElement("ul");
+	    Object.keys(specData[gapId][feature].members).forEach(t => {
+	      const f = specData[gapId][feature].members[t];
+	      const li = document.createElement("li");
+	      li.textContent = feature + "." + t;
+	      if (f.bcd) {
+		bcdUl.append(li.cloneNode(true));
 	      }
+	      if (f.mdn) {
+		if (gapId === "idl") {
+		  li.append(document.createTextNode(" "), idlStubLink(feature, t, f.type, f.isStatic));
+		}
+		mdnUl.append(li);
+	      }
+	    });
+	    if (bcdUl.childElementCount) {
+	      bcdTd.append(bcdUl);
 	      bcdTd.className = "missing";
 	    }
-	    if (specData[gapId]?.mdn[feature]) {
-	      if (Array.isArray(specData[gapId].mdn[feature])) {
-		const ul = document.createElement("ul");
-		specData[gapId].mdn[feature].forEach(t => {
-		  const li = document.createElement("li");
-		  li.textContent = feature + "." + t;
-		  if (id === "idl") {
-		    const stubLink = document.createElement("a");
-		    stubLink.title = `Generate stub for ${li.textContent} MDN page`;
-		    stubLink.textContent = "[stub]";
-		    stubLink.href = `https://dontcallmedom.github.io/mdn-scaffold/?interface=${feature}&member=${(t.endsWith('()') ? "operation|" : "attribute|") + t.replace("()", "")}`; // TODO this doesn't deal with static properties / operations
-		    li.textContent += " ";
-		    li.append(stubLink);
-		  }
-		  ul.appendChild(li);
-		});
-		mdnTd.appendChild(ul);
-	      } else {
-		mdnTd.textContent = feature;
-		if (id === "idl") {
-		  const stubLink = document.createElement("a");
-		  stubLink.title = `Generate stub for ${feature} MDN page`;
-		  stubLink.textContent = "[stub]";
-		  stubLink.href = `https://dontcallmedom.github.io/mdn-scaffold/?interface=${feature}`;
-		  mdnTd.textContent += " ";
-		  mdnTd.append(stubLink);
-		}
-	      }
+	    if (mdnUl.childElementCount) {
+	      mdnTd.append(mdnUl);
 	      mdnTd.className = "missing";
 	    }
-	    tr.append(bcdTd, mdnTd);
-	    table.append(tr);
-	    tr = document.createElement("tr");
 	  }
+	  if (specData[gapId][feature].mdn) {
+	    if (Array.isArray(specData[gapId][feature].mdn)) {
+	      const ul = document.createElement("ul");
+	      specData[gapId][feature].mdn.forEach(t => {
+		const li = document.createElement("li");
+		li.textContent = feature + "." + t;
+		if (id === "idl") {
+		  const stubLink = document.createElement("a");
+		  stubLink.title = `Generate stub for ${li.textContent} MDN page`;
+		  stubLink.textContent = "[stub]";
+		  stubLink.href = `https://dontcallmedom.github.io/mdn-scaffold/?interface=${feature}&member=${(t.endsWith('()') ? "operation|" : "attribute|") + t.replace("()", "")}`; // TODO this doesn't deal with static properties / operations
+		  li.textContent += " ";
+		  li.append(stubLink);
+		}
+		ul.appendChild(li);
+	      });
+	      mdnTd.appendChild(ul);
+	    } else {
+	      mdnTd.textContent = feature;
+	      if (id === "idl") {
+		const stubLink = document.createElement("a");
+		stubLink.title = `Generate stub for ${feature} MDN page`;
+		stubLink.textContent = "[stub]";
+		stubLink.href = `https://dontcallmedom.github.io/mdn-scaffold/?interface=${feature}`;
+		mdnTd.textContent += " ";
+		mdnTd.append(stubLink);
+		}
+	    }
+	    mdnTd.className = "missing";
+	  }
+	  tr.append(bcdTd, mdnTd);
+	  table.append(tr);
+	  tr = document.createElement("tr");
 	}
       }
     }
