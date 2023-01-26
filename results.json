@@ -22,8 +22,6 @@
     }
   },
   "EXT_clip_cull_distance": {
-    "title": "WebGL EXT_clip_cull_distance Extension Draft Specification",
-    "url": "https://registry.khronos.org/webgl/extensions/EXT_clip_cull_distance/",
     "idl": {
       "mdn": {
         "EXT_clip_cull_distance": true
