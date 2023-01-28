@@ -51,7 +51,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": true,
-              "firefox": true,
+              "firefox": false,
               "safari": true
             }
           },
@@ -101,7 +101,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": true,
-              "firefox": true,
+              "firefox": false,
               "safari": true
             }
           },
@@ -8459,7 +8459,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": true,
+              "safari": false
+            }
           }
         }
       }
@@ -9310,37 +9314,61 @@
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "svh": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "svi": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "svb": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "svmin": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "svmax": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "lvw": {
             "type": "method",
@@ -13927,20 +13955,6 @@
     "title": "Media Capture and Streams",
     "url": "https://www.w3.org/TR/mediacapture-streams/",
     "idl": {
-      "MediaStream": {
-        "members": {
-          "removeTrack": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
       "MediaStreamTrackEvent": {
         "members": {
           "track": {
@@ -17464,13 +17478,21 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": false
+            }
           },
           "get": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       }
