@@ -129,14 +129,6 @@
       }
     }
   },
-  "EXT_clip_cull_distance": {
-    "idl": {
-      "EXT_clip_cull_distance": {
-        "mdn": true,
-        "bcd": true
-      }
-    }
-  },
   "EXT_disjoint_timer_query": {
     "title": "WebGL EXT_disjoint_timer_query Extension Specification",
     "url": "https://registry.khronos.org/webgl/extensions/EXT_disjoint_timer_query/",
@@ -3007,6 +2999,30 @@
               "safari": false
             }
           },
+          "showPopover": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "hidePopover": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "togglePopover": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "popover": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "autofocus": {
             "type": "attribute",
             "isStatic": false,
@@ -4923,6 +4939,24 @@
               "safari": true
             }
           },
+          "popoverToggleTargetElement": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "popoverHideTargetElement": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "popoverShowTargetElement": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "align": {
             "type": "attribute",
             "isStatic": false,
@@ -5096,6 +5130,24 @@
               "firefox": true,
               "safari": true
             }
+          },
+          "popoverToggleTargetElement": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "popoverHideTargetElement": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "popoverShowTargetElement": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
           }
         }
       },
@@ -6959,6 +7011,10 @@
           }
         }
       },
+      "ToggleEvent": {
+        "mdn": true,
+        "bcd": true
+      },
       "Window": {
         "members": {
           "clientInformation": {
@@ -7963,6 +8019,16 @@
       }
     }
   },
+  "WEBGL_clip_cull_distance": {
+    "title": "WebGL WEBGL_clip_cull_distance Extension Draft Specification",
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_clip_cull_distance/",
+    "idl": {
+      "WEBGL_clip_cull_distance": {
+        "mdn": true,
+        "bcd": true
+      }
+    }
+  },
   "WEBGL_draw_instanced_base_vertex_base_instance": {
     "title": "WebGL WEBGL_draw_instanced_base_vertex_base_instance Extension Draft Specification",
     "url": "https://registry.khronos.org/webgl/extensions/WEBGL_draw_instanced_base_vertex_base_instance/",
@@ -7978,6 +8044,16 @@
     "url": "https://registry.khronos.org/webgl/extensions/WEBGL_multi_draw_instanced_base_vertex_base_instance/",
     "idl": {
       "WEBGL_multi_draw_instanced_base_vertex_base_instance": {
+        "mdn": true,
+        "bcd": true
+      }
+    }
+  },
+  "WEBGL_provoking_vertex": {
+    "title": "WebGL WEBGL_provoking_vertex Extension Specification",
+    "url": "https://registry.khronos.org/webgl/extensions/WEBGL_provoking_vertex/",
+    "idl": {
+      "WEBGL_provoking_vertex": {
         "mdn": true,
         "bcd": true
       }
@@ -13503,6 +13579,22 @@
       }
     }
   },
+  "gpc-spec": {
+    "title": "Global Privacy Control (GPC)",
+    "url": "https://privacycg.github.io/gpc-spec/",
+    "idl": {
+      "WorkerNavigator": {
+        "members": {
+          "globalPrivacyControl": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      }
+    }
+  },
   "html-media-capture": {
     "title": "HTML Media Capture",
     "url": "https://www.w3.org/TR/html-media-capture/",
@@ -14662,6 +14754,22 @@
               "firefox": false,
               "safari": true
             }
+          }
+        }
+      }
+    }
+  },
+  "requestStorageAccessForOrigin": {
+    "title": "requestStorageAccessForOrigin API",
+    "url": "https://privacycg.github.io/requestStorageAccessForOrigin/",
+    "idl": {
+      "Document": {
+        "members": {
+          "requestStorageAccessForOrigin": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
           }
         }
       }
