@@ -8187,7 +8187,11 @@
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": null,
+              "safari": false
+            }
           }
         }
       }
@@ -10264,7 +10268,11 @@
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
@@ -14170,40 +14178,6 @@
       "model": {
         "mdn": true,
         "bcd": true
-      }
-    }
-  },
-  "navigation-timing": {
-    "title": "Navigation Timing Level 2",
-    "url": "https://www.w3.org/TR/navigation-timing-2/",
-    "idl": {
-      "PerformanceTiming": {
-        "members": {
-          "toJSON": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "PerformanceNavigation": {
-        "members": {
-          "toJSON": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
       }
     }
   },
@@ -18267,8 +18241,7 @@
         "bcd": true
       },
       "baseline-source": {
-        "mdn": true,
-        "bcd": true
+        "mdn": true
       },
       "alignment-baseline": {
         "mdn": true,
