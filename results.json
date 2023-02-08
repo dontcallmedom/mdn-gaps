@@ -8753,42 +8753,6 @@
       }
     }
   },
-  "css-highlight-api": {
-    "title": "CSS Custom Highlight API Module Level 1",
-    "url": "https://www.w3.org/TR/css-highlight-api-1/",
-    "idl": {
-      "Highlight": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
-        }
-      },
-      "CSS": {
-        "members": {
-          "highlights": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      },
-      "HighlightRegistry": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
-        }
-      }
-    }
-  },
   "css-images-4": {
     "idl": {
       "CSS": {
