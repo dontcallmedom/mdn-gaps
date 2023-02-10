@@ -163,18 +163,7 @@
           "chrome": true,
           "firefox": false,
           "safari": false
-        },
-        "members": {
-          "logoutRPs": {
-            "type": "method",
-            "isStatic": true,
-            "bcd": true
-          }
         }
-      },
-      "IdentityProvider": {
-        "mdn": true,
-        "bcd": true
       }
     }
   },
@@ -8636,6 +8625,20 @@
       }
     }
   },
+  "css-contain": {
+    "title": "CSS Containment Module Level 1",
+    "url": "https://www.w3.org/TR/css-contain-1/",
+    "idl": {
+      "ContentVisibilityAutoStateChangedEvent": {
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
+      }
+    }
+  },
   "css-font-loading": {
     "title": "CSS Font Loading Module Level 3",
     "url": "https://www.w3.org/TR/css-font-loading-3/",
@@ -10499,6 +10502,16 @@
     "title": "Fetch Standard",
     "url": "https://fetch.spec.whatwg.org/",
     "idl": {
+      "Headers": {
+        "members": {
+          "getSetCookie": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
       "Request": {
         "members": {
           "keepalive": {
