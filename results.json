@@ -10072,34 +10072,6 @@
             }
           }
         }
-      },
-      "HTMLLinkElement": {
-        "members": {
-          "sheet": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "HTMLStyleElement": {
-        "members": {
-          "sheet": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
       }
     }
   },
@@ -10216,40 +10188,6 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
-          }
-        }
-      },
-      "DocumentType": {
-        "members": {
-          "name": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "publicId": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "systemId": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
           }
         }
       },
