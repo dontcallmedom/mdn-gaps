@@ -8048,56 +8048,6 @@
       }
     }
   },
-  "WebCryptoAPI": {
-    "title": "Web Cryptography API",
-    "url": "https://www.w3.org/TR/WebCryptoAPI/",
-    "idl": {
-      "CryptoKey": {
-        "members": {
-          "type": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "extractable": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "algorithm": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "usages": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      }
-    }
-  },
   "anchors": {
     "title": "WebXR Anchors Module",
     "url": "https://immersive-web.github.io/anchors/",
@@ -10428,16 +10378,6 @@
               "chrome": true,
               "firefox": false,
               "safari": false
-            }
-          },
-          "signal": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
             }
           },
           "duplex": {
@@ -14755,20 +14695,6 @@
             }
           }
         }
-      },
-      "FetchEvent": {
-        "members": {
-          "handled": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
       }
     }
   },
@@ -14779,26 +14705,6 @@
       "FaceDetector": {
         "mdn": true,
         "bcd": true
-      }
-    }
-  },
-  "speech-api": {
-    "title": "Web Speech API",
-    "url": "https://wicg.github.io/speech-api/",
-    "idl": {
-      "SpeechSynthesisEvent": {
-        "members": {
-          "charLength": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
       }
     }
   },
@@ -16878,16 +16784,6 @@
       },
       "RTCCertificate": {
         "members": {
-          "expires": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "getFingerprints": {
             "type": "method",
             "isStatic": false,
@@ -17884,8 +17780,6 @@
     }
   },
   "css-anchor": {
-    "title": "CSS Anchor Positioning",
-    "url": "https://drafts.csswg.org/css-anchor-1/",
     "css.properties": {
       "anchor-scroll": {
         "mdn": true,
@@ -18356,7 +18250,7 @@
     }
   },
   "css-speech": {
-    "title": "CSS Speech Module",
+    "title": "CSS Speech Module Level 1",
     "url": "https://www.w3.org/TR/css-speech-1/",
     "css.properties": {
       "voice-volume": {
