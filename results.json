@@ -14345,8 +14345,6 @@
     }
   },
   "priority-hints": {
-    "title": "Priority Hints",
-    "url": "https://wicg.github.io/priority-hints/",
     "idl": {
       "HTMLScriptElement": {
         "members": {
@@ -14640,20 +14638,6 @@
     "title": "Service Workers",
     "url": "https://www.w3.org/TR/service-workers/",
     "idl": {
-      "ServiceWorker": {
-        "members": {
-          "postMessage": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
       "WorkerNavigator": {
         "members": {
           "serviceWorker": {
