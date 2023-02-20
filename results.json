@@ -6146,6 +6146,16 @@
               "safari": false
             }
           },
+          "fetchPriority": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": null,
+              "firefox": false,
+              "safari": false
+            }
+          },
           "charset": {
             "type": "attribute",
             "isStatic": false,
@@ -8572,16 +8582,6 @@
             "bcd": true
           }
         }
-      }
-    }
-  },
-  "css-contain": {
-    "title": "CSS Containment Module Level 1",
-    "url": "https://www.w3.org/TR/css-contain-1/",
-    "idl": {
-      "ContentVisibilityAutoStateChangedEvent": {
-        "mdn": true,
-        "bcd": true
       }
     }
   },
@@ -13774,26 +13774,6 @@
       }
     }
   },
-  "media-capabilities": {
-    "title": "Media Capabilities",
-    "url": "https://www.w3.org/TR/media-capabilities/",
-    "idl": {
-      "WorkerNavigator": {
-        "members": {
-          "mediaCapabilities": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      }
-    }
-  },
   "media-source": {
     "title": "Media Source Extensions™",
     "url": "https://www.w3.org/TR/media-source-2/",
@@ -14344,34 +14324,6 @@
       }
     }
   },
-  "priority-hints": {
-    "idl": {
-      "HTMLScriptElement": {
-        "members": {
-          "fetchPriority": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": null,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      },
-      "HTMLIFrameElement": {
-        "members": {
-          "fetchPriority": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      }
-    }
-  },
   "private-click-measurement": {
     "title": "Private Click Measurement",
     "url": "https://privacycg.github.io/private-click-measurement/",
@@ -14604,6 +14556,12 @@
     "idl": {
       "Selection": {
         "members": {
+          "direction": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "empty": {
             "type": "method",
             "isStatic": false,
@@ -14614,7 +14572,7 @@
               "safari": true
             }
           },
-          "getComposedRange": {
+          "getComposedRanges": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
@@ -16876,6 +16834,18 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
+          },
+          "rateControlFeedbackMinInterval": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "rateControlFeedback": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
           }
         }
       },
@@ -16884,6 +16854,10 @@
         "bcd": true
       },
       "WebTransportReceiveStream": {
+        "mdn": true,
+        "bcd": true
+      },
+      "WebTransportRateControlFeedback": {
         "mdn": true,
         "bcd": true
       }
