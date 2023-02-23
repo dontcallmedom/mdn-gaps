@@ -167,20 +167,6 @@
       }
     }
   },
-  "OES_draw_buffers_indexed": {
-    "title": "WebGL OES_draw_buffers_indexed Extension Specification",
-    "url": "https://registry.khronos.org/webgl/extensions/OES_draw_buffers_indexed/",
-    "idl": {
-      "OES_draw_buffers_indexed": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": true,
-          "safari": true
-        }
-      }
-    }
-  },
   "OES_vertex_array_object": {
     "title": "WebGL OES_vertex_array_object Khronos Ratified Extension Specification",
     "url": "https://registry.khronos.org/webgl/extensions/OES_vertex_array_object/",
