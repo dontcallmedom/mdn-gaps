@@ -8512,6 +8512,20 @@
       }
     }
   },
+  "css-cascade-6": {
+    "idl": {
+      "CSSScopeRule": {
+        "mdn": true,
+        "bcd": true
+      }
+    },
+    "css.atrules": {
+      "@scope": {
+        "mdn": true,
+        "bcd": true
+      }
+    }
+  },
   "css-cascade": {
     "title": "CSS Cascading and Inheritance Level 3",
     "url": "https://www.w3.org/TR/css-cascade-3/",
@@ -17794,14 +17808,6 @@
     "url": "https://www.w3.org/TR/css-break-3/",
     "css.properties": {
       "margin-break": {
-        "mdn": true,
-        "bcd": true
-      }
-    }
-  },
-  "css-cascade-6": {
-    "css.atrules": {
-      "@scope": {
         "mdn": true,
         "bcd": true
       }
