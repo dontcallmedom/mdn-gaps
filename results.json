@@ -6301,7 +6301,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "save": {
@@ -6311,7 +6311,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "restore": {
@@ -6321,7 +6321,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "reset": {
@@ -6351,7 +6351,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "rotate": {
@@ -6361,7 +6361,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "translate": {
@@ -6371,7 +6371,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "transform": {
@@ -6381,7 +6381,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "getTransform": {
@@ -6391,7 +6391,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "setTransform": {
@@ -6401,7 +6401,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "resetTransform": {
@@ -6411,7 +6411,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "globalAlpha": {
@@ -6421,7 +6421,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "globalCompositeOperation": {
@@ -6431,7 +6431,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "imageSmoothingEnabled": {
@@ -6441,7 +6441,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "imageSmoothingQuality": {
@@ -6451,7 +6451,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "strokeStyle": {
@@ -6461,7 +6461,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "fillStyle": {
@@ -6471,7 +6471,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "createLinearGradient": {
@@ -6481,7 +6481,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "createRadialGradient": {
@@ -6491,7 +6491,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "createConicGradient": {
@@ -6501,7 +6501,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "createPattern": {
@@ -6511,7 +6511,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "shadowOffsetX": {
@@ -6521,7 +6521,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "shadowOffsetY": {
@@ -6531,7 +6531,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "shadowBlur": {
@@ -6541,7 +6541,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "shadowColor": {
@@ -6551,7 +6551,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "filter": {
@@ -6571,7 +6571,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "fillRect": {
@@ -6581,7 +6581,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "strokeRect": {
@@ -6591,7 +6591,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "beginPath": {
@@ -6601,7 +6601,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "fill": {
@@ -6611,7 +6611,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "stroke": {
@@ -6621,7 +6621,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "clip": {
@@ -6631,7 +6631,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "isPointInPath": {
@@ -6641,7 +6641,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "isPointInStroke": {
@@ -6651,7 +6651,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "fillText": {
@@ -6661,7 +6661,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "strokeText": {
@@ -6671,7 +6671,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "measureText": {
@@ -6681,7 +6681,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "drawImage": {
@@ -6691,7 +6691,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "createImageData": {
@@ -6701,7 +6701,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "getImageData": {
@@ -6711,7 +6711,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "putImageData": {
@@ -6721,7 +6721,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "lineWidth": {
@@ -6731,7 +6731,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "lineCap": {
@@ -6741,7 +6741,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "lineJoin": {
@@ -6751,7 +6751,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "miterLimit": {
@@ -6761,7 +6761,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "setLineDash": {
@@ -6771,7 +6771,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "getLineDash": {
@@ -6781,7 +6781,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "lineDashOffset": {
@@ -6791,7 +6791,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "font": {
@@ -6801,7 +6801,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "textAlign": {
@@ -6811,7 +6811,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "textBaseline": {
@@ -6821,7 +6821,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "direction": {
@@ -6831,7 +6831,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "letterSpacing": {
@@ -6901,7 +6901,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "moveTo": {
@@ -6911,7 +6911,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "lineTo": {
@@ -6921,7 +6921,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "quadraticCurveTo": {
@@ -6931,7 +6931,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "bezierCurveTo": {
@@ -6941,7 +6941,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "arcTo": {
@@ -6951,7 +6951,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "rect": {
@@ -6961,7 +6961,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "roundRect": {
@@ -6971,7 +6971,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "arc": {
@@ -6981,7 +6981,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "ellipse": {
@@ -6991,7 +6991,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           }
         }
@@ -7297,7 +7297,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           },
           "cancelAnimationFrame": {
@@ -7307,7 +7307,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           }
         }
@@ -9174,7 +9174,7 @@
         "bcdSupport": {
           "chrome": true,
           "firefox": false,
-          "safari": false
+          "safari": true
         }
       },
       "CSS": {
@@ -9186,7 +9186,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "percent": {
@@ -9196,7 +9196,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "em": {
@@ -9206,7 +9206,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "ex": {
@@ -9216,7 +9216,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "ch": {
@@ -9226,7 +9226,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "ic": {
@@ -9242,7 +9242,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "lh": {
@@ -9264,7 +9264,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "vh": {
@@ -9274,7 +9274,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "vi": {
@@ -9284,7 +9284,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "vb": {
@@ -9294,7 +9294,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "vmin": {
@@ -9304,7 +9304,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "vmax": {
@@ -9314,7 +9314,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "svw": {
@@ -9324,7 +9324,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "svh": {
@@ -9334,7 +9334,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "svi": {
@@ -9344,7 +9344,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "svb": {
@@ -9354,7 +9354,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "svmin": {
@@ -9364,7 +9364,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "svmax": {
@@ -9374,7 +9374,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "lvw": {
@@ -9384,7 +9384,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "lvh": {
@@ -9394,7 +9394,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "lvi": {
@@ -9404,7 +9404,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "lvb": {
@@ -9414,7 +9414,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "lvmin": {
@@ -9424,7 +9424,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "lvmax": {
@@ -9434,7 +9434,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "dvw": {
@@ -9444,7 +9444,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "dvh": {
@@ -9454,7 +9454,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "dvi": {
@@ -9464,7 +9464,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "dvb": {
@@ -9474,7 +9474,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "dvmin": {
@@ -9484,7 +9484,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "dvmax": {
@@ -9494,7 +9494,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "cqw": {
@@ -9504,7 +9504,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "cqh": {
@@ -9514,7 +9514,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "cqi": {
@@ -9524,7 +9524,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "cqb": {
@@ -9534,7 +9534,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "cqmin": {
@@ -9544,7 +9544,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "cqmax": {
@@ -9554,7 +9554,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "cm": {
@@ -9564,7 +9564,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "mm": {
@@ -9574,7 +9574,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "Q": {
@@ -9584,7 +9584,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "in": {
@@ -9594,7 +9594,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "pt": {
@@ -9604,7 +9604,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "pc": {
@@ -9614,7 +9614,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "px": {
@@ -9624,7 +9624,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "deg": {
@@ -9634,7 +9634,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "grad": {
@@ -9644,7 +9644,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "rad": {
@@ -9654,7 +9654,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "turn": {
@@ -9664,7 +9664,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "s": {
@@ -9674,7 +9674,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "ms": {
@@ -9684,7 +9684,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "Hz": {
@@ -9694,7 +9694,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "kHz": {
@@ -9704,7 +9704,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "dpi": {
@@ -9714,7 +9714,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "dpcm": {
@@ -9724,7 +9724,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "dppx": {
@@ -9734,7 +9734,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "fr": {
@@ -9744,7 +9744,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           }
         }
@@ -9797,19 +9797,26 @@
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
       "ViewTransition": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       }
     },
     "css.properties": {
       "view-transition-name": {
-        "mdn": true,
-        "bcd": true
+        "mdn": true
       }
     }
   },
@@ -12365,7 +12372,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           }
         }
@@ -13481,7 +13488,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "ariaLabelledByElements": {
@@ -14677,7 +14684,7 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           }
         }
