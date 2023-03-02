@@ -9787,39 +9787,6 @@
       }
     }
   },
-  "css-view-transitions": {
-    "title": "CSS View Transitions Module Level 1",
-    "url": "https://www.w3.org/TR/css-view-transitions-1/",
-    "idl": {
-      "Document": {
-        "members": {
-          "startViewTransition": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      },
-      "ViewTransition": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
-        }
-      }
-    },
-    "css.properties": {
-      "view-transition-name": {
-        "mdn": true
-      }
-    }
-  },
   "cssom-view": {
     "title": "CSSOM View Module",
     "url": "https://www.w3.org/TR/cssom-view-1/",
