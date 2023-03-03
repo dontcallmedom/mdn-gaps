@@ -15002,6 +15002,22 @@
       }
     }
   },
+  "url": {
+    "title": "URL Standard",
+    "url": "https://url.spec.whatwg.org/",
+    "idl": {
+      "URLSearchParams": {
+        "members": {
+          "size": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      }
+    }
+  },
   "video-rvfc": {
     "title": "HTMLVideoElement.requestVideoFrameCallback()",
     "url": "https://wicg.github.io/video-rvfc/",
