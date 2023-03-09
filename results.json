@@ -18013,11 +18013,6 @@
   "css-page": {
     "title": "Proposals for the future of CSS Paged Media",
     "url": "https://drafts.csswg.org/css-page-4/",
-    "css.properties": {
-      "page": {
-        "mdn": true
-      }
-    },
     "css.atrules": {
       "@top-left-corner": {
         "mdn": true,
