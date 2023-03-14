@@ -13848,40 +13848,6 @@
       }
     }
   },
-  "mediacapture-streams": {
-    "title": "Media Capture and Streams",
-    "url": "https://www.w3.org/TR/mediacapture-streams/",
-    "idl": {
-      "MediaStreamTrackEvent": {
-        "members": {
-          "track": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "MediaDeviceInfo": {
-        "members": {
-          "toJSON": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      }
-    }
-  },
   "mediacapture-transform": {
     "title": "MediaStreamTrack Insertable Media Processing using Streams",
     "url": "https://www.w3.org/TR/mediacapture-transform/",
@@ -14993,76 +14959,6 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
-          }
-        }
-      }
-    }
-  },
-  "uievents": {
-    "title": "UI Events",
-    "url": "https://www.w3.org/TR/uievents/",
-    "idl": {
-      "MutationEvent": {
-        "members": {
-          "relatedNode": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "prevValue": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "newValue": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "attrName": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "attrChange": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "initMutationEvent": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
           }
         }
       }
