@@ -2725,7 +2725,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": true,
-              "firefox": false,
+              "firefox": null,
               "safari": true
             }
           },
@@ -7340,14 +7340,6 @@
           }
         }
       },
-      "WorkletGlobalScope": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": true,
-          "safari": true
-        }
-      },
       "StorageEvent": {
         "members": {
           "key": {
@@ -8100,26 +8092,6 @@
       }
     }
   },
-  "background-fetch": {
-    "title": "Background Fetch",
-    "url": "https://wicg.github.io/background-fetch/",
-    "idl": {
-      "ServiceWorkerRegistration": {
-        "members": {
-          "backgroundFetch": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      }
-    }
-  },
   "badging": {
     "title": "Badging API",
     "url": "https://w3c.github.io/badging/",
@@ -8555,20 +8527,8 @@
         "mdn": true,
         "bcdSupport": {
           "chrome": true,
-          "firefox": false,
+          "firefox": true,
           "safari": true
-        },
-        "members": {
-          "containerName": {
-            "type": "attribute",
-            "isStatic": false,
-            "bcd": true
-          },
-          "containerQuery": {
-            "type": "attribute",
-            "isStatic": false,
-            "bcd": true
-          }
         }
       }
     }
@@ -8628,41 +8588,9 @@
       "CSSFontFeatureValuesRule": {
         "mdn": true,
         "bcdSupport": {
-          "chrome": false,
+          "chrome": true,
           "firefox": true,
           "safari": true
-        },
-        "members": {
-          "annotation": {
-            "type": "attribute",
-            "isStatic": false,
-            "bcd": true
-          },
-          "ornaments": {
-            "type": "attribute",
-            "isStatic": false,
-            "bcd": true
-          },
-          "stylistic": {
-            "type": "attribute",
-            "isStatic": false,
-            "bcd": true
-          },
-          "swash": {
-            "type": "attribute",
-            "isStatic": false,
-            "bcd": true
-          },
-          "characterVariant": {
-            "type": "attribute",
-            "isStatic": false,
-            "bcd": true
-          },
-          "styleset": {
-            "type": "attribute",
-            "isStatic": false,
-            "bcd": true
-          }
         }
       },
       "CSSFontFeatureValuesMap": {
@@ -10253,34 +10181,6 @@
       "CharacterBoundsUpdateEvent": {
         "mdn": true,
         "bcd": true
-      }
-    }
-  },
-  "encrypted-media": {
-    "title": "Encrypted Media Extensions",
-    "url": "https://www.w3.org/TR/encrypted-media/",
-    "idl": {
-      "HTMLMediaElement": {
-        "members": {
-          "mediaKeys": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "MediaEncryptedEvent": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": true,
-          "safari": true
-        }
       }
     }
   },
@@ -13416,7 +13316,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       }
@@ -13696,66 +13600,6 @@
           "chrome": true,
           "firefox": false,
           "safari": false
-        }
-      }
-    }
-  },
-  "layout-instability": {
-    "title": "Layout Instability",
-    "url": "https://wicg.github.io/layout-instability/",
-    "idl": {
-      "LayoutShift": {
-        "members": {
-          "value": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "hadRecentInput": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "lastInputTime": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "sources": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "toJSON": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
         }
       }
     }
@@ -15344,36 +15188,6 @@
       },
       "AudioWorkletGlobalScope": {
         "members": {
-          "currentFrame": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "currentTime": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "sampleRate": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "port": {
             "type": "attribute",
             "isStatic": false,
@@ -15497,7 +15311,6 @@
     "url": "https://registry.khronos.org/webgl/specs/latest/1.0/",
     "idl": {
       "WebGLObject": {
-        "mdn": true,
         "bcd": true
       },
       "WebGLRenderingContext": {
@@ -15652,7 +15465,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "isSystemKeyboardSupported": {
             "type": "attribute",
