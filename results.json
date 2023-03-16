@@ -8040,6 +8040,12 @@
       },
       "XRSession": {
         "members": {
+          "persistentAnchors": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "restorePersistentAnchor": {
             "type": "method",
             "isStatic": false,
@@ -8483,28 +8489,6 @@
       "@scope": {
         "mdn": true,
         "bcd": true
-      }
-    }
-  },
-  "css-cascade": {
-    "title": "CSS Cascading and Inheritance Level 3",
-    "url": "https://www.w3.org/TR/css-cascade-3/",
-    "idl": {
-      "CSSLayerBlockRule": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": true,
-          "safari": true
-        }
-      },
-      "CSSLayerStatementRule": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": true,
-          "safari": true
-        }
       }
     }
   },
@@ -10152,7 +10136,7 @@
     "title": "EditContext API",
     "url": "https://www.w3.org/TR/edit-context/",
     "idl": {
-      "Element": {
+      "HTMLElement": {
         "members": {
           "editContext": {
             "type": "attribute",
@@ -14272,6 +14256,22 @@
       }
     }
   },
+  "resource-timing": {
+    "title": "Resource Timing",
+    "url": "https://www.w3.org/TR/resource-timing/",
+    "idl": {
+      "PerformanceResourceTiming": {
+        "members": {
+          "deliveryType": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      }
+    }
+  },
   "sanitizer-api": {
     "title": "HTML Sanitizer API",
     "url": "https://wicg.github.io/sanitizer-api/",
@@ -15137,40 +15137,6 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": false,
-              "safari": true
-            }
-          }
-        }
-      },
-      "AudioProcessingEvent": {
-        "members": {
-          "playbackTime": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "inputBuffer": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "outputBuffer": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
               "safari": true
             }
           }
@@ -16605,6 +16571,12 @@
             "bcd": true
           },
           "congestionControl": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "draining": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
