@@ -733,30 +733,6 @@
           }
         }
       },
-      "SVGAnimatedEnumeration": {
-        "members": {
-          "baseVal": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "animVal": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
       "SVGAnimatedInteger": {
         "members": {
           "baseVal": {
@@ -782,30 +758,6 @@
         }
       },
       "SVGAnimatedNumber": {
-        "members": {
-          "baseVal": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "animVal": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "SVGAnimatedLength": {
         "members": {
           "baseVal": {
             "type": "attribute",
@@ -8672,109 +8624,6 @@
       },
       "FragmentResult": {
         "mdn": true,
-        "bcd": true
-      }
-    }
-  },
-  "css-masking": {
-    "title": "CSS Masking Module Level 1",
-    "url": "https://www.w3.org/TR/css-masking-1/",
-    "idl": {
-      "SVGClipPathElement": {
-        "members": {
-          "clipPathUnits": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "transform": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "SVGMaskElement": {
-        "members": {
-          "maskUnits": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "maskContentUnits": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "x": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "y": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "width": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "height": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      }
-    },
-    "css.properties": {
-      "clip-rule": {
-        "mdn": true,
-        "bcd": true
-      },
-      "mask-border-mode": {
         "bcd": true
       }
     }
@@ -17695,6 +17544,19 @@
     "css.properties": {
       "marker-side": {
         "mdn": true,
+        "bcd": true
+      }
+    }
+  },
+  "css-masking": {
+    "title": "CSS Masking Module Level 1",
+    "url": "https://www.w3.org/TR/css-masking-1/",
+    "css.properties": {
+      "clip-rule": {
+        "mdn": true,
+        "bcd": true
+      },
+      "mask-border-mode": {
         "bcd": true
       }
     }
