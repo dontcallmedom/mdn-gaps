@@ -6192,7 +6192,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": true,
-              "firefox": false,
+              "firefox": true,
               "safari": true
             }
           },
@@ -6910,7 +6910,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": true,
-              "firefox": false,
+              "firefox": true,
               "safari": true
             }
           },
@@ -8454,18 +8454,6 @@
     "css.atrules": {
       "@color-profile": {
         "bcd": true
-      }
-    }
-  },
-  "css-contain-3": {
-    "idl": {
-      "CSSContainerRule": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": true,
-          "safari": true
-        }
       }
     }
   },
@@ -13889,7 +13877,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
@@ -13899,7 +13891,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       }
@@ -14309,51 +14305,9 @@
     "title": "Streams Standard",
     "url": "https://streams.spec.whatwg.org/",
     "idl": {
-      "WritableStream": {
-        "members": {
-          "close": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
       "WritableStreamDefaultController": {
         "members": {
           "signal": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "ByteLengthQueuingStrategy": {
-        "members": {
-          "highWaterMark": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "CountQueuingStrategy": {
-        "members": {
-          "highWaterMark": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
