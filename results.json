@@ -153,20 +153,6 @@
       }
     }
   },
-  "FedCM": {
-    "title": "Federated Credential Management API",
-    "url": "https://fedidcg.github.io/FedCM/",
-    "idl": {
-      "IdentityCredential": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
-        }
-      }
-    }
-  },
   "OES_vertex_array_object": {
     "title": "WebGL OES_vertex_array_object Khronos Ratified Extension Specification",
     "url": "https://registry.khronos.org/webgl/extensions/OES_vertex_array_object/",
@@ -14213,31 +14199,11 @@
             "mdn": true,
             "bcd": true
           },
-          "empty": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "getComposedRanges": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
             "bcd": true
-          },
-          "setPosition": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
           }
         }
       }
