@@ -9868,90 +9868,6 @@
       },
       "XPathNSResolver": {
         "bcd": true
-      },
-      "XSLTProcessor": {
-        "members": {
-          "importStylesheet": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "transformToFragment": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "transformToDocument": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "setParameter": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "getParameter": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "removeParameter": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "clearParameters": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "reset": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
       }
     }
   },
@@ -14072,8 +13988,6 @@
     }
   },
   "requestStorageAccessForOrigin": {
-    "title": "requestStorageAccessFor API",
-    "url": "https://privacycg.github.io/requestStorageAccessForOrigin/",
     "idl": {
       "Document": {
         "members": {
@@ -14262,30 +14176,6 @@
     "url": "https://wicg.github.io/shape-detection-api/",
     "idl": {
       "FaceDetector": {
-        "mdn": true,
-        "bcd": true
-      }
-    }
-  },
-  "streams": {
-    "title": "Streams Standard",
-    "url": "https://streams.spec.whatwg.org/",
-    "idl": {
-      "WritableStreamDefaultController": {
-        "members": {
-          "signal": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "SFrameTransform": {
         "mdn": true,
         "bcd": true
       }
@@ -16017,6 +15907,16 @@
           "firefox": false,
           "safari": true
         }
+      }
+    }
+  },
+  "streams": {
+    "title": "Streams Standard",
+    "url": "https://streams.spec.whatwg.org/",
+    "idl": {
+      "SFrameTransform": {
+        "mdn": true,
+        "bcd": true
       }
     }
   },
