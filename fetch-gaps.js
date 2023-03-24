@@ -88,24 +88,25 @@ function checkIdlTopLevelName(name, item, spec, bcdTree) {
   // Check members
   for (let member of item.members) {
     let hasMdnGap = false, hasBcdGap = false;
-    if (!member.name) continue;
     if (member.type === "const") continue;
+    const type = member.type === "operation" ? "method" : member.type;
+    const memberName = type === "constructor" ? name : member.name;
+    if (!memberName) continue;
     // TODO check events separately
     // since event handlers don't get tracked as attributes
-    if (member.name.startsWith("on") && member.type === "attribute" && member.idlType?.idlType === "EventHandler") continue;
-    const type = member.type === "operation" ? "method" : "attribute";
+    if (memberName.startsWith("on") && member.type === "attribute" && member.idlType?.idlType === "EventHandler") continue;
     const isStatic = member.special === "static";
     // Check mdn documentation
-    if (checkMdnPage("api", null, name) && !checkMdnPage("api", null, name + "." + member.name)) {
+    if (checkMdnPage("api", null, name) && !checkMdnPage("api", null, name + "." + memberName)) {
       hasMdnGap = true;
-      setGap(spec, "idl", "mdn", name, member.name, {type, isStatic});
+      setGap(spec, "idl", "mdn", name, memberName, {type, isStatic});
     }
-    if (bcdTree[name] && !bcdTree[name][member.name]) {
+    if (bcdTree[name] && !bcdTree[name][memberName]) {
       hasBcdGap = true;
-      setGap(spec, "idl", "bcd", name, member.name, {type, isStatic});
+      setGap(spec, "idl", "bcd", name, memberName, {type, isStatic});
     } else {
       if (hasMdnGap) {
-	setBcdSupport(name, member.name, spec, bcdTree);
+	setBcdSupport(name, memberName, spec, bcdTree);
       }
     }
   }
