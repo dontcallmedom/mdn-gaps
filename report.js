@@ -16,7 +16,7 @@ function idlStubLink(feature, memberName, memberType, isStatic) {
   const stubLink = document.createElement("a");
   stubLink.title = `Generate stub for ${feature + memberName ? "." + memberName : ""} MDN page`;
   stubLink.textContent = "[stub]";
-  stubLink.href = `https://dontcallmedom.github.io/mdn-scaffold/?interface=${feature}&${memberName ? `member=${memberType}|${memberName}${isStatic ? "|static" : ""}}` : ""}`;
+  stubLink.href = `https://dontcallmedom.github.io/mdn-scaffold/?interface=${feature}&${memberName ? `member=${memberType}|${memberType === "constructor" ? memberType : memberName}${isStatic ? "|static" : ""}}` : ""}`;
 return stubLink;
 }
 
