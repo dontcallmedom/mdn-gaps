@@ -129,6 +129,26 @@
       }
     }
   },
+  "DOM-Parsing": {
+    "title": "DOM Parsing and Serialization",
+    "url": "https://www.w3.org/TR/DOM-Parsing/",
+    "idl": {
+      "XMLSerializer": {
+        "members": {
+          "XMLSerializer": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      }
+    }
+  },
   "EXT_disjoint_timer_query": {
     "title": "WebGL EXT_disjoint_timer_query Extension Specification",
     "url": "https://registry.khronos.org/webgl/extensions/EXT_disjoint_timer_query/",
@@ -149,6 +169,26 @@
           "chrome": null,
           "firefox": false,
           "safari": false
+        }
+      }
+    }
+  },
+  "FileAPI": {
+    "title": "File API",
+    "url": "https://www.w3.org/TR/FileAPI/",
+    "idl": {
+      "FileReaderSync": {
+        "members": {
+          "FileReaderSync": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
         }
       }
     }
@@ -2872,6 +2912,12 @@
       },
       "HTMLElement": {
         "members": {
+          "HTMLElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "translate": {
             "type": "attribute",
             "isStatic": false,
@@ -2948,8 +2994,34 @@
           }
         }
       },
+      "HTMLHtmlElement": {
+        "members": {
+          "HTMLHtmlElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "HTMLHeadElement": {
+        "members": {
+          "HTMLHeadElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
       "HTMLTitleElement": {
         "members": {
+          "HTMLTitleElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "text": {
             "type": "attribute",
             "isStatic": false,
@@ -2964,6 +3036,12 @@
       },
       "HTMLBaseElement": {
         "members": {
+          "HTMLBaseElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "href": {
             "type": "attribute",
             "isStatic": false,
@@ -2988,6 +3066,12 @@
       },
       "HTMLLinkElement": {
         "members": {
+          "HTMLLinkElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "href": {
             "type": "attribute",
             "isStatic": false,
@@ -3130,8 +3214,24 @@
           }
         }
       },
+      "HTMLMetaElement": {
+        "members": {
+          "HTMLMetaElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
       "HTMLStyleElement": {
         "members": {
+          "HTMLStyleElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "blocking": {
             "type": "attribute",
             "isStatic": false,
@@ -3144,8 +3244,204 @@
           }
         }
       },
+      "HTMLBodyElement": {
+        "members": {
+          "HTMLBodyElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "text": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
+          "link": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
+          "vLink": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
+          "aLink": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
+          "bgColor": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
+          "background": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
+      "HTMLHeadingElement": {
+        "members": {
+          "HTMLHeadingElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "align": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
+      "HTMLParagraphElement": {
+        "members": {
+          "HTMLParagraphElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "align": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
+      "HTMLHRElement": {
+        "members": {
+          "HTMLHRElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "align": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
+          "color": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
+          "noShade": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
+          "size": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
+          "width": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
+      "HTMLPreElement": {
+        "members": {
+          "HTMLPreElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "width": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
       "HTMLQuoteElement": {
         "members": {
+          "HTMLQuoteElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "cite": {
             "type": "attribute",
             "isStatic": false,
@@ -3160,6 +3456,12 @@
       },
       "HTMLOListElement": {
         "members": {
+          "HTMLOListElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "reversed": {
             "type": "attribute",
             "isStatic": false,
@@ -3202,8 +3504,64 @@
           }
         }
       },
+      "HTMLUListElement": {
+        "members": {
+          "HTMLUListElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "compact": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
+          "type": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
+      "HTMLMenuElement": {
+        "members": {
+          "HTMLMenuElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "compact": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
       "HTMLLIElement": {
         "members": {
+          "HTMLLIElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "value": {
             "type": "attribute",
             "isStatic": false,
@@ -3226,8 +3584,54 @@
           }
         }
       },
+      "HTMLDListElement": {
+        "members": {
+          "HTMLDListElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "compact": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
+      "HTMLDivElement": {
+        "members": {
+          "HTMLDivElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "align": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
       "HTMLAnchorElement": {
         "members": {
+          "HTMLAnchorElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "target": {
             "type": "attribute",
             "isStatic": false,
@@ -3330,8 +3734,64 @@
           }
         }
       },
+      "HTMLDataElement": {
+        "members": {
+          "HTMLDataElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "HTMLTimeElement": {
+        "members": {
+          "HTMLTimeElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "HTMLSpanElement": {
+        "members": {
+          "HTMLSpanElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "HTMLBRElement": {
+        "members": {
+          "HTMLBRElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "clear": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
       "HTMLModElement": {
         "members": {
+          "HTMLModElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "cite": {
             "type": "attribute",
             "isStatic": false,
@@ -3354,8 +3814,24 @@
           }
         }
       },
+      "HTMLPictureElement": {
+        "members": {
+          "HTMLPictureElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
       "HTMLSourceElement": {
         "members": {
+          "HTMLSourceElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "src": {
             "type": "attribute",
             "isStatic": false,
@@ -3428,8 +3904,34 @@
           }
         }
       },
+      "HTMLImageElement": {
+        "members": {
+          "HTMLImageElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "lowsrc": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
       "HTMLIFrameElement": {
         "members": {
+          "HTMLIFrameElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "name": {
             "type": "attribute",
             "isStatic": false,
@@ -3574,6 +4076,12 @@
       },
       "HTMLEmbedElement": {
         "members": {
+          "HTMLEmbedElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "src": {
             "type": "attribute",
             "isStatic": false,
@@ -3648,6 +4156,12 @@
       },
       "HTMLObjectElement": {
         "members": {
+          "HTMLObjectElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "getSVGDocument": {
             "type": "method",
             "isStatic": false,
@@ -3772,6 +4286,12 @@
       },
       "HTMLVideoElement": {
         "members": {
+          "HTMLVideoElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "width": {
             "type": "attribute",
             "isStatic": false,
@@ -3814,8 +4334,24 @@
           }
         }
       },
+      "HTMLAudioElement": {
+        "members": {
+          "HTMLAudioElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
       "HTMLTrackElement": {
         "members": {
+          "HTMLTrackElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "kind": {
             "type": "attribute",
             "isStatic": false,
@@ -3934,6 +4470,12 @@
       },
       "HTMLMapElement": {
         "members": {
+          "HTMLMapElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "name": {
             "type": "attribute",
             "isStatic": false,
@@ -3958,6 +4500,12 @@
       },
       "HTMLAreaElement": {
         "members": {
+          "HTMLAreaElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "alt": {
             "type": "attribute",
             "isStatic": false,
@@ -4030,8 +4578,44 @@
           }
         }
       },
+      "HTMLTableElement": {
+        "members": {
+          "HTMLTableElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "HTMLTableCaptionElement": {
+        "members": {
+          "HTMLTableCaptionElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "align": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
       "HTMLTableColElement": {
         "members": {
+          "HTMLTableColElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "span": {
             "type": "attribute",
             "isStatic": false,
@@ -4096,6 +4680,12 @@
       },
       "HTMLTableSectionElement": {
         "members": {
+          "HTMLTableSectionElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "rows": {
             "type": "attribute",
             "isStatic": false,
@@ -4170,6 +4760,12 @@
       },
       "HTMLTableRowElement": {
         "members": {
+          "HTMLTableRowElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "sectionRowIndex": {
             "type": "attribute",
             "isStatic": false,
@@ -4254,6 +4850,12 @@
       },
       "HTMLTableCellElement": {
         "members": {
+          "HTMLTableCellElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "colSpan": {
             "type": "attribute",
             "isStatic": false,
@@ -4408,6 +5010,12 @@
       },
       "HTMLFormElement": {
         "members": {
+          "HTMLFormElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "autocomplete": {
             "type": "attribute",
             "isStatic": false,
@@ -4460,8 +5068,24 @@
           }
         }
       },
+      "HTMLLabelElement": {
+        "members": {
+          "HTMLLabelElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
       "HTMLInputElement": {
         "members": {
+          "HTMLInputElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "accept": {
             "type": "attribute",
             "isStatic": false,
@@ -4888,6 +5512,12 @@
       },
       "HTMLButtonElement": {
         "members": {
+          "HTMLButtonElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "form": {
             "type": "attribute",
             "isStatic": false,
@@ -5054,6 +5684,12 @@
       },
       "HTMLSelectElement": {
         "members": {
+          "HTMLSelectElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "autocomplete": {
             "type": "attribute",
             "isStatic": false,
@@ -5168,6 +5804,12 @@
       },
       "HTMLDataListElement": {
         "members": {
+          "HTMLDataListElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "options": {
             "type": "attribute",
             "isStatic": false,
@@ -5182,6 +5824,12 @@
       },
       "HTMLOptGroupElement": {
         "members": {
+          "HTMLOptGroupElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "disabled": {
             "type": "attribute",
             "isStatic": false,
@@ -5206,6 +5854,12 @@
       },
       "HTMLOptionElement": {
         "members": {
+          "HTMLOptionElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "disabled": {
             "type": "attribute",
             "isStatic": false,
@@ -5290,6 +5944,12 @@
       },
       "HTMLTextAreaElement": {
         "members": {
+          "HTMLTextAreaElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "autocomplete": {
             "type": "attribute",
             "isStatic": false,
@@ -5584,6 +6244,16 @@
       },
       "HTMLOutputElement": {
         "members": {
+          "HTMLOutputElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
+          },
           "htmlFor": {
             "type": "attribute",
             "isStatic": false,
@@ -5708,6 +6378,12 @@
       },
       "HTMLProgressElement": {
         "members": {
+          "HTMLProgressElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "value": {
             "type": "attribute",
             "isStatic": false,
@@ -5742,6 +6418,12 @@
       },
       "HTMLMeterElement": {
         "members": {
+          "HTMLMeterElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "value": {
             "type": "attribute",
             "isStatic": false,
@@ -5806,6 +6488,12 @@
       },
       "HTMLFieldSetElement": {
         "members": {
+          "HTMLFieldSetElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "disabled": {
             "type": "attribute",
             "isStatic": false,
@@ -5920,6 +6608,12 @@
       },
       "HTMLLegendElement": {
         "members": {
+          "HTMLLegendElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "form": {
             "type": "attribute",
             "isStatic": false,
@@ -5966,8 +6660,34 @@
           }
         }
       },
+      "HTMLDetailsElement": {
+        "members": {
+          "HTMLDetailsElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "HTMLDialogElement": {
+        "members": {
+          "HTMLDialogElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
       "HTMLScriptElement": {
         "members": {
+          "HTMLScriptElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "src": {
             "type": "attribute",
             "isStatic": false,
@@ -6097,6 +6817,36 @@
               "firefox": true,
               "safari": true
             }
+          }
+        }
+      },
+      "HTMLTemplateElement": {
+        "members": {
+          "HTMLTemplateElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "HTMLSlotElement": {
+        "members": {
+          "HTMLSlotElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "HTMLCanvasElement": {
+        "members": {
+          "HTMLCanvasElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
           }
         }
       },
@@ -6948,8 +7698,46 @@
       },
       "PopStateEvent": {
         "members": {
+          "PopStateEvent": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
           "state": {
             "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
+      "HashChangeEvent": {
+        "members": {
+          "HashChangeEvent": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
+      "PageTransitionEvent": {
+        "members": {
+          "PageTransitionEvent": {
+            "type": "constructor",
             "isStatic": false,
             "mdn": true,
             "bcdSupport": {
@@ -6976,6 +7764,16 @@
       },
       "ErrorEvent": {
         "members": {
+          "ErrorEvent": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
           "message": {
             "type": "attribute",
             "isStatic": false,
@@ -7280,6 +8078,16 @@
       },
       "StorageEvent": {
         "members": {
+          "StorageEvent": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
           "key": {
             "type": "attribute",
             "isStatic": false,
@@ -7334,6 +8142,12 @@
       },
       "HTMLMarqueeElement": {
         "members": {
+          "HTMLMarqueeElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "behavior": {
             "type": "attribute",
             "isStatic": false,
@@ -7468,6 +8282,12 @@
       },
       "HTMLFrameSetElement": {
         "members": {
+          "HTMLFrameSetElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "cols": {
             "type": "attribute",
             "isStatic": false,
@@ -7496,97 +8316,12 @@
           "chrome": true,
           "firefox": true,
           "safari": true
-        }
-      },
-      "HTMLBodyElement": {
+        },
         "members": {
-          "text": {
-            "type": "attribute",
+          "HTMLFrameElement": {
+            "type": "constructor",
             "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "link": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "vLink": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "aLink": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "bgColor": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "background": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "HTMLBRElement": {
-        "members": {
-          "clear": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "HTMLTableCaptionElement": {
-        "members": {
-          "align": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       },
@@ -7596,148 +8331,33 @@
           "chrome": true,
           "firefox": true,
           "safari": true
-        }
-      },
-      "HTMLDivElement": {
+        },
         "members": {
-          "align": {
-            "type": "attribute",
+          "HTMLDirectoryElement": {
+            "type": "constructor",
             "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       },
-      "HTMLDListElement": {
+      "HTMLFontElement": {
         "members": {
-          "compact": {
-            "type": "attribute",
+          "HTMLFontElement": {
+            "type": "constructor",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "HTMLHeadingElement": {
-        "members": {
-          "align": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "HTMLHRElement": {
-        "members": {
-          "align": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "color": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "noShade": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "size": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "width": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "HTMLImageElement": {
-        "members": {
-          "lowsrc": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "HTMLMenuElement": {
-        "members": {
-          "compact": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "HTMLParagraphElement": {
-        "members": {
-          "align": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       },
       "HTMLParamElement": {
         "members": {
+          "HTMLParamElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "name": {
             "type": "attribute",
             "isStatic": false,
@@ -7769,44 +8389,6 @@
             }
           },
           "valueType": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "HTMLPreElement": {
-        "members": {
-          "width": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "HTMLUListElement": {
-        "members": {
-          "compact": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "type": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
@@ -7909,6 +8491,10 @@
       },
       "h6": {
         "mdn": true
+      },
+      "search": {
+        "mdn": true,
+        "bcd": true
       }
     }
   },
@@ -8486,6 +9072,20 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
+          }
+        }
+      },
+      "FontFaceSet": {
+        "members": {
+          "FontFaceSet": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           }
         }
       }
@@ -9868,6 +10468,20 @@
       },
       "XPathNSResolver": {
         "bcd": true
+      },
+      "XPathEvaluator": {
+        "members": {
+          "XPathEvaluator": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
       }
     }
   },
@@ -12101,6 +12715,16 @@
       },
       "DOMQuad": {
         "members": {
+          "DOMQuad": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
           "fromRect": {
             "type": "method",
             "isStatic": true,
@@ -13285,6 +13909,26 @@
       }
     }
   },
+  "intersection-observer": {
+    "title": "Intersection Observer",
+    "url": "https://www.w3.org/TR/intersection-observer/",
+    "idl": {
+      "IntersectionObserverEntry": {
+        "members": {
+          "IntersectionObserverEntry": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
+          }
+        }
+      }
+    }
+  },
   "is-input-pending": {
     "title": "isInputPending",
     "url": "https://wicg.github.io/is-input-pending/",
@@ -13334,6 +13978,26 @@
       "UncalibratedMagnetometer": {
         "mdn": true,
         "bcd": true
+      }
+    }
+  },
+  "manifest-incubations": {
+    "title": "Manifest Incubations",
+    "url": "https://wicg.github.io/manifest-incubations/",
+    "idl": {
+      "BeforeInstallPromptEvent": {
+        "members": {
+          "BeforeInstallPromptEvent": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          }
+        }
       }
     }
   },
@@ -13721,6 +14385,11 @@
           "safari": false
         },
         "members": {
+          "HTMLPortalElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "bcd": true
+          },
           "src": {
             "type": "attribute",
             "isStatic": false,
@@ -13809,6 +14478,16 @@
     "idl": {
       "PresentationConnectionCloseEvent": {
         "members": {
+          "PresentationConnectionCloseEvent": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
           "reason": {
             "type": "attribute",
             "isStatic": false,
@@ -14178,6 +14857,68 @@
       "FaceDetector": {
         "mdn": true,
         "bcd": true
+      }
+    }
+  },
+  "speech-api": {
+    "title": "Web Speech API",
+    "url": "https://wicg.github.io/speech-api/",
+    "idl": {
+      "SpeechRecognitionErrorEvent": {
+        "members": {
+          "SpeechRecognitionErrorEvent": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": true
+            }
+          }
+        }
+      },
+      "SpeechRecognitionEvent": {
+        "members": {
+          "SpeechRecognitionEvent": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": true
+            }
+          }
+        }
+      },
+      "SpeechSynthesisEvent": {
+        "members": {
+          "SpeechSynthesisEvent": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
+      "SpeechSynthesisErrorEvent": {
+        "members": {
+          "SpeechSynthesisErrorEvent": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
       }
     }
   },
@@ -15051,6 +15792,20 @@
             }
           }
         }
+      },
+      "WebGLContextEvent": {
+        "members": {
+          "WebGLContextEvent": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
       }
     }
   },
@@ -15765,6 +16520,16 @@
             "bcd": true
           }
         }
+      },
+      "HIDInputReportEvent": {
+        "members": {
+          "HIDInputReportEvent": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
       }
     }
   },
@@ -15926,6 +16691,16 @@
     "idl": {
       "RTCIceTransport": {
         "members": {
+          "RTCIceTransport": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
           "gather": {
             "type": "method",
             "isStatic": false,
@@ -15988,6 +16763,12 @@
       },
       "RTCIdentityAssertion": {
         "members": {
+          "RTCIdentityAssertion": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "idp": {
             "type": "attribute",
             "isStatic": false,
@@ -16092,6 +16873,16 @@
       },
       "RTCPeerConnectionIceErrorEvent": {
         "members": {
+          "RTCPeerConnectionIceErrorEvent": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": true
+            }
+          },
           "port": {
             "type": "attribute",
             "isStatic": false,
@@ -16218,6 +17009,34 @@
             }
           }
         }
+      },
+      "RTCError": {
+        "members": {
+          "RTCError": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": true
+            }
+          }
+        }
+      },
+      "RTCErrorEvent": {
+        "members": {
+          "RTCErrorEvent": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": true
+            }
+          }
+        }
       }
     }
   },
@@ -16297,6 +17116,16 @@
       },
       "USBInTransferResult": {
         "members": {
+          "USBInTransferResult": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
           "data": {
             "type": "attribute",
             "isStatic": false,
@@ -16321,6 +17150,16 @@
       },
       "USBOutTransferResult": {
         "members": {
+          "USBOutTransferResult": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
           "bytesWritten": {
             "type": "attribute",
             "isStatic": false,
@@ -16345,6 +17184,16 @@
       },
       "USBIsochronousInTransferPacket": {
         "members": {
+          "USBIsochronousInTransferPacket": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
           "data": {
             "type": "attribute",
             "isStatic": false,
@@ -16369,6 +17218,16 @@
       },
       "USBIsochronousInTransferResult": {
         "members": {
+          "USBIsochronousInTransferResult": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
           "data": {
             "type": "attribute",
             "isStatic": false,
@@ -16393,6 +17252,16 @@
       },
       "USBIsochronousOutTransferPacket": {
         "members": {
+          "USBIsochronousOutTransferPacket": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
           "bytesWritten": {
             "type": "attribute",
             "isStatic": false,
@@ -16417,6 +17286,16 @@
       },
       "USBIsochronousOutTransferResult": {
         "members": {
+          "USBIsochronousOutTransferResult": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
           "packets": {
             "type": "attribute",
             "isStatic": false,
@@ -16431,6 +17310,16 @@
       },
       "USBInterface": {
         "members": {
+          "USBInterface": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
           "interfaceNumber": {
             "type": "attribute",
             "isStatic": false,
@@ -16475,6 +17364,16 @@
       },
       "USBAlternateInterface": {
         "members": {
+          "USBAlternateInterface": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
           "alternateSetting": {
             "type": "attribute",
             "isStatic": false,
@@ -16539,6 +17438,16 @@
       },
       "USBEndpoint": {
         "members": {
+          "USBEndpoint": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
           "endpointNumber": {
             "type": "attribute",
             "isStatic": false,
@@ -16597,6 +17506,16 @@
     "idl": {
       "VTTRegion": {
         "members": {
+          "VTTRegion": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": true,
+              "safari": true
+            }
+          },
           "id": {
             "type": "attribute",
             "isStatic": false,
