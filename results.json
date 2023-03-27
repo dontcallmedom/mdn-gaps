@@ -9096,11 +9096,67 @@
     "url": "https://www.w3.org/TR/css-fonts-4/",
     "idl": {
       "CSSFontFeatureValuesRule": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": true,
-          "safari": true
+        "members": {
+          "annotation": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
+          "ornaments": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
+          "stylistic": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
+          "swash": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
+          "characterVariant": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
+          "styleset": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          }
         }
       },
       "CSSFontFeatureValuesMap": {
@@ -10468,20 +10524,6 @@
       },
       "XPathNSResolver": {
         "bcd": true
-      },
-      "XPathEvaluator": {
-        "members": {
-          "XPathEvaluator": {
-            "type": "constructor",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
       }
     }
   },
