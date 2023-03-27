@@ -65,14 +65,16 @@ function setBcdSupport(name, item, spec, bcdTree) {
 }
 
 function checkMdnPage(tree, type, qname) {
+  const root = tree.startsWith("webassembly") ? "" : "web/";
   const qnamePath = qname.replace(/\./g, '/').toLowerCase();
-  return mdn.find(p => p.path === `/files/en-us/web/${tree}/${type ? type + '/' : ''}${qnamePath}/index.md`);
+  return mdn.find(p => p.path === `/files/en-us/${root}${tree}/${type ? type + '/' : ''}${qnamePath}/index.md`);
 }
 
-function checkIdlTopLevelName(name, item, spec, bcdTree) {
+function checkIdlTopLevelName(name, item, spec, bcdTree, {wasm = false} = {}) {
   // Check mdn documentation
   let hasMdnGap = false, hasBcdGap = false;
-  if (!checkMdnPage("api", null, name)) {
+  const tree = wasm ? "webassembly/javascript_interface" : "api";
+  if (!checkMdnPage(tree, null, name)) {
     setGap(spec, "idl", "mdn", name);
     hasMdnGap = true;
   }
@@ -97,7 +99,7 @@ function checkIdlTopLevelName(name, item, spec, bcdTree) {
     if (memberName.startsWith("on") && member.type === "attribute" && member.idlType?.idlType === "EventHandler") continue;
     const isStatic = member.special === "static";
     // Check mdn documentation
-    if (checkMdnPage("api", null, name) && !checkMdnPage("api", null, name + "." + memberName)) {
+    if (checkMdnPage(tree, null, name) && !checkMdnPage(tree, null, name + "." + memberName)) {
       hasMdnGap = true;
       setGap(spec, "idl", "mdn", name, memberName, {type, isStatic});
     }
@@ -133,7 +135,7 @@ function checkIdlTopLevelName(name, item, spec, bcdTree) {
       continue;
     }
     if (item.type !== "includes" && item.extAttrs?.find(e => e.name === "LegacyNamespace" && e.rhs.value === "WebAssembly")) {
-      checkIdlTopLevelName(item.name, item, spec, bcd.javascript.builtins.WebAssembly);
+      checkIdlTopLevelName(item.name, item, spec, bcd.javascript.builtins.WebAssembly, {wasm: true});
       // TODO: members of interfaces, includes
       continue;
     }
