@@ -1,0 +1,235 @@
+{
+  "idl": {
+    "WebGL2RenderingContext.uniform1ui": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniform"
+    },
+    "WebGL2RenderingContext.uniform2ui": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniform"
+    },
+    "WebGL2RenderingContext.uniform3ui": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniform"
+    },
+    "WebGL2RenderingContext.uniform4ui": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniform"
+    },
+    "WebGL2RenderingContext.uniform1fv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniform"
+    },
+    "WebGL2RenderingContext.uniform2fv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniform"
+    },
+    "WebGL2RenderingContext.uniform3fv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniform"
+    },
+    "WebGL2RenderingContext.uniform4fv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniform"
+    },
+    "WebGL2RenderingContext.uniform1iv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniform"
+    },
+    "WebGL2RenderingContext.uniform2iv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniform"
+    },
+    "WebGL2RenderingContext.uniform3iv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniform"
+    },
+    "WebGL2RenderingContext.uniform4iv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniform"
+    },
+    "WebGL2RenderingContext.uniform1uiv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniform"
+    },
+    "WebGL2RenderingContext.uniform2uiv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniform"
+    },
+    "WebGL2RenderingContext.uniform3uiv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniform"
+    },
+    "WebGL2RenderingContext.uniform4uiv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniform"
+    },
+    "WebGL2RenderingContext.uniformMatrix2fv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniformMatrix"
+    },
+    "WebGL2RenderingContext.uniformMatrix3fv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniformMatrix"
+    },
+    "WebGL2RenderingContext.uniformMatrix4fv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniformMatrix"
+    },
+    "WebGL2RenderingContext.uniformMatrix3x2fv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniformMatrix"
+    },
+    "WebGL2RenderingContext.uniformMatrix3x4fv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniformMatrix"
+    },
+    "WebGL2RenderingContext.uniformMatrix4x2fv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniformMatrix"
+    },
+    "WebGL2RenderingContext.uniformMatrix4x3fv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniformMatrix"
+    },
+    "WebGL2RenderingContext.uniformMatrix2x3fv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniformMatrix"
+    },
+    "WebGL2RenderingContext.uniformMatrix2x4fv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/uniformMatrix"
+    },
+    "WebGL2RenderingContext.vertexAttribI4i": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/vertexAttribI"
+    },
+    "WebGL2RenderingContext.vertexAttribI4ui": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/vertexAttribI"
+    },
+    "WebGL2RenderingContext.vertexAttribI4iv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/vertexAttribI"
+    },
+    "WebGL2RenderingContext.vertexAttribI4uiv": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext/vertexAttribI"
+    },
+    "DOMMatrixReadOnly.is2D": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.isIdentity": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.m11": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.m12": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.m13": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.m14": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.m21": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.m22": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.m23": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.m24": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.m31": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.m32": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.m33": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.m34": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.m41": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.m42": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.m43": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.m44": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.a": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.b": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.c": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.d": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.e": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrixReadOnly.f": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly"
+    },
+    "DOMMatrix.is2D": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.isIdentity": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.m11": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.m12": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.m13": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.m14": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.m21": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.m22": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.m23": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.m24": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.m31": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.m32": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.m33": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.m34": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.m41": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.m42": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.m43": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.m44": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.a": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.b": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.c": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.d": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.e": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMMatrix.f": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    }
+  }
+}

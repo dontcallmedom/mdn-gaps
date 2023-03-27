@@ -5,6 +5,7 @@ const bcd = require('@mdn/browser-compat-data');
 const mdn = require('./inventory.json');
 const browserSpecs = require('browser-specs');
 const { definitionSyntax } = require('css-tree');
+const annotations = require('./annotations.json');
 
 const gaps = {};
 
@@ -67,7 +68,15 @@ function setBcdSupport(name, item, spec, bcdTree) {
 function checkMdnPage(tree, type, qname) {
   const root = tree.startsWith("webassembly") ? "" : "web/";
   const qnamePath = qname.replace(/\./g, '/').toLowerCase();
-  return mdn.find(p => p.path === `/files/en-us/${root}${tree}/${type ? type + '/' : ''}${qnamePath}/index.md`);
+  if (!mdn.find(p => p.path === `/files/en-us/${root}${tree}/${type ? type + '/' : ''}${qnamePath}/index.md`)) {
+    // handle cases where several definitions are handled in
+    // a single page
+    if (tree === "api" && annotations?.idl[qname]?.mdn) {
+      return true;
+    }
+    return false;
+  }
+  return true;
 }
 
 function checkIdlTopLevelName(name, item, spec, bcdTree, {wasm = false} = {}) {
