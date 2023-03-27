@@ -230,6 +230,18 @@
     },
     "DOMMatrix.f": {
       "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix"
+    },
+    "DOMQuad.p1": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMQuad"
+    },
+    "DOMQuad.p2": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMQuad"
+    },
+    "DOMQuad.p3": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMQuad"
+    },
+    "DOMQuad.p4": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMQuad"
     }
   }
 }
