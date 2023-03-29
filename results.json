@@ -10300,20 +10300,6 @@
         "mdn": true,
         "bcd": true
       },
-      "SVGElement": {
-        "members": {
-          "style": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
       "MathMLElement": {
         "members": {
           "style": {
@@ -10443,20 +10429,6 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
-          }
-        }
-      },
-      "ShadowRoot": {
-        "members": {
-          "slotAssignment": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
           }
         }
       },
@@ -14815,26 +14787,6 @@
       "SequenceEffect": {
         "mdn": true,
         "bcd": true
-      }
-    }
-  },
-  "web-animations": {
-    "title": "Web Animations",
-    "url": "https://www.w3.org/TR/web-animations-1/",
-    "idl": {
-      "KeyframeEffect": {
-        "members": {
-          "pseudoElement": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
       }
     }
   },
