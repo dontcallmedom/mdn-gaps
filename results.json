@@ -7656,58 +7656,6 @@
           }
         }
       },
-      "PopStateEvent": {
-        "members": {
-          "PopStateEvent": {
-            "type": "constructor",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "state": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "HashChangeEvent": {
-        "members": {
-          "HashChangeEvent": {
-            "type": "constructor",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "PageTransitionEvent": {
-        "members": {
-          "PageTransitionEvent": {
-            "type": "constructor",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
       "BeforeUnloadEvent": {
         "members": {
           "returnValue": {
@@ -10401,20 +10349,6 @@
       "EventListener": {
         "mdn": true,
         "bcd": true
-      },
-      "DocumentFragment": {
-        "members": {
-          "getElementById": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
       },
       "Document": {
         "members": {
