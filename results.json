@@ -8534,22 +8534,6 @@
     "title": "Badging API",
     "url": "https://w3c.github.io/badging/",
     "idl": {
-      "Navigator": {
-        "members": {
-          "setClientBadge": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          },
-          "clearClientBadge": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
       "WorkerNavigator": {
         "members": {
           "setAppBadge": {
@@ -14066,11 +14050,13 @@
       }
     }
   },
-  "requestStorageAccessForOrigin": {
+  "requestStorageAccessFor": {
+    "title": "requestStorageAccessFor API",
+    "url": "https://privacycg.github.io/requestStorageAccessFor/",
     "idl": {
       "Document": {
         "members": {
-          "requestStorageAccessForOrigin": {
+          "requestStorageAccessFor": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
@@ -14584,6 +14570,16 @@
     "title": "URL Standard",
     "url": "https://url.spec.whatwg.org/",
     "idl": {
+      "URL": {
+        "members": {
+          "canParse": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
       "URLSearchParams": {
         "members": {
           "size": {
