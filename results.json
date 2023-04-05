@@ -9230,14 +9230,6 @@
     "title": "CSS Painting API Level 1",
     "url": "https://www.w3.org/TR/css-paint-api-1/",
     "idl": {
-      "PaintWorkletGlobalScope": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
-        }
-      },
       "PaintRenderingContext2D": {
         "mdn": true,
         "bcdSupport": {
@@ -15345,15 +15337,34 @@
     "idl": {
       "GPUSupportedLimits": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        },
+        "members": {
+          "maxFragmentCombinedOutputResources": {
+            "type": "attribute",
+            "isStatic": false,
+            "bcd": true
+          }
+        }
       },
       "GPUSupportedFeatures": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUAdapterInfo": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "Navigator": {
         "members": {
@@ -15361,7 +15372,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
@@ -15371,25 +15386,45 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
       "GPU": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUAdapter": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUDevice": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUBuffer": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUBufferUsage": {
         "mdn": true,
@@ -15401,7 +15436,11 @@
       },
       "GPUTexture": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUTextureUsage": {
         "mdn": true,
@@ -15409,19 +15448,35 @@
       },
       "GPUTextureView": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUExternalTexture": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUSampler": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUBindGroupLayout": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUShaderStage": {
         "mdn": true,
@@ -15429,23 +15484,43 @@
       },
       "GPUBindGroup": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUPipelineLayout": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUShaderModule": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUCompilationMessage": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUCompilationInfo": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUPipelineError": {
         "mdn": true,
@@ -15453,11 +15528,19 @@
       },
       "GPUComputePipeline": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPURenderPipeline": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUColorWrite": {
         "mdn": true,
@@ -15465,63 +15548,123 @@
       },
       "GPUCommandBuffer": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUCommandEncoder": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUComputePassEncoder": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPURenderPassEncoder": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPURenderBundle": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPURenderBundleEncoder": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUQueue": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUQuerySet": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUCanvasContext": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUDeviceLostInfo": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUError": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUValidationError": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUOutOfMemoryError": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUInternalError": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPUUncapturedErrorEvent": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       }
     }
   },
@@ -16770,20 +16913,6 @@
           "chrome": true,
           "firefox": false,
           "safari": false
-        }
-      }
-    }
-  },
-  "xhr": {
-    "title": "XMLHttpRequest Standard",
-    "url": "https://xhr.spec.whatwg.org/",
-    "idl": {
-      "XMLHttpRequestUpload": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": true,
-          "safari": true
         }
       }
     }
