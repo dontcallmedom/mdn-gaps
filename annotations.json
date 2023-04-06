@@ -242,6 +242,99 @@
     },
     "DOMQuad.p4": {
       "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/DOMQuad"
+    },
+    "GPUSupportedLimits.maxTextureDimension1D": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxTextureDimension2D": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxTextureDimension3D": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxTextureArrayLayers": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxBindGroups": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxBindingsPerBindGroup": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxDynamicUniformBuffersPerPipelineLayout": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxDynamicStorageBuffersPerPipelineLayout": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxSampledTexturesPerShaderStage": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxSamplersPerShaderStage": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxStorageBuffersPerShaderStage": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxStorageTexturesPerShaderStage": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxUniformBuffersPerShaderStage": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxUniformBufferBindingSize": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxStorageBufferBindingSize": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.minUniformBufferOffsetAlignment": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.minStorageBufferOffsetAlignment": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxVertexBuffers": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxBufferSize": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxVertexAttributes": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxVertexBufferArrayStride": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxInterStageShaderComponents": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxInterStageShaderVariables": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxColorAttachments": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxColorAttachmentBytesPerSample": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxComputeWorkgroupStorageSize": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxComputeInvocationsPerWorkgroup": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxComputeWorkgroupSizeX": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxComputeWorkgroupSizeY": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxComputeWorkgroupSizeZ": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
+    },
+    "GPUSupportedLimits.maxComputeWorkgroupsPerDimension": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
     }
   }
 }
