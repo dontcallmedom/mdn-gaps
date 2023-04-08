@@ -14105,7 +14105,7 @@
     }
   },
   "scroll-animations": {
-    "title": "Scroll-linked Animations",
+    "title": "Scroll-driven Animations",
     "url": "https://www.w3.org/TR/scroll-animations-1/",
     "idl": {
       "ScrollTimeline": {
@@ -15361,9 +15361,6 @@
         "mdn": true,
         "bcd": true
       },
-      "GPUPipelineError": {
-        "bcd": true
-      },
       "GPUColorWrite": {
         "mdn": true,
         "bcd": true
@@ -16570,8 +16567,6 @@
     }
   },
   "window-placement": {
-    "title": "Multi-Screen Window Placement",
-    "url": "https://www.w3.org/TR/window-placement/",
     "idl": {
       "Screen": {
         "members": {
