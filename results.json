@@ -2922,25 +2922,41 @@
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "hidePopover": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "togglePopover": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "popover": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "autofocus": {
             "type": "attribute",
@@ -13661,11 +13677,7 @@
       },
       "PermissionsPolicyViolationReportBody": {
         "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
-        }
+        "bcd": true
       }
     }
   },
