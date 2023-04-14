@@ -14560,13 +14560,37 @@
             "mdn": true,
             "bcd": true
           },
+          "leaveAdInterestGroup": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "runAdAuction": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "updateAdInterestGroups": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
             "bcd": true
           }
         }
+      },
+      "InterestGroupBiddingScriptRunnerGlobalScope": {
+        "mdn": true,
+        "bcd": true
+      },
+      "InterestGroupScoringScriptRunnerGlobalScope": {
+        "mdn": true,
+        "bcd": true
+      },
+      "InterestGroupReportingScriptRunnerGlobalScope": {
+        "mdn": true,
+        "bcd": true
       }
     }
   },
@@ -15350,6 +15374,20 @@
       "GPUSupportedLimits": {
         "members": {
           "maxFragmentCombinedOutputResources": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "WGSLLanguageFeatures": {
+        "mdn": true,
+        "bcd": true
+      },
+      "GPU": {
+        "members": {
+          "wgslLanguageFeatures": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
@@ -16578,7 +16616,9 @@
       }
     }
   },
-  "window-placement": {
+  "window-management": {
+    "title": "Window Management",
+    "url": "https://www.w3.org/TR/window-management/",
     "idl": {
       "Screen": {
         "members": {
