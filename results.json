@@ -2918,36 +2918,6 @@
               "safari": false
             }
           },
-          "showPopover": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "hidePopover": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "togglePopover": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
           "popover": {
             "type": "attribute",
             "isStatic": false,
@@ -7649,8 +7619,39 @@
         }
       },
       "ToggleEvent": {
-        "mdn": true,
-        "bcd": true
+        "bcd": true,
+        "members": {
+          "ToggleEvent": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": null,
+              "firefox": null,
+              "safari": null
+            }
+          },
+          "oldState": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": null,
+              "firefox": null,
+              "safari": null
+            }
+          },
+          "newState": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": null,
+              "firefox": null,
+              "safari": null
+            }
+          }
+        }
       },
       "Window": {
         "members": {
