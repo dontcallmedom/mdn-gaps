@@ -8549,7 +8549,7 @@
   },
   "badging": {
     "title": "Badging API",
-    "url": "https://w3c.github.io/badging/",
+    "url": "https://www.w3.org/TR/badging/",
     "idl": {
       "WorkerNavigator": {
         "members": {
