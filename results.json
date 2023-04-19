@@ -6952,7 +6952,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": true,
-              "firefox": false,
+              "firefox": true,
               "safari": false
             }
           },
@@ -10468,16 +10468,6 @@
     "title": "Fetch Standard",
     "url": "https://fetch.spec.whatwg.org/",
     "idl": {
-      "Headers": {
-        "members": {
-          "getSetCookie": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
       "Request": {
         "members": {
           "keepalive": {
