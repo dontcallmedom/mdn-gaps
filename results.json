@@ -8544,6 +8544,16 @@
             "bcd": true
           }
         }
+      },
+      "XMLHttpRequest": {
+        "members": {
+          "setAttributionReporting": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
       }
     }
   },
@@ -15364,7 +15374,7 @@
     "idl": {
       "GPUSupportedLimits": {
         "members": {
-          "maxFragmentCombinedOutputResources": {
+          "maxBindGroupsPlusVertexBuffers": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
