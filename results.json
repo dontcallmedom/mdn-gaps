@@ -4988,7 +4988,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": true,
-              "firefox": false,
+              "firefox": true,
               "safari": true
             }
           },
@@ -4998,7 +4998,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": true,
-              "firefox": false,
+              "firefox": true,
               "safari": true
             }
           },
@@ -8361,7 +8361,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": true,
-              "firefox": false,
+              "firefox": true,
               "safari": true
             }
           },
@@ -15605,11 +15605,7 @@
             "type": "constructor",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
+            "bcd": true
           },
           "gather": {
             "type": "method",
@@ -15869,40 +15865,6 @@
             "type": "attribute",
             "isStatic": false,
             "bcd": true
-          }
-        }
-      },
-      "RTCSctpTransport": {
-        "members": {
-          "transport": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
-          },
-          "maxMessageSize": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
-          },
-          "maxChannels": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
           }
         }
       },
