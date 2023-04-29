@@ -153,6 +153,86 @@
       }
     }
   },
+  "FileAPI": {
+    "title": "File API",
+    "url": "https://www.w3.org/TR/FileAPI/",
+    "idl": {
+      "URL": {
+        "members": {
+          "createObjectURL": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
+          "revokeObjectURL": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "IndexedDB": {
+    "title": "Indexed Database API 3.0",
+    "url": "https://www.w3.org/TR/IndexedDB-3/",
+    "idl": {
+      "IDBKeyRange": {
+        "members": {
+          "only": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
+          "lowerBound": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
+          "upperBound": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
+          "bound": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      }
+    }
+  },
   "OES_vertex_array_object": {
     "title": "WebGL OES_vertex_array_object Khronos Ratified Extension Specification",
     "url": "https://registry.khronos.org/webgl/extensions/OES_vertex_array_object/",
@@ -5426,13 +5506,21 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "popoverTargetAction": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "align": {
             "type": "attribute",
@@ -5618,13 +5706,21 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "popoverTargetAction": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
@@ -6734,6 +6830,16 @@
               "safari": false
             }
           },
+          "supports": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
           "charset": {
             "type": "attribute",
             "isStatic": false,
@@ -7618,17 +7724,20 @@
           }
         }
       },
+      "VisibilityStateEntry": {
+        "mdn": true,
+        "bcd": true
+      },
       "ToggleEvent": {
-        "bcd": true,
         "members": {
           "ToggleEvent": {
             "type": "constructor",
             "isStatic": false,
             "mdn": true,
             "bcdSupport": {
-              "chrome": null,
-              "firefox": null,
-              "safari": null
+              "chrome": true,
+              "firefox": false,
+              "safari": false
             }
           },
           "oldState": {
@@ -7636,9 +7745,9 @@
             "isStatic": false,
             "mdn": true,
             "bcdSupport": {
-              "chrome": null,
-              "firefox": null,
-              "safari": null
+              "chrome": true,
+              "firefox": false,
+              "safari": false
             }
           },
           "newState": {
@@ -7646,9 +7755,9 @@
             "isStatic": false,
             "mdn": true,
             "bcdSupport": {
-              "chrome": null,
-              "firefox": null,
-              "safari": null
+              "chrome": true,
+              "firefox": false,
+              "safari": false
             }
           }
         }
@@ -8948,6 +9057,26 @@
       }
     }
   },
+  "css-conditional": {
+    "title": "CSS Conditional Rules Module Level 3",
+    "url": "https://www.w3.org/TR/css-conditional-3/",
+    "idl": {
+      "CSS": {
+        "members": {
+          "supports": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": null,
+              "firefox": null,
+              "safari": null
+            }
+          }
+        }
+      }
+    }
+  },
   "css-font-loading": {
     "title": "CSS Font Loading Module Level 3",
     "url": "https://www.w3.org/TR/css-font-loading-3/",
@@ -9092,6 +9221,26 @@
       },
       "font-synthesis-small-caps": {
         "mdn": true
+      }
+    }
+  },
+  "css-highlight-api": {
+    "title": "CSS Custom Highlight API Module Level 1",
+    "url": "https://www.w3.org/TR/css-highlight-api-1/",
+    "idl": {
+      "CSS": {
+        "members": {
+          "highlights": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          }
+        }
       }
     }
   },
@@ -9257,6 +9406,20 @@
     "title": "CSS Painting API Level 1",
     "url": "https://www.w3.org/TR/css-paint-api-1/",
     "idl": {
+      "CSS": {
+        "members": {
+          "paintWorklet": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          }
+        }
+      },
       "PaintRenderingContext2D": {
         "mdn": true,
         "bcdSupport": {
@@ -9361,6 +9524,26 @@
       }
     }
   },
+  "css-properties-values-api": {
+    "title": "CSS Properties and Values API Level 1",
+    "url": "https://www.w3.org/TR/css-properties-values-api-1/",
+    "idl": {
+      "CSS": {
+        "members": {
+          "registerProperty": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": true
+            }
+          }
+        }
+      }
+    }
+  },
   "css-pseudo": {
     "title": "CSS Pseudo-Elements Module Level 4",
     "url": "https://www.w3.org/TR/css-pseudo-4/",
@@ -9451,6 +9634,20 @@
     "title": "CSS Typed OM Level 1",
     "url": "https://www.w3.org/TR/css-typed-om-1/",
     "idl": {
+      "CSSNumericValue": {
+        "members": {
+          "parse": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": true
+            }
+          }
+        }
+      },
       "CSSMathClamp": {
         "mdn": true,
         "bcdSupport": {
@@ -10247,6 +10444,16 @@
     "title": "CSS Object Model (CSSOM)",
     "url": "https://www.w3.org/TR/cssom-1/",
     "idl": {
+      "CSSImportRule": {
+        "members": {
+          "supportsText": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
       "CSSMarginRule": {
         "mdn": true,
         "bcd": true
@@ -10259,6 +10466,20 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": null,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
+      "CSS": {
+        "members": {
+          "escape": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
               "firefox": true,
               "safari": true
             }
@@ -10352,6 +10573,30 @@
       "EventListener": {
         "mdn": true,
         "bcd": true
+      },
+      "AbortSignal": {
+        "members": {
+          "abort": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
+          "timeout": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
       },
       "Document": {
         "members": {
@@ -10511,6 +10756,30 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
+          }
+        }
+      },
+      "Response": {
+        "members": {
+          "error": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
+          "redirect": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
           }
         }
       }
@@ -12528,6 +12797,16 @@
     "idl": {
       "DOMPointReadOnly": {
         "members": {
+          "fromPoint": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
           "matrixTransform": {
             "type": "method",
             "isStatic": false,
@@ -12540,8 +12819,32 @@
           }
         }
       },
+      "DOMPoint": {
+        "members": {
+          "fromPoint": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
       "DOMRectReadOnly": {
         "members": {
+          "fromRect": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
           "toJSON": {
             "type": "method",
             "isStatic": false,
@@ -12556,6 +12859,16 @@
       },
       "DOMRect": {
         "members": {
+          "fromRect": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
           "x": {
             "type": "attribute",
             "isStatic": false,
@@ -13398,6 +13711,30 @@
     "title": "Media Source Extensions™",
     "url": "https://www.w3.org/TR/media-source-2/",
     "idl": {
+      "MediaSource": {
+        "members": {
+          "canConstructInDedicatedWorker": {
+            "type": "attribute",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
+          "isTypeSupported": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
       "TextTrack": {
         "members": {
           "sourceBuffer": {
@@ -13513,6 +13850,16 @@
               "firefox": false,
               "safari": false
             }
+          },
+          "isTypeSupported": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
           }
         }
       }
@@ -13531,6 +13878,46 @@
       "model": {
         "mdn": true,
         "bcd": true
+      }
+    }
+  },
+  "notifications": {
+    "title": "Notifications API Standard",
+    "url": "https://notifications.spec.whatwg.org/",
+    "idl": {
+      "Notification": {
+        "members": {
+          "permission": {
+            "type": "attribute",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
+          "requestPermission": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": null
+            }
+          },
+          "maxActions": {
+            "type": "attribute",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          }
+        }
       }
     }
   },
@@ -13642,6 +14029,26 @@
               "chrome": true,
               "firefox": false,
               "safari": false
+            }
+          }
+        }
+      }
+    }
+  },
+  "performance-timeline": {
+    "title": "Performance Timeline",
+    "url": "https://www.w3.org/TR/performance-timeline/",
+    "idl": {
+      "PerformanceObserver": {
+        "members": {
+          "supportedEntryTypes": {
+            "type": "attribute",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
             }
           }
         }
@@ -14248,6 +14655,20 @@
       "FaceDetector": {
         "mdn": true,
         "bcd": true
+      },
+      "BarcodeDetector": {
+        "members": {
+          "getSupportedFormats": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": null,
+              "firefox": false,
+              "safari": false
+            }
+          }
+        }
       }
     }
   },
@@ -14581,6 +15002,10 @@
           }
         }
       },
+      "InterestGroupScriptRunnerGlobalScope": {
+        "mdn": true,
+        "bcd": true
+      },
       "InterestGroupBiddingScriptRunnerGlobalScope": {
         "mdn": true,
         "bcd": true
@@ -14605,15 +15030,6 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcd": true
-          }
-        }
-      },
-      "URLSearchParams": {
-        "members": {
-          "size": {
-            "type": "attribute",
-            "isStatic": false,
             "bcd": true
           }
         }
@@ -14946,6 +15362,16 @@
             "mdn": true,
             "bcd": true
           },
+          "isUserVerifyingPlatformAuthenticatorAvailable": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
           "parseCreationOptionsFromJSON": {
             "type": "method",
             "isStatic": true,
@@ -15010,6 +15436,62 @@
     "title": "WebCodecs",
     "url": "https://www.w3.org/TR/webcodecs/",
     "idl": {
+      "AudioDecoder": {
+        "members": {
+          "isConfigSupported": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          }
+        }
+      },
+      "VideoDecoder": {
+        "members": {
+          "isConfigSupported": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": true
+            }
+          }
+        }
+      },
+      "AudioEncoder": {
+        "members": {
+          "isConfigSupported": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          }
+        }
+      },
+      "VideoEncoder": {
+        "members": {
+          "isConfigSupported": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": true
+            }
+          }
+        }
+      },
       "VideoFrame": {
         "members": {
           "metadata": {
@@ -15017,6 +15499,20 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
+          }
+        }
+      },
+      "ImageDecoder": {
+        "members": {
+          "isTypeSupported": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       }
@@ -15208,6 +15704,20 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
+          }
+        }
+      },
+      "XRWebGLLayer": {
+        "members": {
+          "getNativeFramebufferScaleFactor": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
@@ -15831,11 +16341,53 @@
           }
         }
       },
+      "RTCPeerConnection": {
+        "members": {
+          "generateCertificate": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
       "RTCCertificate": {
         "members": {
           "getFingerprints": {
             "type": "method",
             "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": true
+            }
+          }
+        }
+      },
+      "RTCRtpSender": {
+        "members": {
+          "getCapabilities": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": true
+            }
+          }
+        }
+      },
+      "RTCRtpReceiver": {
+        "members": {
+          "getCapabilities": {
+            "type": "method",
+            "isStatic": true,
             "mdn": true,
             "bcdSupport": {
               "chrome": true,
