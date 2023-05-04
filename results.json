@@ -2998,16 +2998,6 @@
               "safari": false
             }
           },
-          "popover": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
           "autofocus": {
             "type": "attribute",
             "isStatic": false,
@@ -5502,26 +5492,6 @@
               "safari": true
             }
           },
-          "popoverTargetElement": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "popoverTargetAction": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
           "align": {
             "type": "attribute",
             "isStatic": false,
@@ -5700,26 +5670,6 @@
               "chrome": true,
               "firefox": true,
               "safari": true
-            }
-          },
-          "popoverTargetElement": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "popoverTargetAction": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
             }
           }
         }
@@ -7727,40 +7677,6 @@
       "VisibilityStateEntry": {
         "mdn": true,
         "bcd": true
-      },
-      "ToggleEvent": {
-        "members": {
-          "ToggleEvent": {
-            "type": "constructor",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "oldState": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "newState": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
       },
       "Window": {
         "members": {
