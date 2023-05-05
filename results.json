@@ -10365,7 +10365,6 @@
           "supportsText": {
             "type": "attribute",
             "isStatic": false,
-            "mdn": true,
             "bcd": true
           }
         }
@@ -16983,6 +16982,12 @@
             "bcd": true
           },
           "opacity": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "quality": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
