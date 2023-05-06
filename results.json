@@ -10360,15 +10360,6 @@
     "title": "CSS Object Model (CSSOM)",
     "url": "https://www.w3.org/TR/cssom-1/",
     "idl": {
-      "CSSImportRule": {
-        "members": {
-          "supportsText": {
-            "type": "attribute",
-            "isStatic": false,
-            "bcd": true
-          }
-        }
-      },
       "CSSMarginRule": {
         "mdn": true,
         "bcd": true
@@ -16389,7 +16380,11 @@
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": null,
+              "safari": false
+            }
           },
           "reliability": {
             "type": "attribute",
@@ -16401,13 +16396,21 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": null,
+              "safari": false
+            }
           },
           "draining": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": null,
+              "safari": false
+            }
           }
         }
       },
