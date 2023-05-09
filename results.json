@@ -10364,20 +10364,6 @@
         "mdn": true,
         "bcd": true
       },
-      "MathMLElement": {
-        "members": {
-          "style": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": null,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
       "CSS": {
         "members": {
           "escape": {
