@@ -14863,7 +14863,7 @@
     }
   },
   "turtledove": {
-    "title": "FLEDGE",
+    "title": "Protected Audience (formerly FLEDGE)",
     "url": "https://wicg.github.io/turtledove/",
     "idl": {
       "Navigator": {
@@ -15228,26 +15228,6 @@
     "idl": {
       "PublicKeyCredential": {
         "members": {
-          "authenticatorAttachment": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
-          },
-          "isConditionalMediationAvailable": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
-          },
           "toJSON": {
             "type": "method",
             "isStatic": false,
@@ -15275,40 +15255,6 @@
             "isStatic": true,
             "mdn": true,
             "bcd": true
-          }
-        }
-      },
-      "AuthenticatorAttestationResponse": {
-        "members": {
-          "getAuthenticatorData": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
-          },
-          "getPublicKey": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
-          },
-          "getPublicKeyAlgorithm": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
           }
         }
       },
