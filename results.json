@@ -14314,6 +14314,30 @@
       }
     }
   },
+  "real-world-meshing": {
+    "title": "WebXR Mesh Detection Module",
+    "url": "https://immersive-web.github.io/real-world-meshing/",
+    "idl": {
+      "XRMesh": {
+        "mdn": true,
+        "bcd": true
+      },
+      "XRMeshSet": {
+        "mdn": true,
+        "bcd": true
+      },
+      "XRFrame": {
+        "members": {
+          "detectedMeshs": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      }
+    }
+  },
   "remote-playback": {
     "title": "Remote Playback API",
     "url": "https://www.w3.org/TR/remote-playback/",
@@ -14377,6 +14401,12 @@
       "PerformanceResourceTiming": {
         "members": {
           "deliveryType": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "firstInterimResponseStart": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
@@ -14564,6 +14594,44 @@
       }
     }
   },
+  "shared-storage": {
+    "title": "Shared Storage API",
+    "url": "https://wicg.github.io/shared-storage/",
+    "idl": {
+      "SharedStorageWorklet": {
+        "mdn": true,
+        "bcd": true
+      },
+      "SharedStorageWorkletGlobalScope": {
+        "mdn": true,
+        "bcd": true
+      },
+      "SharedStorageOperation": {
+        "mdn": true,
+        "bcd": true
+      },
+      "SharedStorageRunOperation": {
+        "mdn": true,
+        "bcd": true
+      },
+      "SharedStorageSelectURLOperation": {
+        "mdn": true,
+        "bcd": true
+      },
+      "SharedStorage": {
+        "mdn": true,
+        "bcd": true
+      },
+      "WindowSharedStorage": {
+        "mdn": true,
+        "bcd": true
+      },
+      "WorkletSharedStorage": {
+        "mdn": true,
+        "bcd": true
+      }
+    }
+  },
   "speech-api": {
     "title": "Web Speech API",
     "url": "https://wicg.github.io/speech-api/",
@@ -14595,6 +14663,40 @@
             }
           }
         }
+      }
+    }
+  },
+  "storage-buckets": {
+    "title": "Storage Buckets API",
+    "url": "https://wicg.github.io/storage-buckets/",
+    "idl": {
+      "Navigator": {
+        "members": {
+          "storageBuckets": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "WorkerNavigator": {
+        "members": {
+          "storageBuckets": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "StorageBucketManager": {
+        "mdn": true,
+        "bcd": true
+      },
+      "StorageBucket": {
+        "mdn": true,
+        "bcd": true
       }
     }
   },
