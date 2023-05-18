@@ -6777,7 +6777,7 @@
             "bcdSupport": {
               "chrome": null,
               "firefox": false,
-              "safari": false
+              "safari": true
             }
           },
           "supports": {
@@ -16317,7 +16317,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": true,
-              "firefox": false,
+              "firefox": true,
               "safari": true
             }
           }
@@ -16416,7 +16416,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": false,
-              "firefox": null,
+              "firefox": true,
               "safari": false
             }
           },
@@ -16432,7 +16432,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": false,
-              "firefox": null,
+              "firefox": true,
               "safari": false
             }
           },
@@ -16442,7 +16442,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": false,
-              "firefox": null,
+              "firefox": true,
               "safari": false
             }
           }
@@ -16454,7 +16454,11 @@
       },
       "WebTransportReceiveStream": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": false,
+          "firefox": true,
+          "safari": false
+        }
       }
     }
   },
@@ -17721,8 +17725,8 @@
     }
   },
   "css-page": {
-    "title": "Proposals for the future of CSS Paged Media",
-    "url": "https://drafts.csswg.org/css-page-4/",
+    "title": "CSS Paged Media Module Level 3",
+    "url": "https://www.w3.org/TR/css-page-3/",
     "css.atrules": {
       "@top-left-corner": {
         "mdn": true,
@@ -18011,8 +18015,7 @@
         "bcd": true
       },
       "text-wrap": {
-        "mdn": true,
-        "bcd": true
+        "mdn": true
       },
       "wrap-before": {
         "mdn": true,
