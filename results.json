@@ -8443,8 +8443,7 @@
         "mdn": true
       },
       "search": {
-        "mdn": true,
-        "bcd": true
+        "mdn": true
       }
     }
   },
@@ -14870,6 +14869,12 @@
           }
         }
       }
+    },
+    "elements": {
+      "discard": {
+        "mdn": true,
+        "bcd": true
+      }
     }
   },
   "testutils": {
@@ -16410,55 +16415,16 @@
     "idl": {
       "WebTransport": {
         "members": {
-          "getStats": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": true,
-              "safari": false
-            }
-          },
           "reliability": {
             "type": "attribute",
             "isStatic": false,
-            "mdn": true,
             "bcd": true
-          },
-          "congestionControl": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": true,
-              "safari": false
-            }
-          },
-          "draining": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": true,
-              "safari": false
-            }
           }
         }
       },
       "WebTransportSendStream": {
         "mdn": true,
         "bcd": true
-      },
-      "WebTransportReceiveStream": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": false,
-          "firefox": true,
-          "safari": false
-        }
       }
     }
   },
