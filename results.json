@@ -13608,26 +13608,6 @@
       }
     }
   },
-  "manifest-incubations": {
-    "title": "Manifest Incubations",
-    "url": "https://wicg.github.io/manifest-incubations/",
-    "idl": {
-      "BeforeInstallPromptEvent": {
-        "members": {
-          "BeforeInstallPromptEvent": {
-            "type": "constructor",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      }
-    }
-  },
   "media-source": {
     "title": "Media Source Extensions™",
     "url": "https://www.w3.org/TR/media-source-2/",
