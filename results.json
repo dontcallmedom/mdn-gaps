@@ -9299,19 +9299,31 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": true
+            }
           },
           "insertRule": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": true
+            }
           },
           "deleteRule": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": true
+            }
           }
         }
       }
@@ -16368,7 +16380,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": true,
-              "firefox": false,
+              "firefox": true,
               "safari": true
             }
           }
@@ -16445,15 +16457,6 @@
     "title": "WebTransport",
     "url": "https://www.w3.org/TR/webtransport/",
     "idl": {
-      "WebTransport": {
-        "members": {
-          "reliability": {
-            "type": "attribute",
-            "isStatic": false,
-            "bcd": true
-          }
-        }
-      },
       "WebTransportSendStream": {
         "mdn": true,
         "bcd": true
