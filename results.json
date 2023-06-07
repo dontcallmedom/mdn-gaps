@@ -242,7 +242,7 @@
         "bcdSupport": {
           "chrome": true,
           "firefox": true,
-          "safari": false
+          "safari": true
         }
       }
     }
@@ -2003,7 +2003,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": true,
+              "safari": false
+            }
           },
           "href": {
             "type": "attribute",
@@ -12028,7 +12032,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": true,
+              "safari": false
+            }
           },
           "x": {
             "type": "attribute",
@@ -14495,11 +14503,19 @@
     "idl": {
       "ScrollTimeline": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "ViewTimeline": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "AnimationTimeline": {
         "members": {
@@ -14507,31 +14523,30 @@
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       }
     },
     "css.properties": {
       "view-timeline-name": {
-        "mdn": true,
-        "bcd": true
+        "mdn": true
       },
       "view-timeline-axis": {
-        "mdn": true,
-        "bcd": true
+        "mdn": true
       },
       "view-timeline-inset": {
-        "mdn": true,
-        "bcd": true
+        "mdn": true
       },
       "view-timeline": {
-        "mdn": true,
-        "bcd": true
+        "mdn": true
       },
       "animation-range": {
-        "mdn": true,
-        "bcd": true
+        "mdn": true
       },
       "animation-delay-start": {
         "mdn": true,
