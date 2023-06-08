@@ -10623,7 +10623,7 @@
     }
   },
   "fenced-frame": {
-    "title": "Fenced frame",
+    "title": "Fenced Frame",
     "url": "https://wicg.github.io/fenced-frame/",
     "idl": {
       "HTMLFencedFrameElement": {
