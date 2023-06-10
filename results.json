@@ -9565,6 +9565,30 @@
     "title": "CSS Typed OM Level 1",
     "url": "https://www.w3.org/TR/css-typed-om-1/",
     "idl": {
+      "CSSStyleValue": {
+        "members": {
+          "parse": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": true
+            }
+          },
+          "parseAll": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": true
+            }
+          }
+        }
+      },
       "CSSNumericValue": {
         "members": {
           "parse": {
@@ -13540,6 +13564,26 @@
       }
     }
   },
+  "idle-detection": {
+    "title": "Idle Detection API",
+    "url": "https://wicg.github.io/idle-detection/",
+    "idl": {
+      "IdleDetector": {
+        "members": {
+          "requestPermission": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          }
+        }
+      }
+    }
+  },
   "input-device-capabilities": {
     "title": "Input Device Capabilities",
     "url": "https://wicg.github.io/input-device-capabilities/",
@@ -13799,6 +13843,22 @@
       "model": {
         "mdn": true,
         "bcd": true
+      }
+    }
+  },
+  "navigation-timing": {
+    "title": "Navigation Timing Level 2",
+    "url": "https://www.w3.org/TR/navigation-timing-2/",
+    "idl": {
+      "PerformanceNavigationTiming": {
+        "members": {
+          "criticalCHRestart": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
       }
     }
   },
@@ -14291,6 +14351,20 @@
     "title": "Push API",
     "url": "https://www.w3.org/TR/push-api/",
     "idl": {
+      "PushManager": {
+        "members": {
+          "supportedContentEncodings": {
+            "type": "attribute",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
       "PushSubscriptionChangeEvent": {
         "mdn": true,
         "bcdSupport": {
@@ -14516,20 +14590,6 @@
           "firefox": false,
           "safari": false
         }
-      },
-      "AnimationTimeline": {
-        "members": {
-          "getCurrentTime": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
       }
     },
     "css.properties": {
@@ -14753,6 +14813,26 @@
         "bcd": true
       },
       "StorageBucket": {
+        "mdn": true,
+        "bcd": true
+      }
+    }
+  },
+  "streams": {
+    "title": "Streams Standard",
+    "url": "https://streams.spec.whatwg.org/",
+    "idl": {
+      "ReadableStream": {
+        "members": {
+          "from": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "SFrameTransform": {
         "mdn": true,
         "bcd": true
       }
@@ -15291,6 +15371,50 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
+          }
+        }
+      },
+      "BluetoothUUID": {
+        "members": {
+          "getService": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
+          "getCharacteristic": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
+          "getDescriptor": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
+          "canonicalUUID": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
@@ -16096,16 +16220,6 @@
           "firefox": false,
           "safari": true
         }
-      }
-    }
-  },
-  "streams": {
-    "title": "Streams Standard",
-    "url": "https://streams.spec.whatwg.org/",
-    "idl": {
-      "SFrameTransform": {
-        "mdn": true,
-        "bcd": true
       }
     }
   },
