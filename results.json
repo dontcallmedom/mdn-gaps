@@ -163,21 +163,13 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "revokeObjectURL": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       }
@@ -193,41 +185,25 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "lowerBound": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "upperBound": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "bound": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       }
@@ -5162,7 +5138,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": true,
-              "firefox": false,
+              "firefox": true,
               "safari": true
             }
           },
@@ -5972,7 +5948,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": true,
-              "firefox": false,
+              "firefox": true,
               "safari": true
             }
           },
@@ -6788,11 +6764,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "charset": {
             "type": "attribute",
@@ -7132,7 +7104,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": true,
-              "firefox": true,
+              "firefox": false,
               "safari": true
             }
           },
@@ -8853,11 +8825,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       },
@@ -8942,7 +8910,7 @@
             "bcdSupport": {
               "chrome": false,
               "firefox": true,
-              "safari": false
+              "safari": true
             }
           }
         }
@@ -8986,11 +8954,7 @@
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": null,
-              "firefox": null,
-              "safari": null
-            }
+            "bcd": true
           }
         }
       }
@@ -9153,11 +9117,7 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
+            "bcd": true
           }
         }
       }
@@ -9343,11 +9303,7 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
+            "bcd": true
           }
         }
       },
@@ -9465,11 +9421,7 @@
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       }
@@ -9571,21 +9523,13 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "parseAll": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       },
@@ -9595,11 +9539,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       },
@@ -9617,51 +9557,31 @@
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "percent": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "em": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "ex": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "ch": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "ic": {
             "type": "method",
@@ -9673,11 +9593,7 @@
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "lh": {
             "type": "method",
@@ -9695,491 +9611,295 @@
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "vh": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "vi": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "vb": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "vmin": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "vmax": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "svw": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "svh": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "svi": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "svb": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "svmin": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "svmax": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "lvw": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "lvh": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "lvi": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "lvb": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "lvmin": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "lvmax": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "dvw": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "dvh": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "dvi": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "dvb": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "dvmin": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "dvmax": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "cqw": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "cqh": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "cqi": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "cqb": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "cqmin": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "cqmax": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "cm": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "mm": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "Q": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "in": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "pt": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "pc": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "px": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "deg": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "grad": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "rad": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "turn": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "s": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "ms": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "Hz": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "kHz": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "dpi": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "dpcm": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "dppx": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           },
           "fr": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       },
@@ -10409,11 +10129,7 @@
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       }
@@ -10535,21 +10251,13 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "timeout": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "any": {
             "type": "method",
@@ -10726,21 +10434,13 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "redirect": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       }
@@ -12766,11 +12466,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "matrixTransform": {
             "type": "method",
@@ -12790,11 +12486,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       },
@@ -12804,11 +12496,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "toJSON": {
             "type": "method",
@@ -12828,11 +12516,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "x": {
             "type": "attribute",
@@ -12900,21 +12584,13 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "fromQuad": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "getBounds": {
             "type": "method",
@@ -12944,31 +12620,19 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "fromFloat32Array": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "fromFloat64Array": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "scaleNonUniform": {
             "type": "method",
@@ -13118,31 +12782,19 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "fromFloat32Array": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "fromFloat64Array": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "multiplySelf": {
             "type": "method",
@@ -13574,11 +13226,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
+            "bcd": true
           }
         }
       }
@@ -13682,21 +13330,13 @@
             "type": "attribute",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
+            "bcd": true
           },
           "isTypeSupported": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       },
@@ -13762,6 +13402,13 @@
           "chrome": true,
           "firefox": false,
           "safari": false
+        },
+        "members": {
+          "fromElement": {
+            "type": "method",
+            "isStatic": true,
+            "bcd": true
+          }
         }
       },
       "BrowserCaptureMediaStreamTrack": {
@@ -13820,11 +13467,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       }
@@ -13872,31 +13515,19 @@
             "type": "attribute",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "requestPermission": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": null
-            }
+            "bcd": true
           },
           "maxActions": {
             "type": "attribute",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
+            "bcd": true
           }
         }
       }
@@ -13912,11 +13543,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": false,
-              "safari": false
-            }
+            "bcd": true
           }
         }
       },
@@ -13926,11 +13553,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": false,
-              "safari": false
-            }
+            "bcd": true
           }
         }
       }
@@ -14026,11 +13649,7 @@
             "type": "attribute",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       }
@@ -14357,11 +13976,7 @@
             "type": "attribute",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       },
@@ -14545,11 +14160,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
+            "bcd": true
           }
         }
       }
@@ -14702,11 +14313,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": null,
-              "firefox": false,
-              "safari": false
-            }
+            "bcd": true
           }
         }
       }
@@ -15380,41 +14987,25 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
+            "bcd": true
           },
           "getCharacteristic": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
+            "bcd": true
           },
           "getDescriptor": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
+            "bcd": true
           },
           "canonicalUUID": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
+            "bcd": true
           }
         }
       },
@@ -15518,6 +15109,11 @@
     "idl": {
       "PublicKeyCredential": {
         "members": {
+          "isConditionalMediationAvailable": {
+            "type": "method",
+            "isStatic": true,
+            "bcd": true
+          },
           "toJSON": {
             "type": "method",
             "isStatic": false,
@@ -15528,11 +15124,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "parseCreationOptionsFromJSON": {
             "type": "method",
@@ -15570,11 +15162,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
+            "bcd": true
           }
         }
       },
@@ -15584,11 +15172,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       },
@@ -15598,11 +15182,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
+            "bcd": true
           }
         }
       },
@@ -15612,11 +15192,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       },
@@ -15636,11 +15212,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
+            "bcd": true
           }
         }
       }
@@ -15841,11 +15413,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
+            "bcd": true
           }
         }
       },
@@ -16465,11 +16033,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       },
@@ -16493,11 +16057,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       },
@@ -16507,11 +16067,7 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       },
