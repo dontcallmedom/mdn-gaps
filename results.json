@@ -7651,8 +7651,49 @@
         }
       },
       "VisibilityStateEntry": {
-        "mdn": true,
-        "bcd": true
+        "bcd": true,
+        "members": {
+          "name": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": null,
+              "firefox": null,
+              "safari": null
+            }
+          },
+          "entryType": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": null,
+              "firefox": null,
+              "safari": null
+            }
+          },
+          "startTime": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": null,
+              "firefox": null,
+              "safari": null
+            }
+          },
+          "duration": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": null,
+              "firefox": null,
+              "safari": null
+            }
+          }
+        }
       },
       "Window": {
         "members": {
