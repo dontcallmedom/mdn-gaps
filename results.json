@@ -153,6 +153,16 @@
       }
     }
   },
+  "FedCM": {
+    "title": "Federated Credential Management API",
+    "url": "https://fedidcg.github.io/FedCM/",
+    "idl": {
+      "IdentityProvider": {
+        "mdn": true,
+        "bcd": true
+      }
+    }
+  },
   "FileAPI": {
     "title": "File API",
     "url": "https://www.w3.org/TR/FileAPI/",
