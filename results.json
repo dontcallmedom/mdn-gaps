@@ -7661,47 +7661,30 @@
         }
       },
       "VisibilityStateEntry": {
-        "bcd": true,
         "members": {
           "name": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": null,
-              "firefox": null,
-              "safari": null
-            }
+            "bcd": true
           },
           "entryType": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": null,
-              "firefox": null,
-              "safari": null
-            }
+            "bcd": true
           },
           "startTime": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": null,
-              "firefox": null,
-              "safari": null
-            }
+            "bcd": true
           },
           "duration": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": null,
-              "firefox": null,
-              "safari": null
-            }
+            "bcd": true
           }
         }
       },
@@ -15640,7 +15623,11 @@
       },
       "WGSLLanguageFeatures": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "GPU": {
         "members": {
@@ -15648,7 +15635,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
