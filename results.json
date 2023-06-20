@@ -12954,26 +12954,6 @@
       }
     }
   },
-  "get-installed-related-apps": {
-    "title": "Get Installed Related Apps API",
-    "url": "https://wicg.github.io/get-installed-related-apps/spec/",
-    "idl": {
-      "Navigator": {
-        "members": {
-          "getInstalledRelatedApps": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": null,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      }
-    }
-  },
   "gpc-spec": {
     "title": "Global Privacy Control (GPC)",
     "url": "https://privacycg.github.io/gpc-spec/",
