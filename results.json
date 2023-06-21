@@ -16059,20 +16059,6 @@
           }
         }
       },
-      "RTCCertificate": {
-        "members": {
-          "getFingerprints": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
-          }
-        }
-      },
       "RTCRtpSender": {
         "members": {
           "getCapabilities": {
