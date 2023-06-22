@@ -13749,26 +13749,6 @@
     "idl": {
       "PointerEvent": {
         "members": {
-          "altitudeAngle": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "azimuthAngle": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
           "getPredictedEvents": {
             "type": "method",
             "isStatic": false,
