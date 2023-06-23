@@ -14223,6 +14223,22 @@
       }
     }
   },
+  "secure-payment-confirmation": {
+    "title": "Secure Payment Confirmation",
+    "url": "https://www.w3.org/TR/secure-payment-confirmation/",
+    "idl": {
+      "PaymentRequest": {
+        "members": {
+          "isSecurePaymentConfirmationAvailable": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      }
+    }
+  },
   "selection-api": {
     "title": "Selection API",
     "url": "https://www.w3.org/TR/selection-api/",
