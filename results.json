@@ -13743,26 +13743,6 @@
       }
     }
   },
-  "pointerevents": {
-    "title": "Pointer Events",
-    "url": "https://www.w3.org/TR/pointerevents3/",
-    "idl": {
-      "PointerEvent": {
-        "members": {
-          "getPredictedEvents": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": false
-            }
-          }
-        }
-      }
-    }
-  },
   "portals": {
     "title": "Portals",
     "url": "https://wicg.github.io/portals/",
@@ -16146,6 +16126,15 @@
     "title": "WebTransport",
     "url": "https://www.w3.org/TR/webtransport/",
     "idl": {
+      "WebTransport": {
+        "members": {
+          "draining": {
+            "type": "attribute",
+            "isStatic": false,
+            "bcd": true
+          }
+        }
+      },
       "WebTransportSendStream": {
         "mdn": true,
         "bcd": true
@@ -16562,11 +16551,7 @@
       },
       "USBPermissionResult": {
         "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
-        }
+        "bcd": true
       }
     }
   },
