@@ -16131,6 +16131,7 @@
           "draining": {
             "type": "attribute",
             "isStatic": false,
+            "mdn": true,
             "bcd": true
           }
         }
