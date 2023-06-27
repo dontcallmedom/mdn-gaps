@@ -14156,53 +14156,6 @@
       }
     }
   },
-  "scroll-animations": {
-    "title": "Scroll-driven Animations",
-    "url": "https://www.w3.org/TR/scroll-animations-1/",
-    "idl": {
-      "ScrollTimeline": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
-        }
-      },
-      "ViewTimeline": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
-        }
-      }
-    },
-    "css.properties": {
-      "view-timeline-name": {
-        "mdn": true
-      },
-      "view-timeline-axis": {
-        "mdn": true
-      },
-      "view-timeline-inset": {
-        "mdn": true
-      },
-      "view-timeline": {
-        "mdn": true
-      },
-      "animation-range": {
-        "mdn": true
-      },
-      "animation-delay-start": {
-        "mdn": true,
-        "bcd": true
-      },
-      "animation-delay-end": {
-        "mdn": true,
-        "bcd": true
-      }
-    }
-  },
   "secure-payment-confirmation": {
     "title": "Secure Payment Confirmation",
     "url": "https://www.w3.org/TR/secure-payment-confirmation/",
@@ -17926,6 +17879,20 @@
   "mediaqueries-5": {
     "css.atrules": {
       "@custom-media": {
+        "mdn": true,
+        "bcd": true
+      }
+    }
+  },
+  "scroll-animations": {
+    "title": "Scroll-driven Animations",
+    "url": "https://www.w3.org/TR/scroll-animations-1/",
+    "css.properties": {
+      "animation-delay-start": {
+        "mdn": true,
+        "bcd": true
+      },
+      "animation-delay-end": {
         "mdn": true,
         "bcd": true
       }
