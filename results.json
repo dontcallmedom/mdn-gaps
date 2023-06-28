@@ -15530,28 +15530,6 @@
           }
         }
       },
-      "WGSLLanguageFeatures": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
-        }
-      },
-      "GPU": {
-        "members": {
-          "wgslLanguageFeatures": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      },
       "GPUBufferUsage": {
         "mdn": true,
         "bcd": true
