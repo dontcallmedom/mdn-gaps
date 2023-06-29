@@ -9128,17 +9128,6 @@
         "mdn": true,
         "bcd": true
       }
-    },
-    "css.properties": {
-      "font-synthesis-weight": {
-        "mdn": true
-      },
-      "font-synthesis-style": {
-        "mdn": true
-      },
-      "font-synthesis-small-caps": {
-        "mdn": true
-      }
     }
   },
   "css-highlight-api": {
