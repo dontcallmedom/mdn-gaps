@@ -13271,34 +13271,6 @@
       }
     }
   },
-  "is-input-pending": {
-    "title": "isInputPending",
-    "url": "https://wicg.github.io/is-input-pending/",
-    "idl": {
-      "Scheduling": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
-        }
-      },
-      "Navigator": {
-        "members": {
-          "scheduling": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      }
-    }
-  },
   "js-self-profiling": {
     "title": "JS Self-Profiling API",
     "url": "https://wicg.github.io/js-self-profiling/",
