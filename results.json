@@ -8899,6 +8899,20 @@
       }
     }
   },
+  "css-anchor-position": {
+    "title": "CSS Anchor Positioning",
+    "url": "https://www.w3.org/TR/css-anchor-position-1/",
+    "idl": {
+      "CSSPositionFallbackRule": {
+        "mdn": true,
+        "bcd": true
+      },
+      "CSSTryRule": {
+        "mdn": true,
+        "bcd": true
+      }
+    }
+  },
   "css-animation-worklet": {
     "title": "CSS Animation Worklet API",
     "url": "https://www.w3.org/TR/css-animation-worklet-1/",
