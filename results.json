@@ -8644,6 +8644,16 @@
       }
     }
   },
+  "captured-mouse-events": {
+    "title": "Captured Mouse Events",
+    "url": "https://screen-share.github.io/captured-mouse-events/",
+    "idl": {
+      "CapturedMouseEvent": {
+        "mdn": true,
+        "bcd": true
+      }
+    }
+  },
   "close-watcher": {
     "title": "Close Watcher API",
     "url": "https://wicg.github.io/close-watcher/",
@@ -10377,6 +10387,27 @@
       "CharacterBoundsUpdateEvent": {
         "mdn": true,
         "bcd": true
+      }
+    }
+  },
+  "element-capture": {
+    "title": "Element Capture",
+    "url": "https://screen-share.github.io/element-capture/",
+    "idl": {
+      "BrowserCaptureMediaStreamTrack": {
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        },
+        "members": {
+          "restrictTo": {
+            "type": "method",
+            "isStatic": false,
+            "bcd": true
+          }
+        }
       }
     }
   },
@@ -17600,9 +17631,6 @@
       "word-wrap": {
         "mdn": true,
         "bcd": true
-      },
-      "text-wrap": {
-        "mdn": true
       },
       "wrap-before": {
         "mdn": true,
