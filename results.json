@@ -9297,46 +9297,6 @@
       }
     }
   },
-  "css-nesting": {
-    "title": "CSS Nesting Module",
-    "url": "https://www.w3.org/TR/css-nesting-1/",
-    "idl": {
-      "CSSStyleRule": {
-        "members": {
-          "cssRules": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
-          },
-          "insertRule": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
-          },
-          "deleteRule": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
-          }
-        }
-      }
-    }
-  },
   "css-paint-api": {
     "title": "CSS Painting API Level 1",
     "url": "https://www.w3.org/TR/css-paint-api-1/",
@@ -14651,6 +14611,26 @@
     "title": "Private State Token API",
     "url": "https://wicg.github.io/trust-token-api/",
     "idl": {
+      "HTMLIFrameElement": {
+        "members": {
+          "privateToken": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "XMLHttpRequest": {
+        "members": {
+          "setPrivateToken": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
       "Document": {
         "members": {
           "hasPrivateTokens": {
@@ -15075,6 +15055,12 @@
             "bcd": true
           },
           "isUserVerifyingPlatformAuthenticatorAvailable": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcd": true
+          },
+          "isPasskeyPlatformAuthenticatorAvailable": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
