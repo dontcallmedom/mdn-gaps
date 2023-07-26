@@ -8655,7 +8655,7 @@
     }
   },
   "close-watcher": {
-    "title": "Close Watcher API",
+    "title": "Close signals and close watchers are moving to the HTML Standard!",
     "url": "https://wicg.github.io/close-watcher/",
     "idl": {
       "CloseWatcher": {
@@ -12954,8 +12954,6 @@
     }
   },
   "gpc-spec": {
-    "title": "Global Privacy Control (GPC)",
-    "url": "https://privacycg.github.io/gpc-spec/",
     "idl": {
       "WorkerNavigator": {
         "members": {
