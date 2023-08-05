@@ -2844,14 +2844,6 @@
           }
         }
       },
-      "HTMLAllCollection": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": true,
-          "safari": true
-        }
-      },
       "HTMLOptionsCollection": {
         "members": {
           "length": {
