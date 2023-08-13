@@ -15629,7 +15629,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": false,
-              "firefox": false,
+              "firefox": true,
               "safari": true
             }
           },
@@ -15649,7 +15649,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": false,
-              "firefox": false,
+              "firefox": true,
               "safari": true
             }
           }
@@ -15667,7 +15667,7 @@
         "mdn": true,
         "bcdSupport": {
           "chrome": true,
-          "firefox": false,
+          "firefox": true,
           "safari": true
         }
       },
@@ -15675,7 +15675,7 @@
         "mdn": true,
         "bcdSupport": {
           "chrome": true,
-          "firefox": false,
+          "firefox": true,
           "safari": true
         }
       },
@@ -15683,7 +15683,7 @@
         "mdn": true,
         "bcdSupport": {
           "chrome": false,
-          "firefox": false,
+          "firefox": true,
           "safari": true
         }
       },
@@ -15691,7 +15691,7 @@
         "mdn": true,
         "bcdSupport": {
           "chrome": false,
-          "firefox": false,
+          "firefox": true,
           "safari": true
         }
       },
@@ -15699,7 +15699,7 @@
         "mdn": true,
         "bcdSupport": {
           "chrome": false,
-          "firefox": false,
+          "firefox": true,
           "safari": true
         }
       }
