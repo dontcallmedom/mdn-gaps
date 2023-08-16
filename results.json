@@ -7496,7 +7496,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": true,
-              "firefox": false,
+              "firefox": true,
               "safari": false
             }
           },
@@ -7546,7 +7546,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": true,
-              "firefox": false,
+              "firefox": true,
               "safari": false
             }
           },
@@ -10225,17 +10225,29 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
       "DocumentPictureInPicture": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "DocumentPictureInPictureEvent": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       }
     }
   },
@@ -13472,7 +13484,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       }
@@ -14055,13 +14071,21 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "firstInterimResponseStart": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "contentType": {
             "type": "attribute",
