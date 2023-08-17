@@ -14067,26 +14067,6 @@
     "idl": {
       "PerformanceResourceTiming": {
         "members": {
-          "deliveryType": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "firstInterimResponseStart": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
           "contentType": {
             "type": "attribute",
             "isStatic": false,
