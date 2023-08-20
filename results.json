@@ -159,7 +159,11 @@
     "idl": {
       "IdentityProvider": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       }
     }
   },
