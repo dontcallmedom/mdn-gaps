@@ -7704,6 +7704,26 @@
           }
         }
       },
+      "NavigateEvent": {
+        "members": {
+          "hasUAVisualTransition": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "PopStateEvent": {
+        "members": {
+          "hasUAVisualTransition": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
       "BeforeUnloadEvent": {
         "members": {
           "returnValue": {
@@ -8645,14 +8665,6 @@
     "url": "https://screen-share.github.io/captured-mouse-events/",
     "idl": {
       "CapturedMouseEvent": {
-        "mdn": true,
-        "bcd": true
-      }
-    }
-  },
-  "close-watcher": {
-    "idl": {
-      "CloseWatcher": {
         "mdn": true,
         "bcd": true
       }
@@ -12959,20 +12971,6 @@
       }
     }
   },
-  "gpc-spec": {
-    "idl": {
-      "WorkerNavigator": {
-        "members": {
-          "globalPrivacyControl": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      }
-    }
-  },
   "html-media-capture": {
     "title": "HTML Media Capture",
     "url": "https://www.w3.org/TR/html-media-capture/",
@@ -13999,7 +13997,7 @@
       },
       "XRFrame": {
         "members": {
-          "detectedMeshs": {
+          "detectedMeshes": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
@@ -14260,6 +14258,16 @@
       "WindowSharedStorage": {
         "mdn": true,
         "bcd": true
+      },
+      "Window": {
+        "members": {
+          "sharedStorage": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
       },
       "WorkletSharedStorage": {
         "mdn": true,
