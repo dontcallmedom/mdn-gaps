@@ -9583,6 +9583,18 @@
             "mdn": true,
             "bcd": true
           },
+          "cap": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "ch": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "em": {
             "type": "method",
             "isStatic": false,
@@ -9595,13 +9607,25 @@
             "mdn": true,
             "bcd": true
           },
-          "ch": {
+          "ic": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
             "bcd": true
           },
-          "ic": {
+          "lh": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "rcap": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "rch": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
@@ -9613,7 +9637,13 @@
             "mdn": true,
             "bcd": true
           },
-          "lh": {
+          "rex": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "ric": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
@@ -10372,6 +10402,10 @@
     "title": "Element Capture",
     "url": "https://screen-share.github.io/element-capture/",
     "idl": {
+      "RestrictionTarget": {
+        "mdn": true,
+        "bcd": true
+      },
       "BrowserCaptureMediaStreamTrack": {
         "mdn": true,
         "bcdSupport": {
