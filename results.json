@@ -15671,40 +15671,6 @@
     "title": "WebRTC Encoded Transform",
     "url": "https://www.w3.org/TR/webrtc-encoded-transform/",
     "idl": {
-      "RTCRtpSender": {
-        "members": {
-          "transform": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "generateKeyFrame": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
-      "RTCRtpReceiver": {
-        "members": {
-          "transform": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
       "SFrameTransform": {
         "mdn": true,
         "bcd": true
@@ -15713,44 +15679,14 @@
         "mdn": true,
         "bcd": true
       },
-      "RTCEncodedVideoFrame": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": true,
-          "safari": true
-        }
-      },
-      "RTCEncodedAudioFrame": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": true,
-          "safari": true
-        }
-      },
-      "RTCTransformEvent": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": false,
-          "firefox": true,
-          "safari": true
-        }
-      },
-      "RTCRtpScriptTransformer": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": false,
-          "firefox": true,
-          "safari": true
-        }
-      },
-      "RTCRtpScriptTransform": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": false,
-          "firefox": true,
-          "safari": true
+      "RTCRtpSender": {
+        "members": {
+          "generateKeyFrame": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
         }
       }
     }
