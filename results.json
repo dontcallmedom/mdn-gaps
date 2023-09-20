@@ -158,11 +158,13 @@
     "url": "https://fedidcg.github.io/FedCM/",
     "idl": {
       "IdentityProvider": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
+        "members": {
+          "getUserInfo": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcd": true
+          }
         }
       }
     }
@@ -7662,25 +7664,41 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "entryType": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "startTime": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "duration": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
@@ -8481,7 +8499,7 @@
     }
   },
   "WEBGL_clip_cull_distance": {
-    "title": "WebGL WEBGL_clip_cull_distance Extension Draft Specification",
+    "title": "WebGL WEBGL_clip_cull_distance Extension Specification",
     "url": "https://registry.khronos.org/webgl/extensions/WEBGL_clip_cull_distance/",
     "idl": {
       "WEBGL_clip_cull_distance": {
@@ -9527,7 +9545,11 @@
     "idl": {
       "CSSStartingStyleRule": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       }
     }
   },
@@ -12501,7 +12523,11 @@
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           },
           "reset": {
             "type": "method",
@@ -14811,7 +14837,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           },
           "play": {
             "type": "method",
