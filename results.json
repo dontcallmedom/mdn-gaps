@@ -8409,7 +8409,7 @@
             "isStatic": false,
             "mdn": true,
             "bcdSupport": {
-              "chrome": null,
+              "chrome": true,
               "firefox": true,
               "safari": true
             }
@@ -8439,7 +8439,7 @@
             "isStatic": false,
             "mdn": true,
             "bcdSupport": {
-              "chrome": null,
+              "chrome": true,
               "firefox": true,
               "safari": true
             }
@@ -8449,7 +8449,7 @@
             "isStatic": false,
             "mdn": true,
             "bcdSupport": {
-              "chrome": null,
+              "chrome": true,
               "firefox": true,
               "safari": true
             }
@@ -8459,7 +8459,7 @@
             "isStatic": false,
             "mdn": true,
             "bcdSupport": {
-              "chrome": null,
+              "chrome": true,
               "firefox": true,
               "safari": true
             }
