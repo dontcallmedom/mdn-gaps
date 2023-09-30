@@ -8622,6 +8622,26 @@
       }
     }
   },
+  "audio-session": {
+    "title": "Audio Session",
+    "url": "https://w3c.github.io/audio-session/",
+    "idl": {
+      "Navigator": {
+        "members": {
+          "audioSession": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "AudioSession": {
+        "mdn": true,
+        "bcd": true
+      }
+    }
+  },
   "badging": {
     "title": "Badging API",
     "url": "https://www.w3.org/TR/badging/",
@@ -8685,6 +8705,22 @@
       "CapturedMouseEvent": {
         "mdn": true,
         "bcd": true
+      }
+    }
+  },
+  "clipboard-apis": {
+    "title": "Clipboard API and events",
+    "url": "https://www.w3.org/TR/clipboard-apis/",
+    "idl": {
+      "ClipboardItem": {
+        "members": {
+          "supports": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcd": true
+          }
+        }
       }
     }
   },
@@ -10011,6 +10047,14 @@
       }
     }
   },
+  "css-view-transitions-2": {
+    "idl": {
+      "PageRevealEvent": {
+        "mdn": true,
+        "bcd": true
+      }
+    }
+  },
   "cssom-view": {
     "title": "CSSOM View Module",
     "url": "https://www.w3.org/TR/cssom-view-1/",
@@ -10472,6 +10516,16 @@
       "FencedFrameConfig": {
         "mdn": true,
         "bcd": true
+      },
+      "Navigator": {
+        "members": {
+          "deprecatedReplaceInURN": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
       },
       "Fence": {
         "mdn": true,
@@ -13327,6 +13381,16 @@
     "title": "Intersection Observer",
     "url": "https://www.w3.org/TR/intersection-observer/",
     "idl": {
+      "IntersectionObserver": {
+        "members": {
+          "scrollMargin": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
       "IntersectionObserverEntry": {
         "members": {
           "IntersectionObserverEntry": {
@@ -14332,6 +14396,26 @@
       "WorkletSharedStorage": {
         "mdn": true,
         "bcd": true
+      },
+      "HTMLIFrameElement": {
+        "members": {
+          "sharedStorageWritable": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "HTMLImageElement": {
+        "members": {
+          "sharedStorageWritable": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
       }
     }
   },
@@ -15051,6 +15135,16 @@
     "title": "Web Audio API",
     "url": "https://www.w3.org/TR/webaudio/",
     "idl": {
+      "BaseAudioContext": {
+        "members": {
+          "renderQuantumSize": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
       "AudioContext": {
         "members": {
           "renderCapacity": {
@@ -15095,6 +15189,12 @@
       },
       "AudioWorkletGlobalScope": {
         "members": {
+          "renderQuantumSize": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "port": {
             "type": "attribute",
             "isStatic": false,
