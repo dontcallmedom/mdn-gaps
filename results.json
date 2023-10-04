@@ -7522,7 +7522,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": true,
-              "firefox": false,
+              "firefox": true,
               "safari": false
             }
           },
@@ -7532,7 +7532,7 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": true,
-              "firefox": false,
+              "firefox": true,
               "safari": false
             }
           },
@@ -9041,8 +9041,7 @@
     },
     "css.atrules": {
       "@scope": {
-        "mdn": true,
-        "bcd": true
+        "mdn": true
       }
     }
   },
