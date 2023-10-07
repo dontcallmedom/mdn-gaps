@@ -6647,6 +6647,12 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
+          },
+          "name": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
           }
         }
       },
