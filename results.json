@@ -2896,6 +2896,12 @@
       },
       "Document": {
         "members": {
+          "parseHTMLUnsafe": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcd": true
+          },
           "queryCommandIndeterm": {
             "type": "method",
             "isStatic": false,
@@ -7748,20 +7754,6 @@
           }
         }
       },
-      "BeforeUnloadEvent": {
-        "members": {
-          "returnValue": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
       "ErrorEvent": {
         "members": {
           "ErrorEvent": {
@@ -7823,6 +7815,26 @@
               "firefox": true,
               "safari": true
             }
+          }
+        }
+      },
+      "Element": {
+        "members": {
+          "setHTMLUnsafe": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "ShadowRoot": {
+        "members": {
+          "setHTMLUnsafe": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
           }
         }
       },
@@ -10054,7 +10066,11 @@
   },
   "css-view-transitions-2": {
     "idl": {
-      "PageRevealEvent": {
+      "RevealEvent": {
+        "mdn": true,
+        "bcd": true
+      },
+      "CSSViewTransitionRule": {
         "mdn": true,
         "bcd": true
       }
@@ -13763,6 +13779,22 @@
     "title": "Performance Timeline",
     "url": "https://www.w3.org/TR/performance-timeline/",
     "idl": {
+      "PerformanceEntry": {
+        "members": {
+          "id": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "navigationId": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
       "PerformanceObserver": {
         "members": {
           "supportedEntryTypes": {
@@ -16170,10 +16202,20 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
+          },
+          "createSendGroup": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
           }
         }
       },
       "WebTransportSendStream": {
+        "mdn": true,
+        "bcd": true
+      },
+      "WebTransportSendGroup": {
         "mdn": true,
         "bcd": true
       }
