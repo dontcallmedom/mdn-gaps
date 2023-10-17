@@ -13946,40 +13946,6 @@
       }
     }
   },
-  "prerendering-revamped": {
-    "title": "Prerendering Revamped",
-    "url": "https://wicg.github.io/nav-speculation/prerendering.html",
-    "idl": {
-      "Document": {
-        "members": {
-          "prerendering": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      },
-      "PerformanceNavigationTiming": {
-        "members": {
-          "activationStart": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      }
-    }
-  },
   "presentation-api": {
     "title": "Presentation API",
     "url": "https://www.w3.org/TR/presentation-api/",
