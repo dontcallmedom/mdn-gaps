@@ -8604,7 +8604,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
@@ -8614,7 +8618,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
@@ -8624,7 +8632,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
@@ -8634,7 +8646,11 @@
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       }
@@ -8656,7 +8672,18 @@
       },
       "AudioSession": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": false,
+          "firefox": false,
+          "safari": true
+        },
+        "members": {
+          "state": {
+            "type": "attribute",
+            "isStatic": false,
+            "bcd": true
+          }
+        }
       }
     }
   },
@@ -14360,31 +14387,59 @@
     "idl": {
       "SharedStorageWorklet": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "SharedStorageWorkletGlobalScope": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "SharedStorageOperation": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "SharedStorageRunOperation": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "SharedStorageSelectURLOperation": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "SharedStorage": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "WindowSharedStorage": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "Window": {
         "members": {
@@ -14392,13 +14447,21 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
       "WorkletSharedStorage": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "HTMLIFrameElement": {
         "members": {
@@ -15217,11 +15280,6 @@
           "isConditionalMediationAvailable": {
             "type": "method",
             "isStatic": true,
-            "bcd": true
-          },
-          "toJSON": {
-            "type": "method",
-            "isStatic": false,
             "bcd": true
           },
           "isUserVerifyingPlatformAuthenticatorAvailable": {
