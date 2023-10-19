@@ -10375,42 +10375,6 @@
       }
     }
   },
-  "document-picture-in-picture": {
-    "title": "Document Picture-in-Picture Specification",
-    "url": "https://wicg.github.io/document-picture-in-picture/",
-    "idl": {
-      "Window": {
-        "members": {
-          "documentPictureInPicture": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      },
-      "DocumentPictureInPicture": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
-        }
-      },
-      "DocumentPictureInPictureEvent": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
-        }
-      }
-    }
-  },
   "dom": {
     "title": "DOM Standard",
     "url": "https://dom.spec.whatwg.org/",
