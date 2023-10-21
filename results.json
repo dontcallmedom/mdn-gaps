@@ -1996,7 +1996,7 @@
             "isStatic": false,
             "mdn": true,
             "bcdSupport": {
-              "chrome": false,
+              "chrome": true,
               "firefox": true,
               "safari": false
             }
@@ -7740,7 +7740,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
@@ -7750,7 +7754,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
@@ -8666,7 +8674,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           }
         }
       },
@@ -9081,7 +9093,11 @@
     "idl": {
       "CSSScopeRule": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       }
     },
     "css.atrules": {
@@ -13147,7 +13163,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           },
           "ariaColIndexText": {
             "type": "attribute",
@@ -13159,31 +13179,51 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           },
           "ariaDescribedByElements": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           },
           "ariaDetailsElements": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           },
           "ariaErrorMessageElements": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           },
           "ariaFlowToElements": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           },
           "ariaInvalid": {
             "type": "attribute",
@@ -13199,13 +13239,21 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           },
           "ariaOwnsElements": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           },
           "ariaRowIndexText": {
             "type": "attribute",
@@ -13231,7 +13279,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           },
           "ariaColIndexText": {
             "type": "attribute",
@@ -13243,31 +13295,51 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           },
           "ariaDescribedByElements": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           },
           "ariaDetailsElements": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           },
           "ariaErrorMessageElements": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           },
           "ariaFlowToElements": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           },
           "ariaInvalid": {
             "type": "attribute",
@@ -13283,13 +13355,21 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           },
           "ariaOwnsElements": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           },
           "ariaRowIndexText": {
             "type": "attribute",
@@ -14265,13 +14345,21 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           },
           "getComposedRanges": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           }
         }
       }
@@ -14795,7 +14883,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
@@ -14805,7 +14897,11 @@
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
@@ -14821,7 +14917,11 @@
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       }
