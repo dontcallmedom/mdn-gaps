@@ -14396,20 +14396,6 @@
             }
           }
         }
-      },
-      "WindowClient": {
-        "members": {
-          "ancestorOrigins": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": false,
-              "safari": true
-            }
-          }
-        }
       }
     }
   },
