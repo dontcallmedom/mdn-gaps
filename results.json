@@ -135,7 +135,11 @@
     "idl": {
       "WebGLTimerQueryEXT": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": null,
+          "firefox": true,
+          "safari": false
+        }
       }
     }
   },
@@ -3999,16 +4003,6 @@
             "bcdSupport": {
               "chrome": true,
               "firefox": true,
-              "safari": true
-            }
-          },
-          "loading": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
               "safari": true
             }
           },
@@ -17492,8 +17486,7 @@
     "url": "https://www.w3.org/TR/css-masking-1/",
     "css.properties": {
       "clip-rule": {
-        "mdn": true,
-        "bcd": true
+        "mdn": true
       },
       "mask-border-mode": {
         "bcd": true
