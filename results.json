@@ -16292,20 +16292,6 @@
     "title": "WebUSB API",
     "url": "https://wicg.github.io/webusb/",
     "idl": {
-      "Navigator": {
-        "members": {
-          "usb": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      },
       "WorkerNavigator": {
         "members": {
           "usb": {
@@ -16910,56 +16896,6 @@
             "mdn": true,
             "bcd": true
           }
-        }
-      }
-    }
-  },
-  "window-management": {
-    "title": "Window Management",
-    "url": "https://www.w3.org/TR/window-management/",
-    "idl": {
-      "Screen": {
-        "members": {
-          "isExtended": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      },
-      "Window": {
-        "members": {
-          "getScreenDetails": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      },
-      "ScreenDetails": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
-        }
-      },
-      "ScreenDetailed": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
         }
       }
     }
