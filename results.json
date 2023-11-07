@@ -13926,26 +13926,6 @@
       }
     }
   },
-  "picture-in-picture": {
-    "title": "Picture-in-Picture",
-    "url": "https://www.w3.org/TR/picture-in-picture/",
-    "idl": {
-      "PictureInPictureEvent": {
-        "members": {
-          "pictureInPictureWindow": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
-          }
-        }
-      }
-    }
-  },
   "portals": {
     "title": "Portals",
     "url": "https://wicg.github.io/portals/",
@@ -16292,20 +16272,6 @@
     "title": "WebUSB API",
     "url": "https://wicg.github.io/webusb/",
     "idl": {
-      "WorkerNavigator": {
-        "members": {
-          "usb": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      },
       "USBInTransferResult": {
         "members": {
           "USBInTransferResult": {
