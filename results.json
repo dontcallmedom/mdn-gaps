@@ -17233,8 +17233,7 @@
     "url": "https://www.w3.org/TR/css-color-adjust-1/",
     "css.properties": {
       "color-adjust": {
-        "mdn": true,
-        "bcd": true
+        "mdn": true
       }
     }
   },
