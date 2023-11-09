@@ -161,8 +161,28 @@
     "title": "Federated Credential Management API",
     "url": "https://fedidcg.github.io/FedCM/",
     "idl": {
+      "NavigatorLogin": {
+        "mdn": true,
+        "bcd": true
+      },
+      "Navigator": {
+        "members": {
+          "login": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
       "IdentityProvider": {
         "members": {
+          "close": {
+            "type": "method",
+            "isStatic": true,
+            "mdn": true,
+            "bcd": true
+          },
           "getUserInfo": {
             "type": "method",
             "isStatic": true,
@@ -6819,6 +6839,18 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
+          },
+          "shadowRootMode": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "shadowRootDelegatesFocus": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
           }
         }
       },
@@ -7707,6 +7739,10 @@
             }
           }
         }
+      },
+      "CloseWatcher": {
+        "mdn": true,
+        "bcd": true
       },
       "Window": {
         "members": {
@@ -9093,11 +9129,6 @@
           "safari": false
         }
       }
-    },
-    "css.atrules": {
-      "@scope": {
-        "mdn": true
-      }
     }
   },
   "css-color-5": {
@@ -10103,7 +10134,7 @@
   },
   "css-view-transitions-2": {
     "idl": {
-      "RevealEvent": {
+      "PageRevealEvent": {
         "mdn": true,
         "bcd": true
       },
@@ -13517,6 +13548,26 @@
       }
     }
   },
+  "managed-configuration": {
+    "title": "Managed Configuration API",
+    "url": "https://wicg.github.io/WebApiDevice/managed_config/",
+    "idl": {
+      "Navigator": {
+        "members": {
+          "managed": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "NavigatorManagedData": {
+        "mdn": true,
+        "bcd": true
+      }
+    }
+  },
   "media-source": {
     "title": "Media Source Extensions™",
     "url": "https://www.w3.org/TR/media-source-2/",
@@ -14905,7 +14956,19 @@
             "mdn": true,
             "bcd": true
           },
+          "clearOriginJoinedAdInterestGroups": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
           "runAdAuction": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          },
+          "createAuctionNonce": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
@@ -15080,6 +15143,46 @@
         "bcd": true
       },
       "SequenceEffect": {
+        "mdn": true,
+        "bcd": true
+      }
+    }
+  },
+  "web-bluetooth-scanning": {
+    "title": "Web Bluetooth Scanning",
+    "url": "https://webbluetoothcg.github.io/web-bluetooth/scanning.html",
+    "idl": {
+      "Bluetooth": {
+        "members": {
+          "requestLEScan": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "BluetoothDataFilter": {
+        "mdn": true,
+        "bcd": true
+      },
+      "BluetoothManufacturerDataFilter": {
+        "mdn": true,
+        "bcd": true
+      },
+      "BluetoothServiceDataFilter": {
+        "mdn": true,
+        "bcd": true
+      },
+      "BluetoothLEScanFilter": {
+        "mdn": true,
+        "bcd": true
+      },
+      "BluetoothLEScan": {
+        "mdn": true,
+        "bcd": true
+      },
+      "BluetoothLEScanPermissionResult": {
         "mdn": true,
         "bcd": true
       }
@@ -16779,6 +16882,40 @@
               "firefox": false,
               "safari": false
             }
+          }
+        }
+      }
+    }
+  },
+  "webxr-plane-detection": {
+    "title": "WebXR Plane Detection Module",
+    "url": "https://immersive-web.github.io/real-world-geometry/plane-detection.html",
+    "idl": {
+      "XRPlane": {
+        "mdn": true,
+        "bcd": true
+      },
+      "XRPlaneSet": {
+        "mdn": true,
+        "bcd": true
+      },
+      "XRFrame": {
+        "members": {
+          "detectedPlanes": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
+          }
+        }
+      },
+      "XRSession": {
+        "members": {
+          "initiateRoomCapture": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
           }
         }
       }
