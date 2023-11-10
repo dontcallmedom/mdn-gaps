@@ -15287,20 +15287,6 @@
             "bcd": true
           }
         }
-      },
-      "Navigator": {
-        "members": {
-          "bluetooth": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": null,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
       }
     }
   },
