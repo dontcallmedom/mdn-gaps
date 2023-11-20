@@ -81,10 +81,10 @@ function checkMdnPage(tree, type, qname) {
   return true;
 }
 
-function checkIdlTopLevelName(name, item, spec, bcdTree, {wasm = false} = {}) {
+function checkIdlTopLevelName(name, item, spec, bcdTree) {
   // Check mdn documentation
   let hasMdnGap = false, hasBcdGap = false;
-  const tree = wasm ? "webassembly/javascript_interface" : "api";
+  const tree = "api";
   if (!checkMdnPage(tree, null, name)) {
     setGap(spec, "idl", "mdn", name);
     hasMdnGap = true;
@@ -146,7 +146,7 @@ function checkIdlTopLevelName(name, item, spec, bcdTree, {wasm = false} = {}) {
       continue;
     }
     if (item.type !== "includes" && item.extAttrs?.find(e => e.name === "LegacyNamespace" && e.rhs.value === "WebAssembly")) {
-      checkIdlTopLevelName(item.name, item, spec, bcd.javascript.builtins.WebAssembly, {wasm: true});
+      checkIdlTopLevelName(item.name, item, spec, bcd.webassembly);
       // TODO: members of interfaces, includes
       continue;
     }
