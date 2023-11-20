@@ -9,27 +9,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         ref: main
         path: mdn-gaps
     - name: Checkout repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         ref: gh-pages
         path: mdn-gaps-web
     - name: Checkout yari
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         repository: mdn/yari
         path: yari
     - name: Checkout mdn/content
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         repository: mdn/content
         path: content
     - name: Setup node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
         node-version: '18'
     - name: Set up yari
