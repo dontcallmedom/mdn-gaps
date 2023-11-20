@@ -163,7 +163,11 @@
     "idl": {
       "NavigatorLogin": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "Navigator": {
         "members": {
@@ -171,7 +175,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
@@ -5781,6 +5789,16 @@
               "firefox": true,
               "safari": true
             }
+          },
+          "showPicker": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
           }
         }
       },
@@ -6654,7 +6672,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
@@ -7724,7 +7746,11 @@
       },
       "CloseWatcher": {
         "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "Window": {
         "members": {
@@ -8504,26 +8530,6 @@
           }
         }
       }
-    },
-    "elements": {
-      "h1": {
-        "mdn": true
-      },
-      "h2": {
-        "mdn": true
-      },
-      "h3": {
-        "mdn": true
-      },
-      "h4": {
-        "mdn": true
-      },
-      "h5": {
-        "mdn": true
-      },
-      "h6": {
-        "mdn": true
-      }
     }
   },
   "WEBGL_blend_equation_advanced_coherent": {
@@ -8817,191 +8823,115 @@
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "clear": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "debug": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "error": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "info": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "log": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "table": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "trace": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "warn": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "dir": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "dirxml": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "count": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "countReset": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "group": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "groupCollapsed": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "groupEnd": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "time": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "timeLog": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           },
           "timeEnd": {
             "type": "method",
             "isStatic": false,
             "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
+            "bcd": true
           }
         }
       }
@@ -9841,18 +9771,6 @@
       "region-fragment": {
         "mdn": true,
         "bcd": true
-      }
-    }
-  },
-  "css-transitions-2": {
-    "idl": {
-      "CSSStartingStyleRule": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
-        }
       }
     }
   },
@@ -10718,6 +10636,22 @@
           "restrictTo": {
             "type": "method",
             "isStatic": false,
+            "bcd": true
+          }
+        }
+      }
+    }
+  },
+  "encrypted-media": {
+    "title": "Encrypted Media Extensions",
+    "url": "https://www.w3.org/TR/encrypted-media/",
+    "idl": {
+      "MediaKeys": {
+        "members": {
+          "getStatusForPolicy": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
             "bcd": true
           }
         }
@@ -13372,11 +13306,6 @@
               "safari": true
             }
           },
-          "ariaColIndexText": {
-            "type": "attribute",
-            "isStatic": false,
-            "bcd": true
-          },
           "ariaControlsElements": {
             "type": "attribute",
             "isStatic": false,
@@ -13456,11 +13385,6 @@
               "firefox": false,
               "safari": true
             }
-          },
-          "ariaRowIndexText": {
-            "type": "attribute",
-            "isStatic": false,
-            "bcd": true
           }
         }
       },
@@ -13486,11 +13410,6 @@
               "safari": true
             }
           },
-          "ariaColIndexText": {
-            "type": "attribute",
-            "isStatic": false,
-            "bcd": true
-          },
           "ariaControlsElements": {
             "type": "attribute",
             "isStatic": false,
@@ -13570,11 +13489,6 @@
               "firefox": false,
               "safari": true
             }
-          },
-          "ariaRowIndexText": {
-            "type": "attribute",
-            "isStatic": false,
-            "bcd": true
           }
         }
       }
@@ -13678,7 +13592,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
@@ -14299,6 +14217,22 @@
               "firefox": false,
               "safari": null
             }
+          }
+        }
+      }
+    }
+  },
+  "private-network-access": {
+    "title": "Private Network Access",
+    "url": "https://wicg.github.io/private-network-access/",
+    "idl": {
+      "Request": {
+        "members": {
+          "targetAddressSpace": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcd": true
           }
         }
       }
@@ -15224,19 +15158,25 @@
     "title": "WebAssembly JavaScript Interface: Exception Handling",
     "url": "https://webassembly.github.io/exception-handling/js-api/",
     "idl": {
+      "Module": {
+        "mdn": true,
+        "bcd": true
+      },
+      "Instance": {
+        "mdn": true,
+        "bcd": true
+      },
+      "Memory": {
+        "mdn": true,
+        "bcd": true
+      },
+      "Table": {
+        "mdn": true,
+        "bcd": true
+      },
       "Global": {
-        "members": {
-          "value": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
+        "mdn": true,
+        "bcd": true
       }
     }
   },
@@ -16038,7 +15978,11 @@
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
