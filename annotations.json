@@ -336,5 +336,27 @@
     "GPUSupportedLimits.maxComputeWorkgroupsPerDimension": {
       "mdn": "https://developer.mozilla.org/en-US/docs/Web/API/GPUSupportedLimits"
     }
+  },
+  "markup": {
+    "element": {
+      "h1": {
+	"mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"
+      },
+      "h2": {
+	"mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"
+      },
+      "h3": {
+	"mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"
+      },
+      "h4": {
+	"mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"
+      },
+      "h5": {
+	"mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"
+      },
+      "h6": {
+	"mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"
+      }
+    }
   }
 }

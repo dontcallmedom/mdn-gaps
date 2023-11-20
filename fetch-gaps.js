@@ -73,6 +73,8 @@ function checkMdnPage(tree, type, qname) {
     // a single page
     if (tree === "api" && annotations?.idl[qname]?.mdn) {
       return true;
+    } else if (type === "element" && annotations?.markup.element[qname]?.mdn) {
+      return true;
     }
     return false;
   }
