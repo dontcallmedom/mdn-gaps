@@ -190,68 +190,6 @@
             "isStatic": true,
             "mdn": true,
             "bcd": true
-          },
-          "getUserInfo": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      }
-    }
-  },
-  "FileAPI": {
-    "title": "File API",
-    "url": "https://www.w3.org/TR/FileAPI/",
-    "idl": {
-      "URL": {
-        "members": {
-          "createObjectURL": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
-          "revokeObjectURL": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      }
-    }
-  },
-  "IndexedDB": {
-    "title": "Indexed Database API 3.0",
-    "url": "https://www.w3.org/TR/IndexedDB-3/",
-    "idl": {
-      "IDBKeyRange": {
-        "members": {
-          "only": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
-          "lowerBound": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
-          "upperBound": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
-          "bound": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
           }
         }
       }
@@ -2654,62 +2592,152 @@
     },
     "css.properties": {
       "cx": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "cy": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "r": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "rx": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "ry": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "x": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "y": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "vector-effect": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "d": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": false
+        }
       },
       "shape-subtract": {
         "mdn": true,
         "bcd": true
       },
       "text-anchor": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "fill": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "stroke": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "marker-start": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "marker-mid": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "marker-end": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "marker": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "color-interpolation": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "shape-rendering": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "stop-color": {
         "mdn": true,
@@ -6798,12 +6826,6 @@
               "safari": true
             }
           },
-          "supports": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
           "charset": {
             "type": "attribute",
             "isStatic": false,
@@ -6878,818 +6900,10 @@
           }
         }
       },
-      "Path2D": {
-        "members": {
-          "closePath": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "moveTo": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "lineTo": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "quadraticCurveTo": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "bezierCurveTo": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "arcTo": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "rect": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "roundRect": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "arc": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "ellipse": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
       "ImageBitmapRenderingContext": {
         "members": {
           "canvas": {
             "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
-      "OffscreenCanvasRenderingContext2D": {
-        "members": {
-          "canvas": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "save": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "restore": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "reset": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": false
-            }
-          },
-          "isContextLost": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "scale": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "rotate": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "translate": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "transform": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "getTransform": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "setTransform": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "resetTransform": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "globalAlpha": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "globalCompositeOperation": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "imageSmoothingEnabled": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "imageSmoothingQuality": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
-          },
-          "strokeStyle": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "fillStyle": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "createLinearGradient": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "createRadialGradient": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "createConicGradient": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "createPattern": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "shadowOffsetX": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "shadowOffsetY": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "shadowBlur": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "shadowColor": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "filter": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": false
-            }
-          },
-          "clearRect": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "fillRect": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "strokeRect": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "beginPath": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "fill": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "stroke": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "clip": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "isPointInPath": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "isPointInStroke": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "fillText": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "strokeText": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "measureText": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "drawImage": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "createImageData": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "getImageData": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "putImageData": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "lineWidth": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "lineCap": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "lineJoin": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "miterLimit": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "setLineDash": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "getLineDash": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "lineDashOffset": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "font": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "textAlign": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "textBaseline": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "direction": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "letterSpacing": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": false
-            }
-          },
-          "fontKerning": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": false
-            }
-          },
-          "fontStretch": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": false
-            }
-          },
-          "fontVariantCaps": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": false
-            }
-          },
-          "textRendering": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": false
-            }
-          },
-          "wordSpacing": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": false
-            }
-          },
-          "closePath": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "moveTo": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "lineTo": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "quadraticCurveTo": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "bezierCurveTo": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "arcTo": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "rect": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "roundRect": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "arc": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "ellipse": {
-            "type": "method",
             "isStatic": false,
             "mdn": true,
             "bcdSupport": {
@@ -8813,130 +8027,6 @@
       }
     }
   },
-  "console": {
-    "title": "Console Standard",
-    "url": "https://console.spec.whatwg.org/",
-    "idl": {
-      "console": {
-        "members": {
-          "assert": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          },
-          "clear": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          },
-          "debug": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          },
-          "error": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          },
-          "info": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          },
-          "log": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          },
-          "table": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          },
-          "trace": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          },
-          "warn": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          },
-          "dir": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          },
-          "dirxml": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          },
-          "count": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          },
-          "countReset": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          },
-          "group": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          },
-          "groupCollapsed": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          },
-          "groupEnd": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          },
-          "time": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          },
-          "timeLog": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          },
-          "timeEnd": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      }
-    }
-  },
   "contact-picker": {
     "title": "Contact Picker API",
     "url": "https://www.w3.org/TR/contact-picker/",
@@ -9125,7 +8215,11 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": true
+            }
           }
         }
       },
@@ -9174,6 +8268,38 @@
         "bcd": true
       },
       "CSSTryRule": {
+        "mdn": true,
+        "bcd": true
+      }
+    },
+    "css.properties": {
+      "anchor-name": {
+        "mdn": true,
+        "bcd": true
+      },
+      "anchor-default": {
+        "mdn": true,
+        "bcd": true
+      },
+      "inset-area": {
+        "mdn": true,
+        "bcd": true
+      },
+      "position-fallback": {
+        "mdn": true,
+        "bcd": true
+      },
+      "position-fallback-bounds": {
+        "mdn": true,
+        "bcd": true
+      }
+    },
+    "css.atrules": {
+      "@position-fallback": {
+        "mdn": true,
+        "bcd": true
+      },
+      "@try": {
         "mdn": true,
         "bcd": true
       }
@@ -9438,9 +8564,6 @@
       }
     },
     "css.properties": {
-      "object-view-box": {
-        "mdn": true
-      },
       "image-resolution": {
         "bcd": true
       }
@@ -9778,32 +8901,6 @@
     "title": "CSS Typed OM Level 1",
     "url": "https://www.w3.org/TR/css-typed-om-1/",
     "idl": {
-      "CSSStyleValue": {
-        "members": {
-          "parse": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
-          "parseAll": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
-      "CSSNumericValue": {
-        "members": {
-          "parse": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
       "CSSMathClamp": {
         "mdn": true,
         "bcdSupport": {
@@ -10242,6 +9339,12 @@
         "mdn": true,
         "bcd": true
       }
+    },
+    "css.atrules": {
+      "@view-transition": {
+        "mdn": true,
+        "bcd": true
+      }
     }
   },
   "cssom-view": {
@@ -10524,28 +9627,6 @@
         "mdn": true,
         "bcd": true
       },
-      "AbortSignal": {
-        "members": {
-          "abort": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
-          "timeout": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
-          "any": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
       "Document": {
         "members": {
           "charset": {
@@ -10753,22 +9834,6 @@
           "duplex": {
             "type": "attribute",
             "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
-      "Response": {
-        "members": {
-          "error": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
-          "redirect": {
-            "type": "method",
-            "isStatic": true,
             "mdn": true,
             "bcd": true
           }
@@ -12685,16 +11750,36 @@
     },
     "css.properties": {
       "flood-color": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "flood-opacity": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "color-interpolation-filters": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "lighting-color": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       }
     }
   },
@@ -12792,12 +11877,6 @@
     "idl": {
       "DOMPointReadOnly": {
         "members": {
-          "fromPoint": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
           "matrixTransform": {
             "type": "method",
             "isStatic": false,
@@ -12810,24 +11889,8 @@
           }
         }
       },
-      "DOMPoint": {
-        "members": {
-          "fromPoint": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
       "DOMRectReadOnly": {
         "members": {
-          "fromRect": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
           "toJSON": {
             "type": "method",
             "isStatic": false,
@@ -12842,12 +11905,6 @@
       },
       "DOMRect": {
         "members": {
-          "fromRect": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
           "x": {
             "type": "attribute",
             "isStatic": false,
@@ -12914,13 +11971,21 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
           },
           "fromQuad": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
           },
           "getBounds": {
             "type": "method",
@@ -12950,19 +12015,31 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
           },
           "fromFloat32Array": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
           },
           "fromFloat64Array": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
           },
           "scaleNonUniform": {
             "type": "method",
@@ -13112,19 +12189,31 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
           },
           "fromFloat32Array": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
           },
           "fromFloat64Array": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
           },
           "multiplySelf": {
             "type": "method",
@@ -13550,22 +12639,6 @@
       }
     }
   },
-  "idle-detection": {
-    "title": "Idle Detection API",
-    "url": "https://wicg.github.io/idle-detection/",
-    "idl": {
-      "IdleDetector": {
-        "members": {
-          "requestPermission": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      }
-    }
-  },
   "input-device-capabilities": {
     "title": "Input Device Capabilities",
     "url": "https://wicg.github.io/input-device-capabilities/",
@@ -13664,22 +12737,6 @@
     "title": "Media Source Extensions™",
     "url": "https://www.w3.org/TR/media-source-2/",
     "idl": {
-      "MediaSource": {
-        "members": {
-          "canConstructInDedicatedWorker": {
-            "type": "attribute",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
-          "isTypeSupported": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
       "TextTrack": {
         "members": {
           "sourceBuffer": {
@@ -13742,13 +12799,6 @@
           "chrome": true,
           "firefox": false,
           "safari": false
-        },
-        "members": {
-          "fromElement": {
-            "type": "method",
-            "isStatic": true,
-            "bcd": true
-          }
         }
       },
       "BrowserCaptureMediaStreamTrack": {
@@ -13802,12 +12852,6 @@
               "firefox": false,
               "safari": false
             }
-          },
-          "isTypeSupported": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
           }
         }
       }
@@ -13849,34 +12893,6 @@
       }
     }
   },
-  "notifications": {
-    "title": "Notifications API Standard",
-    "url": "https://notifications.spec.whatwg.org/",
-    "idl": {
-      "Notification": {
-        "members": {
-          "permission": {
-            "type": "attribute",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
-          "requestPermission": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
-          "maxActions": {
-            "type": "attribute",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      }
-    }
-  },
   "orientation-event": {
     "title": "DeviceOrientation Event Specification",
     "url": "https://www.w3.org/TR/orientation-event/",
@@ -13887,7 +12903,11 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       },
@@ -13897,7 +12917,11 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": false,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       }
@@ -13998,16 +13022,6 @@
           "navigationId": {
             "type": "attribute",
             "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
-      "PerformanceObserver": {
-        "members": {
-          "supportedEntryTypes": {
-            "type": "attribute",
-            "isStatic": true,
             "mdn": true,
             "bcd": true
           }
@@ -14252,16 +13266,6 @@
     "title": "Push API",
     "url": "https://www.w3.org/TR/push-api/",
     "idl": {
-      "PushManager": {
-        "members": {
-          "supportedContentEncodings": {
-            "type": "attribute",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
       "PushSubscriptionChangeEvent": {
         "mdn": true,
         "bcdSupport": {
@@ -14430,7 +13434,11 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       }
@@ -14446,7 +13454,11 @@
             "type": "method",
             "isStatic": true,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
           }
         }
       }
@@ -14539,16 +13551,6 @@
       "FaceDetector": {
         "mdn": true,
         "bcd": true
-      },
-      "BarcodeDetector": {
-        "members": {
-          "getSupportedFormats": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
       }
     }
   },
@@ -14719,26 +13721,6 @@
         "bcd": true
       },
       "StorageBucket": {
-        "mdn": true,
-        "bcd": true
-      }
-    }
-  },
-  "streams": {
-    "title": "Streams Standard",
-    "url": "https://streams.spec.whatwg.org/",
-    "idl": {
-      "ReadableStream": {
-        "members": {
-          "from": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
-      "SFrameTransform": {
         "mdn": true,
         "bcd": true
       }
@@ -15108,22 +14090,6 @@
       }
     }
   },
-  "url": {
-    "title": "URL Standard",
-    "url": "https://url.spec.whatwg.org/",
-    "idl": {
-      "URL": {
-        "members": {
-          "canParse": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      }
-    }
-  },
   "video-rvfc": {
     "title": "HTMLVideoElement.requestVideoFrameCallback()",
     "url": "https://wicg.github.io/video-rvfc/",
@@ -15373,34 +14339,6 @@
             "bcd": true
           }
         }
-      },
-      "BluetoothUUID": {
-        "members": {
-          "getService": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
-          "getCharacteristic": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
-          "getDescriptor": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
-          "canonicalUUID": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
       }
     }
   },
@@ -15507,27 +14445,14 @@
           "isConditionalMediationAvailable": {
             "type": "method",
             "isStatic": true,
-            "bcd": true
-          },
-          "isUserVerifyingPlatformAuthenticatorAvailable": {
-            "type": "method",
-            "isStatic": true,
             "mdn": true,
-            "bcd": true
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
           },
           "isPasskeyPlatformAuthenticatorAvailable": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
-          "parseCreationOptionsFromJSON": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          },
-          "parseRequestOptionsFromJSON": {
             "type": "method",
             "isStatic": true,
             "mdn": true,
@@ -15551,61 +14476,11 @@
     "title": "WebCodecs",
     "url": "https://www.w3.org/TR/webcodecs/",
     "idl": {
-      "AudioDecoder": {
-        "members": {
-          "isConfigSupported": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
-      "VideoDecoder": {
-        "members": {
-          "isConfigSupported": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
-      "AudioEncoder": {
-        "members": {
-          "isConfigSupported": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
-      "VideoEncoder": {
-        "members": {
-          "isConfigSupported": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
       "VideoFrame": {
         "members": {
           "metadata": {
             "type": "method",
             "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
-      "ImageDecoder": {
-        "members": {
-          "isTypeSupported": {
-            "type": "method",
-            "isStatic": true,
             "mdn": true,
             "bcd": true
           }
@@ -15797,16 +14672,6 @@
           "predictedDisplayTime": {
             "type": "attribute",
             "isStatic": false,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
-      "XRWebGLLayer": {
-        "members": {
-          "getNativeFramebufferScaleFactor": {
-            "type": "method",
-            "isStatic": true,
             "mdn": true,
             "bcd": true
           }
@@ -16112,6 +14977,16 @@
       }
     }
   },
+  "streams": {
+    "title": "Streams Standard",
+    "url": "https://streams.spec.whatwg.org/",
+    "idl": {
+      "SFrameTransform": {
+        "mdn": true,
+        "bcd": true
+      }
+    }
+  },
   "webrtc-ice": {
     "title": "IceTransport Extensions for WebRTC",
     "url": "https://w3c.github.io/webrtc-ice/",
@@ -16345,36 +15220,6 @@
               "firefox": false,
               "safari": true
             }
-          }
-        }
-      },
-      "RTCPeerConnection": {
-        "members": {
-          "generateCertificate": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
-      "RTCRtpSender": {
-        "members": {
-          "getCapabilities": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
-          }
-        }
-      },
-      "RTCRtpReceiver": {
-        "members": {
-          "getCapabilities": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcd": true
           }
         }
       },
@@ -17373,40 +16218,9 @@
         "mdn": true,
         "bcd": true
       }
-    }
-  },
-  "css-align": {
-    "title": "CSS Box Alignment Module Level 3",
-    "url": "https://www.w3.org/TR/css-align-3/",
-    "css.properties": {
-      "grid-row-gap": {
-        "mdn": true
-      },
-      "grid-column-gap": {
-        "mdn": true
-      },
-      "grid-gap": {
-        "mdn": true
-      }
-    }
-  },
-  "css-anchor": {
-    "css.properties": {
-      "anchor-scroll": {
-        "mdn": true,
-        "bcd": true
-      },
-      "anchor-name": {
-        "mdn": true,
-        "bcd": true
-      },
-      "position-fallback": {
-        "mdn": true,
-        "bcd": true
-      }
     },
     "css.atrules": {
-      "@position-fallback": {
+      "@-webkit-keyframes": {
         "mdn": true,
         "bcd": true
       }
@@ -17419,6 +16233,48 @@
         "bcd": true
       },
       "background-position-block": {
+        "mdn": true,
+        "bcd": true
+      },
+      "background-tbd": {
+        "mdn": true,
+        "bcd": true
+      }
+    }
+  },
+  "css-borders": {
+    "title": "CSS Borders and Box Decorations Module Level 4",
+    "url": "https://drafts.csswg.org/css-borders-4/",
+    "css.properties": {
+      "border-top-radius": {
+        "mdn": true,
+        "bcd": true
+      },
+      "border-right-radius": {
+        "mdn": true,
+        "bcd": true
+      },
+      "border-bottom-radius": {
+        "mdn": true,
+        "bcd": true
+      },
+      "border-left-radius": {
+        "mdn": true,
+        "bcd": true
+      },
+      "border-block-start-radius": {
+        "mdn": true,
+        "bcd": true
+      },
+      "border-block-end-radius": {
+        "mdn": true,
+        "bcd": true
+      },
+      "border-inline-start-radius": {
+        "mdn": true,
+        "bcd": true
+      },
+      "border-inline-end-radius": {
         "mdn": true,
         "bcd": true
       },
@@ -17453,6 +16309,26 @@
       "border-clip-left": {
         "mdn": true,
         "bcd": true
+      },
+      "box-shadow-color": {
+        "mdn": true,
+        "bcd": true
+      },
+      "box-shadow-offset": {
+        "mdn": true,
+        "bcd": true
+      },
+      "box-shadow-blur": {
+        "mdn": true,
+        "bcd": true
+      },
+      "box-shadow-spread": {
+        "mdn": true,
+        "bcd": true
+      },
+      "box-shadow-position": {
+        "mdn": true,
+        "bcd": true
       }
     }
   },
@@ -17471,7 +16347,12 @@
     "url": "https://www.w3.org/TR/css-color-adjust-1/",
     "css.properties": {
       "color-adjust": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": false,
+          "firefox": true,
+          "safari": true
+        }
       }
     }
   },
@@ -17504,6 +16385,20 @@
         "bcd": true
       },
       "bookmark-state": {
+        "mdn": true,
+        "bcd": true
+      }
+    }
+  },
+  "css-display": {
+    "title": "CSS Display Module Level 4",
+    "url": "https://drafts.csswg.org/css-display-4/",
+    "css.properties": {
+      "reading-order": {
+        "mdn": true,
+        "bcd": true
+      },
+      "layout-order": {
         "mdn": true,
         "bcd": true
       }
@@ -17555,27 +16450,59 @@
       }
     }
   },
+  "css-images-5": {
+    "css.properties": {
+      "object-view-box": {
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
+      }
+    }
+  },
   "css-inline": {
     "title": "CSS Inline Layout Module Level 3",
     "url": "https://www.w3.org/TR/css-inline-3/",
     "css.properties": {
       "dominant-baseline": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "baseline-source": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": false
+        }
       },
       "alignment-baseline": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": true
+        }
       },
       "baseline-shift": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": true
+        }
       },
-      "text-edge": {
+      "text-box-edge": {
         "mdn": true,
         "bcd": true
       },
-      "leading-trim": {
+      "text-box-trim": {
         "mdn": true,
         "bcd": true
       },
@@ -17607,6 +16534,16 @@
       }
     }
   },
+  "css-link-params": {
+    "title": "CSS Linked Parameters",
+    "url": "https://drafts.csswg.org/css-link-params-1/",
+    "css.properties": {
+      "link-parameters": {
+        "mdn": true,
+        "bcd": true
+      }
+    }
+  },
   "css-lists": {
     "title": "CSS Lists and Counters Module Level 3",
     "url": "https://www.w3.org/TR/css-lists-3/",
@@ -17622,7 +16559,12 @@
     "url": "https://www.w3.org/TR/css-masking-1/",
     "css.properties": {
       "clip-rule": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "mask-border-mode": {
         "bcd": true
@@ -17631,20 +16573,46 @@
   },
   "css-overflow-4": {
     "css.properties": {
-      "continue": {
+      "overflow-clip-margin-top": {
         "mdn": true,
         "bcd": true
       },
-      "max-lines": {
+      "overflow-clip-margin-right": {
         "mdn": true,
         "bcd": true
-      }
-    }
-  },
-  "css-overflow": {
-    "title": "CSS Overflow Module Level 3",
-    "url": "https://www.w3.org/TR/css-overflow-3/",
-    "css.properties": {
+      },
+      "overflow-clip-margin-bottom": {
+        "mdn": true,
+        "bcd": true
+      },
+      "overflow-clip-margin-left": {
+        "mdn": true,
+        "bcd": true
+      },
+      "overflow-clip-margin-block-start": {
+        "mdn": true,
+        "bcd": true
+      },
+      "overflow-clip-margin-inline-start": {
+        "mdn": true,
+        "bcd": true
+      },
+      "overflow-clip-margin-block-end": {
+        "mdn": true,
+        "bcd": true
+      },
+      "overflow-clip-margin-inline-end": {
+        "mdn": true,
+        "bcd": true
+      },
+      "overflow-clip-margin-inline": {
+        "mdn": true,
+        "bcd": true
+      },
+      "overflow-clip-margin-block": {
+        "mdn": true,
+        "bcd": true
+      },
       "block-ellipsis": {
         "mdn": true,
         "bcd": true
@@ -17832,6 +16800,22 @@
       "scroll-start-block": {
         "mdn": true,
         "bcd": true
+      },
+      "scroll-start-target-block": {
+        "mdn": true,
+        "bcd": true
+      },
+      "scroll-start-target-inline": {
+        "mdn": true,
+        "bcd": true
+      },
+      "scroll-start-target-x": {
+        "mdn": true,
+        "bcd": true
+      },
+      "scroll-start-target-y": {
+        "mdn": true,
+        "bcd": true
       }
     }
   },
@@ -17868,7 +16852,12 @@
         "bcd": true
       },
       "speak": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": false,
+          "safari": false
+        }
       },
       "speak-as": {
         "mdn": true,
@@ -17938,19 +16927,31 @@
   },
   "css-text-4": {
     "css.properties": {
-      "word-boundary-detection": {
+      "word-space-transform": {
         "mdn": true,
         "bcd": true
       },
-      "word-boundary-expansion": {
+      "white-space-trim": {
         "mdn": true,
         "bcd": true
       },
-      "text-space-collapse": {
+      "text-wrap-mode": {
         "mdn": true,
         "bcd": true
       },
-      "text-space-trim": {
+      "wrap-inside": {
+        "mdn": true,
+        "bcd": true
+      },
+      "wrap-before": {
+        "mdn": true,
+        "bcd": true
+      },
+      "wrap-after": {
+        "mdn": true,
+        "bcd": true
+      },
+      "text-wrap-style": {
         "mdn": true,
         "bcd": true
       },
@@ -17967,19 +16968,12 @@
         "bcd": true
       },
       "word-wrap": {
-        "mdn": true
-      },
-      "wrap-before": {
         "mdn": true,
-        "bcd": true
-      },
-      "wrap-after": {
-        "mdn": true,
-        "bcd": true
-      },
-      "wrap-inside": {
-        "mdn": true,
-        "bcd": true
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "text-align-all": {
         "mdn": true,
@@ -17990,6 +16984,14 @@
         "bcd": true
       },
       "line-padding": {
+        "mdn": true,
+        "bcd": true
+      },
+      "text-autospace": {
+        "mdn": true,
+        "bcd": true
+      },
+      "text-spacing-trim": {
         "mdn": true,
         "bcd": true
       },
@@ -18028,7 +17030,12 @@
     "url": "https://www.w3.org/TR/css-text-3/",
     "css.properties": {
       "word-wrap": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "text-align-all": {
         "mdn": true,
@@ -18064,6 +17071,10 @@
         "mdn": true,
         "bcd": true
       },
+      "field-sizing": {
+        "mdn": true,
+        "bcd": true
+      },
       "input-security": {
         "mdn": true,
         "bcd": true
@@ -18083,7 +17094,12 @@
     "url": "https://www.w3.org/TR/css-writing-modes-3/",
     "css.properties": {
       "glyph-orientation-vertical": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": false,
+          "firefox": false,
+          "safari": true
+        }
       }
     }
   },
@@ -18092,7 +17108,12 @@
     "url": "https://www.w3.org/TR/fill-stroke-3/",
     "css.properties": {
       "fill-rule": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "fill-break": {
         "mdn": true,
@@ -18123,33 +17144,68 @@
         "bcd": true
       },
       "fill-opacity": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "stroke-width": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "stroke-align": {
         "mdn": true,
         "bcd": true
       },
       "stroke-linecap": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "stroke-linejoin": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "stroke-miterlimit": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "stroke-break": {
         "mdn": true,
         "bcd": true
       },
       "stroke-dasharray": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "stroke-dashoffset": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       },
       "stroke-dash-corner": {
         "mdn": true,
@@ -18160,7 +17216,12 @@
         "bcd": true
       },
       "stroke-color": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": false,
+          "firefox": false,
+          "safari": true
+        }
       },
       "stroke-image": {
         "mdn": true,
@@ -18183,27 +17244,18 @@
         "bcd": true
       },
       "stroke-opacity": {
-        "mdn": true
+        "mdn": true,
+        "bcdSupport": {
+          "chrome": true,
+          "firefox": true,
+          "safari": true
+        }
       }
     }
   },
   "mediaqueries-5": {
     "css.atrules": {
       "@custom-media": {
-        "mdn": true,
-        "bcd": true
-      }
-    }
-  },
-  "scroll-animations": {
-    "title": "Scroll-driven Animations",
-    "url": "https://www.w3.org/TR/scroll-animations-1/",
-    "css.properties": {
-      "animation-delay-start": {
-        "mdn": true,
-        "bcd": true
-      },
-      "animation-delay-end": {
         "mdn": true,
         "bcd": true
       }
