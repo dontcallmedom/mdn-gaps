@@ -81,6 +81,8 @@ function checkMdnPage(tree, type, qname) {
       return true;
     } else if (type === "element" && annotations?.markup.element[qname]?.mdn) {
       return true;
+    } else if (tree === "css" && annotations?.css[qname]?.mdn) {
+      return true;
     }
     return false;
   }

@@ -358,5 +358,16 @@
 	"mdn": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements"
       }
     }
+  },
+  "css": {
+    "grid-row-gap": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/CSS/row-gap"
+    },
+    "grid-column-gap": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/CSS/column-gap"
+    },
+    "grid-gap": {
+      "mdn": "https://developer.mozilla.org/en-US/docs/Web/CSS/gap"
+    }
   }
 }
