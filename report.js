@@ -54,7 +54,9 @@ for (const id of Object.keys(gapIds)) {
 	  }
 	}
 	const gaps = Object.keys(specData[gapId]);
-	th.setAttribute("rowspan", gaps.length );
+	if (gaps.length) {
+	  th.setAttribute("rowspan", (parseInt(th.getAttribute("rowspan"), 10) || 0) + gaps.length );
+	}
 	for (let feature of [...gaps]) {
 	  const bcdTd = document.createElement("td");
 	  const mdnTd = document.createElement("td");
