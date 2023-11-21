@@ -1,10 +1,10 @@
 {
   "dependencies": {
-    "@mdn/browser-compat-data": "^5.2.3",
-    "@webref/css": "^5.2.1",
-    "@webref/elements": "^2.0.0",
-    "@webref/idl": "^3.17.1",
-    "browser-specs": "^3.23.0",
+    "@mdn/browser-compat-data": "^5.4.0",
+    "@webref/css": "^6.9.1",
+    "@webref/elements": "^2.2.2",
+    "@webref/idl": "^3.41.0",
+    "browser-specs": "^3.70.0",
     "css-tree": "^2.2.1"
   }
 }

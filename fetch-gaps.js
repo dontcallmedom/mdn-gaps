@@ -35,10 +35,11 @@ function setGap(spec, type, content, name, subname, props = {}) {
   }
 }
 
-function setBcdSupport(name, item, spec, bcdTree) {
+function setBcdSupport(name, item, spec, bcdTree, bcdName = item, type="idl") {
   const ret = {"chrome": null, "firefox": null, "safari": null };
   if (bcdTree[name]) {
-    const supportData = item ? bcdTree[name][item].__compat.support : bcdTree[name].__compat.support;
+    const supportData = item ? bcdTree[name][bcdName].__compat.support : bcdTree[name].__compat.support;
+      
     // TODO: this won't work well for mobile-only feature
     for (const browserId of Object.keys(ret)) {
       const versionData = supportData[browserId];
@@ -56,12 +57,17 @@ function setBcdSupport(name, item, spec, bcdTree) {
     }
   }
   if (item) {
-    if (!gaps[spec]["idl"][name].members[item]) {
-      gaps[spec]["idl"][name].members[item] = {};
+    if (!gaps[spec][type][name].members[item]) {
+      gaps[spec][type][name].members[item] = {};
     }
-    gaps[spec]["idl"][name].members[item].bcdSupport = ret;
+    gaps[spec][type][name].members[item].bcdSupport = ret;
   } else {
-    gaps[spec]["idl"][name].bcdSupport = ret;
+    try {
+      gaps[spec][type][name].bcdSupport = ret;
+    } catch (e) {
+      console.error(spec, type, name, ret);
+      process.exit(2);
+    }
   }
 }
 
@@ -109,17 +115,20 @@ function checkIdlTopLevelName(name, item, spec, bcdTree) {
     // since event handlers don't get tracked as attributes
     if (memberName.startsWith("on") && member.type === "attribute" && member.idlType?.idlType === "EventHandler") continue;
     const isStatic = member.special === "static";
+    const mdnMemberName = memberName + (name==="console" || isStatic ? "_static" : "");
     // Check mdn documentation
-    if (checkMdnPage(tree, null, name) && !checkMdnPage(tree, null, name + "." + memberName)) {
+    if (checkMdnPage(tree, null, name) && !checkMdnPage(tree, null, name + "." + mdnMemberName)) {
       hasMdnGap = true;
       setGap(spec, "idl", "mdn", name, memberName, {type, isStatic});
     }
-    if (bcdTree[name] && !bcdTree[name][memberName]) {
+    if (bcdTree[name] && !bcdTree[name][mdnMemberName]) {
+      if (name === "console")
+	console.error(mdnMemberName);
       hasBcdGap = true;
       setGap(spec, "idl", "bcd", name, memberName, {type, isStatic});
     } else {
       if (hasMdnGap) {
-	setBcdSupport(name, memberName, spec, bcdTree);
+	setBcdSupport(name, memberName, spec, bcdTree, mdnMemberName);
       }
     }
   }
@@ -166,16 +175,20 @@ function checkIdlTopLevelName(name, item, spec, bcdTree) {
   const parsedCssFiles = await css.listAll();
   for (const [spec, data] of Object.entries(parsedCssFiles)) {
     // TODO figure out how to check against bcd.css.types
-    for (const [name, desc] of Object.entries(data.properties)) {
+    for (const {name} of data.properties) {
+      let hasMdnGap = false;
       // TODO check keywords definitions in MDN content?
       if (!checkMdnPage("css", null, name)) {
+	hasMdnGap = true;
 	setGap(spec, "css.properties", "mdn", name);
       }
       if (!bcd.css.properties[name]) {
 	setGap(spec, "css.properties", "bcd", name);
+      } else if (hasMdnGap) {
+	setBcdSupport(name, "", spec, bcd.css.properties, "", "css.properties");
       }
     }
-    for (const [name, desc] of Object.entries(data.atrules)) {
+    for (const {name} of data.atrules) {
       const atrulesName = name.slice(1);
       // TODO check descriptors?
       if (!checkMdnPage("css", null, name)) {
