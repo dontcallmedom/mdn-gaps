@@ -8357,18 +8357,6 @@
       }
     }
   },
-  "css-cascade-6": {
-    "idl": {
-      "CSSScopeRule": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
-        }
-      }
-    }
-  },
   "css-color-5": {
     "idl": {
       "CSSColorProfileRule": {
