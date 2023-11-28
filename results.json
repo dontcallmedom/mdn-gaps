@@ -9339,6 +9339,30 @@
     "title": "CSSOM View Module",
     "url": "https://www.w3.org/TR/cssom-view-1/",
     "idl": {
+      "Window": {
+        "members": {
+          "pageXOffset": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          },
+          "pageYOffset": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": true,
+              "safari": true
+            }
+          }
+        }
+      },
       "CaretPosition": {
         "members": {
           "offsetNode": {
