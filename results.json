@@ -7348,70 +7348,6 @@
           }
         }
       },
-      "StorageEvent": {
-        "members": {
-          "StorageEvent": {
-            "type": "constructor",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "key": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "oldValue": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "newValue": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "url": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "storageArea": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
       "HTMLMarqueeElement": {
         "members": {
           "HTMLMarqueeElement": {
@@ -9563,26 +9499,6 @@
           "chrome": false,
           "firefox": false,
           "safari": true
-        }
-      }
-    }
-  },
-  "device-memory": {
-    "title": "Device Memory",
-    "url": "https://www.w3.org/TR/device-memory-1/",
-    "idl": {
-      "WorkerNavigator": {
-        "members": {
-          "deviceMemory": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
         }
       }
     }
