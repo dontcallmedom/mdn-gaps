@@ -6973,16 +6973,6 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
-          },
-          "originAgentCluster": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
           }
         }
       },
