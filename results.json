@@ -13432,20 +13432,6 @@
     "title": "Service Workers",
     "url": "https://www.w3.org/TR/service-workers/",
     "idl": {
-      "WorkerNavigator": {
-        "members": {
-          "serviceWorker": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": false,
-              "safari": true
-            }
-          }
-        }
-      },
       "ServiceWorkerGlobalScope": {
         "members": {
           "serviceWorker": {
