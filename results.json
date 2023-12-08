@@ -5817,16 +5817,6 @@
               "firefox": true,
               "safari": true
             }
-          },
-          "showPicker": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
           }
         }
       },
@@ -15137,8 +15127,19 @@
         }
       },
       "WebTransportSendStream": {
-        "mdn": true,
-        "bcd": true
+        "bcd": true,
+        "members": {
+          "sendGroup": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": null,
+              "firefox": null,
+              "safari": null
+            }
+          }
+        }
       },
       "WebTransportSendGroup": {
         "mdn": true,
