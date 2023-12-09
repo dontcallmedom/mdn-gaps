@@ -13328,6 +13328,16 @@
     "idl": {
       "Sanitizer": {
         "members": {
+          "sanitizeFor": {
+            "type": "method",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": true,
+              "firefox": false,
+              "safari": false
+            }
+          },
           "getConfiguration": {
             "type": "method",
             "isStatic": false,
