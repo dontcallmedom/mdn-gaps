@@ -13250,26 +13250,6 @@
       }
     }
   },
-  "remote-playback": {
-    "title": "Remote Playback API",
-    "url": "https://www.w3.org/TR/remote-playback/",
-    "idl": {
-      "HTMLMediaElement": {
-        "members": {
-          "remote": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
-          }
-        }
-      }
-    }
-  },
   "reporting": {
     "title": "Reporting API",
     "url": "https://www.w3.org/TR/reporting-1/",
