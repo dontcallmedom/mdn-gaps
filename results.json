@@ -13342,26 +13342,6 @@
       }
     }
   },
-  "scheduling-apis": {
-    "title": "Prioritized Task Scheduling",
-    "url": "https://wicg.github.io/scheduling-apis/",
-    "idl": {
-      "TaskSignal": {
-        "members": {
-          "any": {
-            "type": "method",
-            "isStatic": true,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      }
-    }
-  },
   "secure-payment-confirmation": {
     "title": "Secure Payment Confirmation",
     "url": "https://www.w3.org/TR/secure-payment-confirmation/",
