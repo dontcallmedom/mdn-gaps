@@ -7264,30 +7264,6 @@
           }
         }
       },
-      "DedicatedWorkerGlobalScope": {
-        "members": {
-          "requestAnimationFrame": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "cancelAnimationFrame": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          }
-        }
-      },
       "MessageEvent": {
         "members": {
           "initMessageEvent": {
