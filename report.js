@@ -7,9 +7,9 @@ const gapIds = {
 };
 
 const browserEngines = {
-  "chrome": "https://cdn.w3.org/assets/logos/browser-logos/chrome/chrome.svg",
-  "firefox": "https://cdn.w3.org/assets/logos/browser-logos/firefox/firefox.svg",
-  "safari": "https://cdn.w3.org/assets/logos/browser-logos/safari-ios/safari-ios.svg"
+  "chrome": "https://www.w3.org/assets/logos/browser-logos/chrome/chrome.svg",
+  "firefox": "https://www.w3.org/assets/logos/browser-logos/firefox/firefox.svg",
+  "safari": "https://www.w3.org/assets/logos/browser-logos/safari-ios/safari-ios.svg"
 };
 
 function idlStubLink(feature, memberName, memberType, isStatic) {
