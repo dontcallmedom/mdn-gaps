@@ -7832,13 +7832,11 @@
           "setAppBadge": {
             "type": "method",
             "isStatic": false,
-            "mdn": true,
             "bcd": true
           },
           "clearAppBadge": {
             "type": "method",
             "isStatic": false,
-            "mdn": true,
             "bcd": true
           }
         }
@@ -13356,26 +13354,6 @@
             "mdn": true,
             "bcdSupport": {
               "chrome": false,
-              "firefox": false,
-              "safari": true
-            }
-          }
-        }
-      }
-    }
-  },
-  "service-workers": {
-    "title": "Service Workers",
-    "url": "https://www.w3.org/TR/service-workers/",
-    "idl": {
-      "ServiceWorkerGlobalScope": {
-        "members": {
-          "serviceWorker": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
               "firefox": false,
               "safari": true
             }
