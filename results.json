@@ -13253,7 +13253,6 @@
           "requestStorageAccessFor": {
             "type": "method",
             "isStatic": false,
-            "mdn": true,
             "bcd": true
           }
         }
