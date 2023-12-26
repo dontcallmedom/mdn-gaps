@@ -3004,16 +3004,6 @@
               "safari": true
             }
           },
-          "draggable": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "spellcheck": {
             "type": "attribute",
             "isStatic": false,
