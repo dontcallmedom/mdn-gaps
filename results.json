@@ -3063,16 +3063,6 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
-          },
-          "text": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
           }
         }
       },
@@ -3115,16 +3105,6 @@
             "bcd": true
           },
           "href": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "crossOrigin": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
