@@ -3023,16 +3023,6 @@
               "firefox": true,
               "safari": false
             }
-          },
-          "autofocus": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": null,
-              "firefox": true,
-              "safari": null
-            }
           }
         }
       },
