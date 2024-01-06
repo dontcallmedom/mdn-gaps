@@ -12201,26 +12201,6 @@
       }
     }
   },
-  "virtual-keyboard": {
-    "title": "VirtualKeyboard API",
-    "url": "https://www.w3.org/TR/virtual-keyboard/",
-    "idl": {
-      "HTMLElement": {
-        "members": {
-          "virtualKeyboardPolicy": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      }
-    }
-  },
   "wai-aria": {
     "title": "Accessible Rich Internet Applications (WAI-ARIA)",
     "url": "https://www.w3.org/TR/wai-aria-1.2/",
