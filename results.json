@@ -2994,26 +2994,6 @@
             "mdn": true,
             "bcd": true
           },
-          "translate": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "spellcheck": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "autocapitalize": {
             "type": "attribute",
             "isStatic": false,
@@ -6716,16 +6696,6 @@
               "safari": true
             }
           },
-          "crossOrigin": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "text": {
             "type": "attribute",
             "isStatic": false,
@@ -9237,18 +9207,8 @@
           }
         }
       },
-      "Element": {
+      "Text": {
         "members": {
-          "checkVisibility": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": false
-            }
-          },
           "getBoxQuads": {
             "type": "method",
             "isStatic": false,
@@ -9279,7 +9239,7 @@
           }
         }
       },
-      "Text": {
+      "Element": {
         "members": {
           "getBoxQuads": {
             "type": "method",
