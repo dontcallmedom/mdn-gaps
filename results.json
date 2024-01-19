@@ -3053,16 +3053,6 @@
               "firefox": true,
               "safari": true
             }
-          },
-          "target": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
           }
         }
       },
@@ -3613,16 +3603,6 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
-          },
-          "target": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
           },
           "ping": {
             "type": "attribute",
@@ -4438,16 +4418,6 @@
             "mdn": true,
             "bcd": true
           },
-          "name": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "areas": {
             "type": "attribute",
             "isStatic": false,
@@ -4489,16 +4459,6 @@
             }
           },
           "shape": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "target": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
