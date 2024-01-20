@@ -7787,174 +7787,6 @@
       }
     }
   },
-  "contact-picker": {
-    "title": "Contact Picker API",
-    "url": "https://www.w3.org/TR/contact-picker/",
-    "idl": {
-      "ContactAddress": {
-        "members": {
-          "toJSON": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "city": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "country": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "dependentLocality": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "organization": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "phone": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "postalCode": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "recipient": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "region": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "sortingCode": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": false,
-              "safari": false
-            }
-          },
-          "addressLine": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": false,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      }
-    }
-  },
-  "cookie-store": {
-    "title": "Cookie Store API",
-    "url": "https://wicg.github.io/cookie-store/",
-    "idl": {
-      "ServiceWorkerRegistration": {
-        "members": {
-          "cookies": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      },
-      "Window": {
-        "members": {
-          "cookieStore": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      },
-      "ServiceWorkerGlobalScope": {
-        "members": {
-          "cookieStore": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      }
-    }
-  },
   "crash-reporting": {
     "title": "Crash Reporting",
     "url": "https://wicg.github.io/crash-reporting/",
@@ -9413,29 +9245,23 @@
           "editContext": {
             "type": "attribute",
             "isStatic": false,
-            "mdn": true,
             "bcd": true
           }
         }
       },
       "EditContext": {
-        "mdn": true,
         "bcd": true
       },
       "TextUpdateEvent": {
-        "mdn": true,
         "bcd": true
       },
       "TextFormat": {
-        "mdn": true,
         "bcd": true
       },
       "TextFormatUpdateEvent": {
-        "mdn": true,
         "bcd": true
       },
       "CharacterBoundsUpdateEvent": {
-        "mdn": true,
         "bcd": true
       }
     }
