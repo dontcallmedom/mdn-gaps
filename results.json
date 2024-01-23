@@ -3924,26 +3924,6 @@
               "safari": true
             }
           },
-          "width": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "height": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "getSVGDocument": {
             "type": "method",
             "isStatic": false,
@@ -4035,26 +4015,6 @@
             }
           },
           "type": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "width": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "height": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
