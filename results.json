@@ -3884,16 +3884,6 @@
             "mdn": true,
             "bcd": true
           },
-          "name": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "sandbox": {
             "type": "attribute",
             "isStatic": false,
