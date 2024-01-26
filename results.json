@@ -3614,16 +3614,6 @@
               "safari": true
             }
           },
-          "type": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "text": {
             "type": "attribute",
             "isStatic": false,
@@ -13402,36 +13392,6 @@
       "InterestGroupReportingScriptRunnerGlobalScope": {
         "mdn": true,
         "bcd": true
-      }
-    }
-  },
-  "video-rvfc": {
-    "title": "HTMLVideoElement.requestVideoFrameCallback()",
-    "url": "https://wicg.github.io/video-rvfc/",
-    "idl": {
-      "HTMLVideoElement": {
-        "members": {
-          "requestVideoFrameCallback": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
-          },
-          "cancelVideoFrameCallback": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
-          }
-        }
       }
     }
   },
