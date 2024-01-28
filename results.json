@@ -3884,16 +3884,6 @@
               "safari": true
             }
           },
-          "allowFullscreen": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": null,
-              "safari": true
-            }
-          },
           "getSVGDocument": {
             "type": "method",
             "isStatic": false,
