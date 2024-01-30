@@ -3604,16 +3604,6 @@
             "mdn": true,
             "bcd": true
           },
-          "ping": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "coords": {
             "type": "attribute",
             "isStatic": false,
@@ -4369,16 +4359,6 @@
             }
           },
           "download": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "ping": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
