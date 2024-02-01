@@ -5158,16 +5158,6 @@
               "safari": true
             }
           },
-          "type": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "defaultValue": {
             "type": "attribute",
             "isStatic": false,
@@ -5849,16 +5839,6 @@
             }
           },
           "wrap": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "type": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
