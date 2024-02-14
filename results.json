@@ -2723,14 +2723,6 @@
           "safari": true
         }
       },
-      "color-interpolation": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": true,
-          "safari": true
-        }
-      },
       "shape-rendering": {
         "mdn": true,
         "bcdSupport": {
@@ -4124,16 +4116,6 @@
             "mdn": true,
             "bcd": true
           },
-          "poster": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "playsInline": {
             "type": "attribute",
             "isStatic": false,
@@ -5218,36 +5200,6 @@
               "safari": true
             }
           },
-          "selectionStart": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "selectionEnd": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "selectionDirection": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "align": {
             "type": "attribute",
             "isStatic": false,
@@ -5339,16 +5291,6 @@
             }
           },
           "name": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "type": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
