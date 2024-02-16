@@ -161,34 +161,11 @@
     "title": "Federated Credential Management API",
     "url": "https://fedidcg.github.io/FedCM/",
     "idl": {
-      "NavigatorLogin": {
-        "mdn": true,
-        "bcdSupport": {
-          "chrome": true,
-          "firefox": false,
-          "safari": false
-        }
-      },
-      "Navigator": {
-        "members": {
-          "login": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      },
       "IdentityProvider": {
         "members": {
           "close": {
             "type": "method",
             "isStatic": true,
-            "mdn": true,
             "bcd": true
           }
         }
