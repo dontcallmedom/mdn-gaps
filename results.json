@@ -9027,25 +9027,75 @@
     "url": "https://wicg.github.io/fenced-frame/",
     "idl": {
       "HTMLFencedFrameElement": {
-        "mdn": true,
-        "bcd": true
+        "bcd": true,
+        "members": {
+          "HTMLFencedFrameElement": {
+            "type": "constructor",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": null,
+              "firefox": null,
+              "safari": null
+            }
+          }
+        }
       },
       "FencedFrameConfig": {
-        "mdn": true,
-        "bcd": true
+        "bcd": true,
+        "members": {
+          "containerWidth": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": null,
+              "firefox": null,
+              "safari": null
+            }
+          },
+          "containerHeight": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": null,
+              "firefox": null,
+              "safari": null
+            }
+          },
+          "contentWidth": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": null,
+              "firefox": null,
+              "safari": null
+            }
+          },
+          "contentHeight": {
+            "type": "attribute",
+            "isStatic": false,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": null,
+              "firefox": null,
+              "safari": null
+            }
+          }
+        }
       },
       "Navigator": {
         "members": {
           "deprecatedReplaceInURN": {
             "type": "method",
             "isStatic": false,
-            "mdn": true,
             "bcd": true
           }
         }
       },
       "Fence": {
-        "mdn": true,
         "bcd": true
       },
       "Window": {
@@ -9053,7 +9103,6 @@
           "fence": {
             "type": "attribute",
             "isStatic": false,
-            "mdn": true,
             "bcd": true
           }
         }
