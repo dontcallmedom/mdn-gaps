@@ -12149,26 +12149,6 @@
       }
     }
   },
-  "navigation-timing": {
-    "title": "Navigation Timing Level 2",
-    "url": "https://www.w3.org/TR/navigation-timing-2/",
-    "idl": {
-      "PerformanceNavigationTiming": {
-        "members": {
-          "criticalCHRestart": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          }
-        }
-      }
-    }
-  },
   "orientation-event": {
     "title": "DeviceOrientation Event Specification",
     "url": "https://www.w3.org/TR/orientation-event/",
