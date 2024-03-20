@@ -16010,7 +16010,6 @@
         "bcd": true
       },
       "text-wrap-mode": {
-        "mdn": true,
         "bcd": true
       },
       "wrap-inside": {
@@ -16026,7 +16025,6 @@
         "bcd": true
       },
       "text-wrap-style": {
-        "mdn": true,
         "bcd": true
       },
       "hyphenate-limit-zone": {
