@@ -4687,16 +4687,6 @@
               "safari": true
             }
           },
-          "noWrap": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "vAlign": {
             "type": "attribute",
             "isStatic": false,
