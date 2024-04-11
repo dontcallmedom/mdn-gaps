@@ -4546,16 +4546,6 @@
               "firefox": true,
               "safari": true
             }
-          },
-          "bgColor": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
           }
         }
       },
@@ -4627,16 +4617,6 @@
               "safari": true
             }
           },
-          "align": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "axis": {
             "type": "attribute",
             "isStatic": false,
@@ -4678,26 +4658,6 @@
             }
           },
           "chOff": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "vAlign": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "bgColor": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
