@@ -6255,16 +6255,6 @@
               "safari": true
             }
           },
-          "type": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "noModule": {
             "type": "attribute",
             "isStatic": false,
@@ -6286,16 +6276,6 @@
             }
           },
           "defer": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "text": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
