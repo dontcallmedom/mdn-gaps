@@ -3063,16 +3063,6 @@
               "safari": true
             }
           },
-          "type": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "sizes": {
             "type": "attribute",
             "isStatic": false,
@@ -3772,16 +3762,6 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
-          },
-          "sandbox": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
           },
           "allow": {
             "type": "attribute",
@@ -6255,16 +6235,6 @@
               "safari": true
             }
           },
-          "noModule": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "async": {
             "type": "attribute",
             "isStatic": false,
@@ -6303,16 +6273,6 @@
               "chrome": true,
               "firefox": false,
               "safari": false
-            }
-          },
-          "fetchPriority": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": null,
-              "firefox": false,
-              "safari": true
             }
           },
           "charset": {
