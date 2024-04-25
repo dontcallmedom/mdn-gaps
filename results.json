@@ -6225,16 +6225,6 @@
             "mdn": true,
             "bcd": true
           },
-          "src": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "async": {
             "type": "attribute",
             "isStatic": false,
