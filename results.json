@@ -4357,36 +4357,6 @@
             "mdn": true,
             "bcd": true
           },
-          "rows": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "insertRow": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "deleteRow": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "align": {
             "type": "attribute",
             "isStatic": false,
@@ -4416,16 +4386,6 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
-          },
-          "sectionRowIndex": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
           },
           "cells": {
             "type": "attribute",
