@@ -4307,16 +4307,6 @@
             "mdn": true,
             "bcd": true
           },
-          "span": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "align": {
             "type": "attribute",
             "isStatic": false,
@@ -4387,26 +4377,6 @@
             "mdn": true,
             "bcd": true
           },
-          "cells": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "deleteCell": {
-            "type": "method",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "align": {
             "type": "attribute",
             "isStatic": false,
@@ -4437,37 +4407,7 @@
             "mdn": true,
             "bcd": true
           },
-          "colSpan": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "rowSpan": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "headers": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
-          "cellIndex": {
             "type": "attribute",
             "isStatic": false,
             "mdn": true,
