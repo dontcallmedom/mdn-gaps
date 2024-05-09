@@ -3753,16 +3753,6 @@
             "mdn": true,
             "bcd": true
           },
-          "allow": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "getSVGDocument": {
             "type": "method",
             "isStatic": false,
@@ -4127,16 +4117,6 @@
       },
       "HTMLMediaElement": {
         "members": {
-          "preload": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "seeking": {
             "type": "attribute",
             "isStatic": false,
