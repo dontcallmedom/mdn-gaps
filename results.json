@@ -3083,16 +3083,6 @@
               "safari": false
             }
           },
-          "blocking": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
-          },
           "disabled": {
             "type": "attribute",
             "isStatic": false,
@@ -3152,16 +3142,6 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
-          },
-          "blocking": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
           }
         }
       },
@@ -3832,16 +3812,6 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
-          },
-          "src": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
           },
           "type": {
             "type": "attribute",
@@ -5994,16 +5964,6 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
-          },
-          "blocking": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": false
-            }
           },
           "charset": {
             "type": "attribute",
