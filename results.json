@@ -2962,16 +2962,6 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
-          },
-          "autocapitalize": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": false
-            }
           }
         }
       },
@@ -7057,11 +7047,21 @@
     "url": "https://www.w3.org/TR/compute-pressure/",
     "idl": {
       "PressureObserver": {
-        "mdn": true,
-        "bcd": true
+        "bcd": true,
+        "members": {
+          "supportedSources": {
+            "type": "attribute",
+            "isStatic": true,
+            "mdn": true,
+            "bcdSupport": {
+              "chrome": null,
+              "firefox": null,
+              "safari": null
+            }
+          }
+        }
       },
       "PressureRecord": {
-        "mdn": true,
         "bcd": true
       }
     }
