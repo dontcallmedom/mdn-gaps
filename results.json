@@ -5998,13 +5998,11 @@
           "shadowRootMode": {
             "type": "attribute",
             "isStatic": false,
-            "mdn": true,
             "bcd": true
           },
           "shadowRootDelegatesFocus": {
             "type": "attribute",
             "isStatic": false,
-            "mdn": true,
             "bcd": true
           }
         }
