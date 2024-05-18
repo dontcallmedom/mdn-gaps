@@ -3073,16 +3073,6 @@
               "safari": false
             }
           },
-          "disabled": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "charset": {
             "type": "attribute",
             "isStatic": false,
@@ -4336,16 +4326,6 @@
             "isStatic": false,
             "mdn": true,
             "bcd": true
-          },
-          "abbr": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
           },
           "axis": {
             "type": "attribute",
@@ -11466,7 +11446,6 @@
           "trustedTypes": {
             "type": "attribute",
             "isStatic": false,
-            "mdn": true,
             "bcd": true
           }
         }
@@ -11476,7 +11455,6 @@
           "trustedTypes": {
             "type": "attribute",
             "isStatic": false,
-            "mdn": true,
             "bcd": true
           }
         }
