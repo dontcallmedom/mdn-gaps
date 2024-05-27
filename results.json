@@ -7013,7 +7013,6 @@
           "supports": {
             "type": "method",
             "isStatic": true,
-            "mdn": true,
             "bcd": true
           }
         }
