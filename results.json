@@ -5027,16 +5027,6 @@
               "safari": true
             }
           },
-          "value": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "willValidate": {
             "type": "attribute",
             "isStatic": false,
