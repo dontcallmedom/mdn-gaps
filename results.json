@@ -2910,7 +2910,6 @@
           "parseHTMLUnsafe": {
             "type": "method",
             "isStatic": true,
-            "mdn": true,
             "bcd": true
           },
           "queryCommandIndeterm": {
@@ -6170,7 +6169,6 @@
           "setHTMLUnsafe": {
             "type": "method",
             "isStatic": false,
-            "mdn": true,
             "bcd": true
           }
         }
@@ -6180,7 +6178,6 @@
           "setHTMLUnsafe": {
             "type": "method",
             "isStatic": false,
-            "mdn": true,
             "bcd": true
           }
         }
