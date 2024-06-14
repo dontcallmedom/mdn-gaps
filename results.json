@@ -13759,20 +13759,6 @@
           }
         }
       },
-      "RTCDTMFSender": {
-        "members": {
-          "canInsertDTMF": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": false,
-              "safari": true
-            }
-          }
-        }
-      },
       "RTCError": {
         "members": {
           "RTCError": {
