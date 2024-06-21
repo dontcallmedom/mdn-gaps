@@ -2724,16 +2724,6 @@
     "idl": {
       "SVGElement": {
         "members": {
-          "dataset": {
-            "type": "attribute",
-            "isStatic": false,
-            "mdn": true,
-            "bcdSupport": {
-              "chrome": true,
-              "firefox": true,
-              "safari": true
-            }
-          },
           "nonce": {
             "type": "attribute",
             "isStatic": false,
