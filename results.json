@@ -8063,7 +8063,6 @@
   "css-view-transitions-2": {
     "idl": {
       "PageRevealEvent": {
-        "mdn": true,
         "bcd": true
       },
       "CSSViewTransitionRule": {
@@ -8073,7 +8072,6 @@
     },
     "css.atrules": {
       "@view-transition": {
-        "mdn": true,
         "bcd": true
       }
     }
